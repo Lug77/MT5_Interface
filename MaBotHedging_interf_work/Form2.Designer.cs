@@ -88,6 +88,104 @@
             this.Only_out_row_0_main = new System.Windows.Forms.CheckBox();
             this.Only_long_row_0_main = new System.Windows.Forms.CheckBox();
             this.Only_short_row_0_main = new System.Windows.Forms.CheckBox();
+            this.Use_time_filtr = new System.Windows.Forms.Label();
+            this.Use_time_filtr_row_0 = new System.Windows.Forms.CheckBox();
+            this.Use_time_filtr_row_1 = new System.Windows.Forms.CheckBox();
+            this.Use_time_filtr_row_2 = new System.Windows.Forms.CheckBox();
+            this.Use_time_filtr_row_3 = new System.Windows.Forms.CheckBox();
+            this.Use_time_filtr_row_4 = new System.Windows.Forms.CheckBox();
+            this.Use_time_filtr_row_5 = new System.Windows.Forms.CheckBox();
+            this.Use_time_filtr_row_6 = new System.Windows.Forms.CheckBox();
+            this.Use_time_filtr_row_7 = new System.Windows.Forms.CheckBox();
+            this.Use_time_filtr_row_8 = new System.Windows.Forms.CheckBox();
+            this.Use_time_filtr_row_9 = new System.Windows.Forms.CheckBox();
+            this.Use_time_filtr_row_10 = new System.Windows.Forms.CheckBox();
+            this.Use_time_filtr_row_11 = new System.Windows.Forms.CheckBox();
+            this.Use_time_filtr_row_12 = new System.Windows.Forms.CheckBox();
+            this.Close_all_pos_end_torg = new System.Windows.Forms.Label();
+            this.Close_all_pos_end_torg_row_0 = new System.Windows.Forms.CheckBox();
+            this.Close_all_pos_end_torg_row_1 = new System.Windows.Forms.CheckBox();
+            this.Close_all_pos_end_torg_row_2 = new System.Windows.Forms.CheckBox();
+            this.Close_all_pos_end_torg_row_3 = new System.Windows.Forms.CheckBox();
+            this.Close_all_pos_end_torg_row_4 = new System.Windows.Forms.CheckBox();
+            this.Close_all_pos_end_torg_row_5 = new System.Windows.Forms.CheckBox();
+            this.Close_all_pos_end_torg_row_6 = new System.Windows.Forms.CheckBox();
+            this.Close_all_pos_end_torg_row_7 = new System.Windows.Forms.CheckBox();
+            this.Close_all_pos_end_torg_row_8 = new System.Windows.Forms.CheckBox();
+            this.Close_all_pos_end_torg_row_9 = new System.Windows.Forms.CheckBox();
+            this.Close_all_pos_end_torg_row_10 = new System.Windows.Forms.CheckBox();
+            this.Close_all_pos_end_torg_row_11 = new System.Windows.Forms.CheckBox();
+            this.Close_all_pos_end_torg_row_12 = new System.Windows.Forms.CheckBox();
+            this.Del_no_pair_ord_end_torg = new System.Windows.Forms.Label();
+            this.Del_no_pair_ord_end_torg_row_0 = new System.Windows.Forms.CheckBox();
+            this.Del_no_pair_ord_end_torg_row_1 = new System.Windows.Forms.CheckBox();
+            this.Del_no_pair_ord_end_torg_row_2 = new System.Windows.Forms.CheckBox();
+            this.Del_no_pair_ord_end_torg_row_3 = new System.Windows.Forms.CheckBox();
+            this.Del_no_pair_ord_end_torg_row_4 = new System.Windows.Forms.CheckBox();
+            this.Del_no_pair_ord_end_torg_row_5 = new System.Windows.Forms.CheckBox();
+            this.Del_no_pair_ord_end_torg_row_6 = new System.Windows.Forms.CheckBox();
+            this.Del_no_pair_ord_end_torg_row_7 = new System.Windows.Forms.CheckBox();
+            this.Del_no_pair_ord_end_torg_row_8 = new System.Windows.Forms.CheckBox();
+            this.Del_no_pair_ord_end_torg_row_9 = new System.Windows.Forms.CheckBox();
+            this.Del_no_pair_ord_end_torg_row_10 = new System.Windows.Forms.CheckBox();
+            this.Del_no_pair_ord_end_torg_row_11 = new System.Windows.Forms.CheckBox();
+            this.Del_no_pair_ord_end_torg_row_12 = new System.Windows.Forms.CheckBox();
+            this.On_delay_otkup = new System.Windows.Forms.Label();
+            this.On_delay_otkup_row_0 = new System.Windows.Forms.CheckBox();
+            this.On_delay_otkup_row_1 = new System.Windows.Forms.CheckBox();
+            this.On_delay_otkup_row_2 = new System.Windows.Forms.CheckBox();
+            this.On_delay_otkup_row_3 = new System.Windows.Forms.CheckBox();
+            this.On_delay_otkup_row_4 = new System.Windows.Forms.CheckBox();
+            this.On_delay_otkup_row_5 = new System.Windows.Forms.CheckBox();
+            this.On_delay_otkup_row_6 = new System.Windows.Forms.CheckBox();
+            this.On_delay_otkup_row_7 = new System.Windows.Forms.CheckBox();
+            this.On_delay_otkup_row_8 = new System.Windows.Forms.CheckBox();
+            this.On_delay_otkup_row_9 = new System.Windows.Forms.CheckBox();
+            this.On_delay_otkup_row_10 = new System.Windows.Forms.CheckBox();
+            this.On_delay_otkup_row_11 = new System.Windows.Forms.CheckBox();
+            this.On_delay_otkup_row_12 = new System.Windows.Forms.CheckBox();
+            this.Series_minus_deal = new System.Windows.Forms.Label();
+            this.Series_minus_deal_row_0 = new System.Windows.Forms.TextBox();
+            this.Series_minus_deal_row_1 = new System.Windows.Forms.TextBox();
+            this.Series_minus_deal_row_2 = new System.Windows.Forms.TextBox();
+            this.Series_minus_deal_row_3 = new System.Windows.Forms.TextBox();
+            this.Series_minus_deal_row_4 = new System.Windows.Forms.TextBox();
+            this.Series_minus_deal_row_5 = new System.Windows.Forms.TextBox();
+            this.Series_minus_deal_row_6 = new System.Windows.Forms.TextBox();
+            this.Series_minus_deal_row_7 = new System.Windows.Forms.TextBox();
+            this.Series_minus_deal_row_8 = new System.Windows.Forms.TextBox();
+            this.Series_minus_deal_row_9 = new System.Windows.Forms.TextBox();
+            this.Series_minus_deal_row_10 = new System.Windows.Forms.TextBox();
+            this.Series_minus_deal_row_11 = new System.Windows.Forms.TextBox();
+            this.Series_minus_deal_row_12 = new System.Windows.Forms.TextBox();
+            this.Step_add_deposit = new System.Windows.Forms.Label();
+            this.Step_add_deposit_row_0 = new System.Windows.Forms.TextBox();
+            this.Step_add_deposit_row_1 = new System.Windows.Forms.TextBox();
+            this.Step_add_deposit_row_2 = new System.Windows.Forms.TextBox();
+            this.Step_add_deposit_row_3 = new System.Windows.Forms.TextBox();
+            this.Step_add_deposit_row_4 = new System.Windows.Forms.TextBox();
+            this.Step_add_deposit_row_5 = new System.Windows.Forms.TextBox();
+            this.Step_add_deposit_row_6 = new System.Windows.Forms.TextBox();
+            this.Step_add_deposit_row_7 = new System.Windows.Forms.TextBox();
+            this.Step_add_deposit_row_8 = new System.Windows.Forms.TextBox();
+            this.Step_add_deposit_row_9 = new System.Windows.Forms.TextBox();
+            this.Step_add_deposit_row_10 = new System.Windows.Forms.TextBox();
+            this.Step_add_deposit_row_11 = new System.Windows.Forms.TextBox();
+            this.Step_add_deposit_row_12 = new System.Windows.Forms.TextBox();
+            this.Size_deposit = new System.Windows.Forms.Label();
+            this.Size_deposit_row_0 = new System.Windows.Forms.TextBox();
+            this.Size_deposit_row_1 = new System.Windows.Forms.TextBox();
+            this.Size_deposit_row_2 = new System.Windows.Forms.TextBox();
+            this.Size_deposit_row_3 = new System.Windows.Forms.TextBox();
+            this.Size_deposit_row_4 = new System.Windows.Forms.TextBox();
+            this.Size_deposit_row_5 = new System.Windows.Forms.TextBox();
+            this.Size_deposit_row_6 = new System.Windows.Forms.TextBox();
+            this.Size_deposit_row_7 = new System.Windows.Forms.TextBox();
+            this.Size_deposit_row_8 = new System.Windows.Forms.TextBox();
+            this.Size_deposit_row_9 = new System.Windows.Forms.TextBox();
+            this.Size_deposit_row_10 = new System.Windows.Forms.TextBox();
+            this.Size_deposit_row_11 = new System.Windows.Forms.TextBox();
+            this.Size_deposit_row_12 = new System.Windows.Forms.TextBox();
             this.indicator_page = new System.Windows.Forms.TabPage();
             this.Table_indicator = new System.Windows.Forms.TableLayoutPanel();
             this.Symb_row_12_ind = new System.Windows.Forms.TextBox();
@@ -920,34 +1018,11 @@
             this.Otkup_minus_h_order_row_10 = new System.Windows.Forms.CheckBox();
             this.Otkup_minus_h_order_row_11 = new System.Windows.Forms.CheckBox();
             this.Otkup_minus_h_order_row_12 = new System.Windows.Forms.CheckBox();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.gen_param_page = new System.Windows.Forms.TabPage();
             this.Tabel_common_params = new System.Windows.Forms.TableLayoutPanel();
-            this.Use_time_filtr = new System.Windows.Forms.Label();
-            this.Use_time_filtr_control = new System.Windows.Forms.CheckBox();
             this.Time_start = new System.Windows.Forms.Label();
             this.Time_start_control = new System.Windows.Forms.MaskedTextBox();
             this.Time_end = new System.Windows.Forms.Label();
-            this.Time_end_control = new System.Windows.Forms.MaskedTextBox();
-            this.Close_all_pos_end_trade = new System.Windows.Forms.Label();
-            this.Close_all_pos_end_trade_control = new System.Windows.Forms.CheckBox();
-            this.Del_order_end_trade = new System.Windows.Forms.Label();
-            this.Del_order_end_trade_control = new System.Windows.Forms.CheckBox();
-            this.Settings_main = new System.Windows.Forms.Button();
-            this.Save_main = new System.Windows.Forms.Button();
-            this.Cancel_main = new System.Windows.Forms.Button();
-            this.Start_main = new System.Windows.Forms.Button();
-            this.Stop_main = new System.Windows.Forms.Button();
-            this.Delete_main = new System.Windows.Forms.Button();
-            this.Koeff_add_vol = new System.Windows.Forms.Label();
-            this.Koeff_add_vol_control = new System.Windows.Forms.TextBox();
-            this.Use_comission = new System.Windows.Forms.Label();
-            this.Use_comission_control = new System.Windows.Forms.CheckBox();
-            this.Use_delay_otkup = new System.Windows.Forms.Label();
-            this.Use_delay_otkup_control = new System.Windows.Forms.CheckBox();
-            this.Series_minus_deals = new System.Windows.Forms.Label();
-            this.Series_minus_deals_control = new System.Windows.Forms.TextBox();
-            this.Step_add_deposit = new System.Windows.Forms.Label();
-            this.Step_add_deposit_control = new System.Windows.Forms.TextBox();
             this.Max_growth_deposit_reset = new System.Windows.Forms.Label();
             this.Max_growth_deposit_reset_control = new System.Windows.Forms.TextBox();
             this.Use_reset_data_otkup = new System.Windows.Forms.Label();
@@ -958,10 +1033,20 @@
             this.Using_tester_control = new System.Windows.Forms.ComboBox();
             this.Unit_stop_take = new System.Windows.Forms.Label();
             this.Unit_stop_take_control = new System.Windows.Forms.ComboBox();
-            this.Size_deposit = new System.Windows.Forms.Label();
-            this.Size_deposit_control = new System.Windows.Forms.TextBox();
             this.Print_comments = new System.Windows.Forms.Label();
             this.Print_comments_control = new System.Windows.Forms.CheckBox();
+            this.Time_end_control = new System.Windows.Forms.TextBox();
+            this.Coeff_add_vol = new System.Windows.Forms.Label();
+            this.Coeff_add_vol_control = new System.Windows.Forms.TextBox();
+            this.Use_comission = new System.Windows.Forms.Label();
+            this.Use_comission_control = new System.Windows.Forms.CheckBox();
+            this.Settings_main = new System.Windows.Forms.Button();
+            this.Save_main = new System.Windows.Forms.Button();
+            this.Cancel_main = new System.Windows.Forms.Button();
+            this.Start_main = new System.Windows.Forms.Button();
+            this.Stop_main = new System.Windows.Forms.Button();
+            this.Delete_main = new System.Windows.Forms.Button();
+            this.Refresh = new System.Windows.Forms.Button();
             this.Tab_main.SuspendLayout();
             this.main_page.SuspendLayout();
             this.Table_main.SuspendLayout();
@@ -971,7 +1056,7 @@
             this.Table_main_order.SuspendLayout();
             this.hedg_order_page.SuspendLayout();
             this.Table_hedge_order.SuspendLayout();
-            this.tabPage1.SuspendLayout();
+            this.gen_param_page.SuspendLayout();
             this.Tabel_common_params.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -982,7 +1067,7 @@
             this.Tab_main.Controls.Add(this.indicator_page);
             this.Tab_main.Controls.Add(this.main_order_page);
             this.Tab_main.Controls.Add(this.hedg_order_page);
-            this.Tab_main.Controls.Add(this.tabPage1);
+            this.Tab_main.Controls.Add(this.gen_param_page);
             this.Tab_main.Location = new System.Drawing.Point(12, 81);
             this.Tab_main.Name = "Tab_main";
             this.Tab_main.SelectedIndex = 0;
@@ -1002,11 +1087,21 @@
             // 
             // Table_main
             // 
-            this.Table_main.ColumnCount = 4;
-            this.Table_main.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.05971F));
-            this.Table_main.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.68323F));
-            this.Table_main.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.28492F));
-            this.Table_main.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15.97214F));
+            this.Table_main.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Table_main.ColumnCount = 11;
+            this.Table_main.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 23.23232F));
+            this.Table_main.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 7.676769F));
+            this.Table_main.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 7.676769F));
+            this.Table_main.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 7.676769F));
+            this.Table_main.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 7.676769F));
+            this.Table_main.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 7.676769F));
+            this.Table_main.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 7.676769F));
+            this.Table_main.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 7.676769F));
+            this.Table_main.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 7.676769F));
+            this.Table_main.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 7.676769F));
+            this.Table_main.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 7.676769F));
             this.Table_main.Controls.Add(this.Only_short_row_12_main, 3, 13);
             this.Table_main.Controls.Add(this.Only_long_row_12_main, 2, 13);
             this.Table_main.Controls.Add(this.Only_out_row_12_main, 1, 13);
@@ -1063,35 +1158,133 @@
             this.Table_main.Controls.Add(this.Only_out_row_0_main, 1, 1);
             this.Table_main.Controls.Add(this.Only_long_row_0_main, 2, 1);
             this.Table_main.Controls.Add(this.Only_short_row_0_main, 3, 1);
+            this.Table_main.Controls.Add(this.Use_time_filtr, 4, 0);
+            this.Table_main.Controls.Add(this.Use_time_filtr_row_0, 4, 1);
+            this.Table_main.Controls.Add(this.Use_time_filtr_row_1, 4, 2);
+            this.Table_main.Controls.Add(this.Use_time_filtr_row_2, 4, 3);
+            this.Table_main.Controls.Add(this.Use_time_filtr_row_3, 4, 4);
+            this.Table_main.Controls.Add(this.Use_time_filtr_row_4, 4, 5);
+            this.Table_main.Controls.Add(this.Use_time_filtr_row_5, 4, 6);
+            this.Table_main.Controls.Add(this.Use_time_filtr_row_6, 4, 7);
+            this.Table_main.Controls.Add(this.Use_time_filtr_row_7, 4, 8);
+            this.Table_main.Controls.Add(this.Use_time_filtr_row_8, 4, 9);
+            this.Table_main.Controls.Add(this.Use_time_filtr_row_9, 4, 10);
+            this.Table_main.Controls.Add(this.Use_time_filtr_row_10, 4, 11);
+            this.Table_main.Controls.Add(this.Use_time_filtr_row_11, 4, 12);
+            this.Table_main.Controls.Add(this.Use_time_filtr_row_12, 4, 13);
+            this.Table_main.Controls.Add(this.Close_all_pos_end_torg, 5, 0);
+            this.Table_main.Controls.Add(this.Close_all_pos_end_torg_row_0, 5, 1);
+            this.Table_main.Controls.Add(this.Close_all_pos_end_torg_row_1, 5, 2);
+            this.Table_main.Controls.Add(this.Close_all_pos_end_torg_row_2, 5, 3);
+            this.Table_main.Controls.Add(this.Close_all_pos_end_torg_row_3, 5, 4);
+            this.Table_main.Controls.Add(this.Close_all_pos_end_torg_row_4, 5, 5);
+            this.Table_main.Controls.Add(this.Close_all_pos_end_torg_row_5, 5, 6);
+            this.Table_main.Controls.Add(this.Close_all_pos_end_torg_row_6, 5, 7);
+            this.Table_main.Controls.Add(this.Close_all_pos_end_torg_row_7, 5, 8);
+            this.Table_main.Controls.Add(this.Close_all_pos_end_torg_row_8, 5, 9);
+            this.Table_main.Controls.Add(this.Close_all_pos_end_torg_row_9, 5, 10);
+            this.Table_main.Controls.Add(this.Close_all_pos_end_torg_row_10, 5, 11);
+            this.Table_main.Controls.Add(this.Close_all_pos_end_torg_row_11, 5, 12);
+            this.Table_main.Controls.Add(this.Close_all_pos_end_torg_row_12, 5, 13);
+            this.Table_main.Controls.Add(this.Del_no_pair_ord_end_torg, 6, 0);
+            this.Table_main.Controls.Add(this.Del_no_pair_ord_end_torg_row_0, 6, 1);
+            this.Table_main.Controls.Add(this.Del_no_pair_ord_end_torg_row_1, 6, 2);
+            this.Table_main.Controls.Add(this.Del_no_pair_ord_end_torg_row_2, 6, 3);
+            this.Table_main.Controls.Add(this.Del_no_pair_ord_end_torg_row_3, 6, 4);
+            this.Table_main.Controls.Add(this.Del_no_pair_ord_end_torg_row_4, 6, 5);
+            this.Table_main.Controls.Add(this.Del_no_pair_ord_end_torg_row_5, 6, 6);
+            this.Table_main.Controls.Add(this.Del_no_pair_ord_end_torg_row_6, 6, 7);
+            this.Table_main.Controls.Add(this.Del_no_pair_ord_end_torg_row_7, 6, 8);
+            this.Table_main.Controls.Add(this.Del_no_pair_ord_end_torg_row_8, 6, 9);
+            this.Table_main.Controls.Add(this.Del_no_pair_ord_end_torg_row_9, 6, 10);
+            this.Table_main.Controls.Add(this.Del_no_pair_ord_end_torg_row_10, 6, 11);
+            this.Table_main.Controls.Add(this.Del_no_pair_ord_end_torg_row_11, 6, 12);
+            this.Table_main.Controls.Add(this.Del_no_pair_ord_end_torg_row_12, 6, 13);
+            this.Table_main.Controls.Add(this.On_delay_otkup, 7, 0);
+            this.Table_main.Controls.Add(this.On_delay_otkup_row_0, 7, 1);
+            this.Table_main.Controls.Add(this.On_delay_otkup_row_1, 7, 2);
+            this.Table_main.Controls.Add(this.On_delay_otkup_row_2, 7, 3);
+            this.Table_main.Controls.Add(this.On_delay_otkup_row_3, 7, 4);
+            this.Table_main.Controls.Add(this.On_delay_otkup_row_4, 7, 5);
+            this.Table_main.Controls.Add(this.On_delay_otkup_row_5, 7, 6);
+            this.Table_main.Controls.Add(this.On_delay_otkup_row_6, 7, 7);
+            this.Table_main.Controls.Add(this.On_delay_otkup_row_7, 7, 8);
+            this.Table_main.Controls.Add(this.On_delay_otkup_row_8, 7, 9);
+            this.Table_main.Controls.Add(this.On_delay_otkup_row_9, 7, 10);
+            this.Table_main.Controls.Add(this.On_delay_otkup_row_10, 7, 11);
+            this.Table_main.Controls.Add(this.On_delay_otkup_row_11, 7, 12);
+            this.Table_main.Controls.Add(this.On_delay_otkup_row_12, 7, 13);
+            this.Table_main.Controls.Add(this.Series_minus_deal, 8, 0);
+            this.Table_main.Controls.Add(this.Series_minus_deal_row_0, 8, 1);
+            this.Table_main.Controls.Add(this.Series_minus_deal_row_1, 8, 2);
+            this.Table_main.Controls.Add(this.Series_minus_deal_row_2, 8, 3);
+            this.Table_main.Controls.Add(this.Series_minus_deal_row_3, 8, 4);
+            this.Table_main.Controls.Add(this.Series_minus_deal_row_4, 8, 5);
+            this.Table_main.Controls.Add(this.Series_minus_deal_row_5, 8, 6);
+            this.Table_main.Controls.Add(this.Series_minus_deal_row_6, 8, 7);
+            this.Table_main.Controls.Add(this.Series_minus_deal_row_7, 8, 8);
+            this.Table_main.Controls.Add(this.Series_minus_deal_row_8, 8, 9);
+            this.Table_main.Controls.Add(this.Series_minus_deal_row_9, 8, 10);
+            this.Table_main.Controls.Add(this.Series_minus_deal_row_10, 8, 11);
+            this.Table_main.Controls.Add(this.Series_minus_deal_row_11, 8, 12);
+            this.Table_main.Controls.Add(this.Series_minus_deal_row_12, 8, 13);
+            this.Table_main.Controls.Add(this.Step_add_deposit, 9, 0);
+            this.Table_main.Controls.Add(this.Step_add_deposit_row_0, 9, 1);
+            this.Table_main.Controls.Add(this.Step_add_deposit_row_1, 9, 2);
+            this.Table_main.Controls.Add(this.Step_add_deposit_row_2, 9, 3);
+            this.Table_main.Controls.Add(this.Step_add_deposit_row_3, 9, 4);
+            this.Table_main.Controls.Add(this.Step_add_deposit_row_4, 9, 5);
+            this.Table_main.Controls.Add(this.Step_add_deposit_row_5, 9, 6);
+            this.Table_main.Controls.Add(this.Step_add_deposit_row_6, 9, 7);
+            this.Table_main.Controls.Add(this.Step_add_deposit_row_7, 9, 8);
+            this.Table_main.Controls.Add(this.Step_add_deposit_row_8, 9, 9);
+            this.Table_main.Controls.Add(this.Step_add_deposit_row_9, 9, 10);
+            this.Table_main.Controls.Add(this.Step_add_deposit_row_10, 9, 11);
+            this.Table_main.Controls.Add(this.Step_add_deposit_row_11, 9, 12);
+            this.Table_main.Controls.Add(this.Step_add_deposit_row_12, 9, 13);
+            this.Table_main.Controls.Add(this.Size_deposit, 10, 0);
+            this.Table_main.Controls.Add(this.Size_deposit_row_0, 10, 1);
+            this.Table_main.Controls.Add(this.Size_deposit_row_1, 10, 2);
+            this.Table_main.Controls.Add(this.Size_deposit_row_2, 10, 3);
+            this.Table_main.Controls.Add(this.Size_deposit_row_3, 10, 4);
+            this.Table_main.Controls.Add(this.Size_deposit_row_4, 10, 5);
+            this.Table_main.Controls.Add(this.Size_deposit_row_5, 10, 6);
+            this.Table_main.Controls.Add(this.Size_deposit_row_6, 10, 7);
+            this.Table_main.Controls.Add(this.Size_deposit_row_7, 10, 8);
+            this.Table_main.Controls.Add(this.Size_deposit_row_8, 10, 9);
+            this.Table_main.Controls.Add(this.Size_deposit_row_9, 10, 10);
+            this.Table_main.Controls.Add(this.Size_deposit_row_10, 10, 11);
+            this.Table_main.Controls.Add(this.Size_deposit_row_11, 10, 12);
+            this.Table_main.Controls.Add(this.Size_deposit_row_12, 10, 13);
+            this.Table_main.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Table_main.Location = new System.Drawing.Point(16, 18);
             this.Table_main.Margin = new System.Windows.Forms.Padding(0);
             this.Table_main.Name = "Table_main";
             this.Table_main.RowCount = 14;
-            this.Table_main.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142858F));
-            this.Table_main.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142858F));
-            this.Table_main.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142858F));
-            this.Table_main.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142858F));
-            this.Table_main.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142858F));
-            this.Table_main.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142858F));
-            this.Table_main.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142858F));
-            this.Table_main.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142858F));
-            this.Table_main.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142858F));
-            this.Table_main.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142858F));
-            this.Table_main.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142858F));
-            this.Table_main.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142858F));
-            this.Table_main.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142858F));
-            this.Table_main.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.142858F));
-            this.Table_main.Size = new System.Drawing.Size(693, 365);
+            this.Table_main.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.26859F));
+            this.Table_main.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.594725F));
+            this.Table_main.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.594725F));
+            this.Table_main.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.594725F));
+            this.Table_main.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.594725F));
+            this.Table_main.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.594725F));
+            this.Table_main.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.594725F));
+            this.Table_main.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.594725F));
+            this.Table_main.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.594725F));
+            this.Table_main.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.594725F));
+            this.Table_main.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.594725F));
+            this.Table_main.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.594725F));
+            this.Table_main.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.594725F));
+            this.Table_main.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.594725F));
+            this.Table_main.Size = new System.Drawing.Size(1308, 365);
             this.Table_main.TabIndex = 0;
-            this.Table_main.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
             // Only_short_row_12_main
             // 
             this.Only_short_row_12_main.AutoSize = true;
             this.Only_short_row_12_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_short_row_12_main.Location = new System.Drawing.Point(583, 341);
+            this.Only_short_row_12_main.Location = new System.Drawing.Point(506, 343);
             this.Only_short_row_12_main.Name = "Only_short_row_12_main";
-            this.Only_short_row_12_main.Size = new System.Drawing.Size(107, 21);
+            this.Only_short_row_12_main.Size = new System.Drawing.Size(94, 19);
             this.Only_short_row_12_main.TabIndex = 55;
             this.Only_short_row_12_main.UseVisualStyleBackColor = true;
             // 
@@ -1099,9 +1292,9 @@
             // 
             this.Only_long_row_12_main.AutoSize = true;
             this.Only_long_row_12_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_long_row_12_main.Location = new System.Drawing.Point(464, 341);
+            this.Only_long_row_12_main.Location = new System.Drawing.Point(406, 343);
             this.Only_long_row_12_main.Name = "Only_long_row_12_main";
-            this.Only_long_row_12_main.Size = new System.Drawing.Size(113, 21);
+            this.Only_long_row_12_main.Size = new System.Drawing.Size(94, 19);
             this.Only_long_row_12_main.TabIndex = 54;
             this.Only_long_row_12_main.UseVisualStyleBackColor = true;
             // 
@@ -1109,9 +1302,9 @@
             // 
             this.Only_out_row_12_main.AutoSize = true;
             this.Only_out_row_12_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_out_row_12_main.Location = new System.Drawing.Point(349, 341);
+            this.Only_out_row_12_main.Location = new System.Drawing.Point(306, 343);
             this.Only_out_row_12_main.Name = "Only_out_row_12_main";
-            this.Only_out_row_12_main.Size = new System.Drawing.Size(109, 21);
+            this.Only_out_row_12_main.Size = new System.Drawing.Size(94, 19);
             this.Only_out_row_12_main.TabIndex = 53;
             this.Only_out_row_12_main.UseVisualStyleBackColor = true;
             // 
@@ -1119,18 +1312,18 @@
             // 
             this.Symb_row_12_main.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Symb_row_12_main.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Symb_row_12_main.Location = new System.Drawing.Point(3, 341);
+            this.Symb_row_12_main.Location = new System.Drawing.Point(3, 343);
             this.Symb_row_12_main.Name = "Symb_row_12_main";
-            this.Symb_row_12_main.Size = new System.Drawing.Size(340, 22);
+            this.Symb_row_12_main.Size = new System.Drawing.Size(297, 22);
             this.Symb_row_12_main.TabIndex = 52;
             // 
             // Only_short_row_11_main
             // 
             this.Only_short_row_11_main.AutoSize = true;
             this.Only_short_row_11_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_short_row_11_main.Location = new System.Drawing.Point(583, 315);
+            this.Only_short_row_11_main.Location = new System.Drawing.Point(506, 319);
             this.Only_short_row_11_main.Name = "Only_short_row_11_main";
-            this.Only_short_row_11_main.Size = new System.Drawing.Size(107, 20);
+            this.Only_short_row_11_main.Size = new System.Drawing.Size(94, 18);
             this.Only_short_row_11_main.TabIndex = 51;
             this.Only_short_row_11_main.UseVisualStyleBackColor = true;
             // 
@@ -1138,9 +1331,9 @@
             // 
             this.Only_long_row_11_main.AutoSize = true;
             this.Only_long_row_11_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_long_row_11_main.Location = new System.Drawing.Point(464, 315);
+            this.Only_long_row_11_main.Location = new System.Drawing.Point(406, 319);
             this.Only_long_row_11_main.Name = "Only_long_row_11_main";
-            this.Only_long_row_11_main.Size = new System.Drawing.Size(113, 20);
+            this.Only_long_row_11_main.Size = new System.Drawing.Size(94, 18);
             this.Only_long_row_11_main.TabIndex = 50;
             this.Only_long_row_11_main.UseVisualStyleBackColor = true;
             // 
@@ -1148,9 +1341,9 @@
             // 
             this.Only_out_row_11_main.AutoSize = true;
             this.Only_out_row_11_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_out_row_11_main.Location = new System.Drawing.Point(349, 315);
+            this.Only_out_row_11_main.Location = new System.Drawing.Point(306, 319);
             this.Only_out_row_11_main.Name = "Only_out_row_11_main";
-            this.Only_out_row_11_main.Size = new System.Drawing.Size(109, 20);
+            this.Only_out_row_11_main.Size = new System.Drawing.Size(94, 18);
             this.Only_out_row_11_main.TabIndex = 49;
             this.Only_out_row_11_main.UseVisualStyleBackColor = true;
             // 
@@ -1158,18 +1351,18 @@
             // 
             this.Symb_row_11_main.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Symb_row_11_main.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Symb_row_11_main.Location = new System.Drawing.Point(3, 315);
+            this.Symb_row_11_main.Location = new System.Drawing.Point(3, 319);
             this.Symb_row_11_main.Name = "Symb_row_11_main";
-            this.Symb_row_11_main.Size = new System.Drawing.Size(340, 22);
+            this.Symb_row_11_main.Size = new System.Drawing.Size(297, 22);
             this.Symb_row_11_main.TabIndex = 48;
             // 
             // Only_short_row_10_main
             // 
             this.Only_short_row_10_main.AutoSize = true;
             this.Only_short_row_10_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_short_row_10_main.Location = new System.Drawing.Point(583, 289);
+            this.Only_short_row_10_main.Location = new System.Drawing.Point(506, 295);
             this.Only_short_row_10_main.Name = "Only_short_row_10_main";
-            this.Only_short_row_10_main.Size = new System.Drawing.Size(107, 20);
+            this.Only_short_row_10_main.Size = new System.Drawing.Size(94, 18);
             this.Only_short_row_10_main.TabIndex = 47;
             this.Only_short_row_10_main.UseVisualStyleBackColor = true;
             // 
@@ -1177,9 +1370,9 @@
             // 
             this.Only_long_row_10_main.AutoSize = true;
             this.Only_long_row_10_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_long_row_10_main.Location = new System.Drawing.Point(464, 289);
+            this.Only_long_row_10_main.Location = new System.Drawing.Point(406, 295);
             this.Only_long_row_10_main.Name = "Only_long_row_10_main";
-            this.Only_long_row_10_main.Size = new System.Drawing.Size(113, 20);
+            this.Only_long_row_10_main.Size = new System.Drawing.Size(94, 18);
             this.Only_long_row_10_main.TabIndex = 46;
             this.Only_long_row_10_main.UseVisualStyleBackColor = true;
             // 
@@ -1187,9 +1380,9 @@
             // 
             this.Only_out_row_10_main.AutoSize = true;
             this.Only_out_row_10_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_out_row_10_main.Location = new System.Drawing.Point(349, 289);
+            this.Only_out_row_10_main.Location = new System.Drawing.Point(306, 295);
             this.Only_out_row_10_main.Name = "Only_out_row_10_main";
-            this.Only_out_row_10_main.Size = new System.Drawing.Size(109, 20);
+            this.Only_out_row_10_main.Size = new System.Drawing.Size(94, 18);
             this.Only_out_row_10_main.TabIndex = 45;
             this.Only_out_row_10_main.UseVisualStyleBackColor = true;
             // 
@@ -1197,18 +1390,18 @@
             // 
             this.Symb_row_10_main.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Symb_row_10_main.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Symb_row_10_main.Location = new System.Drawing.Point(3, 289);
+            this.Symb_row_10_main.Location = new System.Drawing.Point(3, 295);
             this.Symb_row_10_main.Name = "Symb_row_10_main";
-            this.Symb_row_10_main.Size = new System.Drawing.Size(340, 22);
+            this.Symb_row_10_main.Size = new System.Drawing.Size(297, 22);
             this.Symb_row_10_main.TabIndex = 44;
             // 
             // Only_short_row_9_main
             // 
             this.Only_short_row_9_main.AutoSize = true;
             this.Only_short_row_9_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_short_row_9_main.Location = new System.Drawing.Point(583, 263);
+            this.Only_short_row_9_main.Location = new System.Drawing.Point(506, 271);
             this.Only_short_row_9_main.Name = "Only_short_row_9_main";
-            this.Only_short_row_9_main.Size = new System.Drawing.Size(107, 20);
+            this.Only_short_row_9_main.Size = new System.Drawing.Size(94, 18);
             this.Only_short_row_9_main.TabIndex = 43;
             this.Only_short_row_9_main.UseVisualStyleBackColor = true;
             // 
@@ -1216,9 +1409,9 @@
             // 
             this.Only_long_row_9_main.AutoSize = true;
             this.Only_long_row_9_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_long_row_9_main.Location = new System.Drawing.Point(464, 263);
+            this.Only_long_row_9_main.Location = new System.Drawing.Point(406, 271);
             this.Only_long_row_9_main.Name = "Only_long_row_9_main";
-            this.Only_long_row_9_main.Size = new System.Drawing.Size(113, 20);
+            this.Only_long_row_9_main.Size = new System.Drawing.Size(94, 18);
             this.Only_long_row_9_main.TabIndex = 42;
             this.Only_long_row_9_main.UseVisualStyleBackColor = true;
             // 
@@ -1226,9 +1419,9 @@
             // 
             this.Only_out_row_9_main.AutoSize = true;
             this.Only_out_row_9_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_out_row_9_main.Location = new System.Drawing.Point(349, 263);
+            this.Only_out_row_9_main.Location = new System.Drawing.Point(306, 271);
             this.Only_out_row_9_main.Name = "Only_out_row_9_main";
-            this.Only_out_row_9_main.Size = new System.Drawing.Size(109, 20);
+            this.Only_out_row_9_main.Size = new System.Drawing.Size(94, 18);
             this.Only_out_row_9_main.TabIndex = 41;
             this.Only_out_row_9_main.UseVisualStyleBackColor = true;
             // 
@@ -1236,18 +1429,18 @@
             // 
             this.Symb_row_9_main.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Symb_row_9_main.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Symb_row_9_main.Location = new System.Drawing.Point(3, 263);
+            this.Symb_row_9_main.Location = new System.Drawing.Point(3, 271);
             this.Symb_row_9_main.Name = "Symb_row_9_main";
-            this.Symb_row_9_main.Size = new System.Drawing.Size(340, 22);
+            this.Symb_row_9_main.Size = new System.Drawing.Size(297, 22);
             this.Symb_row_9_main.TabIndex = 40;
             // 
             // Only_short_row_8_main
             // 
             this.Only_short_row_8_main.AutoSize = true;
             this.Only_short_row_8_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_short_row_8_main.Location = new System.Drawing.Point(583, 237);
+            this.Only_short_row_8_main.Location = new System.Drawing.Point(506, 247);
             this.Only_short_row_8_main.Name = "Only_short_row_8_main";
-            this.Only_short_row_8_main.Size = new System.Drawing.Size(107, 20);
+            this.Only_short_row_8_main.Size = new System.Drawing.Size(94, 18);
             this.Only_short_row_8_main.TabIndex = 39;
             this.Only_short_row_8_main.UseVisualStyleBackColor = true;
             // 
@@ -1255,9 +1448,9 @@
             // 
             this.Only_long_row_8_main.AutoSize = true;
             this.Only_long_row_8_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_long_row_8_main.Location = new System.Drawing.Point(464, 237);
+            this.Only_long_row_8_main.Location = new System.Drawing.Point(406, 247);
             this.Only_long_row_8_main.Name = "Only_long_row_8_main";
-            this.Only_long_row_8_main.Size = new System.Drawing.Size(113, 20);
+            this.Only_long_row_8_main.Size = new System.Drawing.Size(94, 18);
             this.Only_long_row_8_main.TabIndex = 38;
             this.Only_long_row_8_main.UseVisualStyleBackColor = true;
             // 
@@ -1265,9 +1458,9 @@
             // 
             this.Only_out_row_8_main.AutoSize = true;
             this.Only_out_row_8_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_out_row_8_main.Location = new System.Drawing.Point(349, 237);
+            this.Only_out_row_8_main.Location = new System.Drawing.Point(306, 247);
             this.Only_out_row_8_main.Name = "Only_out_row_8_main";
-            this.Only_out_row_8_main.Size = new System.Drawing.Size(109, 20);
+            this.Only_out_row_8_main.Size = new System.Drawing.Size(94, 18);
             this.Only_out_row_8_main.TabIndex = 37;
             this.Only_out_row_8_main.UseVisualStyleBackColor = true;
             // 
@@ -1275,18 +1468,18 @@
             // 
             this.Symb_row_8_main.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Symb_row_8_main.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Symb_row_8_main.Location = new System.Drawing.Point(3, 237);
+            this.Symb_row_8_main.Location = new System.Drawing.Point(3, 247);
             this.Symb_row_8_main.Name = "Symb_row_8_main";
-            this.Symb_row_8_main.Size = new System.Drawing.Size(340, 22);
+            this.Symb_row_8_main.Size = new System.Drawing.Size(297, 22);
             this.Symb_row_8_main.TabIndex = 36;
             // 
             // Only_short_row_7_main
             // 
             this.Only_short_row_7_main.AutoSize = true;
             this.Only_short_row_7_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_short_row_7_main.Location = new System.Drawing.Point(583, 211);
+            this.Only_short_row_7_main.Location = new System.Drawing.Point(506, 223);
             this.Only_short_row_7_main.Name = "Only_short_row_7_main";
-            this.Only_short_row_7_main.Size = new System.Drawing.Size(107, 20);
+            this.Only_short_row_7_main.Size = new System.Drawing.Size(94, 18);
             this.Only_short_row_7_main.TabIndex = 35;
             this.Only_short_row_7_main.UseVisualStyleBackColor = true;
             // 
@@ -1294,9 +1487,9 @@
             // 
             this.Only_long_row_7_main.AutoSize = true;
             this.Only_long_row_7_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_long_row_7_main.Location = new System.Drawing.Point(464, 211);
+            this.Only_long_row_7_main.Location = new System.Drawing.Point(406, 223);
             this.Only_long_row_7_main.Name = "Only_long_row_7_main";
-            this.Only_long_row_7_main.Size = new System.Drawing.Size(113, 20);
+            this.Only_long_row_7_main.Size = new System.Drawing.Size(94, 18);
             this.Only_long_row_7_main.TabIndex = 34;
             this.Only_long_row_7_main.UseVisualStyleBackColor = true;
             // 
@@ -1304,9 +1497,9 @@
             // 
             this.Only_out_row_7_main.AutoSize = true;
             this.Only_out_row_7_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_out_row_7_main.Location = new System.Drawing.Point(349, 211);
+            this.Only_out_row_7_main.Location = new System.Drawing.Point(306, 223);
             this.Only_out_row_7_main.Name = "Only_out_row_7_main";
-            this.Only_out_row_7_main.Size = new System.Drawing.Size(109, 20);
+            this.Only_out_row_7_main.Size = new System.Drawing.Size(94, 18);
             this.Only_out_row_7_main.TabIndex = 33;
             this.Only_out_row_7_main.UseVisualStyleBackColor = true;
             // 
@@ -1314,18 +1507,18 @@
             // 
             this.Symb_row_7_main.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Symb_row_7_main.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Symb_row_7_main.Location = new System.Drawing.Point(3, 211);
+            this.Symb_row_7_main.Location = new System.Drawing.Point(3, 223);
             this.Symb_row_7_main.Name = "Symb_row_7_main";
-            this.Symb_row_7_main.Size = new System.Drawing.Size(340, 22);
+            this.Symb_row_7_main.Size = new System.Drawing.Size(297, 22);
             this.Symb_row_7_main.TabIndex = 32;
             // 
             // Only_short_row_6_main
             // 
             this.Only_short_row_6_main.AutoSize = true;
             this.Only_short_row_6_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_short_row_6_main.Location = new System.Drawing.Point(583, 185);
+            this.Only_short_row_6_main.Location = new System.Drawing.Point(506, 199);
             this.Only_short_row_6_main.Name = "Only_short_row_6_main";
-            this.Only_short_row_6_main.Size = new System.Drawing.Size(107, 20);
+            this.Only_short_row_6_main.Size = new System.Drawing.Size(94, 18);
             this.Only_short_row_6_main.TabIndex = 31;
             this.Only_short_row_6_main.UseVisualStyleBackColor = true;
             // 
@@ -1333,9 +1526,9 @@
             // 
             this.Only_long_row_6_main.AutoSize = true;
             this.Only_long_row_6_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_long_row_6_main.Location = new System.Drawing.Point(464, 185);
+            this.Only_long_row_6_main.Location = new System.Drawing.Point(406, 199);
             this.Only_long_row_6_main.Name = "Only_long_row_6_main";
-            this.Only_long_row_6_main.Size = new System.Drawing.Size(113, 20);
+            this.Only_long_row_6_main.Size = new System.Drawing.Size(94, 18);
             this.Only_long_row_6_main.TabIndex = 30;
             this.Only_long_row_6_main.UseVisualStyleBackColor = true;
             // 
@@ -1343,9 +1536,9 @@
             // 
             this.Only_out_row_6_main.AutoSize = true;
             this.Only_out_row_6_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_out_row_6_main.Location = new System.Drawing.Point(349, 185);
+            this.Only_out_row_6_main.Location = new System.Drawing.Point(306, 199);
             this.Only_out_row_6_main.Name = "Only_out_row_6_main";
-            this.Only_out_row_6_main.Size = new System.Drawing.Size(109, 20);
+            this.Only_out_row_6_main.Size = new System.Drawing.Size(94, 18);
             this.Only_out_row_6_main.TabIndex = 29;
             this.Only_out_row_6_main.UseVisualStyleBackColor = true;
             // 
@@ -1353,18 +1546,18 @@
             // 
             this.Symb_row_6_main.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Symb_row_6_main.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Symb_row_6_main.Location = new System.Drawing.Point(3, 185);
+            this.Symb_row_6_main.Location = new System.Drawing.Point(3, 199);
             this.Symb_row_6_main.Name = "Symb_row_6_main";
-            this.Symb_row_6_main.Size = new System.Drawing.Size(340, 22);
+            this.Symb_row_6_main.Size = new System.Drawing.Size(297, 22);
             this.Symb_row_6_main.TabIndex = 28;
             // 
             // Only_short_row_5_main
             // 
             this.Only_short_row_5_main.AutoSize = true;
             this.Only_short_row_5_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_short_row_5_main.Location = new System.Drawing.Point(583, 159);
+            this.Only_short_row_5_main.Location = new System.Drawing.Point(506, 175);
             this.Only_short_row_5_main.Name = "Only_short_row_5_main";
-            this.Only_short_row_5_main.Size = new System.Drawing.Size(107, 20);
+            this.Only_short_row_5_main.Size = new System.Drawing.Size(94, 18);
             this.Only_short_row_5_main.TabIndex = 27;
             this.Only_short_row_5_main.UseVisualStyleBackColor = true;
             // 
@@ -1372,9 +1565,9 @@
             // 
             this.Only_long_row_5_main.AutoSize = true;
             this.Only_long_row_5_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_long_row_5_main.Location = new System.Drawing.Point(464, 159);
+            this.Only_long_row_5_main.Location = new System.Drawing.Point(406, 175);
             this.Only_long_row_5_main.Name = "Only_long_row_5_main";
-            this.Only_long_row_5_main.Size = new System.Drawing.Size(113, 20);
+            this.Only_long_row_5_main.Size = new System.Drawing.Size(94, 18);
             this.Only_long_row_5_main.TabIndex = 26;
             this.Only_long_row_5_main.UseVisualStyleBackColor = true;
             // 
@@ -1382,9 +1575,9 @@
             // 
             this.Only_out_row_5_main.AutoSize = true;
             this.Only_out_row_5_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_out_row_5_main.Location = new System.Drawing.Point(349, 159);
+            this.Only_out_row_5_main.Location = new System.Drawing.Point(306, 175);
             this.Only_out_row_5_main.Name = "Only_out_row_5_main";
-            this.Only_out_row_5_main.Size = new System.Drawing.Size(109, 20);
+            this.Only_out_row_5_main.Size = new System.Drawing.Size(94, 18);
             this.Only_out_row_5_main.TabIndex = 25;
             this.Only_out_row_5_main.UseVisualStyleBackColor = true;
             // 
@@ -1392,18 +1585,18 @@
             // 
             this.Symb_row_5_main.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Symb_row_5_main.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Symb_row_5_main.Location = new System.Drawing.Point(3, 159);
+            this.Symb_row_5_main.Location = new System.Drawing.Point(3, 175);
             this.Symb_row_5_main.Name = "Symb_row_5_main";
-            this.Symb_row_5_main.Size = new System.Drawing.Size(340, 22);
+            this.Symb_row_5_main.Size = new System.Drawing.Size(297, 22);
             this.Symb_row_5_main.TabIndex = 24;
             // 
             // Only_short_row_4_main
             // 
             this.Only_short_row_4_main.AutoSize = true;
             this.Only_short_row_4_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_short_row_4_main.Location = new System.Drawing.Point(583, 133);
+            this.Only_short_row_4_main.Location = new System.Drawing.Point(506, 151);
             this.Only_short_row_4_main.Name = "Only_short_row_4_main";
-            this.Only_short_row_4_main.Size = new System.Drawing.Size(107, 20);
+            this.Only_short_row_4_main.Size = new System.Drawing.Size(94, 18);
             this.Only_short_row_4_main.TabIndex = 23;
             this.Only_short_row_4_main.UseVisualStyleBackColor = true;
             // 
@@ -1411,9 +1604,9 @@
             // 
             this.Only_long_row_4_main.AutoSize = true;
             this.Only_long_row_4_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_long_row_4_main.Location = new System.Drawing.Point(464, 133);
+            this.Only_long_row_4_main.Location = new System.Drawing.Point(406, 151);
             this.Only_long_row_4_main.Name = "Only_long_row_4_main";
-            this.Only_long_row_4_main.Size = new System.Drawing.Size(113, 20);
+            this.Only_long_row_4_main.Size = new System.Drawing.Size(94, 18);
             this.Only_long_row_4_main.TabIndex = 22;
             this.Only_long_row_4_main.UseVisualStyleBackColor = true;
             // 
@@ -1421,9 +1614,9 @@
             // 
             this.Only_out_row_4_main.AutoSize = true;
             this.Only_out_row_4_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_out_row_4_main.Location = new System.Drawing.Point(349, 133);
+            this.Only_out_row_4_main.Location = new System.Drawing.Point(306, 151);
             this.Only_out_row_4_main.Name = "Only_out_row_4_main";
-            this.Only_out_row_4_main.Size = new System.Drawing.Size(109, 20);
+            this.Only_out_row_4_main.Size = new System.Drawing.Size(94, 18);
             this.Only_out_row_4_main.TabIndex = 21;
             this.Only_out_row_4_main.UseVisualStyleBackColor = true;
             // 
@@ -1431,18 +1624,18 @@
             // 
             this.Symb_row_4_main.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Symb_row_4_main.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Symb_row_4_main.Location = new System.Drawing.Point(3, 133);
+            this.Symb_row_4_main.Location = new System.Drawing.Point(3, 151);
             this.Symb_row_4_main.Name = "Symb_row_4_main";
-            this.Symb_row_4_main.Size = new System.Drawing.Size(340, 22);
+            this.Symb_row_4_main.Size = new System.Drawing.Size(297, 22);
             this.Symb_row_4_main.TabIndex = 20;
             // 
             // Only_short_row_3_main
             // 
             this.Only_short_row_3_main.AutoSize = true;
             this.Only_short_row_3_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_short_row_3_main.Location = new System.Drawing.Point(583, 107);
+            this.Only_short_row_3_main.Location = new System.Drawing.Point(506, 127);
             this.Only_short_row_3_main.Name = "Only_short_row_3_main";
-            this.Only_short_row_3_main.Size = new System.Drawing.Size(107, 20);
+            this.Only_short_row_3_main.Size = new System.Drawing.Size(94, 18);
             this.Only_short_row_3_main.TabIndex = 19;
             this.Only_short_row_3_main.UseVisualStyleBackColor = true;
             // 
@@ -1450,9 +1643,9 @@
             // 
             this.Only_long_row_3_main.AutoSize = true;
             this.Only_long_row_3_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_long_row_3_main.Location = new System.Drawing.Point(464, 107);
+            this.Only_long_row_3_main.Location = new System.Drawing.Point(406, 127);
             this.Only_long_row_3_main.Name = "Only_long_row_3_main";
-            this.Only_long_row_3_main.Size = new System.Drawing.Size(113, 20);
+            this.Only_long_row_3_main.Size = new System.Drawing.Size(94, 18);
             this.Only_long_row_3_main.TabIndex = 18;
             this.Only_long_row_3_main.UseVisualStyleBackColor = true;
             // 
@@ -1460,9 +1653,9 @@
             // 
             this.Only_out_row_3_main.AutoSize = true;
             this.Only_out_row_3_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_out_row_3_main.Location = new System.Drawing.Point(349, 107);
+            this.Only_out_row_3_main.Location = new System.Drawing.Point(306, 127);
             this.Only_out_row_3_main.Name = "Only_out_row_3_main";
-            this.Only_out_row_3_main.Size = new System.Drawing.Size(109, 20);
+            this.Only_out_row_3_main.Size = new System.Drawing.Size(94, 18);
             this.Only_out_row_3_main.TabIndex = 17;
             this.Only_out_row_3_main.UseVisualStyleBackColor = true;
             // 
@@ -1470,18 +1663,18 @@
             // 
             this.Symb_row_3_main.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Symb_row_3_main.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Symb_row_3_main.Location = new System.Drawing.Point(3, 107);
+            this.Symb_row_3_main.Location = new System.Drawing.Point(3, 127);
             this.Symb_row_3_main.Name = "Symb_row_3_main";
-            this.Symb_row_3_main.Size = new System.Drawing.Size(340, 22);
+            this.Symb_row_3_main.Size = new System.Drawing.Size(297, 22);
             this.Symb_row_3_main.TabIndex = 16;
             // 
             // Only_short_row_2_main
             // 
             this.Only_short_row_2_main.AutoSize = true;
             this.Only_short_row_2_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_short_row_2_main.Location = new System.Drawing.Point(583, 81);
+            this.Only_short_row_2_main.Location = new System.Drawing.Point(506, 103);
             this.Only_short_row_2_main.Name = "Only_short_row_2_main";
-            this.Only_short_row_2_main.Size = new System.Drawing.Size(107, 20);
+            this.Only_short_row_2_main.Size = new System.Drawing.Size(94, 18);
             this.Only_short_row_2_main.TabIndex = 15;
             this.Only_short_row_2_main.UseVisualStyleBackColor = true;
             // 
@@ -1489,9 +1682,9 @@
             // 
             this.Only_long_row_2_main.AutoSize = true;
             this.Only_long_row_2_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_long_row_2_main.Location = new System.Drawing.Point(464, 81);
+            this.Only_long_row_2_main.Location = new System.Drawing.Point(406, 103);
             this.Only_long_row_2_main.Name = "Only_long_row_2_main";
-            this.Only_long_row_2_main.Size = new System.Drawing.Size(113, 20);
+            this.Only_long_row_2_main.Size = new System.Drawing.Size(94, 18);
             this.Only_long_row_2_main.TabIndex = 14;
             this.Only_long_row_2_main.UseVisualStyleBackColor = true;
             // 
@@ -1499,9 +1692,9 @@
             // 
             this.Only_out_row_2_main.AutoSize = true;
             this.Only_out_row_2_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_out_row_2_main.Location = new System.Drawing.Point(349, 81);
+            this.Only_out_row_2_main.Location = new System.Drawing.Point(306, 103);
             this.Only_out_row_2_main.Name = "Only_out_row_2_main";
-            this.Only_out_row_2_main.Size = new System.Drawing.Size(109, 20);
+            this.Only_out_row_2_main.Size = new System.Drawing.Size(94, 18);
             this.Only_out_row_2_main.TabIndex = 13;
             this.Only_out_row_2_main.UseVisualStyleBackColor = true;
             // 
@@ -1509,18 +1702,18 @@
             // 
             this.Symb_row_2_main.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Symb_row_2_main.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Symb_row_2_main.Location = new System.Drawing.Point(3, 81);
+            this.Symb_row_2_main.Location = new System.Drawing.Point(3, 103);
             this.Symb_row_2_main.Name = "Symb_row_2_main";
-            this.Symb_row_2_main.Size = new System.Drawing.Size(340, 22);
+            this.Symb_row_2_main.Size = new System.Drawing.Size(297, 22);
             this.Symb_row_2_main.TabIndex = 12;
             // 
             // Only_short_row_1_main
             // 
             this.Only_short_row_1_main.AutoSize = true;
             this.Only_short_row_1_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_short_row_1_main.Location = new System.Drawing.Point(583, 55);
+            this.Only_short_row_1_main.Location = new System.Drawing.Point(506, 79);
             this.Only_short_row_1_main.Name = "Only_short_row_1_main";
-            this.Only_short_row_1_main.Size = new System.Drawing.Size(107, 20);
+            this.Only_short_row_1_main.Size = new System.Drawing.Size(94, 18);
             this.Only_short_row_1_main.TabIndex = 11;
             this.Only_short_row_1_main.UseVisualStyleBackColor = true;
             // 
@@ -1528,9 +1721,9 @@
             // 
             this.Only_long_row_1_main.AutoSize = true;
             this.Only_long_row_1_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_long_row_1_main.Location = new System.Drawing.Point(464, 55);
+            this.Only_long_row_1_main.Location = new System.Drawing.Point(406, 79);
             this.Only_long_row_1_main.Name = "Only_long_row_1_main";
-            this.Only_long_row_1_main.Size = new System.Drawing.Size(113, 20);
+            this.Only_long_row_1_main.Size = new System.Drawing.Size(94, 18);
             this.Only_long_row_1_main.TabIndex = 10;
             this.Only_long_row_1_main.UseVisualStyleBackColor = true;
             // 
@@ -1538,9 +1731,9 @@
             // 
             this.Only_out_row_1_main.AutoSize = true;
             this.Only_out_row_1_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_out_row_1_main.Location = new System.Drawing.Point(349, 55);
+            this.Only_out_row_1_main.Location = new System.Drawing.Point(306, 79);
             this.Only_out_row_1_main.Name = "Only_out_row_1_main";
-            this.Only_out_row_1_main.Size = new System.Drawing.Size(109, 20);
+            this.Only_out_row_1_main.Size = new System.Drawing.Size(94, 18);
             this.Only_out_row_1_main.TabIndex = 9;
             this.Only_out_row_1_main.UseVisualStyleBackColor = true;
             // 
@@ -1548,9 +1741,9 @@
             // 
             this.Symb_row_1_main.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Symb_row_1_main.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Symb_row_1_main.Location = new System.Drawing.Point(3, 55);
+            this.Symb_row_1_main.Location = new System.Drawing.Point(3, 79);
             this.Symb_row_1_main.Name = "Symb_row_1_main";
-            this.Symb_row_1_main.Size = new System.Drawing.Size(340, 22);
+            this.Symb_row_1_main.Size = new System.Drawing.Size(297, 22);
             this.Symb_row_1_main.TabIndex = 8;
             // 
             // Symbol_name
@@ -1561,7 +1754,7 @@
             this.Symbol_name.AutoSize = true;
             this.Symbol_name.Location = new System.Drawing.Point(3, 0);
             this.Symbol_name.Name = "Symbol_name";
-            this.Symbol_name.Size = new System.Drawing.Size(340, 26);
+            this.Symbol_name.Size = new System.Drawing.Size(297, 52);
             this.Symbol_name.TabIndex = 0;
             this.Symbol_name.Text = "Символ";
             // 
@@ -1571,9 +1764,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Only_out_main.AutoSize = true;
-            this.Only_out_main.Location = new System.Drawing.Point(349, 0);
+            this.Only_out_main.Location = new System.Drawing.Point(306, 0);
             this.Only_out_main.Name = "Only_out_main";
-            this.Only_out_main.Size = new System.Drawing.Size(109, 26);
+            this.Only_out_main.Size = new System.Drawing.Size(94, 52);
             this.Only_out_main.TabIndex = 1;
             this.Only_out_main.Text = "Только выход";
             // 
@@ -1583,9 +1776,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Only_long_main.AutoSize = true;
-            this.Only_long_main.Location = new System.Drawing.Point(464, 0);
+            this.Only_long_main.Location = new System.Drawing.Point(406, 0);
             this.Only_long_main.Name = "Only_long_main";
-            this.Only_long_main.Size = new System.Drawing.Size(113, 26);
+            this.Only_long_main.Size = new System.Drawing.Size(94, 52);
             this.Only_long_main.TabIndex = 2;
             this.Only_long_main.Text = "Только Long";
             // 
@@ -1595,9 +1788,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Only_short_main.AutoSize = true;
-            this.Only_short_main.Location = new System.Drawing.Point(583, 0);
+            this.Only_short_main.Location = new System.Drawing.Point(506, 0);
             this.Only_short_main.Name = "Only_short_main";
-            this.Only_short_main.Size = new System.Drawing.Size(107, 26);
+            this.Only_short_main.Size = new System.Drawing.Size(94, 52);
             this.Only_short_main.TabIndex = 3;
             this.Only_short_main.Text = "Только Short";
             // 
@@ -1605,29 +1798,28 @@
             // 
             this.Symb_row_0_main.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Symb_row_0_main.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Symb_row_0_main.Location = new System.Drawing.Point(3, 29);
+            this.Symb_row_0_main.Location = new System.Drawing.Point(3, 55);
             this.Symb_row_0_main.Name = "Symb_row_0_main";
-            this.Symb_row_0_main.Size = new System.Drawing.Size(340, 22);
+            this.Symb_row_0_main.Size = new System.Drawing.Size(297, 22);
             this.Symb_row_0_main.TabIndex = 4;
             // 
             // Only_out_row_0_main
             // 
             this.Only_out_row_0_main.AutoSize = true;
             this.Only_out_row_0_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_out_row_0_main.Location = new System.Drawing.Point(349, 29);
+            this.Only_out_row_0_main.Location = new System.Drawing.Point(306, 55);
             this.Only_out_row_0_main.Name = "Only_out_row_0_main";
-            this.Only_out_row_0_main.Size = new System.Drawing.Size(109, 20);
+            this.Only_out_row_0_main.Size = new System.Drawing.Size(94, 18);
             this.Only_out_row_0_main.TabIndex = 5;
             this.Only_out_row_0_main.UseVisualStyleBackColor = true;
-            this.Only_out_row_0_main.CheckedChanged += new System.EventHandler(this.Only_out_row_0_main_CheckedChanged);
             // 
             // Only_long_row_0_main
             // 
             this.Only_long_row_0_main.AutoSize = true;
             this.Only_long_row_0_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_long_row_0_main.Location = new System.Drawing.Point(464, 29);
+            this.Only_long_row_0_main.Location = new System.Drawing.Point(406, 55);
             this.Only_long_row_0_main.Name = "Only_long_row_0_main";
-            this.Only_long_row_0_main.Size = new System.Drawing.Size(113, 20);
+            this.Only_long_row_0_main.Size = new System.Drawing.Size(94, 18);
             this.Only_long_row_0_main.TabIndex = 6;
             this.Only_long_row_0_main.UseVisualStyleBackColor = true;
             // 
@@ -1635,11 +1827,1148 @@
             // 
             this.Only_short_row_0_main.AutoSize = true;
             this.Only_short_row_0_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Only_short_row_0_main.Location = new System.Drawing.Point(583, 29);
+            this.Only_short_row_0_main.Location = new System.Drawing.Point(506, 55);
             this.Only_short_row_0_main.Name = "Only_short_row_0_main";
-            this.Only_short_row_0_main.Size = new System.Drawing.Size(107, 20);
+            this.Only_short_row_0_main.Size = new System.Drawing.Size(94, 18);
             this.Only_short_row_0_main.TabIndex = 7;
             this.Only_short_row_0_main.UseVisualStyleBackColor = true;
+            // 
+            // Use_time_filtr
+            // 
+            this.Use_time_filtr.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Use_time_filtr.AutoSize = true;
+            this.Use_time_filtr.Location = new System.Drawing.Point(606, 0);
+            this.Use_time_filtr.Name = "Use_time_filtr";
+            this.Use_time_filtr.Size = new System.Drawing.Size(94, 52);
+            this.Use_time_filtr.TabIndex = 56;
+            this.Use_time_filtr.Text = "Временной фильтр";
+            // 
+            // Use_time_filtr_row_0
+            // 
+            this.Use_time_filtr_row_0.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Use_time_filtr_row_0.AutoSize = true;
+            this.Use_time_filtr_row_0.Location = new System.Drawing.Point(606, 55);
+            this.Use_time_filtr_row_0.Name = "Use_time_filtr_row_0";
+            this.Use_time_filtr_row_0.Size = new System.Drawing.Size(94, 18);
+            this.Use_time_filtr_row_0.TabIndex = 57;
+            this.Use_time_filtr_row_0.UseVisualStyleBackColor = true;
+            // 
+            // Use_time_filtr_row_1
+            // 
+            this.Use_time_filtr_row_1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Use_time_filtr_row_1.AutoSize = true;
+            this.Use_time_filtr_row_1.Location = new System.Drawing.Point(606, 79);
+            this.Use_time_filtr_row_1.Name = "Use_time_filtr_row_1";
+            this.Use_time_filtr_row_1.Size = new System.Drawing.Size(94, 18);
+            this.Use_time_filtr_row_1.TabIndex = 58;
+            this.Use_time_filtr_row_1.UseVisualStyleBackColor = true;
+            // 
+            // Use_time_filtr_row_2
+            // 
+            this.Use_time_filtr_row_2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Use_time_filtr_row_2.AutoSize = true;
+            this.Use_time_filtr_row_2.Location = new System.Drawing.Point(606, 103);
+            this.Use_time_filtr_row_2.Name = "Use_time_filtr_row_2";
+            this.Use_time_filtr_row_2.Size = new System.Drawing.Size(94, 18);
+            this.Use_time_filtr_row_2.TabIndex = 59;
+            this.Use_time_filtr_row_2.UseVisualStyleBackColor = true;
+            // 
+            // Use_time_filtr_row_3
+            // 
+            this.Use_time_filtr_row_3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Use_time_filtr_row_3.AutoSize = true;
+            this.Use_time_filtr_row_3.Location = new System.Drawing.Point(606, 127);
+            this.Use_time_filtr_row_3.Name = "Use_time_filtr_row_3";
+            this.Use_time_filtr_row_3.Size = new System.Drawing.Size(94, 18);
+            this.Use_time_filtr_row_3.TabIndex = 60;
+            this.Use_time_filtr_row_3.UseVisualStyleBackColor = true;
+            // 
+            // Use_time_filtr_row_4
+            // 
+            this.Use_time_filtr_row_4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Use_time_filtr_row_4.AutoSize = true;
+            this.Use_time_filtr_row_4.Location = new System.Drawing.Point(606, 151);
+            this.Use_time_filtr_row_4.Name = "Use_time_filtr_row_4";
+            this.Use_time_filtr_row_4.Size = new System.Drawing.Size(94, 18);
+            this.Use_time_filtr_row_4.TabIndex = 61;
+            this.Use_time_filtr_row_4.UseVisualStyleBackColor = true;
+            // 
+            // Use_time_filtr_row_5
+            // 
+            this.Use_time_filtr_row_5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Use_time_filtr_row_5.AutoSize = true;
+            this.Use_time_filtr_row_5.Location = new System.Drawing.Point(606, 175);
+            this.Use_time_filtr_row_5.Name = "Use_time_filtr_row_5";
+            this.Use_time_filtr_row_5.Size = new System.Drawing.Size(94, 18);
+            this.Use_time_filtr_row_5.TabIndex = 62;
+            this.Use_time_filtr_row_5.UseVisualStyleBackColor = true;
+            // 
+            // Use_time_filtr_row_6
+            // 
+            this.Use_time_filtr_row_6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Use_time_filtr_row_6.AutoSize = true;
+            this.Use_time_filtr_row_6.Location = new System.Drawing.Point(606, 199);
+            this.Use_time_filtr_row_6.Name = "Use_time_filtr_row_6";
+            this.Use_time_filtr_row_6.Size = new System.Drawing.Size(94, 18);
+            this.Use_time_filtr_row_6.TabIndex = 63;
+            this.Use_time_filtr_row_6.UseVisualStyleBackColor = true;
+            // 
+            // Use_time_filtr_row_7
+            // 
+            this.Use_time_filtr_row_7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Use_time_filtr_row_7.AutoSize = true;
+            this.Use_time_filtr_row_7.Location = new System.Drawing.Point(606, 223);
+            this.Use_time_filtr_row_7.Name = "Use_time_filtr_row_7";
+            this.Use_time_filtr_row_7.Size = new System.Drawing.Size(94, 18);
+            this.Use_time_filtr_row_7.TabIndex = 64;
+            this.Use_time_filtr_row_7.UseVisualStyleBackColor = true;
+            // 
+            // Use_time_filtr_row_8
+            // 
+            this.Use_time_filtr_row_8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Use_time_filtr_row_8.AutoSize = true;
+            this.Use_time_filtr_row_8.Location = new System.Drawing.Point(606, 247);
+            this.Use_time_filtr_row_8.Name = "Use_time_filtr_row_8";
+            this.Use_time_filtr_row_8.Size = new System.Drawing.Size(94, 18);
+            this.Use_time_filtr_row_8.TabIndex = 65;
+            this.Use_time_filtr_row_8.UseVisualStyleBackColor = true;
+            // 
+            // Use_time_filtr_row_9
+            // 
+            this.Use_time_filtr_row_9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Use_time_filtr_row_9.AutoSize = true;
+            this.Use_time_filtr_row_9.Location = new System.Drawing.Point(606, 271);
+            this.Use_time_filtr_row_9.Name = "Use_time_filtr_row_9";
+            this.Use_time_filtr_row_9.Size = new System.Drawing.Size(94, 18);
+            this.Use_time_filtr_row_9.TabIndex = 66;
+            this.Use_time_filtr_row_9.UseVisualStyleBackColor = true;
+            // 
+            // Use_time_filtr_row_10
+            // 
+            this.Use_time_filtr_row_10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Use_time_filtr_row_10.AutoSize = true;
+            this.Use_time_filtr_row_10.Location = new System.Drawing.Point(606, 295);
+            this.Use_time_filtr_row_10.Name = "Use_time_filtr_row_10";
+            this.Use_time_filtr_row_10.Size = new System.Drawing.Size(94, 18);
+            this.Use_time_filtr_row_10.TabIndex = 67;
+            this.Use_time_filtr_row_10.UseVisualStyleBackColor = true;
+            // 
+            // Use_time_filtr_row_11
+            // 
+            this.Use_time_filtr_row_11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Use_time_filtr_row_11.AutoSize = true;
+            this.Use_time_filtr_row_11.Location = new System.Drawing.Point(606, 319);
+            this.Use_time_filtr_row_11.Name = "Use_time_filtr_row_11";
+            this.Use_time_filtr_row_11.Size = new System.Drawing.Size(94, 18);
+            this.Use_time_filtr_row_11.TabIndex = 68;
+            this.Use_time_filtr_row_11.UseVisualStyleBackColor = true;
+            // 
+            // Use_time_filtr_row_12
+            // 
+            this.Use_time_filtr_row_12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Use_time_filtr_row_12.AutoSize = true;
+            this.Use_time_filtr_row_12.Location = new System.Drawing.Point(606, 343);
+            this.Use_time_filtr_row_12.Name = "Use_time_filtr_row_12";
+            this.Use_time_filtr_row_12.Size = new System.Drawing.Size(94, 19);
+            this.Use_time_filtr_row_12.TabIndex = 69;
+            this.Use_time_filtr_row_12.UseVisualStyleBackColor = true;
+            // 
+            // Close_all_pos_end_torg
+            // 
+            this.Close_all_pos_end_torg.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Close_all_pos_end_torg.AutoSize = true;
+            this.Close_all_pos_end_torg.Location = new System.Drawing.Point(706, 0);
+            this.Close_all_pos_end_torg.Name = "Close_all_pos_end_torg";
+            this.Close_all_pos_end_torg.Size = new System.Drawing.Size(94, 52);
+            this.Close_all_pos_end_torg.TabIndex = 70;
+            this.Close_all_pos_end_torg.Text = "Закр все позиции в  конце торговли";
+            // 
+            // Close_all_pos_end_torg_row_0
+            // 
+            this.Close_all_pos_end_torg_row_0.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Close_all_pos_end_torg_row_0.AutoSize = true;
+            this.Close_all_pos_end_torg_row_0.Location = new System.Drawing.Point(706, 55);
+            this.Close_all_pos_end_torg_row_0.Name = "Close_all_pos_end_torg_row_0";
+            this.Close_all_pos_end_torg_row_0.Size = new System.Drawing.Size(94, 18);
+            this.Close_all_pos_end_torg_row_0.TabIndex = 71;
+            this.Close_all_pos_end_torg_row_0.UseVisualStyleBackColor = true;
+            // 
+            // Close_all_pos_end_torg_row_1
+            // 
+            this.Close_all_pos_end_torg_row_1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Close_all_pos_end_torg_row_1.AutoSize = true;
+            this.Close_all_pos_end_torg_row_1.Location = new System.Drawing.Point(706, 79);
+            this.Close_all_pos_end_torg_row_1.Name = "Close_all_pos_end_torg_row_1";
+            this.Close_all_pos_end_torg_row_1.Size = new System.Drawing.Size(94, 18);
+            this.Close_all_pos_end_torg_row_1.TabIndex = 72;
+            this.Close_all_pos_end_torg_row_1.UseVisualStyleBackColor = true;
+            // 
+            // Close_all_pos_end_torg_row_2
+            // 
+            this.Close_all_pos_end_torg_row_2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Close_all_pos_end_torg_row_2.AutoSize = true;
+            this.Close_all_pos_end_torg_row_2.Location = new System.Drawing.Point(706, 103);
+            this.Close_all_pos_end_torg_row_2.Name = "Close_all_pos_end_torg_row_2";
+            this.Close_all_pos_end_torg_row_2.Size = new System.Drawing.Size(94, 18);
+            this.Close_all_pos_end_torg_row_2.TabIndex = 73;
+            this.Close_all_pos_end_torg_row_2.UseVisualStyleBackColor = true;
+            // 
+            // Close_all_pos_end_torg_row_3
+            // 
+            this.Close_all_pos_end_torg_row_3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Close_all_pos_end_torg_row_3.AutoSize = true;
+            this.Close_all_pos_end_torg_row_3.Location = new System.Drawing.Point(706, 127);
+            this.Close_all_pos_end_torg_row_3.Name = "Close_all_pos_end_torg_row_3";
+            this.Close_all_pos_end_torg_row_3.Size = new System.Drawing.Size(94, 18);
+            this.Close_all_pos_end_torg_row_3.TabIndex = 74;
+            this.Close_all_pos_end_torg_row_3.UseVisualStyleBackColor = true;
+            // 
+            // Close_all_pos_end_torg_row_4
+            // 
+            this.Close_all_pos_end_torg_row_4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Close_all_pos_end_torg_row_4.AutoSize = true;
+            this.Close_all_pos_end_torg_row_4.Location = new System.Drawing.Point(706, 151);
+            this.Close_all_pos_end_torg_row_4.Name = "Close_all_pos_end_torg_row_4";
+            this.Close_all_pos_end_torg_row_4.Size = new System.Drawing.Size(94, 18);
+            this.Close_all_pos_end_torg_row_4.TabIndex = 75;
+            this.Close_all_pos_end_torg_row_4.UseVisualStyleBackColor = true;
+            // 
+            // Close_all_pos_end_torg_row_5
+            // 
+            this.Close_all_pos_end_torg_row_5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Close_all_pos_end_torg_row_5.AutoSize = true;
+            this.Close_all_pos_end_torg_row_5.Location = new System.Drawing.Point(706, 175);
+            this.Close_all_pos_end_torg_row_5.Name = "Close_all_pos_end_torg_row_5";
+            this.Close_all_pos_end_torg_row_5.Size = new System.Drawing.Size(94, 18);
+            this.Close_all_pos_end_torg_row_5.TabIndex = 76;
+            this.Close_all_pos_end_torg_row_5.UseVisualStyleBackColor = true;
+            // 
+            // Close_all_pos_end_torg_row_6
+            // 
+            this.Close_all_pos_end_torg_row_6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Close_all_pos_end_torg_row_6.AutoSize = true;
+            this.Close_all_pos_end_torg_row_6.Location = new System.Drawing.Point(706, 199);
+            this.Close_all_pos_end_torg_row_6.Name = "Close_all_pos_end_torg_row_6";
+            this.Close_all_pos_end_torg_row_6.Size = new System.Drawing.Size(94, 18);
+            this.Close_all_pos_end_torg_row_6.TabIndex = 77;
+            this.Close_all_pos_end_torg_row_6.UseVisualStyleBackColor = true;
+            // 
+            // Close_all_pos_end_torg_row_7
+            // 
+            this.Close_all_pos_end_torg_row_7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Close_all_pos_end_torg_row_7.AutoSize = true;
+            this.Close_all_pos_end_torg_row_7.Location = new System.Drawing.Point(706, 223);
+            this.Close_all_pos_end_torg_row_7.Name = "Close_all_pos_end_torg_row_7";
+            this.Close_all_pos_end_torg_row_7.Size = new System.Drawing.Size(94, 18);
+            this.Close_all_pos_end_torg_row_7.TabIndex = 78;
+            this.Close_all_pos_end_torg_row_7.UseVisualStyleBackColor = true;
+            // 
+            // Close_all_pos_end_torg_row_8
+            // 
+            this.Close_all_pos_end_torg_row_8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Close_all_pos_end_torg_row_8.AutoSize = true;
+            this.Close_all_pos_end_torg_row_8.Location = new System.Drawing.Point(706, 247);
+            this.Close_all_pos_end_torg_row_8.Name = "Close_all_pos_end_torg_row_8";
+            this.Close_all_pos_end_torg_row_8.Size = new System.Drawing.Size(94, 18);
+            this.Close_all_pos_end_torg_row_8.TabIndex = 79;
+            this.Close_all_pos_end_torg_row_8.UseVisualStyleBackColor = true;
+            // 
+            // Close_all_pos_end_torg_row_9
+            // 
+            this.Close_all_pos_end_torg_row_9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Close_all_pos_end_torg_row_9.AutoSize = true;
+            this.Close_all_pos_end_torg_row_9.Location = new System.Drawing.Point(706, 271);
+            this.Close_all_pos_end_torg_row_9.Name = "Close_all_pos_end_torg_row_9";
+            this.Close_all_pos_end_torg_row_9.Size = new System.Drawing.Size(94, 18);
+            this.Close_all_pos_end_torg_row_9.TabIndex = 80;
+            this.Close_all_pos_end_torg_row_9.UseVisualStyleBackColor = true;
+            // 
+            // Close_all_pos_end_torg_row_10
+            // 
+            this.Close_all_pos_end_torg_row_10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Close_all_pos_end_torg_row_10.AutoSize = true;
+            this.Close_all_pos_end_torg_row_10.Location = new System.Drawing.Point(706, 295);
+            this.Close_all_pos_end_torg_row_10.Name = "Close_all_pos_end_torg_row_10";
+            this.Close_all_pos_end_torg_row_10.Size = new System.Drawing.Size(94, 18);
+            this.Close_all_pos_end_torg_row_10.TabIndex = 81;
+            this.Close_all_pos_end_torg_row_10.UseVisualStyleBackColor = true;
+            // 
+            // Close_all_pos_end_torg_row_11
+            // 
+            this.Close_all_pos_end_torg_row_11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Close_all_pos_end_torg_row_11.AutoSize = true;
+            this.Close_all_pos_end_torg_row_11.Location = new System.Drawing.Point(706, 319);
+            this.Close_all_pos_end_torg_row_11.Name = "Close_all_pos_end_torg_row_11";
+            this.Close_all_pos_end_torg_row_11.Size = new System.Drawing.Size(94, 18);
+            this.Close_all_pos_end_torg_row_11.TabIndex = 82;
+            this.Close_all_pos_end_torg_row_11.UseVisualStyleBackColor = true;
+            // 
+            // Close_all_pos_end_torg_row_12
+            // 
+            this.Close_all_pos_end_torg_row_12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Close_all_pos_end_torg_row_12.AutoSize = true;
+            this.Close_all_pos_end_torg_row_12.Location = new System.Drawing.Point(706, 343);
+            this.Close_all_pos_end_torg_row_12.Name = "Close_all_pos_end_torg_row_12";
+            this.Close_all_pos_end_torg_row_12.Size = new System.Drawing.Size(94, 19);
+            this.Close_all_pos_end_torg_row_12.TabIndex = 83;
+            this.Close_all_pos_end_torg_row_12.UseVisualStyleBackColor = true;
+            // 
+            // Del_no_pair_ord_end_torg
+            // 
+            this.Del_no_pair_ord_end_torg.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Del_no_pair_ord_end_torg.AutoSize = true;
+            this.Del_no_pair_ord_end_torg.Location = new System.Drawing.Point(806, 0);
+            this.Del_no_pair_ord_end_torg.Name = "Del_no_pair_ord_end_torg";
+            this.Del_no_pair_ord_end_torg.Size = new System.Drawing.Size(94, 52);
+            this.Del_no_pair_ord_end_torg.TabIndex = 84;
+            this.Del_no_pair_ord_end_torg.Text = "Удаление непарного ордера в конце торговли";
+            // 
+            // Del_no_pair_ord_end_torg_row_0
+            // 
+            this.Del_no_pair_ord_end_torg_row_0.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Del_no_pair_ord_end_torg_row_0.AutoSize = true;
+            this.Del_no_pair_ord_end_torg_row_0.Location = new System.Drawing.Point(806, 55);
+            this.Del_no_pair_ord_end_torg_row_0.Name = "Del_no_pair_ord_end_torg_row_0";
+            this.Del_no_pair_ord_end_torg_row_0.Size = new System.Drawing.Size(94, 18);
+            this.Del_no_pair_ord_end_torg_row_0.TabIndex = 85;
+            this.Del_no_pair_ord_end_torg_row_0.UseVisualStyleBackColor = true;
+            // 
+            // Del_no_pair_ord_end_torg_row_1
+            // 
+            this.Del_no_pair_ord_end_torg_row_1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Del_no_pair_ord_end_torg_row_1.AutoSize = true;
+            this.Del_no_pair_ord_end_torg_row_1.Location = new System.Drawing.Point(806, 79);
+            this.Del_no_pair_ord_end_torg_row_1.Name = "Del_no_pair_ord_end_torg_row_1";
+            this.Del_no_pair_ord_end_torg_row_1.Size = new System.Drawing.Size(94, 18);
+            this.Del_no_pair_ord_end_torg_row_1.TabIndex = 86;
+            this.Del_no_pair_ord_end_torg_row_1.UseVisualStyleBackColor = true;
+            // 
+            // Del_no_pair_ord_end_torg_row_2
+            // 
+            this.Del_no_pair_ord_end_torg_row_2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Del_no_pair_ord_end_torg_row_2.AutoSize = true;
+            this.Del_no_pair_ord_end_torg_row_2.Location = new System.Drawing.Point(806, 103);
+            this.Del_no_pair_ord_end_torg_row_2.Name = "Del_no_pair_ord_end_torg_row_2";
+            this.Del_no_pair_ord_end_torg_row_2.Size = new System.Drawing.Size(94, 18);
+            this.Del_no_pair_ord_end_torg_row_2.TabIndex = 87;
+            this.Del_no_pair_ord_end_torg_row_2.UseVisualStyleBackColor = true;
+            // 
+            // Del_no_pair_ord_end_torg_row_3
+            // 
+            this.Del_no_pair_ord_end_torg_row_3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Del_no_pair_ord_end_torg_row_3.AutoSize = true;
+            this.Del_no_pair_ord_end_torg_row_3.Location = new System.Drawing.Point(806, 127);
+            this.Del_no_pair_ord_end_torg_row_3.Name = "Del_no_pair_ord_end_torg_row_3";
+            this.Del_no_pair_ord_end_torg_row_3.Size = new System.Drawing.Size(94, 18);
+            this.Del_no_pair_ord_end_torg_row_3.TabIndex = 88;
+            this.Del_no_pair_ord_end_torg_row_3.UseVisualStyleBackColor = true;
+            // 
+            // Del_no_pair_ord_end_torg_row_4
+            // 
+            this.Del_no_pair_ord_end_torg_row_4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Del_no_pair_ord_end_torg_row_4.AutoSize = true;
+            this.Del_no_pair_ord_end_torg_row_4.Location = new System.Drawing.Point(806, 151);
+            this.Del_no_pair_ord_end_torg_row_4.Name = "Del_no_pair_ord_end_torg_row_4";
+            this.Del_no_pair_ord_end_torg_row_4.Size = new System.Drawing.Size(94, 18);
+            this.Del_no_pair_ord_end_torg_row_4.TabIndex = 89;
+            this.Del_no_pair_ord_end_torg_row_4.UseVisualStyleBackColor = true;
+            // 
+            // Del_no_pair_ord_end_torg_row_5
+            // 
+            this.Del_no_pair_ord_end_torg_row_5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Del_no_pair_ord_end_torg_row_5.AutoSize = true;
+            this.Del_no_pair_ord_end_torg_row_5.Location = new System.Drawing.Point(806, 175);
+            this.Del_no_pair_ord_end_torg_row_5.Name = "Del_no_pair_ord_end_torg_row_5";
+            this.Del_no_pair_ord_end_torg_row_5.Size = new System.Drawing.Size(94, 18);
+            this.Del_no_pair_ord_end_torg_row_5.TabIndex = 91;
+            this.Del_no_pair_ord_end_torg_row_5.UseVisualStyleBackColor = true;
+            // 
+            // Del_no_pair_ord_end_torg_row_6
+            // 
+            this.Del_no_pair_ord_end_torg_row_6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Del_no_pair_ord_end_torg_row_6.AutoSize = true;
+            this.Del_no_pair_ord_end_torg_row_6.Location = new System.Drawing.Point(806, 199);
+            this.Del_no_pair_ord_end_torg_row_6.Name = "Del_no_pair_ord_end_torg_row_6";
+            this.Del_no_pair_ord_end_torg_row_6.Size = new System.Drawing.Size(94, 18);
+            this.Del_no_pair_ord_end_torg_row_6.TabIndex = 92;
+            this.Del_no_pair_ord_end_torg_row_6.UseVisualStyleBackColor = true;
+            // 
+            // Del_no_pair_ord_end_torg_row_7
+            // 
+            this.Del_no_pair_ord_end_torg_row_7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Del_no_pair_ord_end_torg_row_7.AutoSize = true;
+            this.Del_no_pair_ord_end_torg_row_7.Location = new System.Drawing.Point(806, 223);
+            this.Del_no_pair_ord_end_torg_row_7.Name = "Del_no_pair_ord_end_torg_row_7";
+            this.Del_no_pair_ord_end_torg_row_7.Size = new System.Drawing.Size(94, 18);
+            this.Del_no_pair_ord_end_torg_row_7.TabIndex = 93;
+            this.Del_no_pair_ord_end_torg_row_7.UseVisualStyleBackColor = true;
+            // 
+            // Del_no_pair_ord_end_torg_row_8
+            // 
+            this.Del_no_pair_ord_end_torg_row_8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Del_no_pair_ord_end_torg_row_8.AutoSize = true;
+            this.Del_no_pair_ord_end_torg_row_8.Location = new System.Drawing.Point(806, 247);
+            this.Del_no_pair_ord_end_torg_row_8.Name = "Del_no_pair_ord_end_torg_row_8";
+            this.Del_no_pair_ord_end_torg_row_8.Size = new System.Drawing.Size(94, 18);
+            this.Del_no_pair_ord_end_torg_row_8.TabIndex = 94;
+            this.Del_no_pair_ord_end_torg_row_8.UseVisualStyleBackColor = true;
+            // 
+            // Del_no_pair_ord_end_torg_row_9
+            // 
+            this.Del_no_pair_ord_end_torg_row_9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Del_no_pair_ord_end_torg_row_9.AutoSize = true;
+            this.Del_no_pair_ord_end_torg_row_9.Location = new System.Drawing.Point(806, 271);
+            this.Del_no_pair_ord_end_torg_row_9.Name = "Del_no_pair_ord_end_torg_row_9";
+            this.Del_no_pair_ord_end_torg_row_9.Size = new System.Drawing.Size(94, 18);
+            this.Del_no_pair_ord_end_torg_row_9.TabIndex = 95;
+            this.Del_no_pair_ord_end_torg_row_9.UseVisualStyleBackColor = true;
+            // 
+            // Del_no_pair_ord_end_torg_row_10
+            // 
+            this.Del_no_pair_ord_end_torg_row_10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Del_no_pair_ord_end_torg_row_10.AutoSize = true;
+            this.Del_no_pair_ord_end_torg_row_10.Location = new System.Drawing.Point(806, 295);
+            this.Del_no_pair_ord_end_torg_row_10.Name = "Del_no_pair_ord_end_torg_row_10";
+            this.Del_no_pair_ord_end_torg_row_10.Size = new System.Drawing.Size(94, 18);
+            this.Del_no_pair_ord_end_torg_row_10.TabIndex = 96;
+            this.Del_no_pair_ord_end_torg_row_10.UseVisualStyleBackColor = true;
+            // 
+            // Del_no_pair_ord_end_torg_row_11
+            // 
+            this.Del_no_pair_ord_end_torg_row_11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Del_no_pair_ord_end_torg_row_11.AutoSize = true;
+            this.Del_no_pair_ord_end_torg_row_11.Location = new System.Drawing.Point(806, 319);
+            this.Del_no_pair_ord_end_torg_row_11.Name = "Del_no_pair_ord_end_torg_row_11";
+            this.Del_no_pair_ord_end_torg_row_11.Size = new System.Drawing.Size(94, 18);
+            this.Del_no_pair_ord_end_torg_row_11.TabIndex = 97;
+            this.Del_no_pair_ord_end_torg_row_11.UseVisualStyleBackColor = true;
+            // 
+            // Del_no_pair_ord_end_torg_row_12
+            // 
+            this.Del_no_pair_ord_end_torg_row_12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Del_no_pair_ord_end_torg_row_12.AutoSize = true;
+            this.Del_no_pair_ord_end_torg_row_12.Location = new System.Drawing.Point(806, 343);
+            this.Del_no_pair_ord_end_torg_row_12.Name = "Del_no_pair_ord_end_torg_row_12";
+            this.Del_no_pair_ord_end_torg_row_12.Size = new System.Drawing.Size(94, 19);
+            this.Del_no_pair_ord_end_torg_row_12.TabIndex = 98;
+            this.Del_no_pair_ord_end_torg_row_12.UseVisualStyleBackColor = true;
+            // 
+            // On_delay_otkup
+            // 
+            this.On_delay_otkup.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.On_delay_otkup.AutoSize = true;
+            this.On_delay_otkup.Location = new System.Drawing.Point(906, 0);
+            this.On_delay_otkup.Name = "On_delay_otkup";
+            this.On_delay_otkup.Size = new System.Drawing.Size(94, 52);
+            this.On_delay_otkup.TabIndex = 99;
+            this.On_delay_otkup.Text = "Включить отсрочку откупа";
+            // 
+            // On_delay_otkup_row_0
+            // 
+            this.On_delay_otkup_row_0.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.On_delay_otkup_row_0.AutoSize = true;
+            this.On_delay_otkup_row_0.Location = new System.Drawing.Point(906, 55);
+            this.On_delay_otkup_row_0.Name = "On_delay_otkup_row_0";
+            this.On_delay_otkup_row_0.Size = new System.Drawing.Size(94, 18);
+            this.On_delay_otkup_row_0.TabIndex = 100;
+            this.On_delay_otkup_row_0.UseVisualStyleBackColor = true;
+            // 
+            // On_delay_otkup_row_1
+            // 
+            this.On_delay_otkup_row_1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.On_delay_otkup_row_1.AutoSize = true;
+            this.On_delay_otkup_row_1.Location = new System.Drawing.Point(906, 79);
+            this.On_delay_otkup_row_1.Name = "On_delay_otkup_row_1";
+            this.On_delay_otkup_row_1.Size = new System.Drawing.Size(94, 18);
+            this.On_delay_otkup_row_1.TabIndex = 101;
+            this.On_delay_otkup_row_1.UseVisualStyleBackColor = true;
+            // 
+            // On_delay_otkup_row_2
+            // 
+            this.On_delay_otkup_row_2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.On_delay_otkup_row_2.AutoSize = true;
+            this.On_delay_otkup_row_2.Location = new System.Drawing.Point(906, 103);
+            this.On_delay_otkup_row_2.Name = "On_delay_otkup_row_2";
+            this.On_delay_otkup_row_2.Size = new System.Drawing.Size(94, 18);
+            this.On_delay_otkup_row_2.TabIndex = 102;
+            this.On_delay_otkup_row_2.UseVisualStyleBackColor = true;
+            // 
+            // On_delay_otkup_row_3
+            // 
+            this.On_delay_otkup_row_3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.On_delay_otkup_row_3.AutoSize = true;
+            this.On_delay_otkup_row_3.Location = new System.Drawing.Point(906, 127);
+            this.On_delay_otkup_row_3.Name = "On_delay_otkup_row_3";
+            this.On_delay_otkup_row_3.Size = new System.Drawing.Size(94, 18);
+            this.On_delay_otkup_row_3.TabIndex = 103;
+            this.On_delay_otkup_row_3.UseVisualStyleBackColor = true;
+            // 
+            // On_delay_otkup_row_4
+            // 
+            this.On_delay_otkup_row_4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.On_delay_otkup_row_4.AutoSize = true;
+            this.On_delay_otkup_row_4.Location = new System.Drawing.Point(906, 151);
+            this.On_delay_otkup_row_4.Name = "On_delay_otkup_row_4";
+            this.On_delay_otkup_row_4.Size = new System.Drawing.Size(94, 18);
+            this.On_delay_otkup_row_4.TabIndex = 104;
+            this.On_delay_otkup_row_4.UseVisualStyleBackColor = true;
+            // 
+            // On_delay_otkup_row_5
+            // 
+            this.On_delay_otkup_row_5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.On_delay_otkup_row_5.AutoSize = true;
+            this.On_delay_otkup_row_5.Location = new System.Drawing.Point(906, 175);
+            this.On_delay_otkup_row_5.Name = "On_delay_otkup_row_5";
+            this.On_delay_otkup_row_5.Size = new System.Drawing.Size(94, 18);
+            this.On_delay_otkup_row_5.TabIndex = 105;
+            this.On_delay_otkup_row_5.UseVisualStyleBackColor = true;
+            // 
+            // On_delay_otkup_row_6
+            // 
+            this.On_delay_otkup_row_6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.On_delay_otkup_row_6.AutoSize = true;
+            this.On_delay_otkup_row_6.Location = new System.Drawing.Point(906, 199);
+            this.On_delay_otkup_row_6.Name = "On_delay_otkup_row_6";
+            this.On_delay_otkup_row_6.Size = new System.Drawing.Size(94, 18);
+            this.On_delay_otkup_row_6.TabIndex = 106;
+            this.On_delay_otkup_row_6.UseVisualStyleBackColor = true;
+            // 
+            // On_delay_otkup_row_7
+            // 
+            this.On_delay_otkup_row_7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.On_delay_otkup_row_7.AutoSize = true;
+            this.On_delay_otkup_row_7.Location = new System.Drawing.Point(906, 223);
+            this.On_delay_otkup_row_7.Name = "On_delay_otkup_row_7";
+            this.On_delay_otkup_row_7.Size = new System.Drawing.Size(94, 18);
+            this.On_delay_otkup_row_7.TabIndex = 107;
+            this.On_delay_otkup_row_7.UseVisualStyleBackColor = true;
+            // 
+            // On_delay_otkup_row_8
+            // 
+            this.On_delay_otkup_row_8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.On_delay_otkup_row_8.AutoSize = true;
+            this.On_delay_otkup_row_8.Location = new System.Drawing.Point(906, 247);
+            this.On_delay_otkup_row_8.Name = "On_delay_otkup_row_8";
+            this.On_delay_otkup_row_8.Size = new System.Drawing.Size(94, 18);
+            this.On_delay_otkup_row_8.TabIndex = 108;
+            this.On_delay_otkup_row_8.UseVisualStyleBackColor = true;
+            // 
+            // On_delay_otkup_row_9
+            // 
+            this.On_delay_otkup_row_9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.On_delay_otkup_row_9.AutoSize = true;
+            this.On_delay_otkup_row_9.Location = new System.Drawing.Point(906, 271);
+            this.On_delay_otkup_row_9.Name = "On_delay_otkup_row_9";
+            this.On_delay_otkup_row_9.Size = new System.Drawing.Size(94, 18);
+            this.On_delay_otkup_row_9.TabIndex = 109;
+            this.On_delay_otkup_row_9.UseVisualStyleBackColor = true;
+            // 
+            // On_delay_otkup_row_10
+            // 
+            this.On_delay_otkup_row_10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.On_delay_otkup_row_10.AutoSize = true;
+            this.On_delay_otkup_row_10.Location = new System.Drawing.Point(906, 295);
+            this.On_delay_otkup_row_10.Name = "On_delay_otkup_row_10";
+            this.On_delay_otkup_row_10.Size = new System.Drawing.Size(94, 18);
+            this.On_delay_otkup_row_10.TabIndex = 110;
+            this.On_delay_otkup_row_10.UseVisualStyleBackColor = true;
+            // 
+            // On_delay_otkup_row_11
+            // 
+            this.On_delay_otkup_row_11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.On_delay_otkup_row_11.AutoSize = true;
+            this.On_delay_otkup_row_11.Location = new System.Drawing.Point(906, 319);
+            this.On_delay_otkup_row_11.Name = "On_delay_otkup_row_11";
+            this.On_delay_otkup_row_11.Size = new System.Drawing.Size(94, 18);
+            this.On_delay_otkup_row_11.TabIndex = 111;
+            this.On_delay_otkup_row_11.UseVisualStyleBackColor = true;
+            // 
+            // On_delay_otkup_row_12
+            // 
+            this.On_delay_otkup_row_12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.On_delay_otkup_row_12.AutoSize = true;
+            this.On_delay_otkup_row_12.Location = new System.Drawing.Point(906, 343);
+            this.On_delay_otkup_row_12.Name = "On_delay_otkup_row_12";
+            this.On_delay_otkup_row_12.Size = new System.Drawing.Size(94, 19);
+            this.On_delay_otkup_row_12.TabIndex = 112;
+            this.On_delay_otkup_row_12.UseVisualStyleBackColor = true;
+            // 
+            // Series_minus_deal
+            // 
+            this.Series_minus_deal.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Series_minus_deal.AutoSize = true;
+            this.Series_minus_deal.Location = new System.Drawing.Point(1006, 0);
+            this.Series_minus_deal.Name = "Series_minus_deal";
+            this.Series_minus_deal.Size = new System.Drawing.Size(94, 52);
+            this.Series_minus_deal.TabIndex = 113;
+            this.Series_minus_deal.Text = "Серия минусовых сделок";
+            // 
+            // Series_minus_deal_row_0
+            // 
+            this.Series_minus_deal_row_0.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Series_minus_deal_row_0.Location = new System.Drawing.Point(1006, 55);
+            this.Series_minus_deal_row_0.Name = "Series_minus_deal_row_0";
+            this.Series_minus_deal_row_0.Size = new System.Drawing.Size(94, 22);
+            this.Series_minus_deal_row_0.TabIndex = 114;
+            this.Series_minus_deal_row_0.Text = "1";
+            // 
+            // Series_minus_deal_row_1
+            // 
+            this.Series_minus_deal_row_1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Series_minus_deal_row_1.Location = new System.Drawing.Point(1006, 79);
+            this.Series_minus_deal_row_1.Name = "Series_minus_deal_row_1";
+            this.Series_minus_deal_row_1.Size = new System.Drawing.Size(94, 22);
+            this.Series_minus_deal_row_1.TabIndex = 115;
+            this.Series_minus_deal_row_1.Text = "1";
+            // 
+            // Series_minus_deal_row_2
+            // 
+            this.Series_minus_deal_row_2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Series_minus_deal_row_2.Location = new System.Drawing.Point(1006, 103);
+            this.Series_minus_deal_row_2.Name = "Series_minus_deal_row_2";
+            this.Series_minus_deal_row_2.Size = new System.Drawing.Size(94, 22);
+            this.Series_minus_deal_row_2.TabIndex = 116;
+            this.Series_minus_deal_row_2.Text = "1";
+            // 
+            // Series_minus_deal_row_3
+            // 
+            this.Series_minus_deal_row_3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Series_minus_deal_row_3.Location = new System.Drawing.Point(1006, 127);
+            this.Series_minus_deal_row_3.Name = "Series_minus_deal_row_3";
+            this.Series_minus_deal_row_3.Size = new System.Drawing.Size(94, 22);
+            this.Series_minus_deal_row_3.TabIndex = 117;
+            this.Series_minus_deal_row_3.Text = "1";
+            // 
+            // Series_minus_deal_row_4
+            // 
+            this.Series_minus_deal_row_4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Series_minus_deal_row_4.Location = new System.Drawing.Point(1006, 151);
+            this.Series_minus_deal_row_4.Name = "Series_minus_deal_row_4";
+            this.Series_minus_deal_row_4.Size = new System.Drawing.Size(94, 22);
+            this.Series_minus_deal_row_4.TabIndex = 118;
+            this.Series_minus_deal_row_4.Text = "1";
+            // 
+            // Series_minus_deal_row_5
+            // 
+            this.Series_minus_deal_row_5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Series_minus_deal_row_5.Location = new System.Drawing.Point(1006, 175);
+            this.Series_minus_deal_row_5.Name = "Series_minus_deal_row_5";
+            this.Series_minus_deal_row_5.Size = new System.Drawing.Size(94, 22);
+            this.Series_minus_deal_row_5.TabIndex = 119;
+            this.Series_minus_deal_row_5.Text = "1";
+            // 
+            // Series_minus_deal_row_6
+            // 
+            this.Series_minus_deal_row_6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Series_minus_deal_row_6.Location = new System.Drawing.Point(1006, 199);
+            this.Series_minus_deal_row_6.Name = "Series_minus_deal_row_6";
+            this.Series_minus_deal_row_6.Size = new System.Drawing.Size(94, 22);
+            this.Series_minus_deal_row_6.TabIndex = 120;
+            this.Series_minus_deal_row_6.Text = "1";
+            // 
+            // Series_minus_deal_row_7
+            // 
+            this.Series_minus_deal_row_7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Series_minus_deal_row_7.Location = new System.Drawing.Point(1006, 223);
+            this.Series_minus_deal_row_7.Name = "Series_minus_deal_row_7";
+            this.Series_minus_deal_row_7.Size = new System.Drawing.Size(94, 22);
+            this.Series_minus_deal_row_7.TabIndex = 121;
+            this.Series_minus_deal_row_7.Text = "1";
+            // 
+            // Series_minus_deal_row_8
+            // 
+            this.Series_minus_deal_row_8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Series_minus_deal_row_8.Location = new System.Drawing.Point(1006, 247);
+            this.Series_minus_deal_row_8.Name = "Series_minus_deal_row_8";
+            this.Series_minus_deal_row_8.Size = new System.Drawing.Size(94, 22);
+            this.Series_minus_deal_row_8.TabIndex = 122;
+            this.Series_minus_deal_row_8.Text = "1";
+            // 
+            // Series_minus_deal_row_9
+            // 
+            this.Series_minus_deal_row_9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Series_minus_deal_row_9.Location = new System.Drawing.Point(1006, 271);
+            this.Series_minus_deal_row_9.Name = "Series_minus_deal_row_9";
+            this.Series_minus_deal_row_9.Size = new System.Drawing.Size(94, 22);
+            this.Series_minus_deal_row_9.TabIndex = 123;
+            this.Series_minus_deal_row_9.Text = "1";
+            // 
+            // Series_minus_deal_row_10
+            // 
+            this.Series_minus_deal_row_10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Series_minus_deal_row_10.Location = new System.Drawing.Point(1006, 295);
+            this.Series_minus_deal_row_10.Name = "Series_minus_deal_row_10";
+            this.Series_minus_deal_row_10.Size = new System.Drawing.Size(94, 22);
+            this.Series_minus_deal_row_10.TabIndex = 124;
+            this.Series_minus_deal_row_10.Text = "1";
+            // 
+            // Series_minus_deal_row_11
+            // 
+            this.Series_minus_deal_row_11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Series_minus_deal_row_11.Location = new System.Drawing.Point(1006, 319);
+            this.Series_minus_deal_row_11.Name = "Series_minus_deal_row_11";
+            this.Series_minus_deal_row_11.Size = new System.Drawing.Size(94, 22);
+            this.Series_minus_deal_row_11.TabIndex = 125;
+            this.Series_minus_deal_row_11.Text = "1";
+            // 
+            // Series_minus_deal_row_12
+            // 
+            this.Series_minus_deal_row_12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Series_minus_deal_row_12.Location = new System.Drawing.Point(1006, 343);
+            this.Series_minus_deal_row_12.Name = "Series_minus_deal_row_12";
+            this.Series_minus_deal_row_12.Size = new System.Drawing.Size(94, 22);
+            this.Series_minus_deal_row_12.TabIndex = 126;
+            this.Series_minus_deal_row_12.Text = "1";
+            // 
+            // Step_add_deposit
+            // 
+            this.Step_add_deposit.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Step_add_deposit.AutoSize = true;
+            this.Step_add_deposit.Location = new System.Drawing.Point(1106, 0);
+            this.Step_add_deposit.Name = "Step_add_deposit";
+            this.Step_add_deposit.Size = new System.Drawing.Size(94, 52);
+            this.Step_add_deposit.TabIndex = 127;
+            this.Step_add_deposit.Text = "Шаг увеличения депозита (от 0 до 100%)";
+            // 
+            // Step_add_deposit_row_0
+            // 
+            this.Step_add_deposit_row_0.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Step_add_deposit_row_0.Location = new System.Drawing.Point(1106, 55);
+            this.Step_add_deposit_row_0.Name = "Step_add_deposit_row_0";
+            this.Step_add_deposit_row_0.Size = new System.Drawing.Size(94, 22);
+            this.Step_add_deposit_row_0.TabIndex = 128;
+            this.Step_add_deposit_row_0.Text = "0.5";
+            // 
+            // Step_add_deposit_row_1
+            // 
+            this.Step_add_deposit_row_1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Step_add_deposit_row_1.Location = new System.Drawing.Point(1106, 79);
+            this.Step_add_deposit_row_1.Name = "Step_add_deposit_row_1";
+            this.Step_add_deposit_row_1.Size = new System.Drawing.Size(94, 22);
+            this.Step_add_deposit_row_1.TabIndex = 129;
+            this.Step_add_deposit_row_1.Text = "0.5";
+            // 
+            // Step_add_deposit_row_2
+            // 
+            this.Step_add_deposit_row_2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Step_add_deposit_row_2.Location = new System.Drawing.Point(1106, 103);
+            this.Step_add_deposit_row_2.Name = "Step_add_deposit_row_2";
+            this.Step_add_deposit_row_2.Size = new System.Drawing.Size(94, 22);
+            this.Step_add_deposit_row_2.TabIndex = 130;
+            this.Step_add_deposit_row_2.Text = "0.5";
+            // 
+            // Step_add_deposit_row_3
+            // 
+            this.Step_add_deposit_row_3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Step_add_deposit_row_3.Location = new System.Drawing.Point(1106, 127);
+            this.Step_add_deposit_row_3.Name = "Step_add_deposit_row_3";
+            this.Step_add_deposit_row_3.Size = new System.Drawing.Size(94, 22);
+            this.Step_add_deposit_row_3.TabIndex = 131;
+            this.Step_add_deposit_row_3.Text = "0.5";
+            // 
+            // Step_add_deposit_row_4
+            // 
+            this.Step_add_deposit_row_4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Step_add_deposit_row_4.Location = new System.Drawing.Point(1106, 151);
+            this.Step_add_deposit_row_4.Name = "Step_add_deposit_row_4";
+            this.Step_add_deposit_row_4.Size = new System.Drawing.Size(94, 22);
+            this.Step_add_deposit_row_4.TabIndex = 132;
+            this.Step_add_deposit_row_4.Text = "0.5";
+            // 
+            // Step_add_deposit_row_5
+            // 
+            this.Step_add_deposit_row_5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Step_add_deposit_row_5.Location = new System.Drawing.Point(1106, 175);
+            this.Step_add_deposit_row_5.Name = "Step_add_deposit_row_5";
+            this.Step_add_deposit_row_5.Size = new System.Drawing.Size(94, 22);
+            this.Step_add_deposit_row_5.TabIndex = 133;
+            this.Step_add_deposit_row_5.Text = "0.5";
+            // 
+            // Step_add_deposit_row_6
+            // 
+            this.Step_add_deposit_row_6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Step_add_deposit_row_6.Location = new System.Drawing.Point(1106, 199);
+            this.Step_add_deposit_row_6.Name = "Step_add_deposit_row_6";
+            this.Step_add_deposit_row_6.Size = new System.Drawing.Size(94, 22);
+            this.Step_add_deposit_row_6.TabIndex = 134;
+            this.Step_add_deposit_row_6.Text = "0.5";
+            // 
+            // Step_add_deposit_row_7
+            // 
+            this.Step_add_deposit_row_7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Step_add_deposit_row_7.Location = new System.Drawing.Point(1106, 223);
+            this.Step_add_deposit_row_7.Name = "Step_add_deposit_row_7";
+            this.Step_add_deposit_row_7.Size = new System.Drawing.Size(94, 22);
+            this.Step_add_deposit_row_7.TabIndex = 135;
+            this.Step_add_deposit_row_7.Text = "0.5";
+            // 
+            // Step_add_deposit_row_8
+            // 
+            this.Step_add_deposit_row_8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Step_add_deposit_row_8.Location = new System.Drawing.Point(1106, 247);
+            this.Step_add_deposit_row_8.Name = "Step_add_deposit_row_8";
+            this.Step_add_deposit_row_8.Size = new System.Drawing.Size(94, 22);
+            this.Step_add_deposit_row_8.TabIndex = 136;
+            this.Step_add_deposit_row_8.Text = "0.5";
+            // 
+            // Step_add_deposit_row_9
+            // 
+            this.Step_add_deposit_row_9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Step_add_deposit_row_9.Location = new System.Drawing.Point(1106, 271);
+            this.Step_add_deposit_row_9.Name = "Step_add_deposit_row_9";
+            this.Step_add_deposit_row_9.Size = new System.Drawing.Size(94, 22);
+            this.Step_add_deposit_row_9.TabIndex = 137;
+            this.Step_add_deposit_row_9.Text = "0.5";
+            // 
+            // Step_add_deposit_row_10
+            // 
+            this.Step_add_deposit_row_10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Step_add_deposit_row_10.Location = new System.Drawing.Point(1106, 295);
+            this.Step_add_deposit_row_10.Name = "Step_add_deposit_row_10";
+            this.Step_add_deposit_row_10.Size = new System.Drawing.Size(94, 22);
+            this.Step_add_deposit_row_10.TabIndex = 138;
+            this.Step_add_deposit_row_10.Text = "0.5";
+            // 
+            // Step_add_deposit_row_11
+            // 
+            this.Step_add_deposit_row_11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Step_add_deposit_row_11.Location = new System.Drawing.Point(1106, 319);
+            this.Step_add_deposit_row_11.Name = "Step_add_deposit_row_11";
+            this.Step_add_deposit_row_11.Size = new System.Drawing.Size(94, 22);
+            this.Step_add_deposit_row_11.TabIndex = 139;
+            this.Step_add_deposit_row_11.Text = "0.5";
+            // 
+            // Step_add_deposit_row_12
+            // 
+            this.Step_add_deposit_row_12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Step_add_deposit_row_12.Location = new System.Drawing.Point(1106, 343);
+            this.Step_add_deposit_row_12.Name = "Step_add_deposit_row_12";
+            this.Step_add_deposit_row_12.Size = new System.Drawing.Size(94, 22);
+            this.Step_add_deposit_row_12.TabIndex = 140;
+            this.Step_add_deposit_row_12.Text = "0.5";
+            // 
+            // Size_deposit
+            // 
+            this.Size_deposit.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Size_deposit.AutoSize = true;
+            this.Size_deposit.Location = new System.Drawing.Point(1206, 0);
+            this.Size_deposit.Name = "Size_deposit";
+            this.Size_deposit.Size = new System.Drawing.Size(99, 52);
+            this.Size_deposit.TabIndex = 141;
+            this.Size_deposit.Text = "Размер депозита (если 0 то авто)";
+            // 
+            // Size_deposit_row_0
+            // 
+            this.Size_deposit_row_0.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Size_deposit_row_0.Location = new System.Drawing.Point(1206, 55);
+            this.Size_deposit_row_0.Name = "Size_deposit_row_0";
+            this.Size_deposit_row_0.Size = new System.Drawing.Size(99, 22);
+            this.Size_deposit_row_0.TabIndex = 142;
+            this.Size_deposit_row_0.Text = "0";
+            // 
+            // Size_deposit_row_1
+            // 
+            this.Size_deposit_row_1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Size_deposit_row_1.Location = new System.Drawing.Point(1206, 79);
+            this.Size_deposit_row_1.Name = "Size_deposit_row_1";
+            this.Size_deposit_row_1.Size = new System.Drawing.Size(99, 22);
+            this.Size_deposit_row_1.TabIndex = 143;
+            this.Size_deposit_row_1.Text = "0";
+            // 
+            // Size_deposit_row_2
+            // 
+            this.Size_deposit_row_2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Size_deposit_row_2.Location = new System.Drawing.Point(1206, 103);
+            this.Size_deposit_row_2.Name = "Size_deposit_row_2";
+            this.Size_deposit_row_2.Size = new System.Drawing.Size(99, 22);
+            this.Size_deposit_row_2.TabIndex = 144;
+            this.Size_deposit_row_2.Text = "0";
+            // 
+            // Size_deposit_row_3
+            // 
+            this.Size_deposit_row_3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Size_deposit_row_3.Location = new System.Drawing.Point(1206, 127);
+            this.Size_deposit_row_3.Name = "Size_deposit_row_3";
+            this.Size_deposit_row_3.Size = new System.Drawing.Size(99, 22);
+            this.Size_deposit_row_3.TabIndex = 145;
+            this.Size_deposit_row_3.Text = "0";
+            // 
+            // Size_deposit_row_4
+            // 
+            this.Size_deposit_row_4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Size_deposit_row_4.Location = new System.Drawing.Point(1206, 151);
+            this.Size_deposit_row_4.Name = "Size_deposit_row_4";
+            this.Size_deposit_row_4.Size = new System.Drawing.Size(99, 22);
+            this.Size_deposit_row_4.TabIndex = 146;
+            this.Size_deposit_row_4.Text = "0";
+            // 
+            // Size_deposit_row_5
+            // 
+            this.Size_deposit_row_5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Size_deposit_row_5.Location = new System.Drawing.Point(1206, 175);
+            this.Size_deposit_row_5.Name = "Size_deposit_row_5";
+            this.Size_deposit_row_5.Size = new System.Drawing.Size(99, 22);
+            this.Size_deposit_row_5.TabIndex = 147;
+            this.Size_deposit_row_5.Text = "0";
+            // 
+            // Size_deposit_row_6
+            // 
+            this.Size_deposit_row_6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Size_deposit_row_6.Location = new System.Drawing.Point(1206, 199);
+            this.Size_deposit_row_6.Name = "Size_deposit_row_6";
+            this.Size_deposit_row_6.Size = new System.Drawing.Size(99, 22);
+            this.Size_deposit_row_6.TabIndex = 148;
+            this.Size_deposit_row_6.Text = "0";
+            // 
+            // Size_deposit_row_7
+            // 
+            this.Size_deposit_row_7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Size_deposit_row_7.Location = new System.Drawing.Point(1206, 223);
+            this.Size_deposit_row_7.Name = "Size_deposit_row_7";
+            this.Size_deposit_row_7.Size = new System.Drawing.Size(99, 22);
+            this.Size_deposit_row_7.TabIndex = 149;
+            this.Size_deposit_row_7.Text = "0";
+            // 
+            // Size_deposit_row_8
+            // 
+            this.Size_deposit_row_8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Size_deposit_row_8.Location = new System.Drawing.Point(1206, 247);
+            this.Size_deposit_row_8.Name = "Size_deposit_row_8";
+            this.Size_deposit_row_8.Size = new System.Drawing.Size(99, 22);
+            this.Size_deposit_row_8.TabIndex = 150;
+            this.Size_deposit_row_8.Text = "0";
+            // 
+            // Size_deposit_row_9
+            // 
+            this.Size_deposit_row_9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Size_deposit_row_9.Location = new System.Drawing.Point(1206, 271);
+            this.Size_deposit_row_9.Name = "Size_deposit_row_9";
+            this.Size_deposit_row_9.Size = new System.Drawing.Size(99, 22);
+            this.Size_deposit_row_9.TabIndex = 151;
+            this.Size_deposit_row_9.Text = "0";
+            // 
+            // Size_deposit_row_10
+            // 
+            this.Size_deposit_row_10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Size_deposit_row_10.Location = new System.Drawing.Point(1206, 295);
+            this.Size_deposit_row_10.Name = "Size_deposit_row_10";
+            this.Size_deposit_row_10.Size = new System.Drawing.Size(99, 22);
+            this.Size_deposit_row_10.TabIndex = 152;
+            this.Size_deposit_row_10.Text = "0";
+            // 
+            // Size_deposit_row_11
+            // 
+            this.Size_deposit_row_11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Size_deposit_row_11.Location = new System.Drawing.Point(1206, 319);
+            this.Size_deposit_row_11.Name = "Size_deposit_row_11";
+            this.Size_deposit_row_11.Size = new System.Drawing.Size(99, 22);
+            this.Size_deposit_row_11.TabIndex = 153;
+            this.Size_deposit_row_11.Text = "0";
+            // 
+            // Size_deposit_row_12
+            // 
+            this.Size_deposit_row_12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Size_deposit_row_12.Location = new System.Drawing.Point(1206, 343);
+            this.Size_deposit_row_12.Name = "Size_deposit_row_12";
+            this.Size_deposit_row_12.Size = new System.Drawing.Size(99, 22);
+            this.Size_deposit_row_12.TabIndex = 154;
+            this.Size_deposit_row_12.Text = "0";
             // 
             // indicator_page
             // 
@@ -4968,7 +6297,6 @@
             this.Table_main_order.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.666667F));
             this.Table_main_order.Size = new System.Drawing.Size(1317, 365);
             this.Table_main_order.TabIndex = 2;
-            this.Table_main_order.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint_1);
             // 
             // Symb_row_12_m_ord
             // 
@@ -7275,7 +8603,7 @@
             this.Value_parts_take_m_ord_row_0.Name = "Value_parts_take_m_ord_row_0";
             this.Value_parts_take_m_ord_row_0.Size = new System.Drawing.Size(111, 22);
             this.Value_parts_take_m_ord_row_0.TabIndex = 355;
-            this.Value_parts_take_m_ord_row_0.Text = "0,046:0,136;0,27";
+            this.Value_parts_take_m_ord_row_0.Text = "0,046;0,136;0,27";
             // 
             // Value_parts_take_m_ord_row_1
             // 
@@ -7286,7 +8614,7 @@
             this.Value_parts_take_m_ord_row_1.Name = "Value_parts_take_m_ord_row_1";
             this.Value_parts_take_m_ord_row_1.Size = new System.Drawing.Size(111, 22);
             this.Value_parts_take_m_ord_row_1.TabIndex = 356;
-            this.Value_parts_take_m_ord_row_1.Text = "0,046:0,136;0,27";
+            this.Value_parts_take_m_ord_row_1.Text = "0,046;0,136;0,27";
             // 
             // Value_parts_take_m_ord_row_2
             // 
@@ -7297,7 +8625,7 @@
             this.Value_parts_take_m_ord_row_2.Name = "Value_parts_take_m_ord_row_2";
             this.Value_parts_take_m_ord_row_2.Size = new System.Drawing.Size(111, 22);
             this.Value_parts_take_m_ord_row_2.TabIndex = 357;
-            this.Value_parts_take_m_ord_row_2.Text = "0,046:0,136;0,27";
+            this.Value_parts_take_m_ord_row_2.Text = "0,046;0,136;0,27";
             // 
             // Value_parts_take_m_ord_row_3
             // 
@@ -7308,7 +8636,7 @@
             this.Value_parts_take_m_ord_row_3.Name = "Value_parts_take_m_ord_row_3";
             this.Value_parts_take_m_ord_row_3.Size = new System.Drawing.Size(111, 22);
             this.Value_parts_take_m_ord_row_3.TabIndex = 358;
-            this.Value_parts_take_m_ord_row_3.Text = "0,046:0,136;0,27";
+            this.Value_parts_take_m_ord_row_3.Text = "0,046;0,136;0,27";
             // 
             // Value_parts_take_m_ord_row_4
             // 
@@ -7319,7 +8647,7 @@
             this.Value_parts_take_m_ord_row_4.Name = "Value_parts_take_m_ord_row_4";
             this.Value_parts_take_m_ord_row_4.Size = new System.Drawing.Size(111, 22);
             this.Value_parts_take_m_ord_row_4.TabIndex = 359;
-            this.Value_parts_take_m_ord_row_4.Text = "0,046:0,136;0,27";
+            this.Value_parts_take_m_ord_row_4.Text = "0,046;0,136;0,27";
             // 
             // Value_parts_take_m_ord_row_5
             // 
@@ -7330,7 +8658,7 @@
             this.Value_parts_take_m_ord_row_5.Name = "Value_parts_take_m_ord_row_5";
             this.Value_parts_take_m_ord_row_5.Size = new System.Drawing.Size(111, 22);
             this.Value_parts_take_m_ord_row_5.TabIndex = 360;
-            this.Value_parts_take_m_ord_row_5.Text = "0,046:0,136;0,27";
+            this.Value_parts_take_m_ord_row_5.Text = "0,046;0,136;0,27";
             // 
             // Value_parts_take_m_ord_row_6
             // 
@@ -7341,7 +8669,7 @@
             this.Value_parts_take_m_ord_row_6.Name = "Value_parts_take_m_ord_row_6";
             this.Value_parts_take_m_ord_row_6.Size = new System.Drawing.Size(111, 22);
             this.Value_parts_take_m_ord_row_6.TabIndex = 361;
-            this.Value_parts_take_m_ord_row_6.Text = "0,046:0,136;0,27";
+            this.Value_parts_take_m_ord_row_6.Text = "0,046;0,136;0,27";
             // 
             // Value_parts_take_m_ord_row_7
             // 
@@ -7352,7 +8680,7 @@
             this.Value_parts_take_m_ord_row_7.Name = "Value_parts_take_m_ord_row_7";
             this.Value_parts_take_m_ord_row_7.Size = new System.Drawing.Size(111, 22);
             this.Value_parts_take_m_ord_row_7.TabIndex = 362;
-            this.Value_parts_take_m_ord_row_7.Text = "0,046:0,136;0,27";
+            this.Value_parts_take_m_ord_row_7.Text = "0,046;0,136;0,27";
             // 
             // Value_parts_take_m_ord_row_8
             // 
@@ -7363,7 +8691,7 @@
             this.Value_parts_take_m_ord_row_8.Name = "Value_parts_take_m_ord_row_8";
             this.Value_parts_take_m_ord_row_8.Size = new System.Drawing.Size(111, 22);
             this.Value_parts_take_m_ord_row_8.TabIndex = 363;
-            this.Value_parts_take_m_ord_row_8.Text = "0,046:0,136;0,27";
+            this.Value_parts_take_m_ord_row_8.Text = "0,046;0,136;0,27";
             // 
             // Value_parts_take_m_ord_row_9
             // 
@@ -7374,7 +8702,7 @@
             this.Value_parts_take_m_ord_row_9.Name = "Value_parts_take_m_ord_row_9";
             this.Value_parts_take_m_ord_row_9.Size = new System.Drawing.Size(111, 22);
             this.Value_parts_take_m_ord_row_9.TabIndex = 364;
-            this.Value_parts_take_m_ord_row_9.Text = "0,046:0,136;0,27";
+            this.Value_parts_take_m_ord_row_9.Text = "0,046;0,136;0,27";
             // 
             // Value_parts_take_m_ord_row_10
             // 
@@ -7385,7 +8713,7 @@
             this.Value_parts_take_m_ord_row_10.Name = "Value_parts_take_m_ord_row_10";
             this.Value_parts_take_m_ord_row_10.Size = new System.Drawing.Size(111, 22);
             this.Value_parts_take_m_ord_row_10.TabIndex = 365;
-            this.Value_parts_take_m_ord_row_10.Text = "0,046:0,136;0,27";
+            this.Value_parts_take_m_ord_row_10.Text = "0,046;0,136;0,27";
             // 
             // Value_parts_take_m_ord_row_11
             // 
@@ -7396,7 +8724,7 @@
             this.Value_parts_take_m_ord_row_11.Name = "Value_parts_take_m_ord_row_11";
             this.Value_parts_take_m_ord_row_11.Size = new System.Drawing.Size(111, 22);
             this.Value_parts_take_m_ord_row_11.TabIndex = 366;
-            this.Value_parts_take_m_ord_row_11.Text = "0,046:0,136;0,27";
+            this.Value_parts_take_m_ord_row_11.Text = "0,046;0,136;0,27";
             // 
             // Value_parts_take_m_ord_row_12
             // 
@@ -7407,7 +8735,7 @@
             this.Value_parts_take_m_ord_row_12.Name = "Value_parts_take_m_ord_row_12";
             this.Value_parts_take_m_ord_row_12.Size = new System.Drawing.Size(111, 22);
             this.Value_parts_take_m_ord_row_12.TabIndex = 367;
-            this.Value_parts_take_m_ord_row_12.Text = "0,046:0,136;0,27";
+            this.Value_parts_take_m_ord_row_12.Text = "0,046;0,136;0,27";
             // 
             // Stop_m_ord
             // 
@@ -11350,7 +12678,7 @@
             this.Value_parts_take_h_ord_row_0.Name = "Value_parts_take_h_ord_row_0";
             this.Value_parts_take_h_ord_row_0.Size = new System.Drawing.Size(111, 22);
             this.Value_parts_take_h_ord_row_0.TabIndex = 355;
-            this.Value_parts_take_h_ord_row_0.Text = "0,046:0,136;0,27";
+            this.Value_parts_take_h_ord_row_0.Text = "0,046;0,136;0,27";
             // 
             // Value_parts_take_h_ord_row_1
             // 
@@ -11361,7 +12689,7 @@
             this.Value_parts_take_h_ord_row_1.Name = "Value_parts_take_h_ord_row_1";
             this.Value_parts_take_h_ord_row_1.Size = new System.Drawing.Size(111, 22);
             this.Value_parts_take_h_ord_row_1.TabIndex = 356;
-            this.Value_parts_take_h_ord_row_1.Text = "0,046:0,136;0,27";
+            this.Value_parts_take_h_ord_row_1.Text = "0,046;0,136;0,27";
             // 
             // Value_parts_take_h_ord_row_2
             // 
@@ -11372,7 +12700,7 @@
             this.Value_parts_take_h_ord_row_2.Name = "Value_parts_take_h_ord_row_2";
             this.Value_parts_take_h_ord_row_2.Size = new System.Drawing.Size(111, 22);
             this.Value_parts_take_h_ord_row_2.TabIndex = 357;
-            this.Value_parts_take_h_ord_row_2.Text = "0,046:0,136;0,27";
+            this.Value_parts_take_h_ord_row_2.Text = "0,046;0,136;0,27";
             // 
             // Value_parts_take_h_ord_row_3
             // 
@@ -11383,7 +12711,7 @@
             this.Value_parts_take_h_ord_row_3.Name = "Value_parts_take_h_ord_row_3";
             this.Value_parts_take_h_ord_row_3.Size = new System.Drawing.Size(111, 22);
             this.Value_parts_take_h_ord_row_3.TabIndex = 358;
-            this.Value_parts_take_h_ord_row_3.Text = "0,046:0,136;0,27";
+            this.Value_parts_take_h_ord_row_3.Text = "0,046;0,136;0,27";
             // 
             // Value_parts_take_h_ord_row_4
             // 
@@ -11394,7 +12722,7 @@
             this.Value_parts_take_h_ord_row_4.Name = "Value_parts_take_h_ord_row_4";
             this.Value_parts_take_h_ord_row_4.Size = new System.Drawing.Size(111, 22);
             this.Value_parts_take_h_ord_row_4.TabIndex = 359;
-            this.Value_parts_take_h_ord_row_4.Text = "0,046:0,136;0,27";
+            this.Value_parts_take_h_ord_row_4.Text = "0,046;0,136;0,27";
             // 
             // Value_parts_take_h_ord_row_5
             // 
@@ -11405,7 +12733,7 @@
             this.Value_parts_take_h_ord_row_5.Name = "Value_parts_take_h_ord_row_5";
             this.Value_parts_take_h_ord_row_5.Size = new System.Drawing.Size(111, 22);
             this.Value_parts_take_h_ord_row_5.TabIndex = 360;
-            this.Value_parts_take_h_ord_row_5.Text = "0,046:0,136;0,27";
+            this.Value_parts_take_h_ord_row_5.Text = "0,046;0,136;0,27";
             // 
             // Value_parts_take_h_ord_row_6
             // 
@@ -11416,7 +12744,7 @@
             this.Value_parts_take_h_ord_row_6.Name = "Value_parts_take_h_ord_row_6";
             this.Value_parts_take_h_ord_row_6.Size = new System.Drawing.Size(111, 22);
             this.Value_parts_take_h_ord_row_6.TabIndex = 361;
-            this.Value_parts_take_h_ord_row_6.Text = "0,046:0,136;0,27";
+            this.Value_parts_take_h_ord_row_6.Text = "0,046;0,136;0,27";
             // 
             // Value_parts_take_h_ord_row_7
             // 
@@ -11427,7 +12755,7 @@
             this.Value_parts_take_h_ord_row_7.Name = "Value_parts_take_h_ord_row_7";
             this.Value_parts_take_h_ord_row_7.Size = new System.Drawing.Size(111, 22);
             this.Value_parts_take_h_ord_row_7.TabIndex = 362;
-            this.Value_parts_take_h_ord_row_7.Text = "0,046:0,136;0,27";
+            this.Value_parts_take_h_ord_row_7.Text = "0,046;0,136;0,27";
             // 
             // Value_parts_take_h_ord_row_8
             // 
@@ -11438,7 +12766,7 @@
             this.Value_parts_take_h_ord_row_8.Name = "Value_parts_take_h_ord_row_8";
             this.Value_parts_take_h_ord_row_8.Size = new System.Drawing.Size(111, 22);
             this.Value_parts_take_h_ord_row_8.TabIndex = 363;
-            this.Value_parts_take_h_ord_row_8.Text = "0,046:0,136;0,27";
+            this.Value_parts_take_h_ord_row_8.Text = "0,046;0,136;0,27";
             // 
             // Value_parts_take_h_ord_row_9
             // 
@@ -11449,7 +12777,7 @@
             this.Value_parts_take_h_ord_row_9.Name = "Value_parts_take_h_ord_row_9";
             this.Value_parts_take_h_ord_row_9.Size = new System.Drawing.Size(111, 22);
             this.Value_parts_take_h_ord_row_9.TabIndex = 364;
-            this.Value_parts_take_h_ord_row_9.Text = "0,046:0,136;0,27";
+            this.Value_parts_take_h_ord_row_9.Text = "0,046;0,136;0,27";
             // 
             // Value_parts_take_h_ord_row_10
             // 
@@ -11460,7 +12788,7 @@
             this.Value_parts_take_h_ord_row_10.Name = "Value_parts_take_h_ord_row_10";
             this.Value_parts_take_h_ord_row_10.Size = new System.Drawing.Size(111, 22);
             this.Value_parts_take_h_ord_row_10.TabIndex = 365;
-            this.Value_parts_take_h_ord_row_10.Text = "0,046:0,136;0,27";
+            this.Value_parts_take_h_ord_row_10.Text = "0,046;0,136;0,27";
             // 
             // Value_parts_take_h_ord_row_11
             // 
@@ -11471,7 +12799,7 @@
             this.Value_parts_take_h_ord_row_11.Name = "Value_parts_take_h_ord_row_11";
             this.Value_parts_take_h_ord_row_11.Size = new System.Drawing.Size(111, 22);
             this.Value_parts_take_h_ord_row_11.TabIndex = 366;
-            this.Value_parts_take_h_ord_row_11.Text = "0,046:0,136;0,27";
+            this.Value_parts_take_h_ord_row_11.Text = "0,046;0,136;0,27";
             // 
             // Value_parts_take_h_ord_row_12
             // 
@@ -11482,7 +12810,7 @@
             this.Value_parts_take_h_ord_row_12.Name = "Value_parts_take_h_ord_row_12";
             this.Value_parts_take_h_ord_row_12.Size = new System.Drawing.Size(111, 22);
             this.Value_parts_take_h_ord_row_12.TabIndex = 367;
-            this.Value_parts_take_h_ord_row_12.Text = "0,046:0,136;0,27";
+            this.Value_parts_take_h_ord_row_12.Text = "0,046;0,136;0,27";
             // 
             // Stop_h_ord
             // 
@@ -12763,104 +14091,59 @@
             this.Otkup_minus_h_order_row_12.TabIndex = 479;
             this.Otkup_minus_h_order_row_12.UseVisualStyleBackColor = true;
             // 
-            // tabPage1
+            // gen_param_page
             // 
-            this.tabPage1.Controls.Add(this.Tabel_common_params);
-            this.tabPage1.Location = new System.Drawing.Point(4, 4);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1352, 384);
-            this.tabPage1.TabIndex = 4;
-            this.tabPage1.Text = "Общие параметры";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            this.gen_param_page.Controls.Add(this.Tabel_common_params);
+            this.gen_param_page.Location = new System.Drawing.Point(4, 4);
+            this.gen_param_page.Name = "gen_param_page";
+            this.gen_param_page.Padding = new System.Windows.Forms.Padding(3);
+            this.gen_param_page.Size = new System.Drawing.Size(1352, 384);
+            this.gen_param_page.TabIndex = 4;
+            this.gen_param_page.Text = "Общие параметры";
+            this.gen_param_page.UseVisualStyleBackColor = true;
             // 
             // Tabel_common_params
             // 
             this.Tabel_common_params.ColumnCount = 2;
             this.Tabel_common_params.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 80F));
             this.Tabel_common_params.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.Tabel_common_params.Controls.Add(this.Use_time_filtr, 0, 0);
-            this.Tabel_common_params.Controls.Add(this.Use_time_filtr_control, 1, 0);
-            this.Tabel_common_params.Controls.Add(this.Time_start, 0, 1);
-            this.Tabel_common_params.Controls.Add(this.Time_start_control, 1, 1);
-            this.Tabel_common_params.Controls.Add(this.Time_end, 0, 2);
-            this.Tabel_common_params.Controls.Add(this.Time_end_control, 1, 2);
-            this.Tabel_common_params.Controls.Add(this.Close_all_pos_end_trade, 0, 3);
-            this.Tabel_common_params.Controls.Add(this.Close_all_pos_end_trade_control, 1, 3);
-            this.Tabel_common_params.Controls.Add(this.Del_order_end_trade, 0, 4);
-            this.Tabel_common_params.Controls.Add(this.Del_order_end_trade_control, 1, 4);
-            this.Tabel_common_params.Controls.Add(this.Koeff_add_vol, 0, 5);
-            this.Tabel_common_params.Controls.Add(this.Koeff_add_vol_control, 1, 5);
-            this.Tabel_common_params.Controls.Add(this.Use_comission, 0, 6);
-            this.Tabel_common_params.Controls.Add(this.Use_comission_control, 1, 6);
-            this.Tabel_common_params.Controls.Add(this.Use_delay_otkup, 0, 7);
-            this.Tabel_common_params.Controls.Add(this.Use_delay_otkup_control, 1, 7);
-            this.Tabel_common_params.Controls.Add(this.Series_minus_deals, 0, 8);
-            this.Tabel_common_params.Controls.Add(this.Series_minus_deals_control, 1, 8);
-            this.Tabel_common_params.Controls.Add(this.Step_add_deposit, 0, 9);
-            this.Tabel_common_params.Controls.Add(this.Step_add_deposit_control, 1, 9);
-            this.Tabel_common_params.Controls.Add(this.Max_growth_deposit_reset, 0, 10);
-            this.Tabel_common_params.Controls.Add(this.Max_growth_deposit_reset_control, 1, 10);
-            this.Tabel_common_params.Controls.Add(this.Use_reset_data_otkup, 0, 11);
-            this.Tabel_common_params.Controls.Add(this.Use_reset_data_otkup_control, 1, 11);
-            this.Tabel_common_params.Controls.Add(this.Max_spread, 0, 12);
-            this.Tabel_common_params.Controls.Add(this.Max_spread_control, 1, 12);
-            this.Tabel_common_params.Controls.Add(this.Using_tester, 0, 13);
-            this.Tabel_common_params.Controls.Add(this.Using_tester_control, 1, 13);
-            this.Tabel_common_params.Controls.Add(this.Unit_stop_take, 0, 14);
-            this.Tabel_common_params.Controls.Add(this.Unit_stop_take_control, 1, 14);
-            this.Tabel_common_params.Controls.Add(this.Size_deposit, 0, 15);
-            this.Tabel_common_params.Controls.Add(this.Size_deposit_control, 1, 15);
-            this.Tabel_common_params.Controls.Add(this.Print_comments, 0, 16);
-            this.Tabel_common_params.Controls.Add(this.Print_comments_control, 1, 16);
+            this.Tabel_common_params.Controls.Add(this.Time_start, 0, 0);
+            this.Tabel_common_params.Controls.Add(this.Time_start_control, 1, 0);
+            this.Tabel_common_params.Controls.Add(this.Time_end, 0, 1);
+            this.Tabel_common_params.Controls.Add(this.Max_growth_deposit_reset, 0, 4);
+            this.Tabel_common_params.Controls.Add(this.Max_growth_deposit_reset_control, 1, 4);
+            this.Tabel_common_params.Controls.Add(this.Use_reset_data_otkup, 0, 5);
+            this.Tabel_common_params.Controls.Add(this.Use_reset_data_otkup_control, 1, 5);
+            this.Tabel_common_params.Controls.Add(this.Max_spread, 0, 6);
+            this.Tabel_common_params.Controls.Add(this.Max_spread_control, 1, 6);
+            this.Tabel_common_params.Controls.Add(this.Using_tester, 0, 7);
+            this.Tabel_common_params.Controls.Add(this.Using_tester_control, 1, 7);
+            this.Tabel_common_params.Controls.Add(this.Unit_stop_take, 0, 8);
+            this.Tabel_common_params.Controls.Add(this.Unit_stop_take_control, 1, 8);
+            this.Tabel_common_params.Controls.Add(this.Print_comments, 0, 9);
+            this.Tabel_common_params.Controls.Add(this.Print_comments_control, 1, 9);
+            this.Tabel_common_params.Controls.Add(this.Time_end_control, 1, 1);
+            this.Tabel_common_params.Controls.Add(this.Coeff_add_vol, 0, 2);
+            this.Tabel_common_params.Controls.Add(this.Coeff_add_vol_control, 1, 2);
+            this.Tabel_common_params.Controls.Add(this.Use_comission, 0, 3);
+            this.Tabel_common_params.Controls.Add(this.Use_comission_control, 1, 3);
             this.Tabel_common_params.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Tabel_common_params.Location = new System.Drawing.Point(50, 3);
             this.Tabel_common_params.Name = "Tabel_common_params";
-            this.Tabel_common_params.RowCount = 17;
-            this.Tabel_common_params.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.882353F));
-            this.Tabel_common_params.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.882353F));
-            this.Tabel_common_params.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.882353F));
-            this.Tabel_common_params.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.882353F));
-            this.Tabel_common_params.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.882353F));
-            this.Tabel_common_params.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.882353F));
-            this.Tabel_common_params.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.882353F));
-            this.Tabel_common_params.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.882353F));
-            this.Tabel_common_params.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.882353F));
-            this.Tabel_common_params.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.882353F));
-            this.Tabel_common_params.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.882353F));
-            this.Tabel_common_params.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.882353F));
-            this.Tabel_common_params.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.882353F));
-            this.Tabel_common_params.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.882353F));
-            this.Tabel_common_params.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.882353F));
-            this.Tabel_common_params.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.882353F));
-            this.Tabel_common_params.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.882353F));
+            this.Tabel_common_params.RowCount = 11;
+            this.Tabel_common_params.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6F));
+            this.Tabel_common_params.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6F));
+            this.Tabel_common_params.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6F));
+            this.Tabel_common_params.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6F));
+            this.Tabel_common_params.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6F));
+            this.Tabel_common_params.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6F));
+            this.Tabel_common_params.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6F));
+            this.Tabel_common_params.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6F));
+            this.Tabel_common_params.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6F));
+            this.Tabel_common_params.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6F));
+            this.Tabel_common_params.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40F));
             this.Tabel_common_params.Size = new System.Drawing.Size(696, 380);
             this.Tabel_common_params.TabIndex = 0;
-            // 
-            // Use_time_filtr
-            // 
-            this.Use_time_filtr.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Use_time_filtr.AutoSize = true;
-            this.Use_time_filtr.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Use_time_filtr.Location = new System.Drawing.Point(3, 0);
-            this.Use_time_filtr.Name = "Use_time_filtr";
-            this.Use_time_filtr.Size = new System.Drawing.Size(550, 22);
-            this.Use_time_filtr.TabIndex = 0;
-            this.Use_time_filtr.Text = "Использовать временной фильтр";
-            // 
-            // Use_time_filtr_control
-            // 
-            this.Use_time_filtr_control.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Use_time_filtr_control.AutoSize = true;
-            this.Use_time_filtr_control.Location = new System.Drawing.Point(559, 3);
-            this.Use_time_filtr_control.Name = "Use_time_filtr_control";
-            this.Use_time_filtr_control.Size = new System.Drawing.Size(134, 16);
-            this.Use_time_filtr_control.TabIndex = 1;
-            this.Use_time_filtr_control.UseVisualStyleBackColor = true;
             // 
             // Time_start
             // 
@@ -12868,11 +14151,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Time_start.AutoSize = true;
-            this.Time_start.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Time_start.Location = new System.Drawing.Point(3, 22);
+            this.Time_start.Location = new System.Drawing.Point(3, 0);
             this.Time_start.Name = "Time_start";
             this.Time_start.Size = new System.Drawing.Size(550, 22);
-            this.Time_start.TabIndex = 2;
+            this.Time_start.TabIndex = 4;
             this.Time_start.Text = "Время начала торговли (hhmmss)";
             // 
             // Time_start_control
@@ -12881,11 +14163,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Time_start_control.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Time_start_control.Location = new System.Drawing.Point(559, 25);
+            this.Time_start_control.Location = new System.Drawing.Point(559, 3);
             this.Time_start_control.Mask = "000000";
             this.Time_start_control.Name = "Time_start_control";
             this.Time_start_control.Size = new System.Drawing.Size(134, 15);
-            this.Time_start_control.TabIndex = 3;
+            this.Time_start_control.TabIndex = 5;
             this.Time_start_control.Text = "000000";
             // 
             // Time_end
@@ -12894,72 +14176,219 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Time_end.AutoSize = true;
-            this.Time_end.Location = new System.Drawing.Point(3, 44);
+            this.Time_end.Location = new System.Drawing.Point(3, 22);
             this.Time_end.Name = "Time_end";
             this.Time_end.Size = new System.Drawing.Size(550, 22);
-            this.Time_end.TabIndex = 4;
+            this.Time_end.TabIndex = 12;
             this.Time_end.Text = "Время окончания торговли (hhmmss)";
+            // 
+            // Max_growth_deposit_reset
+            // 
+            this.Max_growth_deposit_reset.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Max_growth_deposit_reset.AutoSize = true;
+            this.Max_growth_deposit_reset.Location = new System.Drawing.Point(3, 88);
+            this.Max_growth_deposit_reset.Name = "Max_growth_deposit_reset";
+            this.Max_growth_deposit_reset.Size = new System.Drawing.Size(550, 22);
+            this.Max_growth_deposit_reset.TabIndex = 20;
+            this.Max_growth_deposit_reset.Text = "Сброс параметров откуп минуса и роста депозита: макс рост депозита";
+            // 
+            // Max_growth_deposit_reset_control
+            // 
+            this.Max_growth_deposit_reset_control.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Max_growth_deposit_reset_control.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Max_growth_deposit_reset_control.Location = new System.Drawing.Point(559, 91);
+            this.Max_growth_deposit_reset_control.Name = "Max_growth_deposit_reset_control";
+            this.Max_growth_deposit_reset_control.Size = new System.Drawing.Size(134, 15);
+            this.Max_growth_deposit_reset_control.TabIndex = 21;
+            this.Max_growth_deposit_reset_control.Text = "35";
+            // 
+            // Use_reset_data_otkup
+            // 
+            this.Use_reset_data_otkup.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Use_reset_data_otkup.AutoSize = true;
+            this.Use_reset_data_otkup.Location = new System.Drawing.Point(3, 110);
+            this.Use_reset_data_otkup.Name = "Use_reset_data_otkup";
+            this.Use_reset_data_otkup.Size = new System.Drawing.Size(550, 22);
+            this.Use_reset_data_otkup.TabIndex = 22;
+            this.Use_reset_data_otkup.Text = "Сброс параметров откуп минуса и роста депозита: включить функцию";
+            // 
+            // Use_reset_data_otkup_control
+            // 
+            this.Use_reset_data_otkup_control.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Use_reset_data_otkup_control.AutoSize = true;
+            this.Use_reset_data_otkup_control.Location = new System.Drawing.Point(559, 113);
+            this.Use_reset_data_otkup_control.Name = "Use_reset_data_otkup_control";
+            this.Use_reset_data_otkup_control.Size = new System.Drawing.Size(134, 16);
+            this.Use_reset_data_otkup_control.TabIndex = 23;
+            this.Use_reset_data_otkup_control.UseVisualStyleBackColor = true;
+            // 
+            // Max_spread
+            // 
+            this.Max_spread.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Max_spread.AutoSize = true;
+            this.Max_spread.Location = new System.Drawing.Point(3, 132);
+            this.Max_spread.Name = "Max_spread";
+            this.Max_spread.Size = new System.Drawing.Size(550, 22);
+            this.Max_spread.TabIndex = 24;
+            this.Max_spread.Text = "Исполнение ордеров: максимальный спред";
+            // 
+            // Max_spread_control
+            // 
+            this.Max_spread_control.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Max_spread_control.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Max_spread_control.Location = new System.Drawing.Point(559, 135);
+            this.Max_spread_control.Name = "Max_spread_control";
+            this.Max_spread_control.Size = new System.Drawing.Size(134, 15);
+            this.Max_spread_control.TabIndex = 25;
+            this.Max_spread_control.Text = "45";
+            // 
+            // Using_tester
+            // 
+            this.Using_tester.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Using_tester.AutoSize = true;
+            this.Using_tester.Location = new System.Drawing.Point(3, 154);
+            this.Using_tester.Name = "Using_tester";
+            this.Using_tester.Size = new System.Drawing.Size(550, 22);
+            this.Using_tester.TabIndex = 26;
+            this.Using_tester.Text = "Режим тестирования";
+            // 
+            // Using_tester_control
+            // 
+            this.Using_tester_control.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Using_tester_control.FormattingEnabled = true;
+            this.Using_tester_control.Items.AddRange(new object[] {
+            "тест одного символа",
+            "тест нескольких символов"});
+            this.Using_tester_control.Location = new System.Drawing.Point(559, 157);
+            this.Using_tester_control.Name = "Using_tester_control";
+            this.Using_tester_control.Size = new System.Drawing.Size(134, 21);
+            this.Using_tester_control.TabIndex = 27;
+            this.Using_tester_control.Text = "тест одного символа";
+            // 
+            // Unit_stop_take
+            // 
+            this.Unit_stop_take.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Unit_stop_take.AutoSize = true;
+            this.Unit_stop_take.Location = new System.Drawing.Point(3, 176);
+            this.Unit_stop_take.Name = "Unit_stop_take";
+            this.Unit_stop_take.Size = new System.Drawing.Size(550, 22);
+            this.Unit_stop_take.TabIndex = 28;
+            this.Unit_stop_take.Text = "Единица измерения стопов и тейков";
+            // 
+            // Unit_stop_take_control
+            // 
+            this.Unit_stop_take_control.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Unit_stop_take_control.FormattingEnabled = true;
+            this.Unit_stop_take_control.Items.AddRange(new object[] {
+            "проценты",
+            "пункты"});
+            this.Unit_stop_take_control.Location = new System.Drawing.Point(559, 179);
+            this.Unit_stop_take_control.Name = "Unit_stop_take_control";
+            this.Unit_stop_take_control.Size = new System.Drawing.Size(134, 21);
+            this.Unit_stop_take_control.TabIndex = 29;
+            this.Unit_stop_take_control.Text = "проценты";
+            // 
+            // Print_comments
+            // 
+            this.Print_comments.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Print_comments.AutoSize = true;
+            this.Print_comments.Location = new System.Drawing.Point(3, 198);
+            this.Print_comments.Name = "Print_comments";
+            this.Print_comments.Size = new System.Drawing.Size(550, 22);
+            this.Print_comments.TabIndex = 32;
+            this.Print_comments.Text = "Вывод комментариев для отладки";
+            // 
+            // Print_comments_control
+            // 
+            this.Print_comments_control.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Print_comments_control.AutoSize = true;
+            this.Print_comments_control.Location = new System.Drawing.Point(559, 201);
+            this.Print_comments_control.Name = "Print_comments_control";
+            this.Print_comments_control.Size = new System.Drawing.Size(134, 16);
+            this.Print_comments_control.TabIndex = 33;
+            this.Print_comments_control.UseVisualStyleBackColor = true;
             // 
             // Time_end_control
             // 
             this.Time_end_control.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.Time_end_control.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Time_end_control.Location = new System.Drawing.Point(559, 47);
-            this.Time_end_control.Mask = "000000";
+            this.Time_end_control.Location = new System.Drawing.Point(559, 25);
             this.Time_end_control.Name = "Time_end_control";
-            this.Time_end_control.Size = new System.Drawing.Size(134, 15);
-            this.Time_end_control.TabIndex = 5;
+            this.Time_end_control.Size = new System.Drawing.Size(134, 22);
+            this.Time_end_control.TabIndex = 34;
             this.Time_end_control.Text = "235900";
             // 
-            // Close_all_pos_end_trade
+            // Coeff_add_vol
             // 
-            this.Close_all_pos_end_trade.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.Coeff_add_vol.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.Close_all_pos_end_trade.AutoSize = true;
-            this.Close_all_pos_end_trade.Location = new System.Drawing.Point(3, 66);
-            this.Close_all_pos_end_trade.Name = "Close_all_pos_end_trade";
-            this.Close_all_pos_end_trade.Size = new System.Drawing.Size(550, 22);
-            this.Close_all_pos_end_trade.TabIndex = 6;
-            this.Close_all_pos_end_trade.Text = "Закрытие всех позиций в конце интервала торговли";
+            this.Coeff_add_vol.AutoSize = true;
+            this.Coeff_add_vol.Location = new System.Drawing.Point(3, 44);
+            this.Coeff_add_vol.Name = "Coeff_add_vol";
+            this.Coeff_add_vol.Size = new System.Drawing.Size(550, 22);
+            this.Coeff_add_vol.TabIndex = 35;
+            this.Coeff_add_vol.Text = "Откуп минусовых сделок: коэффициент добавления к обьему (от 0 до 100%)";
             // 
-            // Close_all_pos_end_trade_control
+            // Coeff_add_vol_control
             // 
-            this.Close_all_pos_end_trade_control.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.Coeff_add_vol_control.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.Close_all_pos_end_trade_control.AutoSize = true;
-            this.Close_all_pos_end_trade_control.Location = new System.Drawing.Point(559, 69);
-            this.Close_all_pos_end_trade_control.Name = "Close_all_pos_end_trade_control";
-            this.Close_all_pos_end_trade_control.Size = new System.Drawing.Size(134, 16);
-            this.Close_all_pos_end_trade_control.TabIndex = 7;
-            this.Close_all_pos_end_trade_control.UseVisualStyleBackColor = true;
+            this.Coeff_add_vol_control.Location = new System.Drawing.Point(559, 47);
+            this.Coeff_add_vol_control.Name = "Coeff_add_vol_control";
+            this.Coeff_add_vol_control.Size = new System.Drawing.Size(134, 22);
+            this.Coeff_add_vol_control.TabIndex = 36;
+            this.Coeff_add_vol_control.Text = "2";
             // 
-            // Del_order_end_trade
+            // Use_comission
             // 
-            this.Del_order_end_trade.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.Use_comission.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.Del_order_end_trade.AutoSize = true;
-            this.Del_order_end_trade.Location = new System.Drawing.Point(3, 88);
-            this.Del_order_end_trade.Name = "Del_order_end_trade";
-            this.Del_order_end_trade.Size = new System.Drawing.Size(550, 22);
-            this.Del_order_end_trade.TabIndex = 8;
-            this.Del_order_end_trade.Text = "Удаление непарного ордера в конце интервала торговли";
+            this.Use_comission.AutoSize = true;
+            this.Use_comission.Location = new System.Drawing.Point(3, 66);
+            this.Use_comission.Name = "Use_comission";
+            this.Use_comission.Size = new System.Drawing.Size(550, 22);
+            this.Use_comission.TabIndex = 37;
+            this.Use_comission.Text = "Откуп минусовых сделок: учитывать комиссию";
             // 
-            // Del_order_end_trade_control
+            // Use_comission_control
             // 
-            this.Del_order_end_trade_control.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.Use_comission_control.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.Del_order_end_trade_control.AutoSize = true;
-            this.Del_order_end_trade_control.Location = new System.Drawing.Point(559, 91);
-            this.Del_order_end_trade_control.Name = "Del_order_end_trade_control";
-            this.Del_order_end_trade_control.Size = new System.Drawing.Size(134, 16);
-            this.Del_order_end_trade_control.TabIndex = 9;
-            this.Del_order_end_trade_control.UseVisualStyleBackColor = true;
+            this.Use_comission_control.AutoSize = true;
+            this.Use_comission_control.Location = new System.Drawing.Point(559, 69);
+            this.Use_comission_control.Name = "Use_comission_control";
+            this.Use_comission_control.Size = new System.Drawing.Size(134, 16);
+            this.Use_comission_control.TabIndex = 38;
+            this.Use_comission_control.UseVisualStyleBackColor = true;
             // 
             // Settings_main
             // 
@@ -12991,6 +14420,7 @@
             this.Cancel_main.Size = new System.Drawing.Size(40, 40);
             this.Cancel_main.TabIndex = 3;
             this.Cancel_main.UseVisualStyleBackColor = true;
+            this.Cancel_main.Click += new System.EventHandler(this.Close_form);
             // 
             // Start_main
             // 
@@ -13015,7 +14445,6 @@
             this.Stop_main.Text = "Только выход";
             this.Stop_main.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.Stop_main.UseVisualStyleBackColor = false;
-            this.Stop_main.Click += new System.EventHandler(this.button1_Click);
             // 
             // Delete_main
             // 
@@ -13029,299 +14458,16 @@
             this.Delete_main.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.Delete_main.UseVisualStyleBackColor = false;
             // 
-            // Koeff_add_vol
+            // Refresh
             // 
-            this.Koeff_add_vol.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Koeff_add_vol.AutoSize = true;
-            this.Koeff_add_vol.Location = new System.Drawing.Point(3, 110);
-            this.Koeff_add_vol.Name = "Koeff_add_vol";
-            this.Koeff_add_vol.Size = new System.Drawing.Size(550, 22);
-            this.Koeff_add_vol.TabIndex = 10;
-            this.Koeff_add_vol.Text = "Откуп минусовых сделок: коэффициент добавления к обьему (от 0 до 100%)";
-            // 
-            // Koeff_add_vol_control
-            // 
-            this.Koeff_add_vol_control.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Koeff_add_vol_control.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Koeff_add_vol_control.Location = new System.Drawing.Point(559, 113);
-            this.Koeff_add_vol_control.Name = "Koeff_add_vol_control";
-            this.Koeff_add_vol_control.Size = new System.Drawing.Size(134, 15);
-            this.Koeff_add_vol_control.TabIndex = 11;
-            this.Koeff_add_vol_control.Text = "2";
-            // 
-            // Use_comission
-            // 
-            this.Use_comission.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Use_comission.AutoSize = true;
-            this.Use_comission.Location = new System.Drawing.Point(3, 132);
-            this.Use_comission.Name = "Use_comission";
-            this.Use_comission.Size = new System.Drawing.Size(550, 22);
-            this.Use_comission.TabIndex = 12;
-            this.Use_comission.Text = "Откуп минусовых сделок: учитывать комиссию";
-            // 
-            // Use_comission_control
-            // 
-            this.Use_comission_control.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Use_comission_control.AutoSize = true;
-            this.Use_comission_control.Location = new System.Drawing.Point(559, 135);
-            this.Use_comission_control.Name = "Use_comission_control";
-            this.Use_comission_control.Size = new System.Drawing.Size(134, 16);
-            this.Use_comission_control.TabIndex = 13;
-            this.Use_comission_control.UseVisualStyleBackColor = true;
-            // 
-            // Use_delay_otkup
-            // 
-            this.Use_delay_otkup.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Use_delay_otkup.AutoSize = true;
-            this.Use_delay_otkup.Location = new System.Drawing.Point(3, 154);
-            this.Use_delay_otkup.Name = "Use_delay_otkup";
-            this.Use_delay_otkup.Size = new System.Drawing.Size(550, 22);
-            this.Use_delay_otkup.TabIndex = 14;
-            this.Use_delay_otkup.Text = "Отсрочка откупа минусовых сделок: включить отсрочку";
-            // 
-            // Use_delay_otkup_control
-            // 
-            this.Use_delay_otkup_control.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Use_delay_otkup_control.AutoSize = true;
-            this.Use_delay_otkup_control.Location = new System.Drawing.Point(559, 157);
-            this.Use_delay_otkup_control.Name = "Use_delay_otkup_control";
-            this.Use_delay_otkup_control.Size = new System.Drawing.Size(134, 16);
-            this.Use_delay_otkup_control.TabIndex = 15;
-            this.Use_delay_otkup_control.UseVisualStyleBackColor = true;
-            // 
-            // Series_minus_deals
-            // 
-            this.Series_minus_deals.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Series_minus_deals.AutoSize = true;
-            this.Series_minus_deals.Location = new System.Drawing.Point(3, 176);
-            this.Series_minus_deals.Name = "Series_minus_deals";
-            this.Series_minus_deals.Size = new System.Drawing.Size(550, 22);
-            this.Series_minus_deals.TabIndex = 16;
-            this.Series_minus_deals.Text = "Отсрочка откупа минусовых сделок: длина серии минусовых сделок";
-            // 
-            // Series_minus_deals_control
-            // 
-            this.Series_minus_deals_control.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Series_minus_deals_control.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Series_minus_deals_control.Location = new System.Drawing.Point(559, 179);
-            this.Series_minus_deals_control.Name = "Series_minus_deals_control";
-            this.Series_minus_deals_control.Size = new System.Drawing.Size(134, 15);
-            this.Series_minus_deals_control.TabIndex = 17;
-            this.Series_minus_deals_control.Text = "1";
-            // 
-            // Step_add_deposit
-            // 
-            this.Step_add_deposit.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Step_add_deposit.AutoSize = true;
-            this.Step_add_deposit.Location = new System.Drawing.Point(3, 198);
-            this.Step_add_deposit.Name = "Step_add_deposit";
-            this.Step_add_deposit.Size = new System.Drawing.Size(550, 22);
-            this.Step_add_deposit.TabIndex = 18;
-            this.Step_add_deposit.Text = "Увеличение обьема с ростом депозита: шаг увеличения депозита (от 0 до 100%)";
-            // 
-            // Step_add_deposit_control
-            // 
-            this.Step_add_deposit_control.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Step_add_deposit_control.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Step_add_deposit_control.Location = new System.Drawing.Point(559, 201);
-            this.Step_add_deposit_control.Name = "Step_add_deposit_control";
-            this.Step_add_deposit_control.Size = new System.Drawing.Size(134, 15);
-            this.Step_add_deposit_control.TabIndex = 19;
-            this.Step_add_deposit_control.Text = "0,01";
-            // 
-            // Max_growth_deposit_reset
-            // 
-            this.Max_growth_deposit_reset.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Max_growth_deposit_reset.AutoSize = true;
-            this.Max_growth_deposit_reset.Location = new System.Drawing.Point(3, 220);
-            this.Max_growth_deposit_reset.Name = "Max_growth_deposit_reset";
-            this.Max_growth_deposit_reset.Size = new System.Drawing.Size(550, 22);
-            this.Max_growth_deposit_reset.TabIndex = 20;
-            this.Max_growth_deposit_reset.Text = "Сброс параметров откуп минуса и роста депозита: макс рост депозита";
-            // 
-            // Max_growth_deposit_reset_control
-            // 
-            this.Max_growth_deposit_reset_control.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Max_growth_deposit_reset_control.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Max_growth_deposit_reset_control.Location = new System.Drawing.Point(559, 223);
-            this.Max_growth_deposit_reset_control.Name = "Max_growth_deposit_reset_control";
-            this.Max_growth_deposit_reset_control.Size = new System.Drawing.Size(134, 15);
-            this.Max_growth_deposit_reset_control.TabIndex = 21;
-            this.Max_growth_deposit_reset_control.Text = "35";
-            // 
-            // Use_reset_data_otkup
-            // 
-            this.Use_reset_data_otkup.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Use_reset_data_otkup.AutoSize = true;
-            this.Use_reset_data_otkup.Location = new System.Drawing.Point(3, 242);
-            this.Use_reset_data_otkup.Name = "Use_reset_data_otkup";
-            this.Use_reset_data_otkup.Size = new System.Drawing.Size(550, 22);
-            this.Use_reset_data_otkup.TabIndex = 22;
-            this.Use_reset_data_otkup.Text = "Сброс параметров откуп минуса и роста депозита: включить функцию";
-            // 
-            // Use_reset_data_otkup_control
-            // 
-            this.Use_reset_data_otkup_control.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Use_reset_data_otkup_control.AutoSize = true;
-            this.Use_reset_data_otkup_control.Location = new System.Drawing.Point(559, 245);
-            this.Use_reset_data_otkup_control.Name = "Use_reset_data_otkup_control";
-            this.Use_reset_data_otkup_control.Size = new System.Drawing.Size(134, 16);
-            this.Use_reset_data_otkup_control.TabIndex = 23;
-            this.Use_reset_data_otkup_control.UseVisualStyleBackColor = true;
-            // 
-            // Max_spread
-            // 
-            this.Max_spread.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Max_spread.AutoSize = true;
-            this.Max_spread.Location = new System.Drawing.Point(3, 264);
-            this.Max_spread.Name = "Max_spread";
-            this.Max_spread.Size = new System.Drawing.Size(550, 22);
-            this.Max_spread.TabIndex = 24;
-            this.Max_spread.Text = "Исполнение ордеров: максимальный спред";
-            // 
-            // Max_spread_control
-            // 
-            this.Max_spread_control.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Max_spread_control.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Max_spread_control.Location = new System.Drawing.Point(559, 267);
-            this.Max_spread_control.Name = "Max_spread_control";
-            this.Max_spread_control.Size = new System.Drawing.Size(134, 15);
-            this.Max_spread_control.TabIndex = 25;
-            this.Max_spread_control.Text = "45";
-            // 
-            // Using_tester
-            // 
-            this.Using_tester.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Using_tester.AutoSize = true;
-            this.Using_tester.Location = new System.Drawing.Point(3, 286);
-            this.Using_tester.Name = "Using_tester";
-            this.Using_tester.Size = new System.Drawing.Size(550, 22);
-            this.Using_tester.TabIndex = 26;
-            this.Using_tester.Text = "Режим тестирования";
-            // 
-            // Using_tester_control
-            // 
-            this.Using_tester_control.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Using_tester_control.FormattingEnabled = true;
-            this.Using_tester_control.Items.AddRange(new object[] {
-            "тест одного символа",
-            "тест нескольких символов"});
-            this.Using_tester_control.Location = new System.Drawing.Point(559, 289);
-            this.Using_tester_control.Name = "Using_tester_control";
-            this.Using_tester_control.Size = new System.Drawing.Size(134, 21);
-            this.Using_tester_control.TabIndex = 27;
-            this.Using_tester_control.Text = "тест одного символа";
-            // 
-            // Unit_stop_take
-            // 
-            this.Unit_stop_take.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Unit_stop_take.AutoSize = true;
-            this.Unit_stop_take.Location = new System.Drawing.Point(3, 308);
-            this.Unit_stop_take.Name = "Unit_stop_take";
-            this.Unit_stop_take.Size = new System.Drawing.Size(550, 22);
-            this.Unit_stop_take.TabIndex = 28;
-            this.Unit_stop_take.Text = "Единица измерения стопов и тейков";
-            // 
-            // Unit_stop_take_control
-            // 
-            this.Unit_stop_take_control.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Unit_stop_take_control.FormattingEnabled = true;
-            this.Unit_stop_take_control.Items.AddRange(new object[] {
-            "проценты",
-            "пункты"});
-            this.Unit_stop_take_control.Location = new System.Drawing.Point(559, 311);
-            this.Unit_stop_take_control.Name = "Unit_stop_take_control";
-            this.Unit_stop_take_control.Size = new System.Drawing.Size(134, 21);
-            this.Unit_stop_take_control.TabIndex = 29;
-            this.Unit_stop_take_control.Text = "проценты";
-            // 
-            // Size_deposit
-            // 
-            this.Size_deposit.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Size_deposit.AutoSize = true;
-            this.Size_deposit.Location = new System.Drawing.Point(3, 330);
-            this.Size_deposit.Name = "Size_deposit";
-            this.Size_deposit.Size = new System.Drawing.Size(550, 22);
-            this.Size_deposit.TabIndex = 30;
-            this.Size_deposit.Text = "Размер депозита (если 0 то авто)";
-            // 
-            // Size_deposit_control
-            // 
-            this.Size_deposit_control.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Size_deposit_control.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Size_deposit_control.Location = new System.Drawing.Point(559, 333);
-            this.Size_deposit_control.Name = "Size_deposit_control";
-            this.Size_deposit_control.Size = new System.Drawing.Size(134, 15);
-            this.Size_deposit_control.TabIndex = 31;
-            this.Size_deposit_control.Text = "0";
-            // 
-            // Print_comments
-            // 
-            this.Print_comments.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Print_comments.AutoSize = true;
-            this.Print_comments.Location = new System.Drawing.Point(3, 352);
-            this.Print_comments.Name = "Print_comments";
-            this.Print_comments.Size = new System.Drawing.Size(550, 28);
-            this.Print_comments.TabIndex = 32;
-            this.Print_comments.Text = "Вывод комментариев для отладки";
-            // 
-            // Print_comments_control
-            // 
-            this.Print_comments_control.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Print_comments_control.AutoSize = true;
-            this.Print_comments_control.Location = new System.Drawing.Point(559, 355);
-            this.Print_comments_control.Name = "Print_comments_control";
-            this.Print_comments_control.Size = new System.Drawing.Size(134, 22);
-            this.Print_comments_control.TabIndex = 33;
-            this.Print_comments_control.UseVisualStyleBackColor = true;
+            this.Refresh.Location = new System.Drawing.Point(691, 494);
+            this.Refresh.Name = "Refresh";
+            this.Refresh.Size = new System.Drawing.Size(154, 40);
+            this.Refresh.TabIndex = 8;
+            this.Refresh.Text = "Обновить";
+            this.Refresh.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.Refresh.UseVisualStyleBackColor = true;
+            this.Refresh.Click += new System.EventHandler(this.Refresh_form);
             // 
             // Form2
             // 
@@ -13330,6 +14476,7 @@
             this.BackColor = System.Drawing.SystemColors.Highlight;
             this.ClientSize = new System.Drawing.Size(1384, 561);
             this.ControlBox = false;
+            this.Controls.Add(this.Refresh);
             this.Controls.Add(this.Delete_main);
             this.Controls.Add(this.Stop_main);
             this.Controls.Add(this.Start_main);
@@ -13355,11 +14502,17 @@
             this.hedg_order_page.ResumeLayout(false);
             this.Table_hedge_order.ResumeLayout(false);
             this.Table_hedge_order.PerformLayout();
-            this.tabPage1.ResumeLayout(false);
+            this.gen_param_page.ResumeLayout(false);
             this.Tabel_common_params.ResumeLayout(false);
             this.Tabel_common_params.PerformLayout();
             this.ResumeLayout(false);
 
+        }
+
+        private void UpdateUI()
+        {
+            this.Invalidate();
+            this.Refresh(); 
         }
 
         #endregion
@@ -13381,75 +14534,400 @@
         private System.Windows.Forms.Label Only_long_main;
         private System.Windows.Forms.Label Only_short_main;
         private System.Windows.Forms.TextBox Symb_row_0_main;
+        public string SymbRow0MainText
+        {
+            get { return Symb_row_0_main.Text; }
+            set { Symb_row_0_main.Text = value; }
+        }
         private System.Windows.Forms.CheckBox Only_out_row_0_main;
+        public string OnlyOutRow0MainChecked
+        {
+            get { return (Only_out_row_0_main.Checked == false) ? "0" : "1"; }
+            set { Only_out_row_0_main.Checked = (value == "0") ? false: true; }
+        }
         private System.Windows.Forms.CheckBox Only_long_row_0_main;
+        public string OnlyLongRow0MainChecked
+        {
+            get { return (Only_long_row_0_main.Checked == false) ? "0" : "1"; }
+            set { Only_long_row_0_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Only_short_row_0_main;
+        public string OnlyShortRow0MainChecked
+        {
+            get { return (Only_short_row_0_main.Checked == false) ? "0" : "1"; }
+            set { Only_short_row_0_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.TextBox Symb_row_1_main;
+        public string SymbRow1MainText
+        {
+            get { return Symb_row_1_main.Text; }
+            set { Symb_row_1_main.Text = value; }
+        }
         private System.Windows.Forms.CheckBox Only_short_row_12_main;
+        public string OnlyShortRow12MainChecked
+        {
+            get { return (Only_short_row_12_main.Checked == false) ? "0" : "1"; }
+            set { Only_short_row_12_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Only_long_row_12_main;
+        public string OnlyLongRow12MainChecked
+        {
+            get { return (Only_long_row_12_main.Checked == false) ? "0" : "1"; }
+            set { Only_long_row_12_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Only_out_row_12_main;
+        public string OnlyOutRow12MainChecked
+        {
+            get { return (Only_out_row_12_main.Checked == false) ? "0" : "1"; }
+            set { Only_out_row_12_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.TextBox Symb_row_12_main;
+        public string SymbRow12MainText
+        {
+            get { return Symb_row_12_main.Text; }
+            set { Symb_row_12_main.Text = value; }
+        }
         private System.Windows.Forms.CheckBox Only_short_row_11_main;
+        public string OnlyShortRow11MainChecked
+        {
+            get { return (Only_short_row_11_main.Checked == false) ? "0" : "1"; }
+            set { Only_short_row_11_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Only_long_row_11_main;
+        public string OnlyLongRow11MainChecked
+        {
+            get { return (Only_long_row_11_main.Checked == false) ? "0" : "1"; }
+            set { Only_long_row_11_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Only_out_row_11_main;
+        public string OnlyOutRow11MainChecked
+        {
+            get { return (Only_out_row_11_main.Checked == false) ? "0" : "1"; }
+            set { Only_out_row_11_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.TextBox Symb_row_11_main;
+        public string SymbRow11MainText
+        {
+            get { return Symb_row_11_main.Text; }
+            set { Symb_row_11_main.Text = value; }
+        }
         private System.Windows.Forms.CheckBox Only_short_row_10_main;
+        public string OnlyShortRow10MainChecked
+        {
+            get { return (Only_short_row_10_main.Checked == false) ? "0" : "1"; }
+            set { Only_short_row_10_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Only_long_row_10_main;
+        public string OnlyLongRow10MainChecked
+        {
+            get { return (Only_long_row_10_main.Checked == false) ? "0" : "1"; }
+            set { Only_long_row_10_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Only_out_row_10_main;
+        public string OnlyOutRow10MainChecked
+        {
+            get { return (Only_out_row_10_main.Checked == false) ? "0" : "1"; }
+            set { Only_out_row_10_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.TextBox Symb_row_10_main;
+        public string SymbRow10MainText
+        {
+            get { return Symb_row_10_main.Text; }
+            set { Symb_row_10_main.Text = value; }
+        }
         private System.Windows.Forms.CheckBox Only_short_row_9_main;
+        public string OnlyShortRow9MainChecked
+        {
+            get { return (Only_short_row_9_main.Checked == false) ? "0" : "1"; }
+            set { Only_short_row_9_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Only_long_row_9_main;
+        public string OnlyLongRow9MainChecked
+        {
+            get { return (Only_long_row_9_main.Checked == false) ? "0" : "1"; }
+            set { Only_long_row_9_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Only_out_row_9_main;
+        public string OnlyOutRow9MainChecked
+        {
+            get { return (Only_out_row_9_main.Checked == false) ? "0" : "1"; }
+            set { Only_out_row_9_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.TextBox Symb_row_9_main;
+        public string SymbRow9MainText
+        {
+            get { return Symb_row_9_main.Text; }
+            set { Symb_row_9_main.Text = value; }
+        }
         private System.Windows.Forms.CheckBox Only_short_row_8_main;
+        public string OnlyShortRow8MainChecked
+        {
+            get { return (Only_short_row_8_main.Checked == false) ? "0" : "1"; }
+            set { Only_short_row_8_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Only_long_row_8_main;
+        public string OnlyLongRow8MainChecked
+        {
+            get { return (Only_long_row_8_main.Checked == false) ? "0" : "1"; }
+            set { Only_long_row_8_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Only_out_row_8_main;
+        public string OnlyOutRow8MainChecked
+        {
+            get { return (Only_out_row_8_main.Checked == false) ? "0" : "1"; }
+            set { Only_out_row_8_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.TextBox Symb_row_8_main;
+        public string SymbRow8MainText
+        {
+            get { return Symb_row_8_main.Text; }
+            set { Symb_row_8_main.Text = value; }
+        }
         private System.Windows.Forms.CheckBox Only_short_row_7_main;
+        public string OnlyShortRow7MainChecked
+        {
+            get { return (Only_short_row_7_main.Checked == false) ? "0" : "1"; }
+            set { Only_short_row_7_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Only_long_row_7_main;
+        public string OnlyLongRow7MainChecked
+        {
+            get { return (Only_long_row_7_main.Checked == false) ? "0" : "1"; }
+            set { Only_long_row_7_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Only_out_row_7_main;
+        public string OnlyOutRow7MainChecked
+        {
+            get { return (Only_out_row_7_main.Checked == false) ? "0" : "1"; }
+            set { Only_out_row_7_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.TextBox Symb_row_7_main;
+        public string SymbRow7MainText
+        {
+            get { return Symb_row_7_main.Text; }
+            set { Symb_row_7_main.Text = value; }
+        }
         private System.Windows.Forms.CheckBox Only_short_row_6_main;
+        public string OnlyShortRow6MainChecked
+        {
+            get { return (Only_short_row_6_main.Checked == false) ? "0" : "1"; }
+            set { Only_short_row_6_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Only_long_row_6_main;
+        public string OnlyLongRow6MainChecked
+        {
+            get { return (Only_long_row_6_main.Checked == false) ? "0" : "1"; }
+            set { Only_long_row_6_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Only_out_row_6_main;
+        public string OnlyOutRow6MainChecked
+        {
+            get { return (Only_out_row_6_main.Checked == false) ? "0" : "1"; }
+            set { Only_out_row_6_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.TextBox Symb_row_6_main;
+        public string SymbRow6MainText
+        {
+            get { return Symb_row_6_main.Text; }
+            set { Symb_row_6_main.Text = value; }
+        }
         private System.Windows.Forms.CheckBox Only_short_row_5_main;
+        public string OnlyShortRow5MainChecked
+        {
+            get { return (Only_short_row_5_main.Checked == false) ? "0" : "1"; }
+            set { Only_short_row_5_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Only_long_row_5_main;
+        public string OnlyLongRow5MainChecked
+        {
+            get { return (Only_long_row_5_main.Checked == false) ? "0" : "1"; }
+            set { Only_long_row_5_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Only_out_row_5_main;
+        public string OnlyOutRow5MainChecked
+        {
+            get { return (Only_out_row_5_main.Checked == false) ? "0" : "1"; }
+            set { Only_out_row_5_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.TextBox Symb_row_5_main;
+        public string SymbRow5MainText
+        {
+            get { return Symb_row_5_main.Text; }
+            set { Symb_row_5_main.Text = value; }
+        }
         private System.Windows.Forms.CheckBox Only_short_row_4_main;
+        public string OnlyShortRow4MainChecked
+        {
+            get { return (Only_short_row_4_main.Checked == false) ? "0" : "1"; }
+            set { Only_short_row_4_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Only_long_row_4_main;
+        public string OnlyLongRow4MainChecked
+        {
+            get { return (Only_long_row_4_main.Checked == false) ? "0" : "1"; }
+            set { Only_long_row_4_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Only_out_row_4_main;
+        public string OnlyOutRow4MainChecked
+        {
+            get { return (Only_out_row_4_main.Checked == false) ? "0" : "1"; }
+            set { Only_out_row_4_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.TextBox Symb_row_4_main;
+        public string SymbRow4MainText
+        {
+            get { return Symb_row_4_main.Text; }
+            set { Symb_row_4_main.Text = value; }
+        }
         private System.Windows.Forms.CheckBox Only_short_row_3_main;
+        public string OnlyShortRow3MainChecked
+        {
+            get { return (Only_short_row_3_main.Checked == false) ? "0" : "1"; }
+            set { Only_short_row_3_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Only_long_row_3_main;
+        public string OnlyLongRow3MainChecked
+        {
+            get { return (Only_long_row_3_main.Checked == false) ? "0" : "1"; }
+            set { Only_long_row_3_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Only_out_row_3_main;
+        public string OnlyOutRow3MainChecked
+        {
+            get { return (Only_out_row_3_main.Checked == false) ? "0" : "1"; }
+            set { Only_out_row_3_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.TextBox Symb_row_3_main;
+        public string SymbRow3MainText
+        {
+            get { return Symb_row_3_main.Text; }
+            set { Symb_row_3_main.Text = value; }
+        }
         private System.Windows.Forms.CheckBox Only_short_row_2_main;
+        public string OnlyShortRow2MainChecked
+        {
+            get { return (Only_short_row_2_main.Checked == false) ? "0" : "1"; }
+            set { Only_short_row_2_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Only_long_row_2_main;
+        public string OnlyLongRow2MainChecked
+        {
+            get { return (Only_long_row_2_main.Checked == false) ? "0" : "1"; }
+            set { Only_long_row_2_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Only_out_row_2_main;
+        public string OnlyOutRow2MainChecked
+        {
+            get { return (Only_out_row_2_main.Checked == false) ? "0" : "1"; }
+            set { Only_out_row_2_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.TextBox Symb_row_2_main;
+        public string SymbRow2MainText
+        {
+            get { return Symb_row_2_main.Text; }
+            set { Symb_row_2_main.Text = value; }
+        }
         private System.Windows.Forms.CheckBox Only_short_row_1_main;
+        public string OnlyShortRow1MainChecked
+        {
+            get { return (Only_short_row_1_main.Checked == false) ? "0" : "1"; }
+            set { Only_short_row_1_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Only_long_row_1_main;
+        public string OnlyLongRow1MainChecked
+        {
+            get { return (Only_long_row_1_main.Checked == false) ? "0" : "1"; }
+            set { Only_long_row_1_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Only_out_row_1_main;
+        public string OnlyOutRow1MainChecked
+        {
+            get { return (Only_out_row_1_main.Checked == false) ? "0" : "1"; }
+            set { Only_out_row_1_main.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.TableLayoutPanel Table_indicator;
         private System.Windows.Forms.TextBox Symb_row_12_ind;
+        public string SymbRow12IndText
+        {
+            get { return Symb_row_12_ind.Text; }
+            set { Symb_row_12_ind.Text = value; }
+        }
         private System.Windows.Forms.TextBox Symb_row_11_ind;
+        public string SymbRow11IndText
+        {
+            get { return Symb_row_11_ind.Text; }
+            set { Symb_row_11_ind.Text = value; }
+        }
         private System.Windows.Forms.TextBox Symb_row_10_ind;
+        public string SymbRow10IndText
+        {
+            get { return Symb_row_10_ind.Text; }
+            set { Symb_row_10_ind.Text = value; }
+        }
         private System.Windows.Forms.TextBox Symb_row_9_ind;
+        public string SymbRow9IndText
+        {
+            get { return Symb_row_9_ind.Text; }
+            set { Symb_row_9_ind.Text = value; }
+        }
         private System.Windows.Forms.TextBox Symb_row_8_ind;
+        public string SymbRow8IndText
+        {
+            get { return Symb_row_8_ind.Text; }
+            set { Symb_row_8_ind.Text = value; }
+        }
         private System.Windows.Forms.TextBox Symb_row_7_ind;
+        public string SymbRow7IndText
+        {
+            get { return Symb_row_7_ind.Text; }
+            set { Symb_row_7_ind.Text = value; }
+        }
         private System.Windows.Forms.TextBox Symb_row_6_ind;
+        public string SymbRow6IndText
+        {
+            get { return Symb_row_6_ind.Text; }
+            set { Symb_row_6_ind.Text = value; }
+        }
         private System.Windows.Forms.TextBox Symb_row_5_ind;
+        public string SymbRow5IndText
+        {
+            get { return Symb_row_5_ind.Text; }
+            set { Symb_row_5_ind.Text = value; }
+        }
         private System.Windows.Forms.TextBox Symb_row_4_ind;
+        public string SymbRow4IndText
+        {
+            get { return Symb_row_4_ind.Text; }
+            set { Symb_row_4_ind.Text = value; }
+        }
         private System.Windows.Forms.TextBox Symb_row_3_ind;
+        public string SymbRow3IndText
+        {
+            get { return Symb_row_3_ind.Text; }
+            set { Symb_row_3_ind.Text = value; }
+        }
         private System.Windows.Forms.TextBox Symb_row_2_ind;
+        public string SymbRow2IndText
+        {
+            get { return Symb_row_2_ind.Text; }
+            set { Symb_row_2_ind.Text = value; }
+        }
         private System.Windows.Forms.TextBox Symb_row_1_ind;
+        public string SymbRow1IndText
+        {
+            get { return Symb_row_1_ind.Text; }
+            set { Symb_row_1_ind.Text = value; }
+        }
         private System.Windows.Forms.Label Symbol_name_ind;
         private System.Windows.Forms.Label Choice_ind;
         private System.Windows.Forms.Label Choice_timefr;
         private System.Windows.Forms.Label MACD_per_fast;
         private System.Windows.Forms.TextBox Symb_row_0_ind;
+        public string SymbRow0IndText
+        {
+            get { return Symb_row_0_ind.Text; }
+            set { Symb_row_0_ind.Text = value; }
+        }
         private System.Windows.Forms.Label MACD_per_mid;
         private System.Windows.Forms.Label MACD_per_slow;
         private System.Windows.Forms.Label MACD_choice_sig;
@@ -13460,161 +14938,941 @@
         private System.Windows.Forms.Label BB_deviation;
         private System.Windows.Forms.Label BB_choice_sig;
         private System.Windows.Forms.ComboBox Choice_ind_row_0;
+        public string ChoiceIndRow0Item
+        {
+            get { return Choice_ind_row_0.SelectedItem.ToString(); }
+            set { Choice_ind_row_0.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Choice_ind_row_1;
+        public string ChoiceIndRow1Item
+        {
+            get { return Choice_ind_row_1.SelectedItem.ToString(); }
+            set { Choice_ind_row_1.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Choice_ind_row_2;
+        public string ChoiceIndRow2Item
+        {
+            get { return Choice_ind_row_2.SelectedItem.ToString(); }
+            set { Choice_ind_row_2.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Choice_ind_row_3;
+        public string ChoiceIndRow3Item
+        {
+            get { return Choice_ind_row_3.SelectedItem.ToString(); }
+            set { Choice_ind_row_3.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Choice_ind_row_4;
+        public string ChoiceIndRow4Item
+        {
+            get { return Choice_ind_row_4.SelectedItem.ToString(); }
+            set { Choice_ind_row_4.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Choice_ind_row_5;
+        public string ChoiceIndRow5Item
+        {
+            get { return Choice_ind_row_5.SelectedItem.ToString(); }
+            set { Choice_ind_row_5.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Choice_ind_row_6;
+        public string ChoiceIndRow6Item
+        {
+            get { return Choice_ind_row_6.SelectedItem.ToString(); }
+            set { Choice_ind_row_6.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Choice_ind_row_7;
+        public string ChoiceIndRow7Item
+        {
+            get { return Choice_ind_row_7.SelectedItem.ToString(); }
+            set { Choice_ind_row_7.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Choice_ind_row_8;
+        public string ChoiceIndRow8Item
+        {
+            get { return Choice_ind_row_8.SelectedItem.ToString(); }
+            set { Choice_ind_row_8.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Choice_ind_row_9;
+        public string ChoiceIndRow9Item
+        {
+            get { return Choice_ind_row_9.SelectedItem.ToString(); }
+            set { Choice_ind_row_9.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Choice_ind_row_10;
+        public string ChoiceIndRow10Item
+        {
+            get { return Choice_ind_row_10.SelectedItem.ToString(); }
+            set { Choice_ind_row_10.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Choice_ind_row_11;
+        public string ChoiceIndRow11Item
+        {
+            get { return Choice_ind_row_11.SelectedItem.ToString(); }
+            set { Choice_ind_row_11.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Choice_ind_row_12;
+        public string ChoiceIndRow12Item
+        {
+            get { return Choice_ind_row_12.SelectedItem.ToString(); }
+            set { Choice_ind_row_12.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Choice_per_row_0;
+        public string ChoicePerRow0Item
+        {
+            get { return Choice_per_row_0.SelectedItem.ToString(); }
+            set { Choice_per_row_0.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Choice_per_row_1;
+        public string ChoicePerRow1Item
+        {
+            get { return Choice_per_row_1.SelectedItem.ToString(); }
+            set { Choice_per_row_1.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Choice_per_row_2;
+        public string ChoicePerRow2Item
+        {
+            get { return Choice_per_row_2.SelectedItem.ToString(); }
+            set { Choice_per_row_2.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Choice_per_row_3;
+        public string ChoicePerRow3Item
+        {
+            get { return Choice_per_row_3.SelectedItem.ToString(); }
+            set { Choice_per_row_3.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Choice_per_row_4;
+        public string ChoicePerRow4Item
+        {
+            get { return Choice_per_row_4.SelectedItem.ToString(); }
+            set { Choice_per_row_4.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Choice_per_row_5;
+        public string ChoicePerRow5Item
+        {
+            get { return Choice_per_row_5.SelectedItem.ToString(); }
+            set { Choice_per_row_5.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Choice_per_row_6;
+        public string ChoicePerRow6Item
+        {
+            get { return Choice_per_row_6.SelectedItem.ToString(); }
+            set { Choice_per_row_6.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Choice_per_row_7;
+        public string ChoicePerRow7Item
+        {
+            get { return Choice_per_row_7.SelectedItem.ToString(); }
+            set { Choice_per_row_7.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Choice_per_row_8;
+        public string ChoicePerRow8Item
+        {
+            get { return Choice_per_row_8.SelectedItem.ToString(); }
+            set { Choice_per_row_8.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Choice_per_row_9;
+        public string ChoicePerRow9Item
+        {
+            get { return Choice_per_row_9.SelectedItem.ToString(); }
+            set { Choice_per_row_9.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Choice_per_row_10;
+        public string ChoicePerRow10Item
+        {
+            get { return Choice_per_row_10.SelectedItem.ToString(); }
+            set { Choice_per_row_10.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Choice_per_row_11;
+        public string ChoicePerRow11Item
+        {
+            get { return Choice_per_row_11.SelectedItem.ToString(); }
+            set { Choice_per_row_11.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Choice_per_row_12;
+        public string ChoicePerRow12Item
+        {
+            get { return Choice_per_row_12.SelectedItem.ToString(); }
+            set { Choice_per_row_12.SelectedItem = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_fast_row_0;
+        public string MacdPerFastRow0Text
+        {
+            get { return Macd_per_fast_row_0.Text; }
+            set { Macd_per_fast_row_0.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_fast_row_1;
+        public string MacdPerFastRow1Text
+        {
+            get { return Macd_per_fast_row_1.Text; }
+            set { Macd_per_fast_row_1.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_fast_row_2;
+        public string MacdPerFastRow2Text
+        {
+            get { return Macd_per_fast_row_2.Text; }
+            set { Macd_per_fast_row_2.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_fast_row_3;
+        public string MacdPerFastRow3Text
+        {
+            get { return Macd_per_fast_row_3.Text; }
+            set { Macd_per_fast_row_3.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_fast_row_4;
+        public string MacdPerFastRow4Text
+        {
+            get { return Macd_per_fast_row_4.Text; }
+            set { Macd_per_fast_row_4.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_fast_row_5;
+        public string MacdPerFastRow5Text
+        {
+            get { return Macd_per_fast_row_5.Text; }
+            set { Macd_per_fast_row_5.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_fast_row_6;
+        public string MacdPerFastRow6Text
+        {
+            get { return Macd_per_fast_row_6.Text; }
+            set { Macd_per_fast_row_6.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_fast_row_7;
+        public string MacdPerFastRow7Text
+        {
+            get { return Macd_per_fast_row_7.Text; }
+            set { Macd_per_fast_row_7.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_fast_row_8;
+        public string MacdPerFastRow8Text
+        {
+            get { return Macd_per_fast_row_8.Text; }
+            set { Macd_per_fast_row_8.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_fast_row_9;
+        public string MacdPerFastRow9Text
+        {
+            get { return Macd_per_fast_row_9.Text; }
+            set { Macd_per_fast_row_9.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_fast_row_10;
+        public string MacdPerFastRow10Text
+        {
+            get { return Macd_per_fast_row_10.Text; }
+            set { Macd_per_fast_row_10.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_fast_row_11;
+        public string MacdPerFastRow11Text
+        {
+            get { return Macd_per_fast_row_11.Text; }
+            set { Macd_per_fast_row_11.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_fast_row_12;
+        public string MacdPerFastRow12Text
+        {
+            get { return Macd_per_fast_row_12.Text; }
+            set { Macd_per_fast_row_12.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_mid_row_0;
+        public string MacdPerMidRow0Text
+        {
+            get { return Macd_per_mid_row_0.Text; }
+            set { Macd_per_mid_row_0.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_mid_row_1;
+        public string MacdPerMidRow1Text
+        {
+            get { return Macd_per_mid_row_1.Text; }
+            set { Macd_per_mid_row_1.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_mid_row_2;
+        public string MacdPerMidRow2Text
+        {
+            get { return Macd_per_mid_row_2.Text; }
+            set { Macd_per_mid_row_2.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_mid_row_3;
+        public string MacdPerMidRow3Text
+        {
+            get { return Macd_per_mid_row_3.Text; }
+            set { Macd_per_mid_row_3.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_mid_row_4;
+        public string MacdPerMidRow4Text
+        {
+            get { return Macd_per_mid_row_4.Text; }
+            set { Macd_per_mid_row_4.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_mid_row_5;
+        public string MacdPerMidRow5Text
+        {
+            get { return Macd_per_mid_row_5.Text; }
+            set { Macd_per_mid_row_5.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_mid_row_6;
+        public string MacdPerMidRow6Text
+        {
+            get { return Macd_per_mid_row_6.Text; }
+            set { Macd_per_mid_row_6.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_mid_row_7;
+        public string MacdPerMidRow7Text
+        {
+            get { return Macd_per_mid_row_7.Text; }
+            set { Macd_per_mid_row_7.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_mid_row_8;
+        public string MacdPerMidRow8Text
+        {
+            get { return Macd_per_mid_row_8.Text; }
+            set { Macd_per_mid_row_8.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_mid_row_9;
+        public string MacdPerMidRow9Text
+        {
+            get { return Macd_per_mid_row_9.Text; }
+            set { Macd_per_mid_row_9.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_mid_row_10;
+        public string MacdPerMidRow10Text
+        {
+            get { return Macd_per_mid_row_10.Text; }
+            set { Macd_per_mid_row_10.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_mid_row_11;
+        public string MacdPerMidRow11Text
+        {
+            get { return Macd_per_mid_row_11.Text; }
+            set { Macd_per_mid_row_11.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_mid_row_12;
+        public string MacdPerMidRow12Text
+        {
+            get { return Macd_per_mid_row_12.Text; }
+            set { Macd_per_mid_row_12.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_slow_row_0;
+        public string MacdPerSlowRow0Text
+        {
+            get { return Macd_per_slow_row_0.Text; }
+            set { Macd_per_slow_row_0.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_slow_row_1;
+        public string MacdPerSlowRow1Text
+        {
+            get { return Macd_per_slow_row_1.Text; }
+            set { Macd_per_slow_row_1.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_slow_row_2;
+        public string MacdPerSlowRow2Text
+        {
+            get { return Macd_per_slow_row_2.Text; }
+            set { Macd_per_slow_row_2.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_slow_row_3;
+        public string MacdPerSlowRow3Text
+        {
+            get { return Macd_per_slow_row_3.Text; }
+            set { Macd_per_slow_row_3.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_slow_row_4;
+        public string MacdPerSlowRow4Text
+        {
+            get { return Macd_per_slow_row_4.Text; }
+            set { Macd_per_slow_row_4.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_slow_row_5;
+        public string MacdPerSlowRow5Text
+        {
+            get { return Macd_per_slow_row_5.Text; }
+            set { Macd_per_slow_row_5.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_slow_row_6;
+        public string MacdPerSlowRow6Text
+        {
+            get { return Macd_per_slow_row_6.Text; }
+            set { Macd_per_slow_row_6.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_slow_row_7;
+        public string MacdPerSlowRow7Text
+        {
+            get { return Macd_per_slow_row_7.Text; }
+            set { Macd_per_slow_row_7.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_slow_row_8;
+        public string MacdPerSlowRow8Text
+        {
+            get { return Macd_per_slow_row_8.Text; }
+            set { Macd_per_slow_row_8.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_slow_row_9;
+        public string MacdPerSlowRow9Text
+        {
+            get { return Macd_per_slow_row_9.Text; }
+            set { Macd_per_slow_row_9.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_slow_row_10;
+        public string MacdPerSlowRow10Text
+        {
+            get { return Macd_per_slow_row_10.Text; }
+            set { Macd_per_slow_row_10.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_slow_row_11;
+        public string MacdPerSlowRow11Text
+        {
+            get { return Macd_per_slow_row_11.Text; }
+            set { Macd_per_slow_row_11.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Macd_per_slow_row_12;
+        public string MacdPerSlowRow12Text
+        {
+            get { return Macd_per_slow_row_12.Text; }
+            set { Macd_per_slow_row_12.Text = value; }
+        }
         private System.Windows.Forms.ComboBox Macd_sig_row_0;
+        public string MacdSigRow0Item
+        {
+            get { return Macd_sig_row_0.SelectedItem.ToString(); }
+            set { Macd_sig_row_0.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Macd_sig_row_1;
+        public string MacdSigRow1Item
+        {
+            get { return Macd_sig_row_1.SelectedItem.ToString(); }
+            set { Macd_sig_row_1.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Macd_sig_row_2;
+        public string MacdSigRow2Item
+        {
+            get { return Macd_sig_row_2.SelectedItem.ToString(); }
+            set { Macd_sig_row_2.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Macd_sig_row_3;
+        public string MacdSigRow3Item
+        {
+            get { return Macd_sig_row_3.SelectedItem.ToString(); }
+            set { Macd_sig_row_3.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Macd_sig_row_4;
+        public string MacdSigRow4Item
+        {
+            get { return Macd_sig_row_4.SelectedItem.ToString(); }
+            set { Macd_sig_row_4.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Macd_sig_row_5;
+        public string MacdSigRow5Item
+        {
+            get { return Macd_sig_row_5.SelectedItem.ToString(); }
+            set { Macd_sig_row_5.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Macd_sig_row_6;
+        public string MacdSigRow6Item
+        {
+            get { return Macd_sig_row_6.SelectedItem.ToString(); }
+            set { Macd_sig_row_6.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Macd_sig_row_7;
+        public string MacdSigRow7Item
+        {
+            get { return Macd_sig_row_7.SelectedItem.ToString(); }
+            set { Macd_sig_row_7.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Macd_sig_row_8;
+        public string MacdSigRow8Item
+        {
+            get { return Macd_sig_row_8.SelectedItem.ToString(); }
+            set { Macd_sig_row_8.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Macd_sig_row_9;
+        public string MacdSigRow9Item
+        {
+            get { return Macd_sig_row_9.SelectedItem.ToString(); }
+            set { Macd_sig_row_9.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Macd_sig_row_10;
+        public string MacdSigRow10Item
+        {
+            get { return Macd_sig_row_10.SelectedItem.ToString(); }
+            set { Macd_sig_row_10.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Macd_sig_row_11;
+        public string MacdSigRow11Item
+        {
+            get { return Macd_sig_row_11.SelectedItem.ToString(); }
+            set { Macd_sig_row_11.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Macd_sig_row_12;
+        public string MacdSigRow12Item
+        {
+            get { return Macd_sig_row_12.SelectedItem.ToString(); }
+            set { Macd_sig_row_12.SelectedItem = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Sar_step_row_0;
+        public string SarStepRow0Text
+        {
+            get { return Sar_step_row_0.Text; }
+            set { Sar_step_row_0.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Sar_step_row_1;
+        public string SarStepRow1Text
+        {
+            get { return Sar_step_row_1.Text; }
+            set { Sar_step_row_1.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Sar_step_row_2;
+        public string SarStepRow2Text
+        {
+            get { return Sar_step_row_2.Text; }
+            set { Sar_step_row_2.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Sar_step_row_3;
+        public string SarStepRow3Text
+        {
+            get { return Sar_step_row_3.Text; }
+            set { Sar_step_row_3.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Sar_step_row_4;
+        public string SarStepRow4Text
+        {
+            get { return Sar_step_row_4.Text; }
+            set { Sar_step_row_4.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Sar_step_row_5;
+        public string SarStepRow5Text
+        {
+            get { return Sar_step_row_5.Text; }
+            set { Sar_step_row_5.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Sar_step_row_6;
+        public string SarStepRow6Text
+        {
+            get { return Sar_step_row_6.Text; }
+            set { Sar_step_row_6.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Sar_step_row_7;
+        public string SarStepRow7Text
+        {
+            get { return Sar_step_row_7.Text; }
+            set { Sar_step_row_7.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Sar_step_row_8;
+        public string SarStepRow8Text
+        {
+            get { return Sar_step_row_8.Text; }
+            set { Sar_step_row_8.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Sar_step_row_9;
+        public string SarStepRow9Text
+        {
+            get { return Sar_step_row_9.Text; }
+            set { Sar_step_row_9.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Sar_step_row_10;
+        public string SarStepRow10Text
+        {
+            get { return Sar_step_row_10.Text; }
+            set { Sar_step_row_10.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Sar_step_row_11;
+        public string SarStepRow11Text
+        {
+            get { return Sar_step_row_11.Text; }
+            set { Sar_step_row_11.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Sar_step_row_12;
+        public string SarStepRow12Text
+        {
+            get { return Sar_step_row_12.Text; }
+            set { Sar_step_row_12.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Sar_max_step_row_0;
+        public string SarMaxStepRow0Text
+        {
+            get { return Sar_max_step_row_0.Text; }
+            set { Sar_max_step_row_0.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Sar_max_step_row_1;
+        public string SarMaxStepRow1Text
+        {
+            get { return Sar_max_step_row_1.Text; }
+            set { Sar_max_step_row_1.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Sar_max_step_row_2;
+        public string SarMaxStepRow2Text
+        {
+            get { return Sar_max_step_row_2.Text; }
+            set { Sar_max_step_row_2.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Sar_max_step_row_3;
+        public string SarMaxStepRow3Text
+        {
+            get { return Sar_max_step_row_3.Text; }
+            set { Sar_max_step_row_3.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Sar_max_step_row_4;
+        public string SarMaxStepRow4Text
+        {
+            get { return Sar_max_step_row_4.Text; }
+            set { Sar_max_step_row_4.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Sar_max_step_row_5;
+        public string SarMaxStepRow5Text
+        {
+            get { return Sar_max_step_row_5.Text; }
+            set { Sar_max_step_row_5.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Sar_max_step_row_6;
+        public string SarMaxStepRow6Text
+        {
+            get { return Sar_max_step_row_6.Text; }
+            set { Sar_max_step_row_6.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Sar_max_step_row_7;
+        public string SarMaxStepRow7Text
+        {
+            get { return Sar_max_step_row_7.Text; }
+            set { Sar_max_step_row_7.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Sar_max_step_row_8;
+        public string SarMaxStepRow8Text
+        {
+            get { return Sar_max_step_row_8.Text; }
+            set { Sar_max_step_row_8.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Sar_max_step_row_9;
+        public string SarMaxStepRow9Text
+        {
+            get { return Sar_max_step_row_9.Text; }
+            set { Sar_max_step_row_9.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Sar_max_step_row_10;
+        public string SarMaxStepRow10Text
+        {
+            get { return Sar_max_step_row_10.Text; }
+            set { Sar_max_step_row_10.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Sar_max_step_row_11;
+        public string SarMaxStepRow11Text
+        {
+            get { return Sar_max_step_row_11.Text; }
+            set { Sar_max_step_row_11.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Sar_max_step_row_12;
+        public string SarMaxStepRow12Text
+        {
+            get { return Sar_max_step_row_12.Text; }
+            set { Sar_max_step_row_12.Text = value; }
+        }
         private System.Windows.Forms.ComboBox Sar_sig_row_0;
+        public string SarSigRow0Item
+        {
+            get { return Sar_sig_row_0.SelectedItem.ToString(); }
+            set { Sar_sig_row_0.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Sar_sig_row_1;
+        public string SarSigRow1Item
+        {
+            get { return Sar_sig_row_1.SelectedItem.ToString(); }
+            set { Sar_sig_row_1.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Sar_sig_row_2;
+        public string SarSigRow2Item
+        {
+            get { return Sar_sig_row_2.SelectedItem.ToString(); }
+            set { Sar_sig_row_2.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Sar_sig_row_3;
+        public string SarSigRow3Item
+        {
+            get { return Sar_sig_row_3.SelectedItem.ToString(); }
+            set { Sar_sig_row_3.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Sar_sig_row_4;
+        public string SarSigRow4Item
+        {
+            get { return Sar_sig_row_4.SelectedItem.ToString(); }
+            set { Sar_sig_row_4.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Sar_sig_row_5;
+        public string SarSigRow5Item
+        {
+            get { return Sar_sig_row_5.SelectedItem.ToString(); }
+            set { Sar_sig_row_5.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Sar_sig_row_6;
+        public string SarSigRow6Item
+        {
+            get { return Sar_sig_row_6.SelectedItem.ToString(); }
+            set { Sar_sig_row_6.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Sar_sig_row_7;
+        public string SarSigRow7Item
+        {
+            get { return Sar_sig_row_7.SelectedItem.ToString(); }
+            set { Sar_sig_row_7.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Sar_sig_row_8;
+        public string SarSigRow8Item
+        {
+            get { return Sar_sig_row_8.SelectedItem.ToString(); }
+            set { Sar_sig_row_8.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Sar_sig_row_9;
+        public string SarSigRow9Item
+        {
+            get { return Sar_sig_row_9.SelectedItem.ToString(); }
+            set { Sar_sig_row_9.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Sar_sig_row_10;
+        public string SarSigRow10Item
+        {
+            get { return Sar_sig_row_10.SelectedItem.ToString(); }
+            set { Sar_sig_row_10.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Sar_sig_row_11;
+        public string SarSigRow11Item
+        {
+            get { return Sar_sig_row_11.SelectedItem.ToString(); }
+            set { Sar_sig_row_11.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Sar_sig_row_12;
+        public string SarSigRow12Item
+        {
+            get { return Sar_sig_row_12.SelectedItem.ToString(); }
+            set { Sar_sig_row_12.SelectedItem = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Bb_per_ma_row_0;
+        public string BbPerMaRow0Text
+        {
+            get { return Bb_per_ma_row_0.Text; }
+            set { Bb_per_ma_row_0.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Bb_per_ma_row_1;
+        public string BbPerMaRow1Text
+        {
+            get { return Bb_per_ma_row_1.Text; }
+            set { Bb_per_ma_row_1.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Bb_per_ma_row_2;
+        public string BbPerMaRow2Text
+        {
+            get { return Bb_per_ma_row_2.Text; }
+            set { Bb_per_ma_row_2.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Bb_per_ma_row_3;
+        public string BbPerMaRow3Text
+        {
+            get { return Bb_per_ma_row_3.Text; }
+            set { Bb_per_ma_row_3.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Bb_per_ma_row_4;
+        public string BbPerMaRow4Text
+        {
+            get { return Bb_per_ma_row_4.Text; }
+            set { Bb_per_ma_row_4.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Bb_per_ma_row_5;
+        public string BbPerMaRow5Text
+        {
+            get { return Bb_per_ma_row_5.Text; }
+            set { Bb_per_ma_row_5.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Bb_per_ma_row_6;
+        public string BbPerMaRow6Text
+        {
+            get { return Bb_per_ma_row_6.Text; }
+            set { Bb_per_ma_row_6.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Bb_per_ma_row_7;
+        public string BbPerMaRow7Text
+        {
+            get { return Bb_per_ma_row_7.Text; }
+            set { Bb_per_ma_row_7.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Bb_per_ma_row_8;
+        public string BbPerMaRow8Text
+        {
+            get { return Bb_per_ma_row_8.Text; }
+            set { Bb_per_ma_row_8.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Bb_per_ma_row_9;
+        public string BbPerMaRow9Text
+        {
+            get { return Bb_per_ma_row_9.Text; }
+            set { Bb_per_ma_row_9.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Bb_per_ma_row_10;
+        public string BbPerMaRow10Text
+        {
+            get { return Bb_per_ma_row_10.Text; }
+            set { Bb_per_ma_row_10.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Bb_per_ma_row_11;
+        public string BbPerMaRow11Text
+        {
+            get { return Bb_per_ma_row_11.Text; }
+            set { Bb_per_ma_row_11.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Bb_per_ma_row_12;
+        public string BbPerMaRow12Text
+        {
+            get { return Bb_per_ma_row_12.Text; }
+            set { Bb_per_ma_row_12.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Bb_dev_row_0;
+        public string BbDevRow0Text
+        {
+            get { return Bb_dev_row_0.Text; }
+            set { Bb_dev_row_0.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Bb_dev_row_1;
+        public string BbDevRow1Text
+        {
+            get { return Bb_dev_row_1.Text; }
+            set { Bb_dev_row_1.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Bb_dev_row_2;
+        public string BbDevRow2Text
+        {
+            get { return Bb_dev_row_2.Text; }
+            set { Bb_dev_row_2.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Bb_dev_row_3;
+        public string BbDevRow3Text
+        {
+            get { return Bb_dev_row_3.Text; }
+            set { Bb_dev_row_3.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Bb_dev_row_4;
+        public string BbDevRow4Text
+        {
+            get { return Bb_dev_row_4.Text; }
+            set { Bb_dev_row_4.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Bb_dev_row_5;
+        public string BbDevRow5Text
+        {
+            get { return Bb_dev_row_5.Text; }
+            set { Bb_dev_row_5.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Bb_dev_row_6;
+        public string BbDevRow6Text
+        {
+            get { return Bb_dev_row_6.Text; }
+            set { Bb_dev_row_6.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Bb_dev_row_7;
+        public string BbDevRow7Text
+        {
+            get { return Bb_dev_row_7.Text; }
+            set { Bb_dev_row_7.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Bb_dev_row_8;
+        public string BbDevRow8Text
+        {
+            get { return Bb_dev_row_8.Text; }
+            set { Bb_dev_row_8.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Bb_dev_row_9;
+        public string BbDevRow9Text
+        {
+            get { return Bb_dev_row_9.Text; }
+            set { Bb_dev_row_9.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Bb_dev_row_10;
+        public string BbDevRow10Text
+        {
+            get { return Bb_dev_row_10.Text; }
+            set { Bb_dev_row_10.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Bb_dev_row_11;
+        public string BbDevRow11Text
+        {
+            get { return Bb_dev_row_11.Text; }
+            set { Bb_dev_row_11.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Bb_dev_row_12;
+        public string BbDevRow12Text
+        {
+            get { return Bb_dev_row_12.Text; }
+            set { Bb_dev_row_12.Text = value; }
+        }
         private System.Windows.Forms.ComboBox Bb_sig_row_0;
+        public string BbSigRow0Item
+        {
+            get { return Bb_sig_row_0.SelectedItem.ToString(); }
+            set { Bb_sig_row_0.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Bb_sig_row_1;
+        public string BbSigRow1Item
+        {
+            get { return Bb_sig_row_1.SelectedItem.ToString(); }
+            set { Bb_sig_row_1.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Bb_sig_row_2;
+        public string BbSigRow2Item
+        {
+            get { return Bb_sig_row_2.SelectedItem.ToString(); }
+            set { Bb_sig_row_2.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Bb_sig_row_3;
+        public string BbSigRow3Item
+        {
+            get { return Bb_sig_row_3.SelectedItem.ToString(); }
+            set { Bb_sig_row_3.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Bb_sig_row_4;
+        public string BbSigRow4Item
+        {
+            get { return Bb_sig_row_4.SelectedItem.ToString(); }
+            set { Bb_sig_row_4.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Bb_sig_row_5;
+        public string BbSigRow5Item
+        {
+            get { return Bb_sig_row_5.SelectedItem.ToString(); }
+            set { Bb_sig_row_5.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Bb_sig_row_6;
+        public string BbSigRow6Item
+        {
+            get { return Bb_sig_row_6.SelectedItem.ToString(); }
+            set { Bb_sig_row_6.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Bb_sig_row_7;
+        public string BbSigRow7Item
+        {
+            get { return Bb_sig_row_7.SelectedItem.ToString(); }
+            set { Bb_sig_row_7.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Bb_sig_row_8;
+        public string BbSigRow8Item
+        {
+            get { return Bb_sig_row_8.SelectedItem.ToString(); }
+            set { Bb_sig_row_8.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Bb_sig_row_9;
+        public string BbSigRow9Item
+        {
+            get { return Bb_sig_row_9.SelectedItem.ToString(); }
+            set { Bb_sig_row_9.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Bb_sig_row_10;
+        public string BbSigRow10Item
+        {
+            get { return Bb_sig_row_10.SelectedItem.ToString(); }
+            set { Bb_sig_row_10.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Bb_sig_row_11;
+        public string BbSigRow11Item
+        {
+            get { return Bb_sig_row_11.SelectedItem.ToString(); }
+            set { Bb_sig_row_11.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Bb_sig_row_12;
+        public string BbSigRow12Item
+        {
+            get { return Bb_sig_row_12.SelectedItem.ToString(); }
+            set { Bb_sig_row_12.SelectedItem = value; }
+        }
         private System.Windows.Forms.TableLayoutPanel Table_main_order;
         private System.Windows.Forms.TextBox Symb_row_12_m_ord;
         private System.Windows.Forms.TextBox Symb_row_11_m_ord;
@@ -14261,28 +16519,11 @@
         private System.Windows.Forms.CheckBox Otkup_minus_h_order_row_10;
         private System.Windows.Forms.CheckBox Otkup_minus_h_order_row_11;
         private System.Windows.Forms.CheckBox Otkup_minus_h_order_row_12;
-        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage gen_param_page;
         private System.Windows.Forms.TableLayoutPanel Tabel_common_params;
-        private System.Windows.Forms.Label Use_time_filtr;
-        private System.Windows.Forms.CheckBox Use_time_filtr_control;
         private System.Windows.Forms.Label Time_start;
         private System.Windows.Forms.MaskedTextBox Time_start_control;
         private System.Windows.Forms.Label Time_end;
-        private System.Windows.Forms.MaskedTextBox Time_end_control;
-        private System.Windows.Forms.Label Close_all_pos_end_trade;
-        private System.Windows.Forms.CheckBox Close_all_pos_end_trade_control;
-        private System.Windows.Forms.Label Del_order_end_trade;
-        private System.Windows.Forms.CheckBox Del_order_end_trade_control;
-        private System.Windows.Forms.Label Koeff_add_vol;
-        private System.Windows.Forms.TextBox Koeff_add_vol_control;
-        private System.Windows.Forms.Label Use_comission;
-        private System.Windows.Forms.CheckBox Use_comission_control;
-        private System.Windows.Forms.Label Use_delay_otkup;
-        private System.Windows.Forms.CheckBox Use_delay_otkup_control;
-        private System.Windows.Forms.Label Series_minus_deals;
-        private System.Windows.Forms.TextBox Series_minus_deals_control;
-        private System.Windows.Forms.Label Step_add_deposit;
-        private System.Windows.Forms.TextBox Step_add_deposit_control;
         private System.Windows.Forms.Label Max_growth_deposit_reset;
         private System.Windows.Forms.TextBox Max_growth_deposit_reset_control;
         private System.Windows.Forms.Label Use_reset_data_otkup;
@@ -14293,10 +16534,567 @@
         private System.Windows.Forms.ComboBox Using_tester_control;
         private System.Windows.Forms.Label Unit_stop_take;
         private System.Windows.Forms.ComboBox Unit_stop_take_control;
-        private System.Windows.Forms.Label Size_deposit;
-        private System.Windows.Forms.TextBox Size_deposit_control;
         private System.Windows.Forms.Label Print_comments;
         private System.Windows.Forms.CheckBox Print_comments_control;
+        private System.Windows.Forms.Button Refresh;
+        private System.Windows.Forms.TextBox Time_end_control;
+        private System.Windows.Forms.Label Coeff_add_vol;
+        private System.Windows.Forms.TextBox Coeff_add_vol_control;
+        private System.Windows.Forms.Label Use_comission;
+        private System.Windows.Forms.CheckBox Use_comission_control;
+        private System.Windows.Forms.Label Use_time_filtr;
+        private System.Windows.Forms.CheckBox Use_time_filtr_row_0;
+        public string UseTimeFiltrRow0Checked
+        {
+            get { return (Use_time_filtr_row_0.Checked == false) ? "0" : "1"; }
+            set { Use_time_filtr_row_0.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox Use_time_filtr_row_1;
+        public string UseTimeFiltrRow1Checked
+        {
+            get { return (Use_time_filtr_row_1.Checked == false) ? "0" : "1"; }
+            set { Use_time_filtr_row_1.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox Use_time_filtr_row_2;
+        public string UseTimeFiltrRow2Checked
+        {
+            get { return (Use_time_filtr_row_2.Checked == false) ? "0" : "1"; }
+            set { Use_time_filtr_row_2.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox Use_time_filtr_row_3;
+        public string UseTimeFiltrRow3Checked
+        {
+            get { return (Use_time_filtr_row_3.Checked == false) ? "0" : "1"; }
+            set { Use_time_filtr_row_3.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox Use_time_filtr_row_4;
+        public string UseTimeFiltrRow4Checked
+        {
+            get { return (Use_time_filtr_row_4.Checked == false) ? "0" : "1"; }
+            set { Use_time_filtr_row_4.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox Use_time_filtr_row_5;
+        public string UseTimeFiltrRow5Checked
+        {
+            get { return (Use_time_filtr_row_5.Checked == false) ? "0" : "1"; }
+            set { Use_time_filtr_row_5.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox Use_time_filtr_row_6;
+        public string UseTimeFiltrRow6Checked
+        {
+            get { return (Use_time_filtr_row_6.Checked == false) ? "0" : "1"; }
+            set { Use_time_filtr_row_6.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox Use_time_filtr_row_7;
+        public string UseTimeFiltrRow7Checked
+        {
+            get { return (Use_time_filtr_row_7.Checked == false) ? "0" : "1"; }
+            set { Use_time_filtr_row_7.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox Use_time_filtr_row_8;
+        public string UseTimeFiltrRow8Checked
+        {
+            get { return (Use_time_filtr_row_8.Checked == false) ? "0" : "1"; }
+            set { Use_time_filtr_row_8.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox Use_time_filtr_row_9;
+        public string UseTimeFiltrRow9Checked
+        {
+            get { return (Use_time_filtr_row_9.Checked == false) ? "0" : "1"; }
+            set { Use_time_filtr_row_9.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox Use_time_filtr_row_10;
+        public string UseTimeFiltrRow10Checked
+        {
+            get { return (Use_time_filtr_row_10.Checked == false) ? "0" : "1"; }
+            set { Use_time_filtr_row_10.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox Use_time_filtr_row_11;
+        public string UseTimeFiltrRow11Checked
+        {
+            get { return (Use_time_filtr_row_11.Checked == false) ? "0" : "1"; }
+            set { Use_time_filtr_row_11.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox Use_time_filtr_row_12;
+        public string UseTimeFiltrRow12Checked
+        {
+            get { return (Use_time_filtr_row_12.Checked == false) ? "0" : "1"; }
+            set { Use_time_filtr_row_12.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.Label Close_all_pos_end_torg;
+        private System.Windows.Forms.CheckBox Close_all_pos_end_torg_row_0;
+        public string CloseAllPosEndTorgRow0Checked
+        {
+            get { return (Close_all_pos_end_torg_row_0.Checked == false) ? "0" : "1"; }
+            set { Close_all_pos_end_torg_row_0.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox Close_all_pos_end_torg_row_1;
+        public string CloseAllPosEndTorgRow1Checked
+        {
+            get { return (Close_all_pos_end_torg_row_1.Checked == false) ? "0" : "1"; }
+            set { Close_all_pos_end_torg_row_1.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox Close_all_pos_end_torg_row_2;
+        public string CloseAllPosEndTorgRow2Checked
+        {
+            get { return (Close_all_pos_end_torg_row_2.Checked == false) ? "0" : "1"; }
+            set { Close_all_pos_end_torg_row_2.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox Close_all_pos_end_torg_row_3;
+        public string CloseAllPosEndTorgRow3Checked
+        {
+            get { return (Close_all_pos_end_torg_row_3.Checked == false) ? "0" : "1"; }
+            set { Close_all_pos_end_torg_row_3.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox Close_all_pos_end_torg_row_4;
+        public string CloseAllPosEndTorgRow4Checked
+        {
+            get { return (Close_all_pos_end_torg_row_4.Checked == false) ? "0" : "1"; }
+            set { Close_all_pos_end_torg_row_4.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox Close_all_pos_end_torg_row_5;
+        public string CloseAllPosEndTorgRow5Checked
+        {
+            get { return (Close_all_pos_end_torg_row_5.Checked == false) ? "0" : "1"; }
+            set { Close_all_pos_end_torg_row_5.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox Close_all_pos_end_torg_row_6;
+        public string CloseAllPosEndTorgRow6Checked
+        {
+            get { return (Close_all_pos_end_torg_row_6.Checked == false) ? "0" : "1"; }
+            set { Close_all_pos_end_torg_row_6.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox Close_all_pos_end_torg_row_7;
+        public string CloseAllPosEndTorgRow7Checked
+        {
+            get { return (Close_all_pos_end_torg_row_7.Checked == false) ? "0" : "1"; }
+            set { Close_all_pos_end_torg_row_7.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox Close_all_pos_end_torg_row_8;
+        public string CloseAllPosEndTorgRow8Checked
+        {
+            get { return (Close_all_pos_end_torg_row_8.Checked == false) ? "0" : "1"; }
+            set { Close_all_pos_end_torg_row_8.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox Close_all_pos_end_torg_row_9;
+        public string CloseAllPosEndTorgRow9Checked
+        {
+            get { return (Close_all_pos_end_torg_row_9.Checked == false) ? "0" : "1"; }
+            set { Close_all_pos_end_torg_row_9.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox Close_all_pos_end_torg_row_10;
+        public string CloseAllPosEndTorgRow10Checked
+        {
+            get { return (Close_all_pos_end_torg_row_10.Checked == false) ? "0" : "1"; }
+            set { Close_all_pos_end_torg_row_10.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox Close_all_pos_end_torg_row_11;
+        public string CloseAllPosEndTorgRow11Checked
+        {
+            get { return (Close_all_pos_end_torg_row_11.Checked == false) ? "0" : "1"; }
+            set { Close_all_pos_end_torg_row_11.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox Close_all_pos_end_torg_row_12;
+        public string CloseAllPosEndTorgRow12Checked
+        {
+            get { return (Close_all_pos_end_torg_row_12.Checked == false) ? "0" : "1"; }
+            set { Close_all_pos_end_torg_row_12.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.Label Del_no_pair_ord_end_torg;
+        private System.Windows.Forms.CheckBox Del_no_pair_ord_end_torg_row_0;
+        public string DelNoPairOrdEndTorgRow0Checked
+        {
+            get { return (Del_no_pair_ord_end_torg_row_0.Checked == false) ? "0" : "1"; }
+            set { Del_no_pair_ord_end_torg_row_0.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox Del_no_pair_ord_end_torg_row_1;
+        public string DelNoPairOrdEndTorgRow1Checked
+        {
+            get { return (Del_no_pair_ord_end_torg_row_1.Checked == false) ? "0" : "1"; }
+            set { Del_no_pair_ord_end_torg_row_1.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox Del_no_pair_ord_end_torg_row_2;
+        public string DelNoPairOrdEndTorgRow2Checked
+        {
+            get { return (Del_no_pair_ord_end_torg_row_2.Checked == false) ? "0" : "1"; }
+            set { Del_no_pair_ord_end_torg_row_2.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox Del_no_pair_ord_end_torg_row_3;
+        public string DelNoPairOrdEndTorgRow3Checked
+        {
+            get { return (Del_no_pair_ord_end_torg_row_3.Checked == false) ? "0" : "1"; }
+            set { Del_no_pair_ord_end_torg_row_3.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox Del_no_pair_ord_end_torg_row_4;
+        public string DelNoPairOrdEndTorgRow4Checked
+        {
+            get { return (Del_no_pair_ord_end_torg_row_4.Checked == false) ? "0" : "1"; }
+            set { Del_no_pair_ord_end_torg_row_4.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox Del_no_pair_ord_end_torg_row_5;
+        public string DelNoPairOrdEndTorgRow5Checked
+        {
+            get { return (Del_no_pair_ord_end_torg_row_5.Checked == false) ? "0" : "1"; }
+            set { Del_no_pair_ord_end_torg_row_5.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox Del_no_pair_ord_end_torg_row_6;
+        public string DelNoPairOrdEndTorgRow6Checked
+        {
+            get { return (Del_no_pair_ord_end_torg_row_6.Checked == false) ? "0" : "1"; }
+            set { Del_no_pair_ord_end_torg_row_6.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox Del_no_pair_ord_end_torg_row_7;
+        public string DelNoPairOrdEndTorgRow7Checked
+        {
+            get { return (Del_no_pair_ord_end_torg_row_7.Checked == false) ? "0" : "1"; }
+            set { Del_no_pair_ord_end_torg_row_7.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox Del_no_pair_ord_end_torg_row_8;
+        public string DelNoPairOrdEndTorgRow8Checked
+        {
+            get { return (Del_no_pair_ord_end_torg_row_8.Checked == false) ? "0" : "1"; }
+            set { Del_no_pair_ord_end_torg_row_8.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox Del_no_pair_ord_end_torg_row_9;
+        public string DelNoPairOrdEndTorgRow9Checked
+        {
+            get { return (Del_no_pair_ord_end_torg_row_9.Checked == false) ? "0" : "1"; }
+            set { Del_no_pair_ord_end_torg_row_9.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox Del_no_pair_ord_end_torg_row_10;
+        public string DelNoPairOrdEndTorgRow10Checked
+        {
+            get { return (Del_no_pair_ord_end_torg_row_10.Checked == false) ? "0" : "1"; }
+            set { Del_no_pair_ord_end_torg_row_10.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox Del_no_pair_ord_end_torg_row_11;
+        public string DelNoPairOrdEndTorgRow11Checked
+        {
+            get { return (Del_no_pair_ord_end_torg_row_11.Checked == false) ? "0" : "1"; }
+            set { Del_no_pair_ord_end_torg_row_11.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox Del_no_pair_ord_end_torg_row_12;
+        public string DelNoPairOrdEndTorgRow12Checked
+        {
+            get { return (Del_no_pair_ord_end_torg_row_12.Checked == false) ? "0" : "1"; }
+            set { Del_no_pair_ord_end_torg_row_12.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.Label On_delay_otkup;
+        private System.Windows.Forms.CheckBox On_delay_otkup_row_0;
+        public string OnDelayOtkupRow0Checked
+        {
+            get { return (On_delay_otkup_row_0.Checked == false) ? "0" : "1"; }
+            set { On_delay_otkup_row_0.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox On_delay_otkup_row_1;
+        public string OnDelayOtkupRow1Checked
+        {
+            get { return (On_delay_otkup_row_1.Checked == false) ? "0" : "1"; }
+            set { On_delay_otkup_row_1.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox On_delay_otkup_row_2;
+        public string OnDelayOtkupRow2Checked
+        {
+            get { return (On_delay_otkup_row_2.Checked == false) ? "0" : "1"; }
+            set { On_delay_otkup_row_2.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox On_delay_otkup_row_3;
+        public string OnDelayOtkupRow3Checked
+        {
+            get { return (On_delay_otkup_row_3.Checked == false) ? "0" : "1"; }
+            set { On_delay_otkup_row_3.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox On_delay_otkup_row_4;
+        public string OnDelayOtkupRow4Checked
+        {
+            get { return (On_delay_otkup_row_4.Checked == false) ? "0" : "1"; }
+            set { On_delay_otkup_row_4.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox On_delay_otkup_row_5;
+        public string OnDelayOtkupRow5Checked
+        {
+            get { return (On_delay_otkup_row_5.Checked == false) ? "0" : "1"; }
+            set { On_delay_otkup_row_5.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox On_delay_otkup_row_6;
+        public string OnDelayOtkupRow6Checked
+        {
+            get { return (On_delay_otkup_row_6.Checked == false) ? "0" : "1"; }
+            set { On_delay_otkup_row_6.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox On_delay_otkup_row_7;
+        public string OnDelayOtkupRow7Checked
+        {
+            get { return (On_delay_otkup_row_7.Checked == false) ? "0" : "1"; }
+            set { On_delay_otkup_row_7.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox On_delay_otkup_row_8;
+        public string OnDelayOtkupRow8Checked
+        {
+            get { return (On_delay_otkup_row_8.Checked == false) ? "0" : "1"; }
+            set { On_delay_otkup_row_8.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox On_delay_otkup_row_9;
+        public string OnDelayOtkupRow9Checked
+        {
+            get { return (On_delay_otkup_row_9.Checked == false) ? "0" : "1"; }
+            set { On_delay_otkup_row_9.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox On_delay_otkup_row_10;
+        public string OnDelayOtkupRow10Checked
+        {
+            get { return (On_delay_otkup_row_10.Checked == false) ? "0" : "1"; }
+            set { On_delay_otkup_row_10.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox On_delay_otkup_row_11;
+        public string OnDelayOtkupRow11Checked
+        {
+            get { return (On_delay_otkup_row_11.Checked == false) ? "0" : "1"; }
+            set { On_delay_otkup_row_11.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.CheckBox On_delay_otkup_row_12;
+        public string OnDelayOtkupRow12Checked
+        {
+            get { return (On_delay_otkup_row_12.Checked == false) ? "0" : "1"; }
+            set { On_delay_otkup_row_12.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.Label Series_minus_deal;
+        private System.Windows.Forms.TextBox Series_minus_deal_row_0;
+        public string SeriesMinusDealRow0Text
+        {
+            get { return Series_minus_deal_row_0.Text; }
+            set { Series_minus_deal_row_0.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Series_minus_deal_row_1;
+        public string SeriesMinusDealRow1Text
+        {
+            get { return Series_minus_deal_row_1.Text; }
+            set { Series_minus_deal_row_1.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Series_minus_deal_row_2;
+        public string SeriesMinusDealRow2Text
+        {
+            get { return Series_minus_deal_row_2.Text; }
+            set { Series_minus_deal_row_2.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Series_minus_deal_row_3;
+        public string SeriesMinusDealRow3Text
+        {
+            get { return Series_minus_deal_row_3.Text; }
+            set { Series_minus_deal_row_3.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Series_minus_deal_row_4;
+        public string SeriesMinusDealRow4Text
+        {
+            get { return Series_minus_deal_row_4.Text; }
+            set { Series_minus_deal_row_4.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Series_minus_deal_row_5;
+        public string SeriesMinusDealRow5Text
+        {
+            get { return Series_minus_deal_row_5.Text; }
+            set { Series_minus_deal_row_5.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Series_minus_deal_row_6;
+        public string SeriesMinusDealRow6Text
+        {
+            get { return Series_minus_deal_row_6.Text; }
+            set { Series_minus_deal_row_6.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Series_minus_deal_row_7;
+        public string SeriesMinusDealRow7Text
+        {
+            get { return Series_minus_deal_row_7.Text; }
+            set { Series_minus_deal_row_7.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Series_minus_deal_row_8;
+        public string SeriesMinusDealRow8Text
+        {
+            get { return Series_minus_deal_row_8.Text; }
+            set { Series_minus_deal_row_8.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Series_minus_deal_row_9;
+        public string SeriesMinusDealRow9Text
+        {
+            get { return Series_minus_deal_row_9.Text; }
+            set { Series_minus_deal_row_9.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Series_minus_deal_row_10;
+        public string SeriesMinusDealRow10Text
+        {
+            get { return Series_minus_deal_row_10.Text; }
+            set { Series_minus_deal_row_10.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Series_minus_deal_row_11;
+        public string SeriesMinusDealRow11Text
+        {
+            get { return Series_minus_deal_row_11.Text; }
+            set { Series_minus_deal_row_11.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Series_minus_deal_row_12;
+        public string SeriesMinusDealRow12Text
+        {
+            get { return Series_minus_deal_row_12.Text; }
+            set { Series_minus_deal_row_12.Text = value; }
+        }
+        private System.Windows.Forms.Label Step_add_deposit;
+        private System.Windows.Forms.TextBox Step_add_deposit_row_0;
+        public string StepAddDepositRow0Text
+        {
+            get { return Step_add_deposit_row_0.Text; }
+            set { Step_add_deposit_row_0.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Step_add_deposit_row_1;
+        public string StepAddDepositRow1Text
+        {
+            get { return Step_add_deposit_row_1.Text; }
+            set { Step_add_deposit_row_1.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Step_add_deposit_row_2;
+        public string StepAddDepositRow2Text
+        {
+            get { return Step_add_deposit_row_2.Text; }
+            set { Step_add_deposit_row_2.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Step_add_deposit_row_3;
+        public string StepAddDepositRow3Text
+        {
+            get { return Step_add_deposit_row_3.Text; }
+            set { Step_add_deposit_row_3.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Step_add_deposit_row_4;
+        public string StepAddDepositRow4Text
+        {
+            get { return Step_add_deposit_row_4.Text; }
+            set { Step_add_deposit_row_4.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Step_add_deposit_row_5;
+        public string StepAddDepositRow5Text
+        {
+            get { return Step_add_deposit_row_5.Text; }
+            set { Step_add_deposit_row_5.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Step_add_deposit_row_6;
+        public string StepAddDepositRow6Text
+        {
+            get { return Step_add_deposit_row_6.Text; }
+            set { Step_add_deposit_row_6.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Step_add_deposit_row_7;
+        public string StepAddDepositRow7Text
+        {
+            get { return Step_add_deposit_row_7.Text; }
+            set { Step_add_deposit_row_7.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Step_add_deposit_row_8;
+        public string StepAddDepositRow8Text
+        {
+            get { return Step_add_deposit_row_8.Text; }
+            set { Step_add_deposit_row_8.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Step_add_deposit_row_9;
+        public string StepAddDepositRow9Text
+        {
+            get { return Step_add_deposit_row_9.Text; }
+            set { Step_add_deposit_row_9.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Step_add_deposit_row_10;
+        public string StepAddDepositRow10Text
+        {
+            get { return Step_add_deposit_row_10.Text; }
+            set { Step_add_deposit_row_10.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Step_add_deposit_row_11;
+        public string StepAddDepositRow11Text
+        {
+            get { return Step_add_deposit_row_11.Text; }
+            set { Step_add_deposit_row_11.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Step_add_deposit_row_12;
+        public string StepAddDepositRow12Text
+        {
+            get { return Step_add_deposit_row_12.Text; }
+            set { Step_add_deposit_row_12.Text = value; }
+        }
+        private System.Windows.Forms.Label Size_deposit;
+        private System.Windows.Forms.TextBox Size_deposit_row_0;
+        public string SizeDepositRow0Text
+        {
+            get { return Size_deposit_row_0.Text; }
+            set { Size_deposit_row_0.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Size_deposit_row_1;
+        public string SizeDepositRow1Text
+        {
+            get { return Size_deposit_row_1.Text; }
+            set { Size_deposit_row_1.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Size_deposit_row_2;
+        public string SizeDepositRow2Text
+        {
+            get { return Size_deposit_row_2.Text; }
+            set { Size_deposit_row_2.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Size_deposit_row_3;
+        public string SizeDepositRow3Text
+        {
+            get { return Size_deposit_row_3.Text; }
+            set { Size_deposit_row_3.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Size_deposit_row_4;
+        public string SizeDepositRow4Text
+        {
+            get { return Size_deposit_row_4.Text; }
+            set { Size_deposit_row_4.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Size_deposit_row_5;
+        public string SizeDepositRow5Text
+        {
+            get { return Size_deposit_row_5.Text; }
+            set { Size_deposit_row_5.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Size_deposit_row_6;
+        public string SizeDepositRow6Text
+        {
+            get { return Size_deposit_row_6.Text; }
+            set { Size_deposit_row_6.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Size_deposit_row_7;
+        public string SizeDepositRow7Text
+        {
+            get { return Size_deposit_row_7.Text; }
+            set { Size_deposit_row_7.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Size_deposit_row_8;
+        public string SizeDepositRow8Text
+        {
+            get { return Size_deposit_row_8.Text; }
+            set { Size_deposit_row_8.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Size_deposit_row_9;
+        public string SizeDepositRow9Text
+        {
+            get { return Size_deposit_row_9.Text; }
+            set { Size_deposit_row_9.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Size_deposit_row_10;
+        public string SizeDepositRow10Text
+        {
+            get { return Size_deposit_row_10.Text; }
+            set { Size_deposit_row_10.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Size_deposit_row_11;
+        public string SizeDepositRow11Text
+        {
+            get { return Size_deposit_row_11.Text; }
+            set { Size_deposit_row_11.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Size_deposit_row_12;
+        public string SizeDepositRow12Text
+        {
+            get { return Size_deposit_row_12.Text; }
+            set { Size_deposit_row_12.Text = value; }
+        }
     }
 }
 

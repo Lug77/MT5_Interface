@@ -15,8 +15,31 @@ namespace MaBotHedging_interf_work
         public Form2()
         {
             InitializeComponent();
+            //UpdateUI();
+            ConfigData config = new ConfigData(this);
+            config.LoadConfig();
         }
 
+        private void Refresh_form(object sender, EventArgs e)
+        {
+            // Полная перерисовка формы
+            this.Invalidate(); // Помечаем форму для перерисовки
+            this.Update();     // Обновляем форму немедленно
+        }
+
+        private void Close_form(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show(
+                "Вы хотите закрыть окно и завершить работу советника?",
+                "Сообщение",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Information,
+                MessageBoxDefaultButton.Button1,
+                MessageBoxOptions.DefaultDesktopOnly);
+            if (result == DialogResult.Yes)
+                Close();
+        }
+        /*
         private void button1_Click(object sender, EventArgs e)
         {
 
@@ -36,5 +59,11 @@ namespace MaBotHedging_interf_work
         {
 
         }
+
+        private void Value_parts_take_m_ord_row_3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        */
     }
 }
