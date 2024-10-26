@@ -15875,22 +15875,87 @@
         }
         private System.Windows.Forms.TableLayoutPanel Table_main_order;
         private System.Windows.Forms.TextBox Symb_row_12_m_ord;
+        public string SymbRow12MOrdText
+        {
+            get { return Symb_row_12_m_ord.Text; }
+            set { Symb_row_12_m_ord.Text = value; }
+        }
         private System.Windows.Forms.TextBox Symb_row_11_m_ord;
+        public string SymbRow11MOrdText
+        {
+            get { return Symb_row_11_m_ord.Text; }
+            set { Symb_row_11_m_ord.Text = value; }
+        }
         private System.Windows.Forms.TextBox Symb_row_10_m_ord;
+        public string SymbRow10MOrdText
+        {
+            get { return Symb_row_10_m_ord.Text; }
+            set { Symb_row_10_m_ord.Text = value; }
+        }
         private System.Windows.Forms.TextBox Symb_row_9_m_ord;
+        public string SymbRow9MOrdText
+        {
+            get { return Symb_row_9_m_ord.Text; }
+            set { Symb_row_9_m_ord.Text = value; }
+        }
         private System.Windows.Forms.TextBox Symb_row_8_m_ord;
+        public string SymbRow8MOrdText
+        {
+            get { return Symb_row_8_m_ord.Text; }
+            set { Symb_row_8_m_ord.Text = value; }
+        }
         private System.Windows.Forms.TextBox Symb_row_7_m_ord;
+        public string SymbRow7MOrdText
+        {
+            get { return Symb_row_7_m_ord.Text; }
+            set { Symb_row_7_m_ord.Text = value; }
+        }
         private System.Windows.Forms.TextBox Symb_row_6_m_ord;
+        public string SymbRow6MOrdText
+        {
+            get { return Symb_row_6_m_ord.Text; }
+            set { Symb_row_6_m_ord.Text = value; }
+        }
         private System.Windows.Forms.TextBox Symb_row_5_m_ord;
+        public string SymbRow5MOrdText
+        {
+            get { return Symb_row_5_m_ord.Text; }
+            set { Symb_row_5_m_ord.Text = value; }
+        }
         private System.Windows.Forms.TextBox Symb_row_4_m_ord;
+        public string SymbRow4MOrdText
+        {
+            get { return Symb_row_4_m_ord.Text; }
+            set { Symb_row_4_m_ord.Text = value; }
+        }
         private System.Windows.Forms.TextBox Symb_row_3_m_ord;
+        public string SymbRow3MOrdText
+        {
+            get { return Symb_row_3_m_ord.Text; }
+            set { Symb_row_3_m_ord.Text = value; }
+        }
         private System.Windows.Forms.TextBox Symb_row_2_m_ord;
+        public string SymbRow2MOrdText
+        {
+            get { return Symb_row_2_m_ord.Text; }
+            set { Symb_row_2_m_ord.Text = value; }
+        }
         private System.Windows.Forms.TextBox Symb_row_1_m_ord;
+        public string SymbRow1MOrdText
+        {
+            get { return Symb_row_1_m_ord.Text; }
+            set { Symb_row_1_m_ord.Text = value; }
+        }
         private System.Windows.Forms.Label Symbol_name_m_order;
         private System.Windows.Forms.Label Open_main_order;
         private System.Windows.Forms.Label Choice_bar_in_m_ord;
         private System.Windows.Forms.Label Stop_in_bar_m_ord;
         private System.Windows.Forms.TextBox Symb_row_0_m_ord;
+        public string SymbRow0MOrdText
+        {
+            get { return Symb_row_0_m_ord.Text; }
+            set { Symb_row_0_m_ord.Text = value; }
+        }
         private System.Windows.Forms.Label Delay_in_bar_m_ord;
         private System.Windows.Forms.Label Fix_deal_in_m_ord;
         private System.Windows.Forms.Label Max_deals_on_bar_m_ord;
@@ -15901,287 +15966,1652 @@
         private System.Windows.Forms.Label Take_m_ord;
         private System.Windows.Forms.Label Close_take_part_m_ord;
         private System.Windows.Forms.ComboBox Bar_in_m_ord_row_0;
+        public string BarInMOrdRow0Item
+        {
+            get { return Bar_in_m_ord_row_0.SelectedItem.ToString(); }
+            set { Bar_in_m_ord_row_0.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Bar_in_m_ord_row_1;
+        public string BarInMOrdRow1Item
+        {
+            get { return Bar_in_m_ord_row_1.SelectedItem.ToString(); }
+            set { Bar_in_m_ord_row_1.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Bar_in_m_ord_row_2;
+        public string BarInMOrdRow2Item
+        {
+            get { return Bar_in_m_ord_row_2.SelectedItem.ToString(); }
+            set { Bar_in_m_ord_row_2.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Bar_in_m_ord_row_3;
+        public string BarInMOrdRow3Item
+        {
+            get { return Bar_in_m_ord_row_3.SelectedItem.ToString(); }
+            set { Bar_in_m_ord_row_3.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Bar_in_m_ord_row_4;
+        public string BarInMOrdRow4Item
+        {
+            get { return Bar_in_m_ord_row_4.SelectedItem.ToString(); }
+            set { Bar_in_m_ord_row_4.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Bar_in_m_ord_row_5;
+        public string BarInMOrdRow5Item
+        {
+            get { return Bar_in_m_ord_row_5.SelectedItem.ToString(); }
+            set { Bar_in_m_ord_row_5.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Bar_in_m_ord_row_6;
+        public string BarInMOrdRow6Item
+        {
+            get { return Bar_in_m_ord_row_6.SelectedItem.ToString(); }
+            set { Bar_in_m_ord_row_6.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Bar_in_m_ord_row_7;
+        public string BarInMOrdRow7Item
+        {
+            get { return Bar_in_m_ord_row_7.SelectedItem.ToString(); }
+            set { Bar_in_m_ord_row_7.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Bar_in_m_ord_row_8;
+        public string BarInMOrdRow8Item
+        {
+            get { return Bar_in_m_ord_row_8.SelectedItem.ToString(); }
+            set { Bar_in_m_ord_row_8.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Bar_in_m_ord_row_9;
+        public string BarInMOrdRow9Item
+        {
+            get { return Bar_in_m_ord_row_9.SelectedItem.ToString(); }
+            set { Bar_in_m_ord_row_9.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Bar_in_m_ord_row_10;
+        public string BarInMOrdRow10Item
+        {
+            get { return Bar_in_m_ord_row_10.SelectedItem.ToString(); }
+            set { Bar_in_m_ord_row_10.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Bar_in_m_ord_row_11;
+        public string BarInMOrdRow11Item
+        {
+            get { return Bar_in_m_ord_row_11.SelectedItem.ToString(); }
+            set { Bar_in_m_ord_row_11.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Bar_in_m_ord_row_12;
+        public string BarInMOrdRow12Item
+        {
+            get { return Bar_in_m_ord_row_12.SelectedItem.ToString(); }
+            set { Bar_in_m_ord_row_12.SelectedItem = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Delay_bar_m_ord_row_0;
+        public string DelayBarMOrdRow0Text
+        {
+            get { return Delay_bar_m_ord_row_0.Text; }
+            set { Delay_bar_m_ord_row_0.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Delay_bar_m_ord_row_1;
+        public string DelayBarMOrdRow1Text
+        {
+            get { return Delay_bar_m_ord_row_1.Text; }
+            set { Delay_bar_m_ord_row_1.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Delay_bar_m_ord_row_2;
+        public string DelayBarMOrdRow2Text
+        {
+            get { return Delay_bar_m_ord_row_2.Text; }
+            set { Delay_bar_m_ord_row_2.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Delay_bar_m_ord_row_3;
+        public string DelayBarMOrdRow3Text
+        {
+            get { return Delay_bar_m_ord_row_3.Text; }
+            set { Delay_bar_m_ord_row_3.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Delay_bar_m_ord_row_4;
+        public string DelayBarMOrdRow4Text
+        {
+            get { return Delay_bar_m_ord_row_4.Text; }
+            set { Delay_bar_m_ord_row_4.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Delay_bar_m_ord_row_5;
+        public string DelayBarMOrdRow5Text
+        {
+            get { return Delay_bar_m_ord_row_5.Text; }
+            set { Delay_bar_m_ord_row_5.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Delay_bar_m_ord_row_6;
+        public string DelayBarMOrdRow6Text
+        {
+            get { return Delay_bar_m_ord_row_6.Text; }
+            set { Delay_bar_m_ord_row_6.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Delay_bar_m_ord_row_7;
+        public string DelayBarMOrdRow7Text
+        {
+            get { return Delay_bar_m_ord_row_7.Text; }
+            set { Delay_bar_m_ord_row_7.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Delay_bar_m_ord_row_8;
+        public string DelayBarMOrdRow8Text
+        {
+            get { return Delay_bar_m_ord_row_8.Text; }
+            set { Delay_bar_m_ord_row_8.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Delay_bar_m_ord_row_9;
+        public string DelayBarMOrdRow9Text
+        {
+            get { return Delay_bar_m_ord_row_9.Text; }
+            set { Delay_bar_m_ord_row_9.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Delay_bar_m_ord_row_10;
+        public string DelayBarMOrdRow10Text
+        {
+            get { return Delay_bar_m_ord_row_10.Text; }
+            set { Delay_bar_m_ord_row_10.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Delay_bar_m_ord_row_11;
+        public string DelayBarMOrdRow11Text
+        {
+            get { return Delay_bar_m_ord_row_11.Text; }
+            set { Delay_bar_m_ord_row_11.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Delay_bar_m_ord_row_12;
+        public string DelayBarMOrdRow12Text
+        {
+            get { return Delay_bar_m_ord_row_12.Text; }
+            set { Delay_bar_m_ord_row_12.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Take_m_ord_row_0;
+        public string TakeMOrdRow0Text
+        {
+            get { return Take_m_ord_row_0.Text; }
+            set { Take_m_ord_row_0.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Take_m_ord_row_1;
+        public string TakeMOrdRow1Text
+        {
+            get { return Take_m_ord_row_1.Text; }
+            set { Take_m_ord_row_1.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Take_m_ord_row_2;
+        public string TakeMOrdRow2Text
+        {
+            get { return Take_m_ord_row_2.Text; }
+            set { Take_m_ord_row_2.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Take_m_ord_row_3;
+        public string TakeMOrdRow3Text
+        {
+            get { return Take_m_ord_row_3.Text; }
+            set { Take_m_ord_row_3.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Take_m_ord_row_4;
+        public string TakeMOrdRow4Text
+        {
+            get { return Take_m_ord_row_4.Text; }
+            set { Take_m_ord_row_4.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Take_m_ord_row_5;
+        public string TakeMOrdRow5Text
+        {
+            get { return Take_m_ord_row_5.Text; }
+            set { Take_m_ord_row_5.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Take_m_ord_row_6;
+        public string TakeMOrdRow6Text
+        {
+            get { return Take_m_ord_row_6.Text; }
+            set { Take_m_ord_row_6.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Take_m_ord_row_7;
+        public string TakeMOrdRow7Text
+        {
+            get { return Take_m_ord_row_7.Text; }
+            set { Take_m_ord_row_7.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Take_m_ord_row_8;
+        public string TakeMOrdRow8Text
+        {
+            get { return Take_m_ord_row_8.Text; }
+            set { Take_m_ord_row_8.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Take_m_ord_row_9;
+        public string TakeMOrdRow9Text
+        {
+            get { return Take_m_ord_row_9.Text; }
+            set { Take_m_ord_row_9.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Take_m_ord_row_10;
+        public string TakeMOrdRow10Text
+        {
+            get { return Take_m_ord_row_10.Text; }
+            set { Take_m_ord_row_10.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Take_m_ord_row_11;
+        public string TakeMOrdRow11Text
+        {
+            get { return Take_m_ord_row_11.Text; }
+            set { Take_m_ord_row_11.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Take_m_ord_row_12;
+        public string TakeMOrdRow12Text
+        {
+            get { return Take_m_ord_row_12.Text; }
+            set { Take_m_ord_row_12.Text = value; }
+        }
         private System.Windows.Forms.CheckBox Open_m_ord_row_0;
+        public string OpenMOrdRow0Checked
+        {
+            get { return (Open_m_ord_row_0.Checked == false) ? "0" : "1"; }
+            set { Open_m_ord_row_0.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Open_m_ord_row_1;
+        public string OpenMOrdRow1Checked
+        {
+            get { return (Open_m_ord_row_1.Checked == false) ? "0" : "1"; }
+            set { Open_m_ord_row_1.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Open_m_ord_row_2;
+        public string OpenMOrdRow2Checked
+        {
+            get { return (Open_m_ord_row_2.Checked == false) ? "0" : "1"; }
+            set { Open_m_ord_row_2.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Open_m_ord_row_3;
+        public string OpenMOrdRow3Checked
+        {
+            get { return (Open_m_ord_row_3.Checked == false) ? "0" : "1"; }
+            set { Open_m_ord_row_3.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Open_m_ord_row_4;
+        public string OpenMOrdRow4Checked
+        {
+            get { return (Open_m_ord_row_4.Checked == false) ? "0" : "1"; }
+            set { Open_m_ord_row_4.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Open_m_ord_row_5;
+        public string OpenMOrdRow5Checked
+        {
+            get { return (Open_m_ord_row_5.Checked == false) ? "0" : "1"; }
+            set { Open_m_ord_row_5.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Open_m_ord_row_6;
+        public string OpenMOrdRow6Checked
+        {
+            get { return (Open_m_ord_row_6.Checked == false) ? "0" : "1"; }
+            set { Open_m_ord_row_6.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Open_m_ord_row_7;
+        public string OpenMOrdRow7Checked
+        {
+            get { return (Open_m_ord_row_7.Checked == false) ? "0" : "1"; }
+            set { Open_m_ord_row_7.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Open_m_ord_row_8;
+        public string OpenMOrdRow8Checked
+        {
+            get { return (Open_m_ord_row_8.Checked == false) ? "0" : "1"; }
+            set { Open_m_ord_row_8.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Open_m_ord_row_9;
+        public string OpenMOrdRow9Checked
+        {
+            get { return (Open_m_ord_row_9.Checked == false) ? "0" : "1"; }
+            set { Open_m_ord_row_9.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Open_m_ord_row_10;
+        public string OpenMOrdRow10Checked
+        {
+            get { return (Open_m_ord_row_10.Checked == false) ? "0" : "1"; }
+            set { Open_m_ord_row_10.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Open_m_ord_row_11;
+        public string OpenMOrdRow11Checked
+        {
+            get { return (Open_m_ord_row_11.Checked == false) ? "0" : "1"; }
+            set { Open_m_ord_row_11.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Open_m_ord_row_12;
+        public string OpenMOrdRow12Checked
+        {
+            get { return (Open_m_ord_row_12.Checked == false) ? "0" : "1"; }
+            set { Open_m_ord_row_12.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Stop_in_bar_m_ord_row_0;
+        public string StopInBarMOrdRow0Checked
+        {
+            get { return (Stop_in_bar_m_ord_row_0.Checked == false) ? "0" : "1"; }
+            set { Stop_in_bar_m_ord_row_0.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Stop_in_bar_m_ord_row_1;
+        public string StopInBarMOrdRow1Checked
+        {
+            get { return (Stop_in_bar_m_ord_row_1.Checked == false) ? "0" : "1"; }
+            set { Stop_in_bar_m_ord_row_1.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Stop_in_bar_m_ord_row_2;
+        public string StopInBarMOrdRow2Checked
+        {
+            get { return (Stop_in_bar_m_ord_row_2.Checked == false) ? "0" : "1"; }
+            set { Stop_in_bar_m_ord_row_2.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Stop_in_bar_m_ord_row_3;
+        public string StopInBarMOrdRow3Checked
+        {
+            get { return (Stop_in_bar_m_ord_row_3.Checked == false) ? "0" : "1"; }
+            set { Stop_in_bar_m_ord_row_3.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Stop_in_bar_m_ord_row_4;
+        public string StopInBarMOrdRow4Checked
+        {
+            get { return (Stop_in_bar_m_ord_row_4.Checked == false) ? "0" : "1"; }
+            set { Stop_in_bar_m_ord_row_4.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Stop_in_bar_m_ord_row_5;
+        public string StopInBarMOrdRow5Checked
+        {
+            get { return (Stop_in_bar_m_ord_row_5.Checked == false) ? "0" : "1"; }
+            set { Stop_in_bar_m_ord_row_5.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Stop_in_bar_m_ord_row_6;
+        public string StopInBarMOrdRow6Checked
+        {
+            get { return (Stop_in_bar_m_ord_row_6.Checked == false) ? "0" : "1"; }
+            set { Stop_in_bar_m_ord_row_6.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Stop_in_bar_m_ord_row_7;
+        public string StopInBarMOrdRow7Checked
+        {
+            get { return (Stop_in_bar_m_ord_row_7.Checked == false) ? "0" : "1"; }
+            set { Stop_in_bar_m_ord_row_7.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Stop_in_bar_m_ord_row_8;
+        public string StopInBarMOrdRow8Checked
+        {
+            get { return (Stop_in_bar_m_ord_row_8.Checked == false) ? "0" : "1"; }
+            set { Stop_in_bar_m_ord_row_8.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Stop_in_bar_m_ord_row_9;
+        public string StopInBarMOrdRow9Checked
+        {
+            get { return (Stop_in_bar_m_ord_row_9.Checked == false) ? "0" : "1"; }
+            set { Stop_in_bar_m_ord_row_9.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Stop_in_bar_m_ord_row_10;
+        public string StopInBarMOrdRow10Checked
+        {
+            get { return (Stop_in_bar_m_ord_row_10.Checked == false) ? "0" : "1"; }
+            set { Stop_in_bar_m_ord_row_10.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Stop_in_bar_m_ord_row_11;
+        public string StopInBarMOrdRow11Checked
+        {
+            get { return (Stop_in_bar_m_ord_row_11.Checked == false) ? "0" : "1"; }
+            set { Stop_in_bar_m_ord_row_11.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Stop_in_bar_m_ord_row_12;
+        public string StopInBarMOrdRow12Checked
+        {
+            get { return (Stop_in_bar_m_ord_row_12.Checked == false) ? "0" : "1"; }
+            set { Stop_in_bar_m_ord_row_12.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Fix_deal_in_m_ord_row_0;
+        public string FixDealInMOrdRow0Checked
+        {
+            get { return (Fix_deal_in_m_ord_row_0.Checked == false) ? "0" : "1"; }
+            set { Fix_deal_in_m_ord_row_0.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Fix_deal_in_m_ord_row_1;
+        public string FixDealInMOrdRow1Checked
+        {
+            get { return (Fix_deal_in_m_ord_row_1.Checked == false) ? "0" : "1"; }
+            set { Fix_deal_in_m_ord_row_1.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Fix_deal_in_m_ord_row_2;
+        public string FixDealInMOrdRow2Checked
+        {
+            get { return (Fix_deal_in_m_ord_row_2.Checked == false) ? "0" : "1"; }
+            set { Fix_deal_in_m_ord_row_2.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Fix_deal_in_m_ord_row_3;
+        public string FixDealInMOrdRow3Checked
+        {
+            get { return (Fix_deal_in_m_ord_row_3.Checked == false) ? "0" : "1"; }
+            set { Fix_deal_in_m_ord_row_3.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Fix_deal_in_m_ord_row_4;
+        public string FixDealInMOrdRow4Checked
+        {
+            get { return (Fix_deal_in_m_ord_row_4.Checked == false) ? "0" : "1"; }
+            set { Fix_deal_in_m_ord_row_4.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Fix_deal_in_m_ord_row_5;
+        public string FixDealInMOrdRow5Checked
+        {
+            get { return (Fix_deal_in_m_ord_row_5.Checked == false) ? "0" : "1"; }
+            set { Fix_deal_in_m_ord_row_5.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Fix_deal_in_m_ord_row_6;
+        public string FixDealInMOrdRow6Checked
+        {
+            get { return (Fix_deal_in_m_ord_row_6.Checked == false) ? "0" : "1"; }
+            set { Fix_deal_in_m_ord_row_6.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Fix_deal_in_m_ord_row_7;
+        public string FixDealInMOrdRow7Checked
+        {
+            get { return (Fix_deal_in_m_ord_row_7.Checked == false) ? "0" : "1"; }
+            set { Fix_deal_in_m_ord_row_7.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Fix_deal_in_m_ord_row_8;
+        public string FixDealInMOrdRow8Checked
+        {
+            get { return (Fix_deal_in_m_ord_row_8.Checked == false) ? "0" : "1"; }
+            set { Fix_deal_in_m_ord_row_8.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Fix_deal_in_m_ord_row_9;
+        public string FixDealInMOrdRow9Checked
+        {
+            get { return (Fix_deal_in_m_ord_row_9.Checked == false) ? "0" : "1"; }
+            set { Fix_deal_in_m_ord_row_9.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Fix_deal_in_m_ord_row_10;
+        public string FixDealInMOrdRow10Checked
+        {
+            get { return (Fix_deal_in_m_ord_row_10.Checked == false) ? "0" : "1"; }
+            set { Fix_deal_in_m_ord_row_10.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Fix_deal_in_m_ord_row_11;
+        public string FixDealInMOrdRow11Checked
+        {
+            get { return (Fix_deal_in_m_ord_row_11.Checked == false) ? "0" : "1"; }
+            set { Fix_deal_in_m_ord_row_11.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Fix_deal_in_m_ord_row_12;
+        public string FixDealInMOrdRow12Checked
+        {
+            get { return (Fix_deal_in_m_ord_row_12.Checked == false) ? "0" : "1"; }
+            set { Fix_deal_in_m_ord_row_12.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.MaskedTextBox Max_deal_bar_m_ord_row_1;
+        public string MaxDealBarMOrdRow1Text
+        {
+            get { return Max_deal_bar_m_ord_row_1.Text; }
+            set { Max_deal_bar_m_ord_row_1.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Max_deal_bar_m_ord_row_0;
+        public string MaxDealBarMOrdRow0Text
+        {
+            get { return Max_deal_bar_m_ord_row_0.Text; }
+            set { Max_deal_bar_m_ord_row_0.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Max_deal_bar_m_ord_row_2;
+        public string MaxDealBarMOrdRow2Text
+        {
+            get { return Max_deal_bar_m_ord_row_2.Text; }
+            set { Max_deal_bar_m_ord_row_2.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Max_deal_bar_m_ord_row_3;
+        public string MaxDealBarMOrdRow3Text
+        {
+            get { return Max_deal_bar_m_ord_row_3.Text; }
+            set { Max_deal_bar_m_ord_row_3.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Max_deal_bar_m_ord_row_4;
+        public string MaxDealBarMOrdRow4Text
+        {
+            get { return Max_deal_bar_m_ord_row_4.Text; }
+            set { Max_deal_bar_m_ord_row_4.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Max_deal_bar_m_ord_row_5;
+        public string MaxDealBarMOrdRow5Text
+        {
+            get { return Max_deal_bar_m_ord_row_5.Text; }
+            set { Max_deal_bar_m_ord_row_5.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Max_deal_bar_m_ord_row_6;
+        public string MaxDealBarMOrdRow6Text
+        {
+            get { return Max_deal_bar_m_ord_row_6.Text; }
+            set { Max_deal_bar_m_ord_row_6.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Max_deal_bar_m_ord_row_7;
+        public string MaxDealBarMOrdRow7Text
+        {
+            get { return Max_deal_bar_m_ord_row_7.Text; }
+            set { Max_deal_bar_m_ord_row_7.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Max_deal_bar_m_ord_row_8;
+        public string MaxDealBarMOrdRow8Text
+        {
+            get { return Max_deal_bar_m_ord_row_8.Text; }
+            set { Max_deal_bar_m_ord_row_8.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Max_deal_bar_m_ord_row_9;
+        public string MaxDealBarMOrdRow9Text
+        {
+            get { return Max_deal_bar_m_ord_row_9.Text; }
+            set { Max_deal_bar_m_ord_row_9.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Max_deal_bar_m_ord_row_10;
+        public string MaxDealBarMOrdRow10Text
+        {
+            get { return Max_deal_bar_m_ord_row_10.Text; }
+            set { Max_deal_bar_m_ord_row_10.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Max_deal_bar_m_ord_row_11;
+        public string MaxDealBarMOrdRow11Text
+        {
+            get { return Max_deal_bar_m_ord_row_11.Text; }
+            set { Max_deal_bar_m_ord_row_11.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Max_deal_bar_m_ord_row_12;
+        public string MaxDealBarMOrdRow12Text
+        {
+            get { return Max_deal_bar_m_ord_row_12.Text; }
+            set { Max_deal_bar_m_ord_row_12.Text = value; }
+        }
         private System.Windows.Forms.CheckBox Out_sig_ind_m_ord_row_0;
+        public string OutSigIndMOrdRow0Checked
+        {
+            get { return (Out_sig_ind_m_ord_row_0.Checked == false) ? "0" : "1"; }
+            set { Out_sig_ind_m_ord_row_0.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Out_sig_ind_m_ord_row_1;
+        public string OutSigIndMOrdRow1Checked
+        {
+            get { return (Out_sig_ind_m_ord_row_1.Checked == false) ? "0" : "1"; }
+            set { Out_sig_ind_m_ord_row_1.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Out_sig_ind_m_ord_row_2;
+        public string OutSigIndMOrdRow2Checked
+        {
+            get { return (Out_sig_ind_m_ord_row_2.Checked == false) ? "0" : "1"; }
+            set { Out_sig_ind_m_ord_row_2.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Out_sig_ind_m_ord_row_3;
+        public string OutSigIndMOrdRow3Checked
+        {
+            get { return (Out_sig_ind_m_ord_row_3.Checked == false) ? "0" : "1"; }
+            set { Out_sig_ind_m_ord_row_3.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Out_sig_ind_m_ord_row_4;
+        public string OutSigIndMOrdRow4Checked
+        {
+            get { return (Out_sig_ind_m_ord_row_4.Checked == false) ? "0" : "1"; }
+            set { Out_sig_ind_m_ord_row_4.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Out_sig_ind_m_ord_row_5;
+        public string OutSigIndMOrdRow5Checked
+        {
+            get { return (Out_sig_ind_m_ord_row_5.Checked == false) ? "0" : "1"; }
+            set { Out_sig_ind_m_ord_row_5.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Out_sig_ind_m_ord_row_6;
+        public string OutSigIndMOrdRow6Checked
+        {
+            get { return (Out_sig_ind_m_ord_row_6.Checked == false) ? "0" : "1"; }
+            set { Out_sig_ind_m_ord_row_6.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Out_sig_ind_m_ord_row_7;
+        public string OutSigIndMOrdRow7Checked
+        {
+            get { return (Out_sig_ind_m_ord_row_7.Checked == false) ? "0" : "1"; }
+            set { Out_sig_ind_m_ord_row_7.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Out_sig_ind_m_ord_row_8;
+        public string OutSigIndMOrdRow8Checked
+        {
+            get { return (Out_sig_ind_m_ord_row_8.Checked == false) ? "0" : "1"; }
+            set { Out_sig_ind_m_ord_row_8.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Out_sig_ind_m_ord_row_9;
+        public string OutSigIndMOrdRow9Checked
+        {
+            get { return (Out_sig_ind_m_ord_row_9.Checked == false) ? "0" : "1"; }
+            set { Out_sig_ind_m_ord_row_9.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Out_sig_ind_m_ord_row_10;
+        public string OutSigIndMOrdRow10Checked
+        {
+            get { return (Out_sig_ind_m_ord_row_10.Checked == false) ? "0" : "1"; }
+            set { Out_sig_ind_m_ord_row_10.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Out_sig_ind_m_ord_row_11;
+        public string OutSigIndMOrdRow11Checked
+        {
+            get { return (Out_sig_ind_m_ord_row_11.Checked == false) ? "0" : "1"; }
+            set { Out_sig_ind_m_ord_row_11.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Out_sig_ind_m_ord_row_12;
+        public string OutSigIndMOrdRow12Checked
+        {
+            get { return (Out_sig_ind_m_ord_row_12.Checked == false) ? "0" : "1"; }
+            set { Out_sig_ind_m_ord_row_12.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.ComboBox Bar_out_m_ord_row_0;
+        public string BarOutMOrdRow0Item
+        {
+            get { return Bar_out_m_ord_row_0.SelectedItem.ToString(); }
+            set { Bar_out_m_ord_row_0.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Bar_out_m_ord_row_1;
+        public string BarOutMOrdRow1Item
+        {
+            get { return Bar_out_m_ord_row_1.SelectedItem.ToString(); }
+            set { Bar_out_m_ord_row_1.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Bar_out_m_ord_row_2;
+        public string BarOutMOrdRow2Item
+        {
+            get { return Bar_out_m_ord_row_2.SelectedItem.ToString(); }
+            set { Bar_out_m_ord_row_2.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Bar_out_m_ord_row_3;
+        public string BarOutMOrdRow3Item
+        {
+            get { return Bar_out_m_ord_row_3.SelectedItem.ToString(); }
+            set { Bar_out_m_ord_row_3.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Bar_out_m_ord_row_4;
+        public string BarOutMOrdRow4Item
+        {
+            get { return Bar_out_m_ord_row_4.SelectedItem.ToString(); }
+            set { Bar_out_m_ord_row_4.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Bar_out_m_ord_row_5;
+        public string BarOutMOrdRow5Item
+        {
+            get { return Bar_out_m_ord_row_5.SelectedItem.ToString(); }
+            set { Bar_out_m_ord_row_5.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Bar_out_m_ord_row_6;
+        public string BarOutMOrdRow6Item
+        {
+            get { return Bar_out_m_ord_row_6.SelectedItem.ToString(); }
+            set { Bar_out_m_ord_row_6.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Bar_out_m_ord_row_7;
+        public string BarOutMOrdRow7Item
+        {
+            get { return Bar_out_m_ord_row_7.SelectedItem.ToString(); }
+            set { Bar_out_m_ord_row_7.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Bar_out_m_ord_row_8;
+        public string BarOutMOrdRow8Item
+        {
+            get { return Bar_out_m_ord_row_8.SelectedItem.ToString(); }
+            set { Bar_out_m_ord_row_8.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Bar_out_m_ord_row_9;
+        public string BarOutMOrdRow9Item
+        {
+            get { return Bar_out_m_ord_row_9.SelectedItem.ToString(); }
+            set { Bar_out_m_ord_row_9.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Bar_out_m_ord_row_10;
+        public string BarOutMOrdRow10Item
+        {
+            get { return Bar_out_m_ord_row_10.SelectedItem.ToString(); }
+            set { Bar_out_m_ord_row_10.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Bar_out_m_ord_row_11;
+        public string BarOutMOrdRow11Item
+        {
+            get { return Bar_out_m_ord_row_11.SelectedItem.ToString(); }
+            set { Bar_out_m_ord_row_11.SelectedItem = value; }
+        }
         private System.Windows.Forms.ComboBox Bar_out_m_ord_row_12;
+        public string BarOutMOrdRow12Item
+        {
+            get { return Bar_out_m_ord_row_12.SelectedItem.ToString(); }
+            set { Bar_out_m_ord_row_12.SelectedItem = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Fix_vol_m_ord_row_0;
+        public string FixVolMOrdRow0Text
+        {
+            get { return Fix_vol_m_ord_row_0.Text; }
+            set { Fix_vol_m_ord_row_0.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Fix_vol_m_ord_row_1;
+        public string FixVolMOrdRow1Text
+        {
+            get { return Fix_vol_m_ord_row_1.Text; }
+            set { Fix_vol_m_ord_row_1.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Fix_vol_m_ord_row_2;
+        public string FixVolMOrdRow2Text
+        {
+            get { return Fix_vol_m_ord_row_2.Text; }
+            set { Fix_vol_m_ord_row_2.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Fix_vol_m_ord_row_3;
+        public string FixVolMOrdRow3Text
+        {
+            get { return Fix_vol_m_ord_row_3.Text; }
+            set { Fix_vol_m_ord_row_3.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Fix_vol_m_ord_row_4;
+        public string FixVolMOrdRow4Text
+        {
+            get { return Fix_vol_m_ord_row_4.Text; }
+            set { Fix_vol_m_ord_row_4.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Fix_vol_m_ord_row_5;
+        public string FixVolMOrdRow5Text
+        {
+            get { return Fix_vol_m_ord_row_5.Text; }
+            set { Fix_vol_m_ord_row_5.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Fix_vol_m_ord_row_6;
+        public string FixVolMOrdRow6Text
+        {
+            get { return Fix_vol_m_ord_row_6.Text; }
+            set { Fix_vol_m_ord_row_6.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Fix_vol_m_ord_row_7;
+        public string FixVolMOrdRow7Text
+        {
+            get { return Fix_vol_m_ord_row_7.Text; }
+            set { Fix_vol_m_ord_row_7.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Fix_vol_m_ord_row_8;
+        public string FixVolMOrdRow8Text
+        {
+            get { return Fix_vol_m_ord_row_8.Text; }
+            set { Fix_vol_m_ord_row_8.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Fix_vol_m_ord_row_9;
+        public string FixVolMOrdRow9Text
+        {
+            get { return Fix_vol_m_ord_row_9.Text; }
+            set { Fix_vol_m_ord_row_9.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Fix_vol_m_ord_row_10;
+        public string FixVolMOrdRow10Text
+        {
+            get { return Fix_vol_m_ord_row_10.Text; }
+            set { Fix_vol_m_ord_row_10.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Fix_vol_m_ord_row_11;
+        public string FixVolMOrdRow11Text
+        {
+            get { return Fix_vol_m_ord_row_11.Text; }
+            set { Fix_vol_m_ord_row_11.Text = value; }
+        }
         private System.Windows.Forms.MaskedTextBox Fix_vol_m_ord_row_12;
+        public string FixVolMOrdRow12Text
+        {
+            get { return Fix_vol_m_ord_row_12.Text; }
+            set { Fix_vol_m_ord_row_12.Text = value; }
+        }
         private System.Windows.Forms.CheckBox Growth_depo_m_ord_row_0;
+        public string GrowthDepoMOrdRow0Checked
+        {
+            get { return (Growth_depo_m_ord_row_0.Checked == false) ? "0" : "1"; }
+            set { Growth_depo_m_ord_row_0.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Growth_depo_m_ord_row_1;
+        public string GrowthDepoMOrdRow1Checked
+        {
+            get { return (Growth_depo_m_ord_row_1.Checked == false) ? "0" : "1"; }
+            set { Growth_depo_m_ord_row_1.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Growth_depo_m_ord_row_2;
+        public string GrowthDepoMOrdRow2Checked
+        {
+            get { return (Growth_depo_m_ord_row_2.Checked == false) ? "0" : "1"; }
+            set { Growth_depo_m_ord_row_2.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Growth_depo_m_ord_row_3;
+        public string GrowthDepoMOrdRow3Checked
+        {
+            get { return (Growth_depo_m_ord_row_3.Checked == false) ? "0" : "1"; }
+            set { Growth_depo_m_ord_row_3.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Growth_depo_m_ord_row_4;
+        public string GrowthDepoMOrdRow4Checked
+        {
+            get { return (Growth_depo_m_ord_row_4.Checked == false) ? "0" : "1"; }
+            set { Growth_depo_m_ord_row_4.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Growth_depo_m_ord_row_5;
+        public string GrowthDepoMOrdRow5Checked
+        {
+            get { return (Growth_depo_m_ord_row_5.Checked == false) ? "0" : "1"; }
+            set { Growth_depo_m_ord_row_5.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Growth_depo_m_ord_row_6;
+        public string GrowthDepoMOrdRow6Checked
+        {
+            get { return (Growth_depo_m_ord_row_6.Checked == false) ? "0" : "1"; }
+            set { Growth_depo_m_ord_row_6.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Growth_depo_m_ord_row_7;
+        public string GrowthDepoMOrdRow7Checked
+        {
+            get { return (Growth_depo_m_ord_row_7.Checked == false) ? "0" : "1"; }
+            set { Growth_depo_m_ord_row_7.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Growth_depo_m_ord_row_8;
+        public string GrowthDepoMOrdRow8Checked
+        {
+            get { return (Growth_depo_m_ord_row_8.Checked == false) ? "0" : "1"; }
+            set { Growth_depo_m_ord_row_8.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Growth_depo_m_ord_row_9;
+        public string GrowthDepoMOrdRow9Checked
+        {
+            get { return (Growth_depo_m_ord_row_9.Checked == false) ? "0" : "1"; }
+            set { Growth_depo_m_ord_row_9.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Growth_depo_m_ord_row_10;
+        public string GrowthDepoMOrdRow10Checked
+        {
+            get { return (Growth_depo_m_ord_row_10.Checked == false) ? "0" : "1"; }
+            set { Growth_depo_m_ord_row_10.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Growth_depo_m_ord_row_11;
+        public string GrowthDepoMOrdRow11Checked
+        {
+            get { return (Growth_depo_m_ord_row_11.Checked == false) ? "0" : "1"; }
+            set { Growth_depo_m_ord_row_11.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Growth_depo_m_ord_row_12;
+        public string GrowthDepoMOrdRow12Checked
+        {
+            get { return (Growth_depo_m_ord_row_12.Checked == false) ? "0" : "1"; }
+            set { Growth_depo_m_ord_row_12.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Close_take_part_m_ord_row_0;
+        public string CloseTakePartMOrdRow0Checked
+        {
+            get { return (Close_take_part_m_ord_row_0.Checked == false) ? "0" : "1"; }
+            set { Close_take_part_m_ord_row_0.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Close_take_part_m_ord_row_1;
+        public string CloseTakePartMOrdRow1Checked
+        {
+            get { return (Close_take_part_m_ord_row_1.Checked == false) ? "0" : "1"; }
+            set { Close_take_part_m_ord_row_1.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Close_take_part_m_ord_row_2;
+        public string CloseTakePartMOrdRow2Checked
+        {
+            get { return (Close_take_part_m_ord_row_2.Checked == false) ? "0" : "1"; }
+            set { Close_take_part_m_ord_row_2.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Close_take_part_m_ord_row_3;
+        public string CloseTakePartMOrdRow3Checked
+        {
+            get { return (Close_take_part_m_ord_row_3.Checked == false) ? "0" : "1"; }
+            set { Close_take_part_m_ord_row_3.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Close_take_part_m_ord_row_4;
+        public string CloseTakePartMOrdRow4Checked
+        {
+            get { return (Close_take_part_m_ord_row_4.Checked == false) ? "0" : "1"; }
+            set { Close_take_part_m_ord_row_4.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Close_take_part_m_ord_row_5;
+        public string CloseTakePartMOrdRow5Checked
+        {
+            get { return (Close_take_part_m_ord_row_5.Checked == false) ? "0" : "1"; }
+            set { Close_take_part_m_ord_row_5.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Close_take_part_m_ord_row_6;
+        public string CloseTakePartMOrdRow6Checked
+        {
+            get { return (Close_take_part_m_ord_row_6.Checked == false) ? "0" : "1"; }
+            set { Close_take_part_m_ord_row_6.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Close_take_part_m_ord_row_7;
+        public string CloseTakePartMOrdRow7Checked
+        {
+            get { return (Close_take_part_m_ord_row_7.Checked == false) ? "0" : "1"; }
+            set { Close_take_part_m_ord_row_7.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Close_take_part_m_ord_row_8;
+        public string CloseTakePartMOrdRow8Checked
+        {
+            get { return (Close_take_part_m_ord_row_8.Checked == false) ? "0" : "1"; }
+            set { Close_take_part_m_ord_row_8.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Close_take_part_m_ord_row_9;
+        public string CloseTakePartMOrdRow9Checked
+        {
+            get { return (Close_take_part_m_ord_row_9.Checked == false) ? "0" : "1"; }
+            set { Close_take_part_m_ord_row_9.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Close_take_part_m_ord_row_10;
+        public string CloseTakePartMOrdRow10Checked
+        {
+            get { return (Close_take_part_m_ord_row_10.Checked == false) ? "0" : "1"; }
+            set { Close_take_part_m_ord_row_10.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Close_take_part_m_ord_row_11;
+        public string CloseTakePartMOrdRow11Checked
+        {
+            get { return (Close_take_part_m_ord_row_11.Checked == false) ? "0" : "1"; }
+            set { Close_take_part_m_ord_row_11.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Close_take_part_m_ord_row_12;
+        public string CloseTakePartMOrdRow12Checked
+        {
+            get { return (Close_take_part_m_ord_row_12.Checked == false) ? "0" : "1"; }
+            set { Close_take_part_m_ord_row_12.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.Label Parts_take_m_ord;
         private System.Windows.Forms.TextBox Parts_take_m_ord_row_0;
+        public string PartsTakeMOrdRow0Text
+        {
+            get { return Parts_take_m_ord_row_0.Text; }
+            set { Parts_take_m_ord_row_0.Text = value; }
+        }
         private System.Windows.Forms.TextBox Parts_take_m_ord_row_1;
+        public string PartsTakeMOrdRow1Text
+        {
+            get { return Parts_take_m_ord_row_1.Text; }
+            set { Parts_take_m_ord_row_1.Text = value; }
+        }
         private System.Windows.Forms.TextBox Parts_take_m_ord_row_2;
+        public string PartsTakeMOrdRow2Text
+        {
+            get { return Parts_take_m_ord_row_2.Text; }
+            set { Parts_take_m_ord_row_2.Text = value; }
+        }
         private System.Windows.Forms.TextBox Parts_take_m_ord_row_3;
+        public string PartsTakeMOrdRow3Text
+        {
+            get { return Parts_take_m_ord_row_3.Text; }
+            set { Parts_take_m_ord_row_3.Text = value; }
+        }
         private System.Windows.Forms.TextBox Parts_take_m_ord_row_4;
+        public string PartsTakeMOrdRow4Text
+        {
+            get { return Parts_take_m_ord_row_4.Text; }
+            set { Parts_take_m_ord_row_4.Text = value; }
+        }
         private System.Windows.Forms.TextBox Parts_take_m_ord_row_5;
+        public string PartsTakeMOrdRow5Text
+        {
+            get { return Parts_take_m_ord_row_5.Text; }
+            set { Parts_take_m_ord_row_5.Text = value; }
+        }
         private System.Windows.Forms.TextBox Parts_take_m_ord_row_6;
+        public string PartsTakeMOrdRow6Text
+        {
+            get { return Parts_take_m_ord_row_6.Text; }
+            set { Parts_take_m_ord_row_6.Text = value; }
+        }
         private System.Windows.Forms.TextBox Parts_take_m_ord_row_7;
+        public string PartsTakeMOrdRow7Text
+        {
+            get { return Parts_take_m_ord_row_7.Text; }
+            set { Parts_take_m_ord_row_7.Text = value; }
+        }
         private System.Windows.Forms.TextBox Parts_take_m_ord_row_8;
+        public string PartsTakeMOrdRow8Text
+        {
+            get { return Parts_take_m_ord_row_8.Text; }
+            set { Parts_take_m_ord_row_8.Text = value; }
+        }
         private System.Windows.Forms.TextBox Parts_take_m_ord_row_9;
+        public string PartsTakeMOrdRow9Text
+        {
+            get { return Parts_take_m_ord_row_9.Text; }
+            set { Parts_take_m_ord_row_9.Text = value; }
+        }
         private System.Windows.Forms.TextBox Parts_take_m_ord_row_10;
+        public string PartsTakeMOrdRow10Text
+        {
+            get { return Parts_take_m_ord_row_10.Text; }
+            set { Parts_take_m_ord_row_10.Text = value; }
+        }
         private System.Windows.Forms.TextBox Parts_take_m_ord_row_11;
+        public string PartsTakeMOrdRow11Text
+        {
+            get { return Parts_take_m_ord_row_11.Text; }
+            set { Parts_take_m_ord_row_11.Text = value; }
+        }
         private System.Windows.Forms.TextBox Parts_take_m_ord_row_12;
+        public string PartsTakeMOrdRow12Text
+        {
+            get { return Parts_take_m_ord_row_12.Text; }
+            set { Parts_take_m_ord_row_12.Text = value; }
+        }
         private System.Windows.Forms.Label Value_parts_take_m_ord;
         private System.Windows.Forms.TextBox Value_parts_take_m_ord_row_0;
+        public string ValuePartsTakeMOrdRow0Text
+        {
+            get { return Value_parts_take_m_ord_row_0.Text; }
+            set { Value_parts_take_m_ord_row_0.Text = value; }
+        }
         private System.Windows.Forms.TextBox Value_parts_take_m_ord_row_1;
+        public string ValuePartsTakeMOrdRow1Text
+        {
+            get { return Value_parts_take_m_ord_row_1.Text; }
+            set { Value_parts_take_m_ord_row_1.Text = value; }
+        }
         private System.Windows.Forms.TextBox Value_parts_take_m_ord_row_2;
+        public string ValuePartsTakeMOrdRow2Text
+        {
+            get { return Value_parts_take_m_ord_row_2.Text; }
+            set { Value_parts_take_m_ord_row_2.Text = value; }
+        }
         private System.Windows.Forms.TextBox Value_parts_take_m_ord_row_3;
+        public string ValuePartsTakeMOrdRow3Text
+        {
+            get { return Value_parts_take_m_ord_row_3.Text; }
+            set { Value_parts_take_m_ord_row_3.Text = value; }
+        }
         private System.Windows.Forms.TextBox Value_parts_take_m_ord_row_4;
+        public string ValuePartsTakeMOrdRow4Text
+        {
+            get { return Value_parts_take_m_ord_row_4.Text; }
+            set { Value_parts_take_m_ord_row_4.Text = value; }
+        }
         private System.Windows.Forms.TextBox Value_parts_take_m_ord_row_5;
+        public string ValuePartsTakeMOrdRow5Text
+        {
+            get { return Value_parts_take_m_ord_row_5.Text; }
+            set { Value_parts_take_m_ord_row_5.Text = value; }
+        }
         private System.Windows.Forms.TextBox Value_parts_take_m_ord_row_6;
+        public string ValuePartsTakeMOrdRow6Text
+        {
+            get { return Value_parts_take_m_ord_row_6.Text; }
+            set { Value_parts_take_m_ord_row_6.Text = value; }
+        }
         private System.Windows.Forms.TextBox Value_parts_take_m_ord_row_7;
+        public string ValuePartsTakeMOrdRow7Text
+        {
+            get { return Value_parts_take_m_ord_row_7.Text; }
+            set { Value_parts_take_m_ord_row_7.Text = value; }
+        }
         private System.Windows.Forms.TextBox Value_parts_take_m_ord_row_8;
+        public string ValuePartsTakeMOrdRow8Text
+        {
+            get { return Value_parts_take_m_ord_row_8.Text; }
+            set { Value_parts_take_m_ord_row_8.Text = value; }
+        }
         private System.Windows.Forms.TextBox Value_parts_take_m_ord_row_9;
+        public string ValuePartsTakeMOrdRow9Text
+        {
+            get { return Value_parts_take_m_ord_row_9.Text; }
+            set { Value_parts_take_m_ord_row_9.Text = value; }
+        }
         private System.Windows.Forms.TextBox Value_parts_take_m_ord_row_10;
+        public string ValuePartsTakeMOrdRow10Text
+        {
+            get { return Value_parts_take_m_ord_row_10.Text; }
+            set { Value_parts_take_m_ord_row_10.Text = value; }
+        }
         private System.Windows.Forms.TextBox Value_parts_take_m_ord_row_11;
+        public string ValuePartsTakeMOrdRow11Text
+        {
+            get { return Value_parts_take_m_ord_row_11.Text; }
+            set { Value_parts_take_m_ord_row_11.Text = value; }
+        }
         private System.Windows.Forms.TextBox Value_parts_take_m_ord_row_12;
+        public string ValuePartsTakeMOrdRow12Text
+        {
+            get { return Value_parts_take_m_ord_row_12.Text; }
+            set { Value_parts_take_m_ord_row_12.Text = value; }
+        }
         private System.Windows.Forms.Label Stop_m_ord;
         private System.Windows.Forms.TextBox Stop_m_ord_row_0;
+        public string StopMOrdRow0Text
+        {
+            get { return Stop_m_ord_row_0.Text; }
+            set { Stop_m_ord_row_0.Text = value; }
+        }
         private System.Windows.Forms.TextBox Stop_m_ord_row_1;
+        public string StopMOrdRow1Text
+        {
+            get { return Stop_m_ord_row_1.Text; }
+            set { Stop_m_ord_row_1.Text = value; }
+        }
         private System.Windows.Forms.TextBox Stop_m_ord_row_2;
+        public string StopMOrdRow2Text
+        {
+            get { return Stop_m_ord_row_2.Text; }
+            set { Stop_m_ord_row_2.Text = value; }
+        }
         private System.Windows.Forms.TextBox Stop_m_ord_row_3;
+        public string StopMOrdRow3Text
+        {
+            get { return Stop_m_ord_row_3.Text; }
+            set { Stop_m_ord_row_3.Text = value; }
+        }
         private System.Windows.Forms.TextBox Stop_m_ord_row_4;
+        public string StopMOrdRow4Text
+        {
+            get { return Stop_m_ord_row_4.Text; }
+            set { Stop_m_ord_row_4.Text = value; }
+        }
         private System.Windows.Forms.TextBox Stop_m_ord_row_5;
+        public string StopMOrdRow5Text
+        {
+            get { return Stop_m_ord_row_5.Text; }
+            set { Stop_m_ord_row_5.Text = value; }
+        }
         private System.Windows.Forms.TextBox Stop_m_ord_row_6;
+        public string StopMOrdRow6Text
+        {
+            get { return Stop_m_ord_row_6.Text; }
+            set { Stop_m_ord_row_6.Text = value; }
+        }
         private System.Windows.Forms.TextBox Stop_m_ord_row_7;
+        public string StopMOrdRow7Text
+        {
+            get { return Stop_m_ord_row_7.Text; }
+            set { Stop_m_ord_row_7.Text = value; }
+        }
         private System.Windows.Forms.TextBox Stop_m_ord_row_8;
+        public string StopMOrdRow8Text
+        {
+            get { return Stop_m_ord_row_8.Text; }
+            set { Stop_m_ord_row_8.Text = value; }
+        }
         private System.Windows.Forms.TextBox Stop_m_ord_row_9;
+        public string StopMOrdRow9Text
+        {
+            get { return Stop_m_ord_row_9.Text; }
+            set { Stop_m_ord_row_9.Text = value; }
+        }
         private System.Windows.Forms.TextBox Stop_m_ord_row_10;
+        public string StopMOrdRow10Text
+        {
+            get { return Stop_m_ord_row_10.Text; }
+            set { Stop_m_ord_row_10.Text = value; }
+        }
         private System.Windows.Forms.TextBox Stop_m_ord_row_11;
+        public string StopMOrdRow11Text
+        {
+            get { return Stop_m_ord_row_11.Text; }
+            set { Stop_m_ord_row_11.Text = value; }
+        }
         private System.Windows.Forms.TextBox Stop_m_ord_row_12;
+        public string StopMOrdRow12Text
+        {
+            get { return Stop_m_ord_row_12.Text; }
+            set { Stop_m_ord_row_12.Text = value; }
+        }
         private System.Windows.Forms.Label Close_stop_part_m_ord;
         private System.Windows.Forms.CheckBox Close_stop_part_m_ord_row_0;
+        public string CloseStopPartMOrdRow0Checked
+        {
+            get { return (Close_stop_part_m_ord_row_0.Checked == false) ? "0" : "1"; }
+            set { Close_stop_part_m_ord_row_0.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Close_stop_part_m_ord_row_1;
+        public string CloseStopPartMOrdRow1Checked
+        {
+            get { return (Close_stop_part_m_ord_row_1.Checked == false) ? "0" : "1"; }
+            set { Close_stop_part_m_ord_row_1.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Close_stop_part_m_ord_row_2;
+        public string CloseStopPartMOrdRow2Checked
+        {
+            get { return (Close_stop_part_m_ord_row_2.Checked == false) ? "0" : "1"; }
+            set { Close_stop_part_m_ord_row_2.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Close_stop_part_m_ord_row_3;
+        public string CloseStopPartMOrdRow3Checked
+        {
+            get { return (Close_stop_part_m_ord_row_3.Checked == false) ? "0" : "1"; }
+            set { Close_stop_part_m_ord_row_3.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Close_stop_part_m_ord_row_4;
+        public string CloseStopPartMOrdRow4Checked
+        {
+            get { return (Close_stop_part_m_ord_row_4.Checked == false) ? "0" : "1"; }
+            set { Close_stop_part_m_ord_row_4.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Close_stop_part_m_ord_row_5;
+        public string CloseStopPartMOrdRow5Checked
+        {
+            get { return (Close_stop_part_m_ord_row_5.Checked == false) ? "0" : "1"; }
+            set { Close_stop_part_m_ord_row_5.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Close_stop_part_m_ord_row_6;
+        public string CloseStopPartMOrdRow6Checked
+        {
+            get { return (Close_stop_part_m_ord_row_6.Checked == false) ? "0" : "1"; }
+            set { Close_stop_part_m_ord_row_6.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Close_stop_part_m_ord_row_7;
+        public string CloseStopPartMOrdRow7Checked
+        {
+            get { return (Close_stop_part_m_ord_row_7.Checked == false) ? "0" : "1"; }
+            set { Close_stop_part_m_ord_row_7.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Close_stop_part_m_ord_row_8;
+        public string CloseStopPartMOrdRow8Checked
+        {
+            get { return (Close_stop_part_m_ord_row_8.Checked == false) ? "0" : "1"; }
+            set { Close_stop_part_m_ord_row_8.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Close_stop_part_m_ord_row_9;
+        public string CloseStopPartMOrdRow9Checked
+        {
+            get { return (Close_stop_part_m_ord_row_9.Checked == false) ? "0" : "1"; }
+            set { Close_stop_part_m_ord_row_9.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Close_stop_part_m_ord_row_10;
+        public string CloseStopPartMOrdRow10Checked
+        {
+            get { return (Close_stop_part_m_ord_row_10.Checked == false) ? "0" : "1"; }
+            set { Close_stop_part_m_ord_row_10.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Close_stop_part_m_ord_row_11;
+        public string CloseStopPartMOrdRow11Checked
+        {
+            get { return (Close_stop_part_m_ord_row_11.Checked == false) ? "0" : "1"; }
+            set { Close_stop_part_m_ord_row_11.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Close_stop_part_m_ord_row_12;
+        public string CloseStopPartMOrdRow12Checked
+        {
+            get { return (Close_stop_part_m_ord_row_12.Checked == false) ? "0" : "1"; }
+            set { Close_stop_part_m_ord_row_12.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.Label Parts_stop_m_ord;
         private System.Windows.Forms.TextBox Parts_stop_m_ord_row_0;
+        public string PartsStopMOrdRow0Text
+        {
+            get { return Parts_stop_m_ord_row_0.Text; }
+            set { Parts_stop_m_ord_row_0.Text = value; }
+        }
         private System.Windows.Forms.TextBox Parts_stop_m_ord_row_1;
+        public string PartsStopMOrdRow1Text
+        {
+            get { return Parts_stop_m_ord_row_1.Text; }
+            set { Parts_stop_m_ord_row_1.Text = value; }
+        }
         private System.Windows.Forms.TextBox Parts_stop_m_ord_row_2;
+        public string PartsStopMOrdRow2Text
+        {
+            get { return Parts_stop_m_ord_row_2.Text; }
+            set { Parts_stop_m_ord_row_2.Text = value; }
+        }
         private System.Windows.Forms.TextBox Parts_stop_m_ord_row_3;
+        public string PartsStopMOrdRow3Text
+        {
+            get { return Parts_stop_m_ord_row_3.Text; }
+            set { Parts_stop_m_ord_row_3.Text = value; }
+        }
         private System.Windows.Forms.TextBox Parts_stop_m_ord_row_4;
+        public string PartsStopMOrdRow4Text
+        {
+            get { return Parts_stop_m_ord_row_4.Text; }
+            set { Parts_stop_m_ord_row_4.Text = value; }
+        }
         private System.Windows.Forms.TextBox Parts_stop_m_ord_row_5;
+        public string PartsStopMOrdRow5Text
+        {
+            get { return Parts_stop_m_ord_row_5.Text; }
+            set { Parts_stop_m_ord_row_5.Text = value; }
+        }
         private System.Windows.Forms.TextBox Parts_stop_m_ord_row_6;
+        public string PartsStopMOrdRow6Text
+        {
+            get { return Parts_stop_m_ord_row_6.Text; }
+            set { Parts_stop_m_ord_row_6.Text = value; }
+        }
         private System.Windows.Forms.TextBox Parts_stop_m_ord_row_7;
+        public string PartsStopMOrdRow7Text
+        {
+            get { return Parts_stop_m_ord_row_7.Text; }
+            set { Parts_stop_m_ord_row_7.Text = value; }
+        }
         private System.Windows.Forms.TextBox Parts_stop_m_ord_row_8;
+        public string PartsStopMOrdRow8Text
+        {
+            get { return Parts_stop_m_ord_row_8.Text; }
+            set { Parts_stop_m_ord_row_8.Text = value; }
+        }
         private System.Windows.Forms.TextBox Parts_stop_m_ord_row_9;
+        public string PartsStopMOrdRow9Text
+        {
+            get { return Parts_stop_m_ord_row_9.Text; }
+            set { Parts_stop_m_ord_row_9.Text = value; }
+        }
         private System.Windows.Forms.TextBox Parts_stop_m_ord_row_10;
+        public string PartsStopMOrdRow10Text
+        {
+            get { return Parts_stop_m_ord_row_10.Text; }
+            set { Parts_stop_m_ord_row_10.Text = value; }
+        }
         private System.Windows.Forms.TextBox Parts_stop_m_ord_row_11;
+        public string PartsStopMOrdRow11Text
+        {
+            get { return Parts_stop_m_ord_row_11.Text; }
+            set { Parts_stop_m_ord_row_11.Text = value; }
+        }
         private System.Windows.Forms.TextBox Parts_stop_m_ord_row_12;
+        public string PartsStopMOrdRow12Text
+        {
+            get { return Parts_stop_m_ord_row_12.Text; }
+            set { Parts_stop_m_ord_row_12.Text = value; }
+        }
         private System.Windows.Forms.Label Value_parts_stop_m_ord;
         private System.Windows.Forms.TextBox Value_parts_stop_m_ord_row_0;
+        public string ValuePartsStopMOrdRow0Text
+        {
+            get { return Value_parts_stop_m_ord_row_0.Text; }
+            set { Value_parts_stop_m_ord_row_0.Text = value; }
+        }
         private System.Windows.Forms.TextBox Value_parts_stop_m_ord_row_1;
+        public string ValuePartsStopMOrdRow1Text
+        {
+            get { return Value_parts_stop_m_ord_row_1.Text; }
+            set { Value_parts_stop_m_ord_row_1.Text = value; }
+        }
         private System.Windows.Forms.TextBox Value_parts_stop_m_ord_row_2;
+        public string ValuePartsStopMOrdRow2Text
+        {
+            get { return Value_parts_stop_m_ord_row_2.Text; }
+            set { Value_parts_stop_m_ord_row_2.Text = value; }
+        }
         private System.Windows.Forms.TextBox Value_parts_stop_m_ord_row_3;
+        public string ValuePartsStopMOrdRow3Text
+        {
+            get { return Value_parts_stop_m_ord_row_3.Text; }
+            set { Value_parts_stop_m_ord_row_3.Text = value; }
+        }
         private System.Windows.Forms.TextBox Value_parts_stop_m_ord_row_4;
+        public string ValuePartsStopMOrdRow4Text
+        {
+            get { return Value_parts_stop_m_ord_row_4.Text; }
+            set { Value_parts_stop_m_ord_row_4.Text = value; }
+        }
         private System.Windows.Forms.TextBox Value_parts_stop_m_ord_row_5;
+        public string ValuePartsStopMOrdRow5Text
+        {
+            get { return Value_parts_stop_m_ord_row_5.Text; }
+            set { Value_parts_stop_m_ord_row_5.Text = value; }
+        }
         private System.Windows.Forms.TextBox Value_parts_stop_m_ord_row_6;
+        public string ValuePartsStopMOrdRow6Text
+        {
+            get { return Value_parts_stop_m_ord_row_6.Text; }
+            set { Value_parts_stop_m_ord_row_6.Text = value; }
+        }
         private System.Windows.Forms.TextBox Value_parts_stop_m_ord_row_7;
+        public string ValuePartsStopMOrdRow7Text
+        {
+            get { return Value_parts_stop_m_ord_row_7.Text; }
+            set { Value_parts_stop_m_ord_row_7.Text = value; }
+        }
         private System.Windows.Forms.TextBox Value_parts_stop_m_ord_row_8;
+        public string ValuePartsStopMOrdRow8Text
+        {
+            get { return Value_parts_stop_m_ord_row_8.Text; }
+            set { Value_parts_stop_m_ord_row_8.Text = value; }
+        }
         private System.Windows.Forms.TextBox Value_parts_stop_m_ord_row_9;
+        public string ValuePartsStopMOrdRow9Text
+        {
+            get { return Value_parts_stop_m_ord_row_9.Text; }
+            set { Value_parts_stop_m_ord_row_9.Text = value; }
+        }
         private System.Windows.Forms.TextBox Value_parts_stop_m_ord_row_10;
+        public string ValuePartsStopMOrdRow10Text
+        {
+            get { return Value_parts_stop_m_ord_row_10.Text; }
+            set { Value_parts_stop_m_ord_row_10.Text = value; }
+        }
         private System.Windows.Forms.TextBox Value_parts_stop_m_ord_row_11;
+        public string ValuePartsStopMOrdRow11Text
+        {
+            get { return Value_parts_stop_m_ord_row_11.Text; }
+            set { Value_parts_stop_m_ord_row_11.Text = value; }
+        }
         private System.Windows.Forms.TextBox Value_parts_stop_m_ord_row_12;
+        public string ValuePartsStopMOrdRow12Text
+        {
+            get { return Value_parts_stop_m_ord_row_12.Text; }
+            set { Value_parts_stop_m_ord_row_12.Text = value; }
+        }
         private System.Windows.Forms.Label Use_trail_m_ord;
         private System.Windows.Forms.CheckBox Use_trail_m_ord_row_0;
+        public string UseTrailMOrdRow0Checked
+        {
+            get { return (Use_trail_m_ord_row_0.Checked == false) ? "0" : "1"; }
+            set { Use_trail_m_ord_row_0.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Use_trail_m_ord_row_1;
+        public string UseTrailMOrdRow1Checked
+        {
+            get { return (Use_trail_m_ord_row_1.Checked == false) ? "0" : "1"; }
+            set { Use_trail_m_ord_row_1.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Use_trail_m_ord_row_2;
+        public string UseTrailMOrdRow2Checked
+        {
+            get { return (Use_trail_m_ord_row_2.Checked == false) ? "0" : "1"; }
+            set { Use_trail_m_ord_row_2.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Use_trail_m_ord_row_3;
+        public string UseTrailMOrdRow3Checked
+        {
+            get { return (Use_trail_m_ord_row_3.Checked == false) ? "0" : "1"; }
+            set { Use_trail_m_ord_row_3.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Use_trail_m_ord_row_4;
+        public string UseTrailMOrdRow4Checked
+        {
+            get { return (Use_trail_m_ord_row_4.Checked == false) ? "0" : "1"; }
+            set { Use_trail_m_ord_row_4.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Use_trail_m_ord_row_5;
+        public string UseTrailMOrdRow5Checked
+        {
+            get { return (Use_trail_m_ord_row_5.Checked == false) ? "0" : "1"; }
+            set { Use_trail_m_ord_row_5.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Use_trail_m_ord_row_6;
+        public string UseTrailMOrdRow6Checked
+        {
+            get { return (Use_trail_m_ord_row_6.Checked == false) ? "0" : "1"; }
+            set { Use_trail_m_ord_row_6.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Use_trail_m_ord_row_7;
+        public string UseTrailMOrdRow7Checked
+        {
+            get { return (Use_trail_m_ord_row_7.Checked == false) ? "0" : "1"; }
+            set { Use_trail_m_ord_row_7.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Use_trail_m_ord_row_8;
+        public string UseTrailMOrdRow8Checked
+        {
+            get { return (Use_trail_m_ord_row_8.Checked == false) ? "0" : "1"; }
+            set { Use_trail_m_ord_row_8.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Use_trail_m_ord_row_9;
+        public string UseTrailMOrdRow9Checked
+        {
+            get { return (Use_trail_m_ord_row_9.Checked == false) ? "0" : "1"; }
+            set { Use_trail_m_ord_row_9.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Use_trail_m_ord_row_10;
+        public string UseTrailMOrdRow10Checked
+        {
+            get { return (Use_trail_m_ord_row_10.Checked == false) ? "0" : "1"; }
+            set { Use_trail_m_ord_row_10.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Use_trail_m_ord_row_11;
+        public string UseTrailMOrdRow11Checked
+        {
+            get { return (Use_trail_m_ord_row_11.Checked == false) ? "0" : "1"; }
+            set { Use_trail_m_ord_row_11.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Use_trail_m_ord_row_12;
+        public string UseTrailMOrdRow12Checked
+        {
+            get { return (Use_trail_m_ord_row_12.Checked == false) ? "0" : "1"; }
+            set { Use_trail_m_ord_row_12.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.Label Start_calc_trail_m_ord;
         private System.Windows.Forms.TextBox Start_calc_trail_m_ord_row_0;
+        public string StartCalcTrailMOrdRow0Text
+        {
+            get { return Start_calc_trail_m_ord_row_0.Text; }
+            set { Start_calc_trail_m_ord_row_0.Text = value; }
+        }
         private System.Windows.Forms.TextBox Start_calc_trail_m_ord_row_1;
+        public string StartCalcTrailMOrdRow1Text
+        {
+            get { return Start_calc_trail_m_ord_row_1.Text; }
+            set { Start_calc_trail_m_ord_row_1.Text = value; }
+        }
         private System.Windows.Forms.TextBox Start_calc_trail_m_ord_row_2;
+        public string StartCalcTrailMOrdRow2Text
+        {
+            get { return Start_calc_trail_m_ord_row_2.Text; }
+            set { Start_calc_trail_m_ord_row_2.Text = value; }
+        }
         private System.Windows.Forms.TextBox Start_calc_trail_m_ord_row_3;
+        public string StartCalcTrailMOrdRow3Text
+        {
+            get { return Start_calc_trail_m_ord_row_3.Text; }
+            set { Start_calc_trail_m_ord_row_3.Text = value; }
+        }
         private System.Windows.Forms.TextBox Start_calc_trail_m_ord_row_4;
+        public string StartCalcTrailMOrdRow4Text
+        {
+            get { return Start_calc_trail_m_ord_row_4.Text; }
+            set { Start_calc_trail_m_ord_row_4.Text = value; }
+        }
         private System.Windows.Forms.TextBox Start_calc_trail_m_ord_row_5;
+        public string StartCalcTrailMOrdRow5Text
+        {
+            get { return Start_calc_trail_m_ord_row_5.Text; }
+            set { Start_calc_trail_m_ord_row_5.Text = value; }
+        }
         private System.Windows.Forms.TextBox Start_calc_trail_m_ord_row_6;
+        public string StartCalcTrailMOrdRow6Text
+        {
+            get { return Start_calc_trail_m_ord_row_6.Text; }
+            set { Start_calc_trail_m_ord_row_6.Text = value; }
+        }
         private System.Windows.Forms.TextBox Start_calc_trail_m_ord_row_7;
+        public string StartCalcTrailMOrdRow7Text
+        {
+            get { return Start_calc_trail_m_ord_row_7.Text; }
+            set { Start_calc_trail_m_ord_row_7.Text = value; }
+        }
         private System.Windows.Forms.TextBox Start_calc_trail_m_ord_row_8;
+        public string StartCalcTrailMOrdRow8Text
+        {
+            get { return Start_calc_trail_m_ord_row_8.Text; }
+            set { Start_calc_trail_m_ord_row_8.Text = value; }
+        }
         private System.Windows.Forms.TextBox Start_calc_trail_m_ord_row_9;
+        public string StartCalcTrailMOrdRow9Text
+        {
+            get { return Start_calc_trail_m_ord_row_9.Text; }
+            set { Start_calc_trail_m_ord_row_9.Text = value; }
+        }
         private System.Windows.Forms.TextBox Start_calc_trail_m_ord_row_10;
+        public string StartCalcTrailMOrdRow10Text
+        {
+            get { return Start_calc_trail_m_ord_row_10.Text; }
+            set { Start_calc_trail_m_ord_row_10.Text = value; }
+        }
         private System.Windows.Forms.TextBox Start_calc_trail_m_ord_row_11;
+        public string StartCalcTrailMOrdRow11Text
+        {
+            get { return Start_calc_trail_m_ord_row_11.Text; }
+            set { Start_calc_trail_m_ord_row_11.Text = value; }
+        }
         private System.Windows.Forms.TextBox Start_calc_trail_m_ord_row_12;
+        public string StartCalcTrailMOrdRow12Text
+        {
+            get { return Start_calc_trail_m_ord_row_12.Text; }
+            set { Start_calc_trail_m_ord_row_12.Text = value; }
+        }
         private System.Windows.Forms.Label Size_trail_m_ord;
         private System.Windows.Forms.TextBox Size_trail_m_ord_row_0;
+        public string SizeTrailMOrdRow0Text
+        {
+            get { return Size_trail_m_ord_row_0.Text; }
+            set { Size_trail_m_ord_row_0.Text = value; }
+        }
         private System.Windows.Forms.TextBox Size_trail_m_ord_row_1;
+        public string SizeTrailMOrdRow1Text
+        {
+            get { return Size_trail_m_ord_row_1.Text; }
+            set { Size_trail_m_ord_row_1.Text = value; }
+        }
         private System.Windows.Forms.TextBox Size_trail_m_ord_row_2;
+        public string SizeTrailMOrdRow2Text
+        {
+            get { return Size_trail_m_ord_row_2.Text; }
+            set { Size_trail_m_ord_row_2.Text = value; }
+        }
         private System.Windows.Forms.TextBox Size_trail_m_ord_row_3;
+        public string SizeTrailMOrdRow3Text
+        {
+            get { return Size_trail_m_ord_row_3.Text; }
+            set { Size_trail_m_ord_row_3.Text = value; }
+        }
         private System.Windows.Forms.TextBox Size_trail_m_ord_row_4;
+        public string SizeTrailMOrdRow4Text
+        {
+            get { return Size_trail_m_ord_row_4.Text; }
+            set { Size_trail_m_ord_row_4.Text = value; }
+        }
         private System.Windows.Forms.TextBox Size_trail_m_ord_row_5;
+        public string SizeTrailMOrdRow5Text
+        {
+            get { return Size_trail_m_ord_row_5.Text; }
+            set { Size_trail_m_ord_row_5.Text = value; }
+        }
         private System.Windows.Forms.TextBox Size_trail_m_ord_row_6;
+        public string SizeTrailMOrdRow6Text
+        {
+            get { return Size_trail_m_ord_row_6.Text; }
+            set { Size_trail_m_ord_row_6.Text = value; }
+        }
         private System.Windows.Forms.TextBox Size_trail_m_ord_row_7;
+        public string SizeTrailMOrdRow7Text
+        {
+            get { return Size_trail_m_ord_row_7.Text; }
+            set { Size_trail_m_ord_row_7.Text = value; }
+        }
         private System.Windows.Forms.TextBox Size_trail_m_ord_row_8;
+        public string SizeTrailMOrdRow8Text
+        {
+            get { return Size_trail_m_ord_row_8.Text; }
+            set { Size_trail_m_ord_row_8.Text = value; }
+        }
         private System.Windows.Forms.TextBox Size_trail_m_ord_row_9;
+        public string SizeTrailMOrdRow9Text
+        {
+            get { return Size_trail_m_ord_row_9.Text; }
+            set { Size_trail_m_ord_row_9.Text = value; }
+        }
         private System.Windows.Forms.TextBox Size_trail_m_ord_row_10;
+        public string SizeTrailMOrdRow10Text
+        {
+            get { return Size_trail_m_ord_row_10.Text; }
+            set { Size_trail_m_ord_row_10.Text = value; }
+        }
         private System.Windows.Forms.TextBox Size_trail_m_ord_row_11;
+        public string SizeTrailMOrdRow11Text
+        {
+            get { return Size_trail_m_ord_row_11.Text; }
+            set { Size_trail_m_ord_row_11.Text = value; }
+        }
         private System.Windows.Forms.TextBox Size_trail_m_ord_row_12;
+        public string SizeTrailMOrdRow12Text
+        {
+            get { return Size_trail_m_ord_row_12.Text; }
+            set { Size_trail_m_ord_row_12.Text = value; }
+        }
         private System.Windows.Forms.TableLayoutPanel Table_hedge_order;
         private System.Windows.Forms.TextBox Symb_row_12_h_ord;
         private System.Windows.Forms.TextBox Symb_row_11_h_ord;
@@ -16493,18 +17923,83 @@
         private System.Windows.Forms.TextBox Size_trail_h_ord_row_12;
         private System.Windows.Forms.Label Otkup_minus_m_order;
         private System.Windows.Forms.CheckBox Otkup_minus_m_order_row_0;
+        public string OtkupMinusMOrderRow0Checked
+        {
+            get { return (Otkup_minus_m_order_row_0.Checked == false) ? "0" : "1"; }
+            set { Otkup_minus_m_order_row_0.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Otkup_minus_m_order_row_1;
+        public string OtkupMinusMOrderRow1Checked
+        {
+            get { return (Otkup_minus_m_order_row_1.Checked == false) ? "0" : "1"; }
+            set { Otkup_minus_m_order_row_1.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Otkup_minus_m_order_row_2;
+        public string OtkupMinusMOrderRow2Checked
+        {
+            get { return (Otkup_minus_m_order_row_2.Checked == false) ? "0" : "1"; }
+            set { Otkup_minus_m_order_row_2.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Otkup_minus_m_order_row_3;
+        public string OtkupMinusMOrderRow3Checked
+        {
+            get { return (Otkup_minus_m_order_row_3.Checked == false) ? "0" : "1"; }
+            set { Otkup_minus_m_order_row_3.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Otkup_minus_m_order_row_4;
+        public string OtkupMinusMOrderRow4Checked
+        {
+            get { return (Otkup_minus_m_order_row_4.Checked == false) ? "0" : "1"; }
+            set { Otkup_minus_m_order_row_4.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Otkup_minus_m_order_row_5;
+        public string OtkupMinusMOrderRow5Checked
+        {
+            get { return (Otkup_minus_m_order_row_5.Checked == false) ? "0" : "1"; }
+            set { Otkup_minus_m_order_row_5.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Otkup_minus_m_order_row_6;
+        public string OtkupMinusMOrderRow6Checked
+        {
+            get { return (Otkup_minus_m_order_row_6.Checked == false) ? "0" : "1"; }
+            set { Otkup_minus_m_order_row_6.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Otkup_minus_m_order_row_7;
+        public string OtkupMinusMOrderRow7Checked
+        {
+            get { return (Otkup_minus_m_order_row_7.Checked == false) ? "0" : "1"; }
+            set { Otkup_minus_m_order_row_7.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Otkup_minus_m_order_row_8;
+        public string OtkupMinusMOrderRow8Checked
+        {
+            get { return (Otkup_minus_m_order_row_8.Checked == false) ? "0" : "1"; }
+            set { Otkup_minus_m_order_row_8.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Otkup_minus_m_order_row_9;
+        public string OtkupMinusMOrderRow9Checked
+        {
+            get { return (Otkup_minus_m_order_row_9.Checked == false) ? "0" : "1"; }
+            set { Otkup_minus_m_order_row_9.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Otkup_minus_m_order_row_10;
+        public string OtkupMinusMOrderRow10Checked
+        {
+            get { return (Otkup_minus_m_order_row_10.Checked == false) ? "0" : "1"; }
+            set { Otkup_minus_m_order_row_10.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Otkup_minus_m_order_row_11;
+        public string OtkupMinusMOrderRow11Checked
+        {
+            get { return (Otkup_minus_m_order_row_11.Checked == false) ? "0" : "1"; }
+            set { Otkup_minus_m_order_row_11.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Otkup_minus_m_order_row_12;
+        public string OtkupMinusMOrderRow12Checked
+        {
+            get { return (Otkup_minus_m_order_row_12.Checked == false) ? "0" : "1"; }
+            set { Otkup_minus_m_order_row_12.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.Label Otkup_minus_h_order;
         private System.Windows.Forms.CheckBox Otkup_minus_h_order_row_0;
         private System.Windows.Forms.CheckBox Otkup_minus_h_order_row_1;
