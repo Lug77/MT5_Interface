@@ -632,6 +632,319 @@ namespace MaBotHedging_interf_work
         public string on_func_minus_deals_10_main_order_page { get; set; }
         public string on_func_minus_deals_11_main_order_page { get; set; }
         public string on_func_minus_deals_12_main_order_page { get; set; }
+
+        //вкладка Хедж ордер
+        public string Symb_row_0_hedg_order_page { get; set; }
+        public string Symb_row_1_hedg_order_page { get; set; }
+        public string Symb_row_2_hedg_order_page { get; set; }
+        public string Symb_row_3_hedg_order_page { get; set; }
+        public string Symb_row_4_hedg_order_page { get; set; }
+        public string Symb_row_5_hedg_order_page { get; set; }
+        public string Symb_row_6_hedg_order_page { get; set; }
+        public string Symb_row_7_hedg_order_page { get; set; }
+        public string Symb_row_8_hedg_order_page { get; set; }
+        public string Symb_row_9_hedg_order_page { get; set; }
+        public string Symb_row_10_hedg_order_page { get; set; }
+        public string Symb_row_11_hedg_order_page { get; set; }
+        public string Symb_row_12_hedg_order_page { get; set; }
+        public string on_func_use_hedge_0_hedg_order_page { get; set; }
+        public string on_func_use_hedge_1_hedg_order_page { get; set; }
+        public string on_func_use_hedge_2_hedg_order_page { get; set; }
+        public string on_func_use_hedge_3_hedg_order_page { get; set; }
+        public string on_func_use_hedge_4_hedg_order_page { get; set; }
+        public string on_func_use_hedge_5_hedg_order_page { get; set; }
+        public string on_func_use_hedge_6_hedg_order_page { get; set; }
+        public string on_func_use_hedge_7_hedg_order_page { get; set; }
+        public string on_func_use_hedge_8_hedg_order_page { get; set; }
+        public string on_func_use_hedge_9_hedg_order_page { get; set; }
+        public string on_func_use_hedge_10_hedg_order_page { get; set; }
+        public string on_func_use_hedge_11_hedg_order_page { get; set; }
+        public string on_func_use_hedge_12_hedg_order_page { get; set; }
+        public string choice_bar_in_hedge_0_hedg_order_page { get; set; }
+        public string choice_bar_in_hedge_1_hedg_order_page { get; set; }
+        public string choice_bar_in_hedge_2_hedg_order_page { get; set; }
+        public string choice_bar_in_hedge_3_hedg_order_page { get; set; }
+        public string choice_bar_in_hedge_4_hedg_order_page { get; set; }
+        public string choice_bar_in_hedge_5_hedg_order_page { get; set; }
+        public string choice_bar_in_hedge_6_hedg_order_page { get; set; }
+        public string choice_bar_in_hedge_7_hedg_order_page { get; set; }
+        public string choice_bar_in_hedge_8_hedg_order_page { get; set; }
+        public string choice_bar_in_hedge_9_hedg_order_page { get; set; }
+        public string choice_bar_in_hedge_10_hedg_order_page { get; set; }
+        public string choice_bar_in_hedge_11_hedg_order_page { get; set; }
+        public string choice_bar_in_hedge_12_hedg_order_page { get; set; }
+        public string on_func_ignor_signal_hedge_0_hedg_order_page { get; set; }
+        public string on_func_ignor_signal_hedge_1_hedg_order_page { get; set; }
+        public string on_func_ignor_signal_hedge_2_hedg_order_page { get; set; }
+        public string on_func_ignor_signal_hedge_3_hedg_order_page { get; set; }
+        public string on_func_ignor_signal_hedge_4_hedg_order_page { get; set; }
+        public string on_func_ignor_signal_hedge_5_hedg_order_page { get; set; }
+        public string on_func_ignor_signal_hedge_6_hedg_order_page { get; set; }
+        public string on_func_ignor_signal_hedge_7_hedg_order_page { get; set; }
+        public string on_func_ignor_signal_hedge_8_hedg_order_page { get; set; }
+        public string on_func_ignor_signal_hedge_9_hedg_order_page { get; set; }
+        public string on_func_ignor_signal_hedge_10_hedg_order_page { get; set; }
+        public string on_func_ignor_signal_hedge_11_hedg_order_page { get; set; }
+        public string on_func_ignor_signal_hedge_12_hedg_order_page { get; set; }
+        public string quantity_bar_ignor_hedge_0_hedg_order_page { get; set; }
+        public string quantity_bar_ignor_hedge_1_hedg_order_page { get; set; }
+        public string quantity_bar_ignor_hedge_2_hedg_order_page { get; set; }
+        public string quantity_bar_ignor_hedge_3_hedg_order_page { get; set; }
+        public string quantity_bar_ignor_hedge_4_hedg_order_page { get; set; }
+        public string quantity_bar_ignor_hedge_5_hedg_order_page { get; set; }
+        public string quantity_bar_ignor_hedge_6_hedg_order_page { get; set; }
+        public string quantity_bar_ignor_hedge_7_hedg_order_page { get; set; }
+        public string quantity_bar_ignor_hedge_8_hedg_order_page { get; set; }
+        public string quantity_bar_ignor_hedge_9_hedg_order_page { get; set; }
+        public string quantity_bar_ignor_hedge_10_hedg_order_page { get; set; }
+        public string quantity_bar_ignor_hedge_11_hedg_order_page { get; set; }
+        public string quantity_bar_ignor_hedge_12_hedg_order_page { get; set; }
+        public string on_func_fix_deal_on_bar_hedge_0_hedg_order_page { get; set; }
+        public string on_func_fix_deal_on_bar_hedge_1_hedg_order_page { get; set; }
+        public string on_func_fix_deal_on_bar_hedge_2_hedg_order_page { get; set; }
+        public string on_func_fix_deal_on_bar_hedge_3_hedg_order_page { get; set; }
+        public string on_func_fix_deal_on_bar_hedge_4_hedg_order_page { get; set; }
+        public string on_func_fix_deal_on_bar_hedge_5_hedg_order_page { get; set; }
+        public string on_func_fix_deal_on_bar_hedge_6_hedg_order_page { get; set; }
+        public string on_func_fix_deal_on_bar_hedge_7_hedg_order_page { get; set; }
+        public string on_func_fix_deal_on_bar_hedge_8_hedg_order_page { get; set; }
+        public string on_func_fix_deal_on_bar_hedge_9_hedg_order_page { get; set; }
+        public string on_func_fix_deal_on_bar_hedge_10_hedg_order_page { get; set; }
+        public string on_func_fix_deal_on_bar_hedge_11_hedg_order_page { get; set; }
+        public string on_func_fix_deal_on_bar_hedge_12_hedg_order_page { get; set; }
+        public string quantity_deals_on_bar_hedge_0_hedg_order_page { get; set; }
+        public string quantity_deals_on_bar_hedge_1_hedg_order_page { get; set; }
+        public string quantity_deals_on_bar_hedge_2_hedg_order_page { get; set; }
+        public string quantity_deals_on_bar_hedge_3_hedg_order_page { get; set; }
+        public string quantity_deals_on_bar_hedge_4_hedg_order_page { get; set; }
+        public string quantity_deals_on_bar_hedge_5_hedg_order_page { get; set; }
+        public string quantity_deals_on_bar_hedge_6_hedg_order_page { get; set; }
+        public string quantity_deals_on_bar_hedge_7_hedg_order_page { get; set; }
+        public string quantity_deals_on_bar_hedge_8_hedg_order_page { get; set; }
+        public string quantity_deals_on_bar_hedge_9_hedg_order_page { get; set; }
+        public string quantity_deals_on_bar_hedge_10_hedg_order_page { get; set; }
+        public string quantity_deals_on_bar_hedge_11_hedg_order_page { get; set; }
+        public string quantity_deals_on_bar_hedge_12_hedg_order_page { get; set; }
+        public string on_func_use_signal_for_out_hedge_0_hedg_order_page { get; set; }
+        public string on_func_use_signal_for_out_hedge_1_hedg_order_page { get; set; }
+        public string on_func_use_signal_for_out_hedge_2_hedg_order_page { get; set; }
+        public string on_func_use_signal_for_out_hedge_3_hedg_order_page { get; set; }
+        public string on_func_use_signal_for_out_hedge_4_hedg_order_page { get; set; }
+        public string on_func_use_signal_for_out_hedge_5_hedg_order_page { get; set; }
+        public string on_func_use_signal_for_out_hedge_6_hedg_order_page { get; set; }
+        public string on_func_use_signal_for_out_hedge_7_hedg_order_page { get; set; }
+        public string on_func_use_signal_for_out_hedge_8_hedg_order_page { get; set; }
+        public string on_func_use_signal_for_out_hedge_9_hedg_order_page { get; set; }
+        public string on_func_use_signal_for_out_hedge_10_hedg_order_page { get; set; }
+        public string on_func_use_signal_for_out_hedge_11_hedg_order_page { get; set; }
+        public string on_func_use_signal_for_out_hedge_12_hedg_order_page { get; set; }
+        public string choice_bar_out_hedge_0_hedg_order_page { get; set; }
+        public string choice_bar_out_hedge_1_hedg_order_page { get; set; }
+        public string choice_bar_out_hedge_2_hedg_order_page { get; set; }
+        public string choice_bar_out_hedge_3_hedg_order_page { get; set; }
+        public string choice_bar_out_hedge_4_hedg_order_page { get; set; }
+        public string choice_bar_out_hedge_5_hedg_order_page { get; set; }
+        public string choice_bar_out_hedge_6_hedg_order_page { get; set; }
+        public string choice_bar_out_hedge_7_hedg_order_page { get; set; }
+        public string choice_bar_out_hedge_8_hedg_order_page { get; set; }
+        public string choice_bar_out_hedge_9_hedg_order_page { get; set; }
+        public string choice_bar_out_hedge_10_hedg_order_page { get; set; }
+        public string choice_bar_out_hedge_11_hedg_order_page { get; set; }
+        public string choice_bar_out_hedge_12_hedg_order_page { get; set; }
+        public string fix_volume_hedge_0_hedg_order_page { get; set; }
+        public string fix_volume_hedge_1_hedg_order_page { get; set; }
+        public string fix_volume_hedge_2_hedg_order_page { get; set; }
+        public string fix_volume_hedge_3_hedg_order_page { get; set; }
+        public string fix_volume_hedge_4_hedg_order_page { get; set; }
+        public string fix_volume_hedge_5_hedg_order_page { get; set; }
+        public string fix_volume_hedge_6_hedg_order_page { get; set; }
+        public string fix_volume_hedge_7_hedg_order_page { get; set; }
+        public string fix_volume_hedge_8_hedg_order_page { get; set; }
+        public string fix_volume_hedge_9_hedg_order_page { get; set; }
+        public string fix_volume_hedge_10_hedg_order_page { get; set; }
+        public string fix_volume_hedge_11_hedg_order_page { get; set; }
+        public string fix_volume_hedge_12_hedg_order_page { get; set; }
+        public string on_func_growth_deposit_hedge_0_hedg_order_page { get; set; }
+        public string on_func_growth_deposit_hedge_1_hedg_order_page { get; set; }
+        public string on_func_growth_deposit_hedge_2_hedg_order_page { get; set; }
+        public string on_func_growth_deposit_hedge_3_hedg_order_page { get; set; }
+        public string on_func_growth_deposit_hedge_4_hedg_order_page { get; set; }
+        public string on_func_growth_deposit_hedge_5_hedg_order_page { get; set; }
+        public string on_func_growth_deposit_hedge_6_hedg_order_page { get; set; }
+        public string on_func_growth_deposit_hedge_7_hedg_order_page { get; set; }
+        public string on_func_growth_deposit_hedge_8_hedg_order_page { get; set; }
+        public string on_func_growth_deposit_hedge_9_hedg_order_page { get; set; }
+        public string on_func_growth_deposit_hedge_10_hedg_order_page { get; set; }
+        public string on_func_growth_deposit_hedge_11_hedg_order_page { get; set; }
+        public string on_func_growth_deposit_hedge_12_hedg_order_page { get; set; }
+        public string fix_take_percent_hedge_0_hedg_order_page { get; set; }
+        public string fix_take_percent_hedge_1_hedg_order_page { get; set; }
+        public string fix_take_percent_hedge_2_hedg_order_page { get; set; }
+        public string fix_take_percent_hedge_3_hedg_order_page { get; set; }
+        public string fix_take_percent_hedge_4_hedg_order_page { get; set; }
+        public string fix_take_percent_hedge_5_hedg_order_page { get; set; }
+        public string fix_take_percent_hedge_6_hedg_order_page { get; set; }
+        public string fix_take_percent_hedge_7_hedg_order_page { get; set; }
+        public string fix_take_percent_hedge_8_hedg_order_page { get; set; }
+        public string fix_take_percent_hedge_9_hedg_order_page { get; set; }
+        public string fix_take_percent_hedge_10_hedg_order_page { get; set; }
+        public string fix_take_percent_hedge_11_hedg_order_page { get; set; }
+        public string fix_take_percent_hedge_12_hedg_order_page { get; set; }
+        public string on_func_part_close_pos_take_hedge_0_hedg_order_page { get; set; }
+        public string on_func_part_close_pos_take_hedge_1_hedg_order_page { get; set; }
+        public string on_func_part_close_pos_take_hedge_2_hedg_order_page { get; set; }
+        public string on_func_part_close_pos_take_hedge_3_hedg_order_page { get; set; }
+        public string on_func_part_close_pos_take_hedge_4_hedg_order_page { get; set; }
+        public string on_func_part_close_pos_take_hedge_5_hedg_order_page { get; set; }
+        public string on_func_part_close_pos_take_hedge_6_hedg_order_page { get; set; }
+        public string on_func_part_close_pos_take_hedge_7_hedg_order_page { get; set; }
+        public string on_func_part_close_pos_take_hedge_8_hedg_order_page { get; set; }
+        public string on_func_part_close_pos_take_hedge_9_hedg_order_page { get; set; }
+        public string on_func_part_close_pos_take_hedge_10_hedg_order_page { get; set; }
+        public string on_func_part_close_pos_take_hedge_11_hedg_order_page { get; set; }
+        public string on_func_part_close_pos_take_hedge_12_hedg_order_page { get; set; }
+        public string quantity_parts_take_hedge_0_hedg_order_page { get; set; }
+        public string quantity_parts_take_hedge_1_hedg_order_page { get; set; }
+        public string quantity_parts_take_hedge_2_hedg_order_page { get; set; }
+        public string quantity_parts_take_hedge_3_hedg_order_page { get; set; }
+        public string quantity_parts_take_hedge_4_hedg_order_page { get; set; }
+        public string quantity_parts_take_hedge_5_hedg_order_page { get; set; }
+        public string quantity_parts_take_hedge_6_hedg_order_page { get; set; }
+        public string quantity_parts_take_hedge_7_hedg_order_page { get; set; }
+        public string quantity_parts_take_hedge_8_hedg_order_page { get; set; }
+        public string quantity_parts_take_hedge_9_hedg_order_page { get; set; }
+        public string quantity_parts_take_hedge_10_hedg_order_page { get; set; }
+        public string quantity_parts_take_hedge_11_hedg_order_page { get; set; }
+        public string quantity_parts_take_hedge_12_hedg_order_page { get; set; }
+        public string size_parts_take_hedge_0_hedg_order_page { get; set; }
+        public string size_parts_take_hedge_1_hedg_order_page { get; set; }
+        public string size_parts_take_hedge_2_hedg_order_page { get; set; }
+        public string size_parts_take_hedge_3_hedg_order_page { get; set; }
+        public string size_parts_take_hedge_4_hedg_order_page { get; set; }
+        public string size_parts_take_hedge_5_hedg_order_page { get; set; }
+        public string size_parts_take_hedge_6_hedg_order_page { get; set; }
+        public string size_parts_take_hedge_7_hedg_order_page { get; set; }
+        public string size_parts_take_hedge_8_hedg_order_page { get; set; }
+        public string size_parts_take_hedge_9_hedg_order_page { get; set; }
+        public string size_parts_take_hedge_10_hedg_order_page { get; set; }
+        public string size_parts_take_hedge_11_hedg_order_page { get; set; }
+        public string size_parts_take_hedge_12_hedg_order_page { get; set; }
+        public string fix_stop_percent_hedge_0_hedg_order_page { get; set; }
+        public string fix_stop_percent_hedge_1_hedg_order_page { get; set; }
+        public string fix_stop_percent_hedge_2_hedg_order_page { get; set; }
+        public string fix_stop_percent_hedge_3_hedg_order_page { get; set; }
+        public string fix_stop_percent_hedge_4_hedg_order_page { get; set; }
+        public string fix_stop_percent_hedge_5_hedg_order_page { get; set; }
+        public string fix_stop_percent_hedge_6_hedg_order_page { get; set; }
+        public string fix_stop_percent_hedge_7_hedg_order_page { get; set; }
+        public string fix_stop_percent_hedge_8_hedg_order_page { get; set; }
+        public string fix_stop_percent_hedge_9_hedg_order_page { get; set; }
+        public string fix_stop_percent_hedge_10_hedg_order_page { get; set; }
+        public string fix_stop_percent_hedge_11_hedg_order_page { get; set; }
+        public string fix_stop_percent_hedge_12_hedg_order_page { get; set; }
+        public string on_func_part_close_pos_stop_hedge_0_hedg_order_page { get; set; }
+        public string on_func_part_close_pos_stop_hedge_1_hedg_order_page { get; set; }
+        public string on_func_part_close_pos_stop_hedge_2_hedg_order_page { get; set; }
+        public string on_func_part_close_pos_stop_hedge_3_hedg_order_page { get; set; }
+        public string on_func_part_close_pos_stop_hedge_4_hedg_order_page { get; set; }
+        public string on_func_part_close_pos_stop_hedge_5_hedg_order_page { get; set; }
+        public string on_func_part_close_pos_stop_hedge_6_hedg_order_page { get; set; }
+        public string on_func_part_close_pos_stop_hedge_7_hedg_order_page { get; set; }
+        public string on_func_part_close_pos_stop_hedge_8_hedg_order_page { get; set; }
+        public string on_func_part_close_pos_stop_hedge_9_hedg_order_page { get; set; }
+        public string on_func_part_close_pos_stop_hedge_10_hedg_order_page { get; set; }
+        public string on_func_part_close_pos_stop_hedge_11_hedg_order_page { get; set; }
+        public string on_func_part_close_pos_stop_hedge_12_hedg_order_page { get; set; }
+        public string quantity_parts_stop_hedge_0_hedg_order_page { get; set; }
+        public string quantity_parts_stop_hedge_1_hedg_order_page { get; set; }
+        public string quantity_parts_stop_hedge_2_hedg_order_page { get; set; }
+        public string quantity_parts_stop_hedge_3_hedg_order_page { get; set; }
+        public string quantity_parts_stop_hedge_4_hedg_order_page { get; set; }
+        public string quantity_parts_stop_hedge_5_hedg_order_page { get; set; }
+        public string quantity_parts_stop_hedge_6_hedg_order_page { get; set; }
+        public string quantity_parts_stop_hedge_7_hedg_order_page { get; set; }
+        public string quantity_parts_stop_hedge_8_hedg_order_page { get; set; }
+        public string quantity_parts_stop_hedge_9_hedg_order_page { get; set; }
+        public string quantity_parts_stop_hedge_10_hedg_order_page { get; set; }
+        public string quantity_parts_stop_hedge_11_hedg_order_page { get; set; }
+        public string quantity_parts_stop_hedge_12_hedg_order_page { get; set; }
+        public string size_parts_stop_hedge_0_hedg_order_page { get; set; }
+        public string size_parts_stop_hedge_1_hedg_order_page { get; set; }
+        public string size_parts_stop_hedge_2_hedg_order_page { get; set; }
+        public string size_parts_stop_hedge_3_hedg_order_page { get; set; }
+        public string size_parts_stop_hedge_4_hedg_order_page { get; set; }
+        public string size_parts_stop_hedge_5_hedg_order_page { get; set; }
+        public string size_parts_stop_hedge_6_hedg_order_page { get; set; }
+        public string size_parts_stop_hedge_7_hedg_order_page { get; set; }
+        public string size_parts_stop_hedge_8_hedg_order_page { get; set; }
+        public string size_parts_stop_hedge_9_hedg_order_page { get; set; }
+        public string size_parts_stop_hedge_10_hedg_order_page { get; set; }
+        public string size_parts_stop_hedge_11_hedg_order_page { get; set; }
+        public string size_parts_stop_hedge_12_hedg_order_page { get; set; }
+        public string on_func_use_trailing_hedge_0_hedg_order_page { get; set; }
+        public string on_func_use_trailing_hedge_1_hedg_order_page { get; set; }
+        public string on_func_use_trailing_hedge_2_hedg_order_page { get; set; }
+        public string on_func_use_trailing_hedge_3_hedg_order_page { get; set; }
+        public string on_func_use_trailing_hedge_4_hedg_order_page { get; set; }
+        public string on_func_use_trailing_hedge_5_hedg_order_page { get; set; }
+        public string on_func_use_trailing_hedge_6_hedg_order_page { get; set; }
+        public string on_func_use_trailing_hedge_7_hedg_order_page { get; set; }
+        public string on_func_use_trailing_hedge_8_hedg_order_page { get; set; }
+        public string on_func_use_trailing_hedge_9_hedg_order_page { get; set; }
+        public string on_func_use_trailing_hedge_10_hedg_order_page { get; set; }
+        public string on_func_use_trailing_hedge_11_hedg_order_page { get; set; }
+        public string on_func_use_trailing_hedge_12_hedg_order_page { get; set; }
+        public string start_trailing_hedge_0_hedg_order_page { get; set; }
+        public string start_trailing_hedge_1_hedg_order_page { get; set; }
+        public string start_trailing_hedge_2_hedg_order_page { get; set; }
+        public string start_trailing_hedge_3_hedg_order_page { get; set; }
+        public string start_trailing_hedge_4_hedg_order_page { get; set; }
+        public string start_trailing_hedge_5_hedg_order_page { get; set; }
+        public string start_trailing_hedge_6_hedg_order_page { get; set; }
+        public string start_trailing_hedge_7_hedg_order_page { get; set; }
+        public string start_trailing_hedge_8_hedg_order_page { get; set; }
+        public string start_trailing_hedge_9_hedg_order_page { get; set; }
+        public string start_trailing_hedge_10_hedg_order_page { get; set; }
+        public string start_trailing_hedge_11_hedg_order_page { get; set; }
+        public string start_trailing_hedge_12_hedg_order_page { get; set; }
+        public string size_trailing_hedge_0_hedg_order_page { get; set; }
+        public string size_trailing_hedge_1_hedg_order_page { get; set; }
+        public string size_trailing_hedge_2_hedg_order_page { get; set; }
+        public string size_trailing_hedge_3_hedg_order_page { get; set; }
+        public string size_trailing_hedge_4_hedg_order_page { get; set; }
+        public string size_trailing_hedge_5_hedg_order_page { get; set; }
+        public string size_trailing_hedge_6_hedg_order_page { get; set; }
+        public string size_trailing_hedge_7_hedg_order_page { get; set; }
+        public string size_trailing_hedge_8_hedg_order_page { get; set; }
+        public string size_trailing_hedge_9_hedg_order_page { get; set; }
+        public string size_trailing_hedge_10_hedg_order_page { get; set; }
+        public string size_trailing_hedge_11_hedg_order_page { get; set; }
+        public string size_trailing_hedge_12_hedg_order_page { get; set; }
+        public string on_func_minus_deals_hedge_0_hedg_order_page { get; set; }
+        public string on_func_minus_deals_hedge_1_hedg_order_page { get; set; }
+        public string on_func_minus_deals_hedge_2_hedg_order_page { get; set; }
+        public string on_func_minus_deals_hedge_3_hedg_order_page { get; set; }
+        public string on_func_minus_deals_hedge_4_hedg_order_page { get; set; }
+        public string on_func_minus_deals_hedge_5_hedg_order_page { get; set; }
+        public string on_func_minus_deals_hedge_6_hedg_order_page { get; set; }
+        public string on_func_minus_deals_hedge_7_hedg_order_page { get; set; }
+        public string on_func_minus_deals_hedge_8_hedg_order_page { get; set; }
+        public string on_func_minus_deals_hedge_9_hedg_order_page { get; set; }
+        public string on_func_minus_deals_hedge_10_hedg_order_page { get; set; }
+        public string on_func_minus_deals_hedge_11_hedg_order_page { get; set; }
+        public string on_func_minus_deals_hedge_12_hedg_order_page { get; set; }
+
+        //вкладка Общие параметры
+        public string start_trading { get; set; }
+        public string stop_trading { get; set; }
+        public string coeff_add_profit { get; set; }
+        public string take_commission { get; set; }
+        public string max_growth_deposit { get; set; }
+        public string on_func_auto_reset { get; set; }
+        public string max_spread { get; set; }
+        public string tester_operating_mode { get; set; } //не используется в интерфейсе
+        public string unit { get; set; }
+        public string print_debugg_comments { get; set; }
     }
 
     public class ConfigData 
@@ -1287,7 +1600,314 @@ namespace MaBotHedging_interf_work
                     m_form.OtkupMinusMOrderRow10Checked = configData.on_func_minus_deals_10_main_order_page;
                     m_form.OtkupMinusMOrderRow11Checked = configData.on_func_minus_deals_11_main_order_page;
                     m_form.OtkupMinusMOrderRow12Checked = configData.on_func_minus_deals_12_main_order_page;
-
+                    m_form.SymbRow0HOrdText = configData.Symb_row_0_hedg_order_page;
+                    m_form.SymbRow1HOrdText = configData.Symb_row_1_hedg_order_page;
+                    m_form.SymbRow2HOrdText = configData.Symb_row_2_hedg_order_page;
+                    m_form.SymbRow3HOrdText = configData.Symb_row_3_hedg_order_page;
+                    m_form.SymbRow4HOrdText = configData.Symb_row_4_hedg_order_page;
+                    m_form.SymbRow5HOrdText = configData.Symb_row_5_hedg_order_page;
+                    m_form.SymbRow6HOrdText = configData.Symb_row_6_hedg_order_page;
+                    m_form.SymbRow7HOrdText = configData.Symb_row_7_hedg_order_page;
+                    m_form.SymbRow8HOrdText = configData.Symb_row_8_hedg_order_page;
+                    m_form.SymbRow9HOrdText = configData.Symb_row_9_hedg_order_page;
+                    m_form.SymbRow10HOrdText = configData.Symb_row_10_hedg_order_page;
+                    m_form.SymbRow11HOrdText = configData.Symb_row_11_hedg_order_page;
+                    m_form.SymbRow12HOrdText = configData.Symb_row_12_hedg_order_page;
+                    m_form.OpenHOrdRow0Checked = configData.on_func_use_hedge_0_hedg_order_page;
+                    m_form.OpenHOrdRow1Checked = configData.on_func_use_hedge_1_hedg_order_page;
+                    m_form.OpenHOrdRow2Checked = configData.on_func_use_hedge_2_hedg_order_page;
+                    m_form.OpenHOrdRow3Checked = configData.on_func_use_hedge_3_hedg_order_page;
+                    m_form.OpenHOrdRow4Checked = configData.on_func_use_hedge_4_hedg_order_page;
+                    m_form.OpenHOrdRow5Checked = configData.on_func_use_hedge_5_hedg_order_page;
+                    m_form.OpenHOrdRow6Checked = configData.on_func_use_hedge_6_hedg_order_page;
+                    m_form.OpenHOrdRow7Checked = configData.on_func_use_hedge_7_hedg_order_page;
+                    m_form.OpenHOrdRow8Checked = configData.on_func_use_hedge_8_hedg_order_page;
+                    m_form.OpenHOrdRow9Checked = configData.on_func_use_hedge_9_hedg_order_page;
+                    m_form.OpenHOrdRow10Checked = configData.on_func_use_hedge_10_hedg_order_page;
+                    m_form.OpenHOrdRow11Checked = configData.on_func_use_hedge_11_hedg_order_page;
+                    m_form.OpenHOrdRow12Checked = configData.on_func_use_hedge_12_hedg_order_page;
+                    m_form.BarInHOrdRow0Item = configData.choice_bar_in_hedge_0_hedg_order_page;
+                    m_form.BarInHOrdRow1Item = configData.choice_bar_in_hedge_1_hedg_order_page;
+                    m_form.BarInHOrdRow2Item = configData.choice_bar_in_hedge_2_hedg_order_page;
+                    m_form.BarInHOrdRow3Item = configData.choice_bar_in_hedge_3_hedg_order_page;
+                    m_form.BarInHOrdRow4Item = configData.choice_bar_in_hedge_4_hedg_order_page;
+                    m_form.BarInHOrdRow5Item = configData.choice_bar_in_hedge_5_hedg_order_page;
+                    m_form.BarInHOrdRow6Item = configData.choice_bar_in_hedge_6_hedg_order_page;
+                    m_form.BarInHOrdRow7Item = configData.choice_bar_in_hedge_7_hedg_order_page;
+                    m_form.BarInHOrdRow8Item = configData.choice_bar_in_hedge_8_hedg_order_page;
+                    m_form.BarInHOrdRow9Item = configData.choice_bar_in_hedge_9_hedg_order_page;
+                    m_form.BarInHOrdRow10Item = configData.choice_bar_in_hedge_10_hedg_order_page;
+                    m_form.BarInHOrdRow11Item = configData.choice_bar_in_hedge_11_hedg_order_page;
+                    m_form.BarInHOrdRow12Item = configData.choice_bar_in_hedge_12_hedg_order_page;
+                    m_form.StopInBarHOrdRow0Checked = configData.on_func_ignor_signal_hedge_0_hedg_order_page;
+                    m_form.StopInBarHOrdRow1Checked = configData.on_func_ignor_signal_hedge_1_hedg_order_page;
+                    m_form.StopInBarHOrdRow2Checked = configData.on_func_ignor_signal_hedge_2_hedg_order_page;
+                    m_form.StopInBarHOrdRow3Checked = configData.on_func_ignor_signal_hedge_3_hedg_order_page;
+                    m_form.StopInBarHOrdRow4Checked = configData.on_func_ignor_signal_hedge_4_hedg_order_page;
+                    m_form.StopInBarHOrdRow5Checked = configData.on_func_ignor_signal_hedge_5_hedg_order_page;
+                    m_form.StopInBarHOrdRow6Checked = configData.on_func_ignor_signal_hedge_6_hedg_order_page;
+                    m_form.StopInBarHOrdRow7Checked = configData.on_func_ignor_signal_hedge_7_hedg_order_page;
+                    m_form.StopInBarHOrdRow8Checked = configData.on_func_ignor_signal_hedge_8_hedg_order_page;
+                    m_form.StopInBarHOrdRow9Checked = configData.on_func_ignor_signal_hedge_9_hedg_order_page;
+                    m_form.StopInBarHOrdRow10Checked = configData.on_func_ignor_signal_hedge_10_hedg_order_page;
+                    m_form.StopInBarHOrdRow11Checked = configData.on_func_ignor_signal_hedge_11_hedg_order_page;
+                    m_form.StopInBarHOrdRow12Checked = configData.on_func_ignor_signal_hedge_12_hedg_order_page;
+                    m_form.DelayBarHOrdRow0Text = configData.quantity_bar_ignor_hedge_0_hedg_order_page;
+                    m_form.DelayBarHOrdRow1Text = configData.quantity_bar_ignor_hedge_1_hedg_order_page;
+                    m_form.DelayBarHOrdRow2Text = configData.quantity_bar_ignor_hedge_2_hedg_order_page;
+                    m_form.DelayBarHOrdRow3Text = configData.quantity_bar_ignor_hedge_3_hedg_order_page;
+                    m_form.DelayBarHOrdRow4Text = configData.quantity_bar_ignor_hedge_4_hedg_order_page;
+                    m_form.DelayBarHOrdRow5Text = configData.quantity_bar_ignor_hedge_5_hedg_order_page;
+                    m_form.DelayBarHOrdRow6Text = configData.quantity_bar_ignor_hedge_6_hedg_order_page;
+                    m_form.DelayBarHOrdRow7Text = configData.quantity_bar_ignor_hedge_7_hedg_order_page;
+                    m_form.DelayBarHOrdRow8Text = configData.quantity_bar_ignor_hedge_8_hedg_order_page;
+                    m_form.DelayBarHOrdRow9Text = configData.quantity_bar_ignor_hedge_9_hedg_order_page;
+                    m_form.DelayBarHOrdRow10Text = configData.quantity_bar_ignor_hedge_10_hedg_order_page;
+                    m_form.DelayBarHOrdRow11Text = configData.quantity_bar_ignor_hedge_11_hedg_order_page;
+                    m_form.DelayBarHOrdRow12Text = configData.quantity_bar_ignor_hedge_12_hedg_order_page;
+                    m_form.FixDealInHOrdRow0Checked = configData.on_func_fix_deal_on_bar_hedge_0_hedg_order_page;
+                    m_form.FixDealInHOrdRow1Checked = configData.on_func_fix_deal_on_bar_hedge_1_hedg_order_page;
+                    m_form.FixDealInHOrdRow2Checked = configData.on_func_fix_deal_on_bar_hedge_2_hedg_order_page;
+                    m_form.FixDealInHOrdRow3Checked = configData.on_func_fix_deal_on_bar_hedge_3_hedg_order_page;
+                    m_form.FixDealInHOrdRow4Checked = configData.on_func_fix_deal_on_bar_hedge_4_hedg_order_page;
+                    m_form.FixDealInHOrdRow5Checked = configData.on_func_fix_deal_on_bar_hedge_5_hedg_order_page;
+                    m_form.FixDealInHOrdRow6Checked = configData.on_func_fix_deal_on_bar_hedge_6_hedg_order_page;
+                    m_form.FixDealInHOrdRow7Checked = configData.on_func_fix_deal_on_bar_hedge_7_hedg_order_page;
+                    m_form.FixDealInHOrdRow8Checked = configData.on_func_fix_deal_on_bar_hedge_8_hedg_order_page;
+                    m_form.FixDealInHOrdRow9Checked = configData.on_func_fix_deal_on_bar_hedge_9_hedg_order_page;
+                    m_form.FixDealInHOrdRow10Checked = configData.on_func_fix_deal_on_bar_hedge_10_hedg_order_page;
+                    m_form.FixDealInHOrdRow11Checked = configData.on_func_fix_deal_on_bar_hedge_11_hedg_order_page;
+                    m_form.FixDealInHOrdRow12Checked = configData.on_func_fix_deal_on_bar_hedge_12_hedg_order_page;
+                    m_form.MaxDealBarHOrdRow0Text = configData.quantity_deals_on_bar_hedge_0_hedg_order_page;
+                    m_form.MaxDealBarHOrdRow1Text = configData.quantity_deals_on_bar_hedge_1_hedg_order_page;
+                    m_form.MaxDealBarHOrdRow2Text = configData.quantity_deals_on_bar_hedge_2_hedg_order_page;
+                    m_form.MaxDealBarHOrdRow3Text = configData.quantity_deals_on_bar_hedge_3_hedg_order_page;
+                    m_form.MaxDealBarHOrdRow4Text = configData.quantity_deals_on_bar_hedge_4_hedg_order_page;
+                    m_form.MaxDealBarHOrdRow5Text = configData.quantity_deals_on_bar_hedge_5_hedg_order_page;
+                    m_form.MaxDealBarHOrdRow6Text = configData.quantity_deals_on_bar_hedge_6_hedg_order_page;
+                    m_form.MaxDealBarHOrdRow7Text = configData.quantity_deals_on_bar_hedge_7_hedg_order_page;
+                    m_form.MaxDealBarHOrdRow8Text = configData.quantity_deals_on_bar_hedge_8_hedg_order_page;
+                    m_form.MaxDealBarHOrdRow9Text = configData.quantity_deals_on_bar_hedge_9_hedg_order_page;
+                    m_form.MaxDealBarHOrdRow10Text = configData.quantity_deals_on_bar_hedge_10_hedg_order_page;
+                    m_form.MaxDealBarHOrdRow11Text = configData.quantity_deals_on_bar_hedge_11_hedg_order_page;
+                    m_form.MaxDealBarHOrdRow12Text = configData.quantity_deals_on_bar_hedge_12_hedg_order_page;
+                    m_form.OutSigIndHOrdRow0Checked = configData.on_func_use_signal_for_out_hedge_0_hedg_order_page;
+                    m_form.OutSigIndHOrdRow1Checked = configData.on_func_use_signal_for_out_hedge_1_hedg_order_page;
+                    m_form.OutSigIndHOrdRow2Checked = configData.on_func_use_signal_for_out_hedge_2_hedg_order_page;
+                    m_form.OutSigIndHOrdRow3Checked = configData.on_func_use_signal_for_out_hedge_3_hedg_order_page;
+                    m_form.OutSigIndHOrdRow4Checked = configData.on_func_use_signal_for_out_hedge_4_hedg_order_page;
+                    m_form.OutSigIndHOrdRow5Checked = configData.on_func_use_signal_for_out_hedge_5_hedg_order_page;
+                    m_form.OutSigIndHOrdRow6Checked = configData.on_func_use_signal_for_out_hedge_6_hedg_order_page;
+                    m_form.OutSigIndHOrdRow7Checked = configData.on_func_use_signal_for_out_hedge_7_hedg_order_page;
+                    m_form.OutSigIndHOrdRow8Checked = configData.on_func_use_signal_for_out_hedge_8_hedg_order_page;
+                    m_form.OutSigIndHOrdRow9Checked = configData.on_func_use_signal_for_out_hedge_9_hedg_order_page;
+                    m_form.OutSigIndHOrdRow10Checked = configData.on_func_use_signal_for_out_hedge_10_hedg_order_page;
+                    m_form.OutSigIndHOrdRow11Checked = configData.on_func_use_signal_for_out_hedge_11_hedg_order_page;
+                    m_form.OutSigIndHOrdRow12Checked = configData.on_func_use_signal_for_out_hedge_12_hedg_order_page;
+                    m_form.BarOutHOrdRow0Item = configData.choice_bar_out_hedge_0_hedg_order_page;
+                    m_form.BarOutHOrdRow1Item = configData.choice_bar_out_hedge_1_hedg_order_page;
+                    m_form.BarOutHOrdRow2Item = configData.choice_bar_out_hedge_2_hedg_order_page;
+                    m_form.BarOutHOrdRow3Item = configData.choice_bar_out_hedge_3_hedg_order_page;
+                    m_form.BarOutHOrdRow4Item = configData.choice_bar_out_hedge_4_hedg_order_page;
+                    m_form.BarOutHOrdRow5Item = configData.choice_bar_out_hedge_5_hedg_order_page;
+                    m_form.BarOutHOrdRow6Item = configData.choice_bar_out_hedge_6_hedg_order_page;
+                    m_form.BarOutHOrdRow7Item = configData.choice_bar_out_hedge_7_hedg_order_page;
+                    m_form.BarOutHOrdRow8Item = configData.choice_bar_out_hedge_8_hedg_order_page;
+                    m_form.BarOutHOrdRow9Item = configData.choice_bar_out_hedge_9_hedg_order_page;
+                    m_form.BarOutHOrdRow10Item = configData.choice_bar_out_hedge_10_hedg_order_page;
+                    m_form.BarOutHOrdRow11Item = configData.choice_bar_out_hedge_11_hedg_order_page;
+                    m_form.BarOutHOrdRow12Item = configData.choice_bar_out_hedge_12_hedg_order_page;
+                    m_form.FixVolHOrdRow0Text = configData.fix_volume_hedge_0_hedg_order_page;
+                    m_form.FixVolHOrdRow1Text = configData.fix_volume_hedge_1_hedg_order_page;
+                    m_form.FixVolHOrdRow2Text = configData.fix_volume_hedge_2_hedg_order_page;
+                    m_form.FixVolHOrdRow3Text = configData.fix_volume_hedge_3_hedg_order_page;
+                    m_form.FixVolHOrdRow4Text = configData.fix_volume_hedge_4_hedg_order_page;
+                    m_form.FixVolHOrdRow5Text = configData.fix_volume_hedge_5_hedg_order_page;
+                    m_form.FixVolHOrdRow6Text = configData.fix_volume_hedge_6_hedg_order_page;
+                    m_form.FixVolHOrdRow7Text = configData.fix_volume_hedge_7_hedg_order_page;
+                    m_form.FixVolHOrdRow8Text = configData.fix_volume_hedge_8_hedg_order_page;
+                    m_form.FixVolHOrdRow9Text = configData.fix_volume_hedge_9_hedg_order_page;
+                    m_form.FixVolHOrdRow10Text = configData.fix_volume_hedge_10_hedg_order_page;
+                    m_form.FixVolHOrdRow11Text = configData.fix_volume_hedge_11_hedg_order_page;
+                    m_form.FixVolHOrdRow12Text = configData.fix_volume_hedge_12_hedg_order_page;
+                    m_form.GrowthDepoHOrdRow0Checked = configData.on_func_growth_deposit_hedge_0_hedg_order_page;
+                    m_form.GrowthDepoHOrdRow1Checked = configData.on_func_growth_deposit_hedge_1_hedg_order_page;
+                    m_form.GrowthDepoHOrdRow2Checked = configData.on_func_growth_deposit_hedge_2_hedg_order_page;
+                    m_form.GrowthDepoHOrdRow3Checked = configData.on_func_growth_deposit_hedge_3_hedg_order_page;
+                    m_form.GrowthDepoHOrdRow4Checked = configData.on_func_growth_deposit_hedge_4_hedg_order_page;
+                    m_form.GrowthDepoHOrdRow5Checked = configData.on_func_growth_deposit_hedge_5_hedg_order_page;
+                    m_form.GrowthDepoHOrdRow6Checked = configData.on_func_growth_deposit_hedge_6_hedg_order_page;
+                    m_form.GrowthDepoHOrdRow7Checked = configData.on_func_growth_deposit_hedge_7_hedg_order_page;
+                    m_form.GrowthDepoHOrdRow8Checked = configData.on_func_growth_deposit_hedge_8_hedg_order_page;
+                    m_form.GrowthDepoHOrdRow9Checked = configData.on_func_growth_deposit_hedge_9_hedg_order_page;
+                    m_form.GrowthDepoHOrdRow10Checked = configData.on_func_growth_deposit_hedge_10_hedg_order_page;
+                    m_form.GrowthDepoHOrdRow11Checked = configData.on_func_growth_deposit_hedge_11_hedg_order_page;
+                    m_form.GrowthDepoHOrdRow12Checked = configData.on_func_growth_deposit_hedge_12_hedg_order_page;
+                    m_form.TakeHOrdRow0Text = configData.fix_take_percent_hedge_0_hedg_order_page;
+                    m_form.TakeHOrdRow1Text = configData.fix_take_percent_hedge_1_hedg_order_page;
+                    m_form.TakeHOrdRow2Text = configData.fix_take_percent_hedge_2_hedg_order_page;
+                    m_form.TakeHOrdRow3Text = configData.fix_take_percent_hedge_3_hedg_order_page;
+                    m_form.TakeHOrdRow4Text = configData.fix_take_percent_hedge_4_hedg_order_page;
+                    m_form.TakeHOrdRow5Text = configData.fix_take_percent_hedge_5_hedg_order_page;
+                    m_form.TakeHOrdRow6Text = configData.fix_take_percent_hedge_6_hedg_order_page;
+                    m_form.TakeHOrdRow7Text = configData.fix_take_percent_hedge_7_hedg_order_page;
+                    m_form.TakeHOrdRow8Text = configData.fix_take_percent_hedge_8_hedg_order_page;
+                    m_form.TakeHOrdRow9Text = configData.fix_take_percent_hedge_9_hedg_order_page;
+                    m_form.TakeHOrdRow10Text = configData.fix_take_percent_hedge_10_hedg_order_page;
+                    m_form.TakeHOrdRow11Text = configData.fix_take_percent_hedge_11_hedg_order_page;
+                    m_form.TakeHOrdRow12Text = configData.fix_take_percent_hedge_12_hedg_order_page;
+                    m_form.CloseTakePartHOrdRow0Checked = configData.on_func_part_close_pos_take_hedge_0_hedg_order_page;
+                    m_form.CloseTakePartHOrdRow1Checked = configData.on_func_part_close_pos_take_hedge_1_hedg_order_page;
+                    m_form.CloseTakePartHOrdRow2Checked = configData.on_func_part_close_pos_take_hedge_2_hedg_order_page;
+                    m_form.CloseTakePartHOrdRow3Checked = configData.on_func_part_close_pos_take_hedge_3_hedg_order_page;
+                    m_form.CloseTakePartHOrdRow4Checked = configData.on_func_part_close_pos_take_hedge_4_hedg_order_page;
+                    m_form.CloseTakePartHOrdRow5Checked = configData.on_func_part_close_pos_take_hedge_5_hedg_order_page;
+                    m_form.CloseTakePartHOrdRow6Checked = configData.on_func_part_close_pos_take_hedge_6_hedg_order_page;
+                    m_form.CloseTakePartHOrdRow7Checked = configData.on_func_part_close_pos_take_hedge_7_hedg_order_page;
+                    m_form.CloseTakePartHOrdRow8Checked = configData.on_func_part_close_pos_take_hedge_8_hedg_order_page;
+                    m_form.CloseTakePartHOrdRow9Checked = configData.on_func_part_close_pos_take_hedge_9_hedg_order_page;
+                    m_form.CloseTakePartHOrdRow10Checked = configData.on_func_part_close_pos_take_hedge_10_hedg_order_page;
+                    m_form.CloseTakePartHOrdRow11Checked = configData.on_func_part_close_pos_take_hedge_11_hedg_order_page;
+                    m_form.CloseTakePartHOrdRow12Checked = configData.on_func_part_close_pos_take_hedge_12_hedg_order_page;
+                    m_form.PartsTakeHOrdRow0Text = configData.quantity_parts_take_hedge_0_hedg_order_page;
+                    m_form.PartsTakeHOrdRow1Text = configData.quantity_parts_take_hedge_1_hedg_order_page;
+                    m_form.PartsTakeHOrdRow2Text = configData.quantity_parts_take_hedge_2_hedg_order_page;
+                    m_form.PartsTakeHOrdRow3Text = configData.quantity_parts_take_hedge_3_hedg_order_page;
+                    m_form.PartsTakeHOrdRow4Text = configData.quantity_parts_take_hedge_4_hedg_order_page;
+                    m_form.PartsTakeHOrdRow5Text = configData.quantity_parts_take_hedge_5_hedg_order_page;
+                    m_form.PartsTakeHOrdRow6Text = configData.quantity_parts_take_hedge_6_hedg_order_page;
+                    m_form.PartsTakeHOrdRow7Text = configData.quantity_parts_take_hedge_7_hedg_order_page;
+                    m_form.PartsTakeHOrdRow8Text = configData.quantity_parts_take_hedge_8_hedg_order_page;
+                    m_form.PartsTakeHOrdRow9Text = configData.quantity_parts_take_hedge_9_hedg_order_page;
+                    m_form.PartsTakeHOrdRow10Text = configData.quantity_parts_take_hedge_10_hedg_order_page;
+                    m_form.PartsTakeHOrdRow11Text = configData.quantity_parts_take_hedge_11_hedg_order_page;
+                    m_form.PartsTakeHOrdRow12Text = configData.quantity_parts_take_hedge_12_hedg_order_page;
+                    m_form.ValuePartsTakeHOrdRow0Text = configData.size_parts_take_hedge_0_hedg_order_page;
+                    m_form.ValuePartsTakeHOrdRow1Text = configData.size_parts_take_hedge_1_hedg_order_page;
+                    m_form.ValuePartsTakeHOrdRow2Text = configData.size_parts_take_hedge_2_hedg_order_page;
+                    m_form.ValuePartsTakeHOrdRow3Text = configData.size_parts_take_hedge_3_hedg_order_page;
+                    m_form.ValuePartsTakeHOrdRow4Text = configData.size_parts_take_hedge_4_hedg_order_page;
+                    m_form.ValuePartsTakeHOrdRow5Text = configData.size_parts_take_hedge_5_hedg_order_page;
+                    m_form.ValuePartsTakeHOrdRow6Text = configData.size_parts_take_hedge_6_hedg_order_page;
+                    m_form.ValuePartsTakeHOrdRow7Text = configData.size_parts_take_hedge_7_hedg_order_page;
+                    m_form.ValuePartsTakeHOrdRow8Text = configData.size_parts_take_hedge_8_hedg_order_page;
+                    m_form.ValuePartsTakeHOrdRow9Text = configData.size_parts_take_hedge_9_hedg_order_page;
+                    m_form.ValuePartsTakeHOrdRow10Text = configData.size_parts_take_hedge_10_hedg_order_page;
+                    m_form.ValuePartsTakeHOrdRow11Text = configData.size_parts_take_hedge_11_hedg_order_page;
+                    m_form.ValuePartsTakeHOrdRow12Text = configData.size_parts_take_hedge_12_hedg_order_page;
+                    m_form.StopHOrdRow0Text = configData.fix_stop_percent_hedge_0_hedg_order_page;
+                    m_form.StopHOrdRow1Text = configData.fix_stop_percent_hedge_1_hedg_order_page;
+                    m_form.StopHOrdRow2Text = configData.fix_stop_percent_hedge_2_hedg_order_page;
+                    m_form.StopHOrdRow3Text = configData.fix_stop_percent_hedge_3_hedg_order_page;
+                    m_form.StopHOrdRow4Text = configData.fix_stop_percent_hedge_4_hedg_order_page;
+                    m_form.StopHOrdRow5Text = configData.fix_stop_percent_hedge_5_hedg_order_page;
+                    m_form.StopHOrdRow6Text = configData.fix_stop_percent_hedge_6_hedg_order_page;
+                    m_form.StopHOrdRow7Text = configData.fix_stop_percent_hedge_7_hedg_order_page;
+                    m_form.StopHOrdRow8Text = configData.fix_stop_percent_hedge_8_hedg_order_page;
+                    m_form.StopHOrdRow9Text = configData.fix_stop_percent_hedge_9_hedg_order_page;
+                    m_form.StopHOrdRow10Text = configData.fix_stop_percent_hedge_10_hedg_order_page;
+                    m_form.StopHOrdRow11Text = configData.fix_stop_percent_hedge_11_hedg_order_page;
+                    m_form.StopHOrdRow12Text = configData.fix_stop_percent_hedge_12_hedg_order_page;
+                    m_form.CloseStopPartHOrdRow0Checked = configData.on_func_part_close_pos_stop_hedge_0_hedg_order_page;
+                    m_form.CloseStopPartHOrdRow1Checked = configData.on_func_part_close_pos_stop_hedge_1_hedg_order_page;
+                    m_form.CloseStopPartHOrdRow2Checked = configData.on_func_part_close_pos_stop_hedge_2_hedg_order_page;
+                    m_form.CloseStopPartHOrdRow3Checked = configData.on_func_part_close_pos_stop_hedge_3_hedg_order_page;
+                    m_form.CloseStopPartHOrdRow4Checked = configData.on_func_part_close_pos_stop_hedge_4_hedg_order_page;
+                    m_form.CloseStopPartHOrdRow5Checked = configData.on_func_part_close_pos_stop_hedge_5_hedg_order_page;
+                    m_form.CloseStopPartHOrdRow6Checked = configData.on_func_part_close_pos_stop_hedge_6_hedg_order_page;
+                    m_form.CloseStopPartHOrdRow7Checked = configData.on_func_part_close_pos_stop_hedge_7_hedg_order_page;
+                    m_form.CloseStopPartHOrdRow8Checked = configData.on_func_part_close_pos_stop_hedge_8_hedg_order_page;
+                    m_form.CloseStopPartHOrdRow9Checked = configData.on_func_part_close_pos_stop_hedge_9_hedg_order_page;
+                    m_form.CloseStopPartHOrdRow10Checked = configData.on_func_part_close_pos_stop_hedge_10_hedg_order_page;
+                    m_form.CloseStopPartHOrdRow11Checked = configData.on_func_part_close_pos_stop_hedge_11_hedg_order_page;
+                    m_form.CloseStopPartHOrdRow12Checked = configData.on_func_part_close_pos_stop_hedge_12_hedg_order_page;
+                    m_form.PartsStopHOrdRow0Text = configData.quantity_parts_stop_hedge_0_hedg_order_page;
+                    m_form.PartsStopHOrdRow1Text = configData.quantity_parts_stop_hedge_1_hedg_order_page;
+                    m_form.PartsStopHOrdRow2Text = configData.quantity_parts_stop_hedge_2_hedg_order_page;
+                    m_form.PartsStopHOrdRow3Text = configData.quantity_parts_stop_hedge_3_hedg_order_page;
+                    m_form.PartsStopHOrdRow4Text = configData.quantity_parts_stop_hedge_4_hedg_order_page;
+                    m_form.PartsStopHOrdRow5Text = configData.quantity_parts_stop_hedge_5_hedg_order_page;
+                    m_form.PartsStopHOrdRow6Text = configData.quantity_parts_stop_hedge_6_hedg_order_page;
+                    m_form.PartsStopHOrdRow7Text = configData.quantity_parts_stop_hedge_7_hedg_order_page;
+                    m_form.PartsStopHOrdRow8Text = configData.quantity_parts_stop_hedge_8_hedg_order_page;
+                    m_form.PartsStopHOrdRow9Text = configData.quantity_parts_stop_hedge_9_hedg_order_page;
+                    m_form.PartsStopHOrdRow10Text = configData.quantity_parts_stop_hedge_10_hedg_order_page;
+                    m_form.PartsStopHOrdRow11Text = configData.quantity_parts_stop_hedge_11_hedg_order_page;
+                    m_form.PartsStopHOrdRow12Text = configData.quantity_parts_stop_hedge_12_hedg_order_page;
+                    m_form.ValuePartsStopHOrdRow0Text = configData.size_parts_stop_hedge_0_hedg_order_page;
+                    m_form.ValuePartsStopHOrdRow1Text = configData.size_parts_stop_hedge_1_hedg_order_page;
+                    m_form.ValuePartsStopHOrdRow2Text = configData.size_parts_stop_hedge_2_hedg_order_page;
+                    m_form.ValuePartsStopHOrdRow3Text = configData.size_parts_stop_hedge_3_hedg_order_page;
+                    m_form.ValuePartsStopHOrdRow4Text = configData.size_parts_stop_hedge_4_hedg_order_page;
+                    m_form.ValuePartsStopHOrdRow5Text = configData.size_parts_stop_hedge_5_hedg_order_page;
+                    m_form.ValuePartsStopHOrdRow6Text = configData.size_parts_stop_hedge_6_hedg_order_page;
+                    m_form.ValuePartsStopHOrdRow7Text = configData.size_parts_stop_hedge_7_hedg_order_page;
+                    m_form.ValuePartsStopHOrdRow8Text = configData.size_parts_stop_hedge_8_hedg_order_page;
+                    m_form.ValuePartsStopHOrdRow9Text = configData.size_parts_stop_hedge_9_hedg_order_page;
+                    m_form.ValuePartsStopHOrdRow10Text = configData.size_parts_stop_hedge_10_hedg_order_page;
+                    m_form.ValuePartsStopHOrdRow11Text = configData.size_parts_stop_hedge_11_hedg_order_page;
+                    m_form.ValuePartsStopHOrdRow12Text = configData.size_parts_stop_hedge_12_hedg_order_page;
+                    m_form.UseTrailHOrdRow0Checked = configData.on_func_use_trailing_hedge_0_hedg_order_page;
+                    m_form.UseTrailHOrdRow1Checked = configData.on_func_use_trailing_hedge_1_hedg_order_page;
+                    m_form.UseTrailHOrdRow2Checked = configData.on_func_use_trailing_hedge_2_hedg_order_page;
+                    m_form.UseTrailHOrdRow3Checked = configData.on_func_use_trailing_hedge_3_hedg_order_page;
+                    m_form.UseTrailHOrdRow4Checked = configData.on_func_use_trailing_hedge_4_hedg_order_page;
+                    m_form.UseTrailHOrdRow5Checked = configData.on_func_use_trailing_hedge_5_hedg_order_page;
+                    m_form.UseTrailHOrdRow6Checked = configData.on_func_use_trailing_hedge_6_hedg_order_page;
+                    m_form.UseTrailHOrdRow7Checked = configData.on_func_use_trailing_hedge_7_hedg_order_page;
+                    m_form.UseTrailHOrdRow8Checked = configData.on_func_use_trailing_hedge_8_hedg_order_page;
+                    m_form.UseTrailHOrdRow9Checked = configData.on_func_use_trailing_hedge_9_hedg_order_page;
+                    m_form.UseTrailHOrdRow10Checked = configData.on_func_use_trailing_hedge_10_hedg_order_page;
+                    m_form.UseTrailHOrdRow11Checked = configData.on_func_use_trailing_hedge_11_hedg_order_page;
+                    m_form.UseTrailHOrdRow12Checked = configData.on_func_use_trailing_hedge_12_hedg_order_page;
+                    m_form.StartCalcTrailHOrdRow0Text = configData.start_trailing_hedge_0_hedg_order_page;
+                    m_form.StartCalcTrailHOrdRow1Text = configData.start_trailing_hedge_1_hedg_order_page;
+                    m_form.StartCalcTrailHOrdRow2Text = configData.start_trailing_hedge_2_hedg_order_page;
+                    m_form.StartCalcTrailHOrdRow3Text = configData.start_trailing_hedge_3_hedg_order_page;
+                    m_form.StartCalcTrailHOrdRow4Text = configData.start_trailing_hedge_4_hedg_order_page;
+                    m_form.StartCalcTrailHOrdRow5Text = configData.start_trailing_hedge_5_hedg_order_page;
+                    m_form.StartCalcTrailHOrdRow6Text = configData.start_trailing_hedge_6_hedg_order_page;
+                    m_form.StartCalcTrailHOrdRow7Text = configData.start_trailing_hedge_7_hedg_order_page;
+                    m_form.StartCalcTrailHOrdRow8Text = configData.start_trailing_hedge_8_hedg_order_page;
+                    m_form.StartCalcTrailHOrdRow9Text = configData.start_trailing_hedge_9_hedg_order_page;
+                    m_form.StartCalcTrailHOrdRow10Text = configData.start_trailing_hedge_10_hedg_order_page;
+                    m_form.StartCalcTrailHOrdRow11Text = configData.start_trailing_hedge_11_hedg_order_page;
+                    m_form.StartCalcTrailHOrdRow12Text = configData.start_trailing_hedge_12_hedg_order_page;
+                    m_form.SizeTrailHOrdRow0Text = configData.size_trailing_hedge_0_hedg_order_page;
+                    m_form.SizeTrailHOrdRow1Text = configData.size_trailing_hedge_1_hedg_order_page;
+                    m_form.SizeTrailHOrdRow2Text = configData.size_trailing_hedge_2_hedg_order_page;
+                    m_form.SizeTrailHOrdRow3Text = configData.size_trailing_hedge_3_hedg_order_page;
+                    m_form.SizeTrailHOrdRow4Text = configData.size_trailing_hedge_4_hedg_order_page;
+                    m_form.SizeTrailHOrdRow5Text = configData.size_trailing_hedge_5_hedg_order_page;
+                    m_form.SizeTrailHOrdRow6Text = configData.size_trailing_hedge_6_hedg_order_page;
+                    m_form.SizeTrailHOrdRow7Text = configData.size_trailing_hedge_7_hedg_order_page;
+                    m_form.SizeTrailHOrdRow8Text = configData.size_trailing_hedge_8_hedg_order_page;
+                    m_form.SizeTrailHOrdRow9Text = configData.size_trailing_hedge_9_hedg_order_page;
+                    m_form.SizeTrailHOrdRow10Text = configData.size_trailing_hedge_10_hedg_order_page;
+                    m_form.SizeTrailHOrdRow11Text = configData.size_trailing_hedge_11_hedg_order_page;
+                    m_form.SizeTrailHOrdRow12Text = configData.size_trailing_hedge_12_hedg_order_page;
+                    m_form.OtkupMinusHOrderRow0Checked = configData.on_func_minus_deals_hedge_0_hedg_order_page;
+                    m_form.OtkupMinusHOrderRow1Checked = configData.on_func_minus_deals_hedge_1_hedg_order_page;
+                    m_form.OtkupMinusHOrderRow2Checked = configData.on_func_minus_deals_hedge_2_hedg_order_page;
+                    m_form.OtkupMinusHOrderRow3Checked = configData.on_func_minus_deals_hedge_3_hedg_order_page;
+                    m_form.OtkupMinusHOrderRow4Checked = configData.on_func_minus_deals_hedge_4_hedg_order_page;
+                    m_form.OtkupMinusHOrderRow5Checked = configData.on_func_minus_deals_hedge_5_hedg_order_page;
+                    m_form.OtkupMinusHOrderRow6Checked = configData.on_func_minus_deals_hedge_6_hedg_order_page;
+                    m_form.OtkupMinusHOrderRow7Checked = configData.on_func_minus_deals_hedge_7_hedg_order_page;
+                    m_form.OtkupMinusHOrderRow8Checked = configData.on_func_minus_deals_hedge_8_hedg_order_page;
+                    m_form.OtkupMinusHOrderRow9Checked = configData.on_func_minus_deals_hedge_9_hedg_order_page;
+                    m_form.OtkupMinusHOrderRow10Checked = configData.on_func_minus_deals_hedge_10_hedg_order_page;
+                    m_form.OtkupMinusHOrderRow11Checked = configData.on_func_minus_deals_hedge_11_hedg_order_page;
+                    m_form.OtkupMinusHOrderRow12Checked = configData.on_func_minus_deals_hedge_12_hedg_order_page;
+                    m_form.TimeStartControlText = configData.start_trading;
+                    m_form.TimeEndControlText = configData.stop_trading;
+                    m_form.CoeffAddVolControlText = configData.coeff_add_profit;
+                    m_form.UseComissionControlChecked = configData.take_commission;
+                    m_form.MaxGrowthDepositResetControlText = configData.max_growth_deposit;
+                    m_form.UseResetDataOtkupControlChecked = configData.on_func_auto_reset;
+                    m_form.MaxSpreadControlText = configData.max_spread;
+                    m_form.UnitStopTakeControlItem = configData.unit;
+                    m_form.PrintCommentsControlChecked = configData.print_debugg_comments;
                 }
                 catch ( Exception ex )
                 {
