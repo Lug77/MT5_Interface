@@ -5,16 +5,16 @@ using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Newtonsoft.Json;
 
-namespace MaBotHedging_interf_cs
+namespace GriderLevel_interf_NetFramework
 {
     public class Logger
     {
-        public static string m_prog_name = "MaBotHedging_interf_cs";
+        public static string m_prog_name = "GriderLevel_interf_NetFramework";
         public static string m_filename_log = Directory.GetCurrentDirectory() + "//" + m_prog_name + ".log";
+        public static string m_filename_params = Directory.GetCurrentDirectory() + "//" + "gui_params" + ".txt";
 
-        public Logger()
+        public Logger() 
         {
             ControlPath();
         }
@@ -25,9 +25,12 @@ namespace MaBotHedging_interf_cs
             if (m_filename_log.Contains("Program Files"))
             {
                 m_filename_log = FindMtGuiController();
+                m_filename_params = m_filename_log.Replace("Libraries", "Files");
                 //log-файл пишем в папку Libraries
                 m_filename_log += "//" + m_prog_name + ".log";
-            }
+                //параметры находятся в папке Files
+                m_filename_params += "//" + "gui_params" + ".txt";
+            }    
         }
 
         public string FindMtGuiController()
@@ -51,7 +54,7 @@ namespace MaBotHedging_interf_cs
                         string librariesPath = Path.Combine(terminalFolder, "MQL5", "Libraries");
                         if (Directory.Exists(librariesPath))
                         {
-                            string dllPath = Path.Combine(librariesPath, m_prog_name + ".exe");
+                            string dllPath = Path.Combine(librariesPath, "MtGuiController.dll");
                             if (File.Exists(dllPath))
                             {
                                 return librariesPath; // Возвращаем полный путь к папке библиотек
@@ -60,7 +63,7 @@ namespace MaBotHedging_interf_cs
                     }
                 }
             }
-            return null;
+            return null; 
         }
 
         public static void LogMessage(string message)

@@ -1044,7 +1044,6 @@
             this.Start_main = new System.Windows.Forms.Button();
             this.Stop_main = new System.Windows.Forms.Button();
             this.Delete_main = new System.Windows.Forms.Button();
-            this.Refreshing = new System.Windows.Forms.Button();
             this.Tab_main.SuspendLayout();
             this.main_page.SuspendLayout();
             this.Table_main.SuspendLayout();
@@ -14366,6 +14365,7 @@
             this.Settings_main.Text = "Редактировать";
             this.Settings_main.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.Settings_main.UseVisualStyleBackColor = true;
+            this.Settings_main.Click += new System.EventHandler(this.AllowEdit);
             // 
             // Save_main
             // 
@@ -14377,6 +14377,7 @@
             this.Save_main.Text = "Сохранить изменения";
             this.Save_main.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.Save_main.UseVisualStyleBackColor = true;
+            this.Save_main.Click += new System.EventHandler(this.SaveChange);
             // 
             // Cancel_main
             // 
@@ -14424,17 +14425,6 @@
             this.Delete_main.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.Delete_main.UseVisualStyleBackColor = false;
             // 
-            // Refreshing
-            // 
-            this.Refreshing.Location = new System.Drawing.Point(691, 494);
-            this.Refreshing.Name = "Refreshing";
-            this.Refreshing.Size = new System.Drawing.Size(154, 40);
-            this.Refreshing.TabIndex = 8;
-            this.Refreshing.Text = "Обновить";
-            this.Refreshing.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.Refreshing.UseVisualStyleBackColor = true;
-            this.Refreshing.Click += new System.EventHandler(this.Refresh_form);
-            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
@@ -14442,7 +14432,6 @@
             this.BackColor = System.Drawing.SystemColors.Highlight;
             this.ClientSize = new System.Drawing.Size(1384, 561);
             this.ControlBox = false;
-            this.Controls.Add(this.Refreshing);
             this.Controls.Add(this.Delete_main);
             this.Controls.Add(this.Stop_main);
             this.Controls.Add(this.Start_main);
@@ -19520,7 +19509,6 @@
             get { return (Print_comments_control.Checked == false) ? "0" : "1"; }
             set { Print_comments_control.Checked = (value == "0") ? false : true; }
         }
-        private System.Windows.Forms.Button Refreshing;
         private System.Windows.Forms.TextBox Time_end_control;
         public string TimeEndControlText
         {
