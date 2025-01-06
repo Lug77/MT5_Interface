@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.Tab_main = new System.Windows.Forms.TabControl();
             this.main_page = new System.Windows.Forms.TabPage();
             this.Table_main = new System.Windows.Forms.TableLayoutPanel();
@@ -1037,7 +1038,7 @@
             this.Coeff_add_vol_control = new System.Windows.Forms.TextBox();
             this.Use_comission = new System.Windows.Forms.Label();
             this.Use_comission_control = new System.Windows.Forms.CheckBox();
-            this.Strat_cross_av_bb = new System.Windows.Forms.TabPage();
+            this.strat_cross_av_bb_page = new System.Windows.Forms.TabPage();
             this.Table_strat_av_bb = new System.Windows.Forms.TableLayoutPanel();
             this.Synbol_name = new System.Windows.Forms.Label();
             this.Symb_row_0_strat = new System.Windows.Forms.TextBox();
@@ -1155,12 +1156,6 @@
             this.Num_loss_tmfr_m5_row_4_strat = new System.Windows.Forms.TextBox();
             this.Num_loss_tmfr_m5_row_5_strat = new System.Windows.Forms.TextBox();
             this.Num_loss_tmfr_m5_row_6_strat = new System.Windows.Forms.TextBox();
-            this.Settings_main = new System.Windows.Forms.Button();
-            this.Save_main = new System.Windows.Forms.Button();
-            this.Cancel_main = new System.Windows.Forms.Button();
-            this.Start_main = new System.Windows.Forms.Button();
-            this.Stop_main = new System.Windows.Forms.Button();
-            this.Delete_main = new System.Windows.Forms.Button();
             this.Num_loss_tmfr_m5_row_7_strat = new System.Windows.Forms.TextBox();
             this.Num_loss_tmfr_m5_row_8_strat = new System.Windows.Forms.TextBox();
             this.Num_loss_tmfr_m5_row_9_strat = new System.Windows.Forms.TextBox();
@@ -1297,6 +1292,264 @@
             this.Num_loss_tmfr_h4_row_10_strat = new System.Windows.Forms.TextBox();
             this.Num_loss_tmfr_h4_row_11_strat = new System.Windows.Forms.TextBox();
             this.Num_loss_tmfr_h4_row_12_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m1 = new System.Windows.Forms.Label();
+            this.Delay_tmfr_m2 = new System.Windows.Forms.Label();
+            this.Delay_tmfr_m3 = new System.Windows.Forms.Label();
+            this.Delay_tmfr_m4 = new System.Windows.Forms.Label();
+            this.Delay_tmfr_m5 = new System.Windows.Forms.Label();
+            this.Delay_tmfr_m6 = new System.Windows.Forms.Label();
+            this.Delay_tmfr_m10 = new System.Windows.Forms.Label();
+            this.Delay_tmfr_m12 = new System.Windows.Forms.Label();
+            this.Delay_tmfr_m15 = new System.Windows.Forms.Label();
+            this.Delay_tmfr_m20 = new System.Windows.Forms.Label();
+            this.Delay_tmfr_m30 = new System.Windows.Forms.Label();
+            this.Delay_tmfr_h1 = new System.Windows.Forms.Label();
+            this.Delay_tmfr_h2 = new System.Windows.Forms.Label();
+            this.Delay_tmfr_h3 = new System.Windows.Forms.Label();
+            this.Delay_tmfr_h4 = new System.Windows.Forms.Label();
+            this.Delay_tmfr_m1_row_0_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m1_row_1_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m1_row_2_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m1_row_3_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m1_row_4_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m1_row_5_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m1_row_6_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m1_row_7_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m1_row_8_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m1_row_9_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m1_row_10_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m1_row_11_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m1_row_12_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m2_row_0_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m2_row_1_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m2_row_2_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m2_row_3_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m2_row_4_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m2_row_5_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m2_row_6_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m2_row_7_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m2_row_8_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m2_row_9_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m2_row_10_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m2_row_11_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m2_row_12_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m3_row_0_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m3_row_1_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m3_row_2_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m3_row_3_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m3_row_4_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m3_row_5_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m3_row_6_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m3_row_7_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m3_row_8_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m3_row_9_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m3_row_10_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m3_row_11_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m3_row_12_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m4_row_0_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m4_row_1_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m4_row_2_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m4_row_3_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m4_row_4_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m4_row_5_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m4_row_6_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m4_row_7_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m4_row_8_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m4_row_9_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m4_row_10_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m4_row_11_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m4_row_12_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m5_row_0_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m5_row_1_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m5_row_2_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m5_row_3_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m5_row_4_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m5_row_5_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m5_row_6_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m5_row_7_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m5_row_8_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m5_row_9_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m5_row_10_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m5_row_11_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m5_row_12_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m6_row_0_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m6_row_1_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m6_row_2_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m6_row_3_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m6_row_4_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m6_row_5_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m6_row_6_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m6_row_7_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m6_row_8_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m6_row_9_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m6_row_10_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m6_row_11_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m6_row_12_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m10_row_0_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m10_row_1_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m10_row_2_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m10_row_3_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m10_row_4_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m10_row_5_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m10_row_6_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m10_row_7_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m10_row_8_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m10_row_9_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m10_row_10_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m10_row_11_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m10_row_12_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m12_row_0_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m12_row_1_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m12_row_2_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m12_row_3_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m12_row_4_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m12_row_5_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m12_row_6_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m12_row_7_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m12_row_8_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m12_row_9_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m12_row_10_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m12_row_11_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m12_row_12_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m15_row_0_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m15_row_1_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m15_row_2_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m15_row_3_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m15_row_4_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m15_row_5_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m15_row_6_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m15_row_7_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m15_row_8_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m15_row_9_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m15_row_10_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m15_row_11_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m15_row_12_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m20_row_0_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m20_row_1_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m20_row_2_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m20_row_3_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m20_row_4_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m20_row_5_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m20_row_6_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m20_row_7_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m20_row_8_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m20_row_9_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m20_row_10_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m20_row_11_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m20_row_12_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m30_row_0_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m30_row_1_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m30_row_2_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m30_row_3_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m30_row_4_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m30_row_5_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m30_row_6_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m30_row_7_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m30_row_8_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m30_row_9_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m30_row_10_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m30_row_11_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_m30_row_12_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h1_row_0_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h1_row_1_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h1_row_2_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h1_row_3_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h1_row_4_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h1_row_5_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h1_row_6_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h1_row_7_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h1_row_8_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h1_row_9_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h1_row_10_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h1_row_11_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h1_row_12_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h2_row_0_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h2_row_1_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h2_row_2_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h2_row_3_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h2_row_4_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h2_row_5_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h2_row_6_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h2_row_7_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h2_row_8_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h2_row_9_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h2_row_10_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h2_row_11_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h2_row_12_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h3_row_0_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h3_row_1_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h3_row_2_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h3_row_3_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h3_row_4_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h3_row_5_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h3_row_6_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h3_row_7_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h3_row_8_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h3_row_9_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h3_row_10_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h3_row_11_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h3_row_12_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h4_row_0_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h4_row_1_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h4_row_2_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h4_row_3_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h4_row_4_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h4_row_5_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h4_row_6_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h4_row_7_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h4_row_8_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h4_row_9_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h4_row_10_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h4_row_11_strat = new System.Windows.Forms.TextBox();
+            this.Delay_tmfr_h4_row_12_strat = new System.Windows.Forms.TextBox();
+            this.Fix_part_profit = new System.Windows.Forms.Label();
+            this.Fix_part_profit_row_0_strat = new System.Windows.Forms.CheckBox();
+            this.Fix_part_profit_row_1_strat = new System.Windows.Forms.CheckBox();
+            this.Fix_part_profit_row_2_strat = new System.Windows.Forms.CheckBox();
+            this.Fix_part_profit_row_3_strat = new System.Windows.Forms.CheckBox();
+            this.Fix_part_profit_row_4_strat = new System.Windows.Forms.CheckBox();
+            this.Fix_part_profit_row_5_strat = new System.Windows.Forms.CheckBox();
+            this.Fix_part_profit_row_6_strat = new System.Windows.Forms.CheckBox();
+            this.Fix_part_profit_row_7_strat = new System.Windows.Forms.CheckBox();
+            this.Fix_part_profit_row_8_strat = new System.Windows.Forms.CheckBox();
+            this.Fix_part_profit_row_9_strat = new System.Windows.Forms.CheckBox();
+            this.Fix_part_profit_row_10_strat = new System.Windows.Forms.CheckBox();
+            this.Fix_part_profit_row_11_strat = new System.Windows.Forms.CheckBox();
+            this.Fix_part_profit_row_12_strat = new System.Windows.Forms.CheckBox();
+            this.Vol_fix_profit = new System.Windows.Forms.Label();
+            this.Vol_fix_profit_row_0_strat = new System.Windows.Forms.TextBox();
+            this.Vol_fix_profit_row_1_strat = new System.Windows.Forms.TextBox();
+            this.Vol_fix_profit_row_2_strat = new System.Windows.Forms.TextBox();
+            this.Vol_fix_profit_row_3_strat = new System.Windows.Forms.TextBox();
+            this.Vol_fix_profit_row_4_strat = new System.Windows.Forms.TextBox();
+            this.Vol_fix_profit_row_5_strat = new System.Windows.Forms.TextBox();
+            this.Vol_fix_profit_row_6_strat = new System.Windows.Forms.TextBox();
+            this.Vol_fix_profit_row_7_strat = new System.Windows.Forms.TextBox();
+            this.Vol_fix_profit_row_8_strat = new System.Windows.Forms.TextBox();
+            this.Vol_fix_profit_row_9_strat = new System.Windows.Forms.TextBox();
+            this.Vol_fix_profit_row_10_strat = new System.Windows.Forms.TextBox();
+            this.Vol_fix_profit_row_11_strat = new System.Windows.Forms.TextBox();
+            this.Vol_fix_profit_row_12_strat = new System.Windows.Forms.TextBox();
+            this.Close_pos_on_aver = new System.Windows.Forms.Label();
+            this.Close_pos_on_aver_row_0_strat = new System.Windows.Forms.CheckBox();
+            this.Close_pos_on_aver_row_1_strat = new System.Windows.Forms.CheckBox();
+            this.Close_pos_on_aver_row_2_strat = new System.Windows.Forms.CheckBox();
+            this.Close_pos_on_aver_row_3_strat = new System.Windows.Forms.CheckBox();
+            this.Close_pos_on_aver_row_4_strat = new System.Windows.Forms.CheckBox();
+            this.Close_pos_on_aver_row_5_strat = new System.Windows.Forms.CheckBox();
+            this.Close_pos_on_aver_row_6_strat = new System.Windows.Forms.CheckBox();
+            this.Close_pos_on_aver_row_7_strat = new System.Windows.Forms.CheckBox();
+            this.Close_pos_on_aver_row_8_strat = new System.Windows.Forms.CheckBox();
+            this.Close_pos_on_aver_row_9_strat = new System.Windows.Forms.CheckBox();
+            this.Close_pos_on_aver_row_10_strat = new System.Windows.Forms.CheckBox();
+            this.Close_pos_on_aver_row_11_strat = new System.Windows.Forms.CheckBox();
+            this.Close_pos_on_aver_row_12_strat = new System.Windows.Forms.CheckBox();
+            this.Settings_main = new System.Windows.Forms.Button();
+            this.Save_main = new System.Windows.Forms.Button();
+            this.Cancel_main = new System.Windows.Forms.Button();
+            this.Start_main = new System.Windows.Forms.Button();
+            this.Stop_main = new System.Windows.Forms.Button();
+            this.Delete_main = new System.Windows.Forms.Button();
             this.Tab_main.SuspendLayout();
             this.main_page.SuspendLayout();
             this.Table_main.SuspendLayout();
@@ -1308,7 +1561,7 @@
             this.Table_hedge_order.SuspendLayout();
             this.gen_param_page.SuspendLayout();
             this.Tabel_common_params.SuspendLayout();
-            this.Strat_cross_av_bb.SuspendLayout();
+            this.strat_cross_av_bb_page.SuspendLayout();
             this.Table_strat_av_bb.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -1320,7 +1573,7 @@
             this.Tab_main.Controls.Add(this.main_order_page);
             this.Tab_main.Controls.Add(this.hedg_order_page);
             this.Tab_main.Controls.Add(this.gen_param_page);
-            this.Tab_main.Controls.Add(this.Strat_cross_av_bb);
+            this.Tab_main.Controls.Add(this.strat_cross_av_bb_page);
             this.Tab_main.Location = new System.Drawing.Point(12, 81);
             this.Tab_main.Name = "Tab_main";
             this.Tab_main.SelectedIndex = 0;
@@ -14611,16 +14864,16 @@
             this.Use_comission_control.TabIndex = 38;
             this.Use_comission_control.UseVisualStyleBackColor = true;
             // 
-            // Strat_cross_av_bb
+            // strat_cross_av_bb_page
             // 
-            this.Strat_cross_av_bb.Controls.Add(this.Table_strat_av_bb);
-            this.Strat_cross_av_bb.Location = new System.Drawing.Point(4, 4);
-            this.Strat_cross_av_bb.Name = "Strat_cross_av_bb";
-            this.Strat_cross_av_bb.Padding = new System.Windows.Forms.Padding(3);
-            this.Strat_cross_av_bb.Size = new System.Drawing.Size(1352, 384);
-            this.Strat_cross_av_bb.TabIndex = 5;
-            this.Strat_cross_av_bb.Text = "Страт Cross_Aver_BB";
-            this.Strat_cross_av_bb.UseVisualStyleBackColor = true;
+            this.strat_cross_av_bb_page.Controls.Add(this.Table_strat_av_bb);
+            this.strat_cross_av_bb_page.Location = new System.Drawing.Point(4, 4);
+            this.strat_cross_av_bb_page.Name = "strat_cross_av_bb_page";
+            this.strat_cross_av_bb_page.Padding = new System.Windows.Forms.Padding(3);
+            this.strat_cross_av_bb_page.Size = new System.Drawing.Size(1352, 384);
+            this.strat_cross_av_bb_page.TabIndex = 5;
+            this.strat_cross_av_bb_page.Text = "Страт Cross_Aver_BB";
+            this.strat_cross_av_bb_page.UseVisualStyleBackColor = true;
             // 
             // Table_strat_av_bb
             // 
@@ -14916,6 +15169,258 @@
             this.Table_strat_av_bb.Controls.Add(this.Num_loss_tmfr_h4_row_10_strat, 17, 11);
             this.Table_strat_av_bb.Controls.Add(this.Num_loss_tmfr_h4_row_11_strat, 17, 12);
             this.Table_strat_av_bb.Controls.Add(this.Num_loss_tmfr_h4_row_12_strat, 17, 13);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m1, 18, 0);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m2, 19, 0);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m3, 20, 0);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m4, 21, 0);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m5, 22, 0);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m6, 23, 0);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m10, 24, 0);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m12, 25, 0);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m15, 26, 0);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m20, 27, 0);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m30, 28, 0);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h1, 29, 0);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h2, 30, 0);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h3, 31, 0);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h4, 32, 0);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m1_row_0_strat, 18, 1);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m1_row_1_strat, 18, 2);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m1_row_2_strat, 18, 3);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m1_row_3_strat, 18, 4);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m1_row_4_strat, 18, 5);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m1_row_5_strat, 18, 6);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m1_row_6_strat, 18, 7);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m1_row_7_strat, 18, 8);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m1_row_8_strat, 18, 9);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m1_row_9_strat, 18, 10);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m1_row_10_strat, 18, 11);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m1_row_11_strat, 18, 12);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m1_row_12_strat, 18, 13);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m2_row_0_strat, 19, 1);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m2_row_1_strat, 19, 2);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m2_row_2_strat, 19, 3);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m2_row_3_strat, 19, 4);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m2_row_4_strat, 19, 5);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m2_row_5_strat, 19, 6);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m2_row_6_strat, 19, 7);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m2_row_7_strat, 19, 8);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m2_row_8_strat, 19, 9);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m2_row_9_strat, 19, 10);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m2_row_10_strat, 19, 11);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m2_row_11_strat, 19, 12);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m2_row_12_strat, 19, 13);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m3_row_0_strat, 20, 1);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m3_row_1_strat, 20, 2);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m3_row_2_strat, 20, 3);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m3_row_3_strat, 20, 4);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m3_row_4_strat, 20, 5);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m3_row_5_strat, 20, 6);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m3_row_6_strat, 20, 7);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m3_row_7_strat, 20, 8);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m3_row_8_strat, 20, 9);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m3_row_9_strat, 20, 10);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m3_row_10_strat, 20, 11);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m3_row_11_strat, 20, 12);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m3_row_12_strat, 20, 13);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m4_row_0_strat, 21, 1);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m4_row_1_strat, 21, 2);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m4_row_2_strat, 21, 3);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m4_row_3_strat, 21, 4);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m4_row_4_strat, 21, 5);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m4_row_5_strat, 21, 6);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m4_row_6_strat, 21, 7);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m4_row_7_strat, 21, 8);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m4_row_8_strat, 21, 9);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m4_row_9_strat, 21, 10);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m4_row_10_strat, 21, 11);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m4_row_11_strat, 21, 12);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m4_row_12_strat, 21, 13);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m5_row_0_strat, 22, 1);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m5_row_1_strat, 22, 2);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m5_row_2_strat, 22, 3);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m5_row_3_strat, 22, 4);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m5_row_4_strat, 22, 5);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m5_row_5_strat, 22, 6);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m5_row_6_strat, 22, 7);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m5_row_7_strat, 22, 8);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m5_row_8_strat, 22, 9);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m5_row_9_strat, 22, 10);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m5_row_10_strat, 22, 11);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m5_row_11_strat, 22, 12);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m5_row_12_strat, 22, 13);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m6_row_0_strat, 23, 1);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m6_row_1_strat, 23, 2);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m6_row_2_strat, 23, 3);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m6_row_3_strat, 23, 4);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m6_row_4_strat, 23, 5);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m6_row_5_strat, 23, 6);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m6_row_6_strat, 23, 7);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m6_row_7_strat, 23, 8);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m6_row_8_strat, 23, 9);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m6_row_9_strat, 23, 10);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m6_row_10_strat, 23, 11);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m6_row_11_strat, 23, 12);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m6_row_12_strat, 23, 13);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m10_row_0_strat, 24, 1);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m10_row_1_strat, 24, 2);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m10_row_2_strat, 24, 3);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m10_row_3_strat, 24, 4);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m10_row_4_strat, 24, 5);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m10_row_5_strat, 24, 6);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m10_row_6_strat, 24, 7);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m10_row_7_strat, 24, 8);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m10_row_8_strat, 24, 9);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m10_row_9_strat, 24, 10);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m10_row_10_strat, 24, 11);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m10_row_11_strat, 24, 12);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m10_row_12_strat, 24, 13);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m12_row_0_strat, 25, 1);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m12_row_1_strat, 25, 2);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m12_row_2_strat, 25, 3);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m12_row_3_strat, 25, 4);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m12_row_4_strat, 25, 5);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m12_row_5_strat, 25, 6);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m12_row_6_strat, 25, 7);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m12_row_7_strat, 25, 8);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m12_row_8_strat, 25, 9);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m12_row_9_strat, 25, 10);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m12_row_10_strat, 25, 11);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m12_row_11_strat, 25, 12);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m12_row_12_strat, 25, 13);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m15_row_0_strat, 26, 1);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m15_row_1_strat, 26, 2);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m15_row_2_strat, 26, 3);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m15_row_3_strat, 26, 4);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m15_row_4_strat, 26, 5);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m15_row_5_strat, 26, 6);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m15_row_6_strat, 26, 7);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m15_row_7_strat, 26, 8);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m15_row_8_strat, 26, 9);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m15_row_9_strat, 26, 10);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m15_row_10_strat, 26, 11);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m15_row_11_strat, 26, 12);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m15_row_12_strat, 26, 13);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m20_row_0_strat, 27, 1);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m20_row_1_strat, 27, 2);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m20_row_2_strat, 27, 3);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m20_row_3_strat, 27, 4);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m20_row_4_strat, 27, 5);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m20_row_5_strat, 27, 6);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m20_row_6_strat, 27, 7);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m20_row_7_strat, 27, 8);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m20_row_8_strat, 27, 9);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m20_row_9_strat, 27, 10);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m20_row_10_strat, 27, 11);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m20_row_11_strat, 27, 12);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m20_row_12_strat, 27, 13);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m30_row_0_strat, 28, 1);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m30_row_1_strat, 28, 2);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m30_row_2_strat, 28, 3);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m30_row_3_strat, 28, 4);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m30_row_4_strat, 28, 5);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m30_row_5_strat, 28, 6);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m30_row_6_strat, 28, 7);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m30_row_7_strat, 28, 8);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m30_row_8_strat, 28, 9);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m30_row_9_strat, 28, 10);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m30_row_10_strat, 28, 11);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m30_row_11_strat, 28, 12);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_m30_row_12_strat, 28, 13);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h1_row_0_strat, 29, 1);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h1_row_1_strat, 29, 2);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h1_row_2_strat, 29, 3);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h1_row_3_strat, 29, 4);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h1_row_4_strat, 29, 5);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h1_row_5_strat, 29, 6);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h1_row_6_strat, 29, 7);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h1_row_7_strat, 29, 8);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h1_row_8_strat, 29, 9);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h1_row_9_strat, 29, 10);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h1_row_10_strat, 29, 11);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h1_row_11_strat, 29, 12);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h1_row_12_strat, 29, 13);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h2_row_0_strat, 30, 1);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h2_row_1_strat, 30, 2);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h2_row_2_strat, 30, 3);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h2_row_3_strat, 30, 4);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h2_row_4_strat, 30, 5);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h2_row_5_strat, 30, 6);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h2_row_6_strat, 30, 7);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h2_row_7_strat, 30, 8);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h2_row_8_strat, 30, 9);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h2_row_9_strat, 30, 10);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h2_row_10_strat, 30, 11);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h2_row_11_strat, 30, 12);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h2_row_12_strat, 30, 13);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h3_row_0_strat, 31, 1);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h3_row_1_strat, 31, 2);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h3_row_2_strat, 31, 3);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h3_row_3_strat, 31, 4);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h3_row_4_strat, 31, 5);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h3_row_5_strat, 31, 6);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h3_row_6_strat, 31, 7);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h3_row_7_strat, 31, 8);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h3_row_8_strat, 31, 9);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h3_row_9_strat, 31, 10);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h3_row_10_strat, 31, 11);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h3_row_11_strat, 31, 12);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h3_row_12_strat, 31, 13);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h4_row_0_strat, 32, 1);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h4_row_1_strat, 32, 2);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h4_row_2_strat, 32, 3);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h4_row_3_strat, 32, 4);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h4_row_4_strat, 32, 5);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h4_row_5_strat, 32, 6);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h4_row_6_strat, 32, 7);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h4_row_7_strat, 32, 8);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h4_row_8_strat, 32, 9);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h4_row_9_strat, 32, 10);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h4_row_10_strat, 32, 11);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h4_row_11_strat, 32, 12);
+            this.Table_strat_av_bb.Controls.Add(this.Delay_tmfr_h4_row_12_strat, 32, 13);
+            this.Table_strat_av_bb.Controls.Add(this.Fix_part_profit, 33, 0);
+            this.Table_strat_av_bb.Controls.Add(this.Fix_part_profit_row_0_strat, 33, 1);
+            this.Table_strat_av_bb.Controls.Add(this.Fix_part_profit_row_1_strat, 33, 2);
+            this.Table_strat_av_bb.Controls.Add(this.Fix_part_profit_row_2_strat, 33, 3);
+            this.Table_strat_av_bb.Controls.Add(this.Fix_part_profit_row_3_strat, 33, 4);
+            this.Table_strat_av_bb.Controls.Add(this.Fix_part_profit_row_4_strat, 33, 5);
+            this.Table_strat_av_bb.Controls.Add(this.Fix_part_profit_row_5_strat, 33, 6);
+            this.Table_strat_av_bb.Controls.Add(this.Fix_part_profit_row_6_strat, 33, 7);
+            this.Table_strat_av_bb.Controls.Add(this.Fix_part_profit_row_7_strat, 33, 8);
+            this.Table_strat_av_bb.Controls.Add(this.Fix_part_profit_row_8_strat, 33, 9);
+            this.Table_strat_av_bb.Controls.Add(this.Fix_part_profit_row_9_strat, 33, 10);
+            this.Table_strat_av_bb.Controls.Add(this.Fix_part_profit_row_10_strat, 33, 11);
+            this.Table_strat_av_bb.Controls.Add(this.Fix_part_profit_row_11_strat, 33, 12);
+            this.Table_strat_av_bb.Controls.Add(this.Fix_part_profit_row_12_strat, 33, 13);
+            this.Table_strat_av_bb.Controls.Add(this.Vol_fix_profit, 34, 0);
+            this.Table_strat_av_bb.Controls.Add(this.Vol_fix_profit_row_0_strat, 34, 1);
+            this.Table_strat_av_bb.Controls.Add(this.Vol_fix_profit_row_1_strat, 34, 2);
+            this.Table_strat_av_bb.Controls.Add(this.Vol_fix_profit_row_2_strat, 34, 3);
+            this.Table_strat_av_bb.Controls.Add(this.Vol_fix_profit_row_3_strat, 34, 4);
+            this.Table_strat_av_bb.Controls.Add(this.Vol_fix_profit_row_4_strat, 34, 5);
+            this.Table_strat_av_bb.Controls.Add(this.Vol_fix_profit_row_5_strat, 34, 6);
+            this.Table_strat_av_bb.Controls.Add(this.Vol_fix_profit_row_6_strat, 34, 7);
+            this.Table_strat_av_bb.Controls.Add(this.Vol_fix_profit_row_7_strat, 34, 8);
+            this.Table_strat_av_bb.Controls.Add(this.Vol_fix_profit_row_8_strat, 34, 9);
+            this.Table_strat_av_bb.Controls.Add(this.Vol_fix_profit_row_9_strat, 34, 10);
+            this.Table_strat_av_bb.Controls.Add(this.Vol_fix_profit_row_10_strat, 34, 11);
+            this.Table_strat_av_bb.Controls.Add(this.Vol_fix_profit_row_11_strat, 34, 12);
+            this.Table_strat_av_bb.Controls.Add(this.Vol_fix_profit_row_12_strat, 34, 13);
+            this.Table_strat_av_bb.Controls.Add(this.Close_pos_on_aver, 35, 0);
+            this.Table_strat_av_bb.Controls.Add(this.Close_pos_on_aver_row_0_strat, 35, 1);
+            this.Table_strat_av_bb.Controls.Add(this.Close_pos_on_aver_row_1_strat, 35, 2);
+            this.Table_strat_av_bb.Controls.Add(this.Close_pos_on_aver_row_2_strat, 35, 3);
+            this.Table_strat_av_bb.Controls.Add(this.Close_pos_on_aver_row_3_strat, 35, 4);
+            this.Table_strat_av_bb.Controls.Add(this.Close_pos_on_aver_row_4_strat, 35, 5);
+            this.Table_strat_av_bb.Controls.Add(this.Close_pos_on_aver_row_5_strat, 35, 6);
+            this.Table_strat_av_bb.Controls.Add(this.Close_pos_on_aver_row_6_strat, 35, 7);
+            this.Table_strat_av_bb.Controls.Add(this.Close_pos_on_aver_row_7_strat, 35, 8);
+            this.Table_strat_av_bb.Controls.Add(this.Close_pos_on_aver_row_8_strat, 35, 9);
+            this.Table_strat_av_bb.Controls.Add(this.Close_pos_on_aver_row_9_strat, 35, 10);
+            this.Table_strat_av_bb.Controls.Add(this.Close_pos_on_aver_row_10_strat, 35, 11);
+            this.Table_strat_av_bb.Controls.Add(this.Close_pos_on_aver_row_11_strat, 35, 12);
+            this.Table_strat_av_bb.Controls.Add(this.Close_pos_on_aver_row_12_strat, 35, 13);
             this.Table_strat_av_bb.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Table_strat_av_bb.Location = new System.Drawing.Point(6, 6);
             this.Table_strat_av_bb.Name = "Table_strat_av_bb";
@@ -16245,70 +16750,6 @@
             this.Num_loss_tmfr_m5_row_6_strat.Size = new System.Drawing.Size(20, 22);
             this.Num_loss_tmfr_m5_row_6_strat.TabIndex = 115;
             this.Num_loss_tmfr_m5_row_6_strat.Text = "2";
-            // 
-            // Settings_main
-            // 
-            this.Settings_main.Location = new System.Drawing.Point(914, 494);
-            this.Settings_main.Name = "Settings_main";
-            this.Settings_main.Size = new System.Drawing.Size(154, 40);
-            this.Settings_main.TabIndex = 1;
-            this.Settings_main.Text = "Редактировать";
-            this.Settings_main.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.Settings_main.UseVisualStyleBackColor = true;
-            this.Settings_main.Click += new System.EventHandler(this.AllowEdit);
-            // 
-            // Save_main
-            // 
-            this.Save_main.Location = new System.Drawing.Point(1131, 494);
-            this.Save_main.Name = "Save_main";
-            this.Save_main.Size = new System.Drawing.Size(240, 40);
-            this.Save_main.TabIndex = 2;
-            this.Save_main.Text = "Сохранить изменения";
-            this.Save_main.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.Save_main.UseVisualStyleBackColor = true;
-            this.Save_main.Click += new System.EventHandler(this.SaveChange);
-            // 
-            // Cancel_main
-            // 
-            this.Cancel_main.Location = new System.Drawing.Point(1312, 11);
-            this.Cancel_main.Name = "Cancel_main";
-            this.Cancel_main.Size = new System.Drawing.Size(40, 40);
-            this.Cancel_main.TabIndex = 3;
-            this.Cancel_main.UseVisualStyleBackColor = true;
-            this.Cancel_main.Click += new System.EventHandler(this.Close_form);
-            // 
-            // Start_main
-            // 
-            this.Start_main.BackColor = System.Drawing.Color.PaleGreen;
-            this.Start_main.Location = new System.Drawing.Point(372, 11);
-            this.Start_main.Name = "Start_main";
-            this.Start_main.Size = new System.Drawing.Size(154, 40);
-            this.Start_main.TabIndex = 5;
-            this.Start_main.Text = "Торговать";
-            this.Start_main.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.Start_main.UseVisualStyleBackColor = false;
-            // 
-            // Stop_main
-            // 
-            this.Stop_main.BackColor = System.Drawing.Color.Yellow;
-            this.Stop_main.Location = new System.Drawing.Point(12, 11);
-            this.Stop_main.Name = "Stop_main";
-            this.Stop_main.Size = new System.Drawing.Size(154, 40);
-            this.Stop_main.TabIndex = 6;
-            this.Stop_main.Text = "Только выход";
-            this.Stop_main.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.Stop_main.UseVisualStyleBackColor = false;
-            // 
-            // Delete_main
-            // 
-            this.Delete_main.BackColor = System.Drawing.Color.Coral;
-            this.Delete_main.Location = new System.Drawing.Point(914, 11);
-            this.Delete_main.Name = "Delete_main";
-            this.Delete_main.Size = new System.Drawing.Size(249, 40);
-            this.Delete_main.TabIndex = 7;
-            this.Delete_main.Text = "Удалить все актив ордера";
-            this.Delete_main.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.Delete_main.UseVisualStyleBackColor = false;
             // 
             // Num_loss_tmfr_m5_row_7_strat
             // 
@@ -17806,6 +18247,3137 @@
             this.Num_loss_tmfr_h4_row_12_strat.TabIndex = 251;
             this.Num_loss_tmfr_h4_row_12_strat.Text = "2";
             // 
+            // Delay_tmfr_m1
+            // 
+            this.Delay_tmfr_m1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m1.AutoSize = true;
+            this.Delay_tmfr_m1.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m1.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Delay_tmfr_m1.Location = new System.Drawing.Point(687, 0);
+            this.Delay_tmfr_m1.Name = "Delay_tmfr_m1";
+            this.Delay_tmfr_m1.Size = new System.Drawing.Size(20, 53);
+            this.Delay_tmfr_m1.TabIndex = 252;
+            this.Delay_tmfr_m1.Text = "Зд на m1";
+            // 
+            // Delay_tmfr_m2
+            // 
+            this.Delay_tmfr_m2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m2.AutoSize = true;
+            this.Delay_tmfr_m2.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m2.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Delay_tmfr_m2.Location = new System.Drawing.Point(713, 0);
+            this.Delay_tmfr_m2.Name = "Delay_tmfr_m2";
+            this.Delay_tmfr_m2.Size = new System.Drawing.Size(20, 53);
+            this.Delay_tmfr_m2.TabIndex = 253;
+            this.Delay_tmfr_m2.Text = "Зд на m2";
+            // 
+            // Delay_tmfr_m3
+            // 
+            this.Delay_tmfr_m3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m3.AutoSize = true;
+            this.Delay_tmfr_m3.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m3.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Delay_tmfr_m3.Location = new System.Drawing.Point(739, 0);
+            this.Delay_tmfr_m3.Name = "Delay_tmfr_m3";
+            this.Delay_tmfr_m3.Size = new System.Drawing.Size(20, 53);
+            this.Delay_tmfr_m3.TabIndex = 254;
+            this.Delay_tmfr_m3.Text = "Зд на m3";
+            // 
+            // Delay_tmfr_m4
+            // 
+            this.Delay_tmfr_m4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m4.AutoSize = true;
+            this.Delay_tmfr_m4.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m4.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Delay_tmfr_m4.Location = new System.Drawing.Point(765, 0);
+            this.Delay_tmfr_m4.Name = "Delay_tmfr_m4";
+            this.Delay_tmfr_m4.Size = new System.Drawing.Size(20, 53);
+            this.Delay_tmfr_m4.TabIndex = 255;
+            this.Delay_tmfr_m4.Text = "Зд на m4";
+            // 
+            // Delay_tmfr_m5
+            // 
+            this.Delay_tmfr_m5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m5.AutoSize = true;
+            this.Delay_tmfr_m5.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m5.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Delay_tmfr_m5.Location = new System.Drawing.Point(791, 0);
+            this.Delay_tmfr_m5.Name = "Delay_tmfr_m5";
+            this.Delay_tmfr_m5.Size = new System.Drawing.Size(20, 53);
+            this.Delay_tmfr_m5.TabIndex = 256;
+            this.Delay_tmfr_m5.Text = "Зд на m5";
+            // 
+            // Delay_tmfr_m6
+            // 
+            this.Delay_tmfr_m6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m6.AutoSize = true;
+            this.Delay_tmfr_m6.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m6.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Delay_tmfr_m6.Location = new System.Drawing.Point(817, 0);
+            this.Delay_tmfr_m6.Name = "Delay_tmfr_m6";
+            this.Delay_tmfr_m6.Size = new System.Drawing.Size(20, 53);
+            this.Delay_tmfr_m6.TabIndex = 257;
+            this.Delay_tmfr_m6.Text = "Зд на m6";
+            // 
+            // Delay_tmfr_m10
+            // 
+            this.Delay_tmfr_m10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m10.AutoSize = true;
+            this.Delay_tmfr_m10.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m10.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Delay_tmfr_m10.Location = new System.Drawing.Point(843, 0);
+            this.Delay_tmfr_m10.Name = "Delay_tmfr_m10";
+            this.Delay_tmfr_m10.Size = new System.Drawing.Size(20, 53);
+            this.Delay_tmfr_m10.TabIndex = 258;
+            this.Delay_tmfr_m10.Text = "Зд на m 10";
+            // 
+            // Delay_tmfr_m12
+            // 
+            this.Delay_tmfr_m12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m12.AutoSize = true;
+            this.Delay_tmfr_m12.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m12.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Delay_tmfr_m12.Location = new System.Drawing.Point(869, 0);
+            this.Delay_tmfr_m12.Name = "Delay_tmfr_m12";
+            this.Delay_tmfr_m12.Size = new System.Drawing.Size(20, 53);
+            this.Delay_tmfr_m12.TabIndex = 259;
+            this.Delay_tmfr_m12.Text = "Зд на m12";
+            // 
+            // Delay_tmfr_m15
+            // 
+            this.Delay_tmfr_m15.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m15.AutoSize = true;
+            this.Delay_tmfr_m15.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m15.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Delay_tmfr_m15.Location = new System.Drawing.Point(895, 0);
+            this.Delay_tmfr_m15.Name = "Delay_tmfr_m15";
+            this.Delay_tmfr_m15.Size = new System.Drawing.Size(20, 53);
+            this.Delay_tmfr_m15.TabIndex = 260;
+            this.Delay_tmfr_m15.Text = "Зд на m 15";
+            // 
+            // Delay_tmfr_m20
+            // 
+            this.Delay_tmfr_m20.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m20.AutoSize = true;
+            this.Delay_tmfr_m20.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m20.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Delay_tmfr_m20.Location = new System.Drawing.Point(921, 0);
+            this.Delay_tmfr_m20.Name = "Delay_tmfr_m20";
+            this.Delay_tmfr_m20.Size = new System.Drawing.Size(20, 53);
+            this.Delay_tmfr_m20.TabIndex = 261;
+            this.Delay_tmfr_m20.Text = "Зд на m 20";
+            // 
+            // Delay_tmfr_m30
+            // 
+            this.Delay_tmfr_m30.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m30.AutoSize = true;
+            this.Delay_tmfr_m30.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m30.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Delay_tmfr_m30.Location = new System.Drawing.Point(947, 0);
+            this.Delay_tmfr_m30.Name = "Delay_tmfr_m30";
+            this.Delay_tmfr_m30.Size = new System.Drawing.Size(20, 53);
+            this.Delay_tmfr_m30.TabIndex = 262;
+            this.Delay_tmfr_m30.Text = "Зд на m 30";
+            // 
+            // Delay_tmfr_h1
+            // 
+            this.Delay_tmfr_h1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h1.AutoSize = true;
+            this.Delay_tmfr_h1.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h1.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Delay_tmfr_h1.Location = new System.Drawing.Point(973, 0);
+            this.Delay_tmfr_h1.Name = "Delay_tmfr_h1";
+            this.Delay_tmfr_h1.Size = new System.Drawing.Size(20, 53);
+            this.Delay_tmfr_h1.TabIndex = 263;
+            this.Delay_tmfr_h1.Text = "Зд на h1";
+            // 
+            // Delay_tmfr_h2
+            // 
+            this.Delay_tmfr_h2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h2.AutoSize = true;
+            this.Delay_tmfr_h2.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h2.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Delay_tmfr_h2.Location = new System.Drawing.Point(999, 0);
+            this.Delay_tmfr_h2.Name = "Delay_tmfr_h2";
+            this.Delay_tmfr_h2.Size = new System.Drawing.Size(20, 53);
+            this.Delay_tmfr_h2.TabIndex = 264;
+            this.Delay_tmfr_h2.Text = "Зд на h2";
+            // 
+            // Delay_tmfr_h3
+            // 
+            this.Delay_tmfr_h3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h3.AutoSize = true;
+            this.Delay_tmfr_h3.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h3.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Delay_tmfr_h3.Location = new System.Drawing.Point(1025, 0);
+            this.Delay_tmfr_h3.Name = "Delay_tmfr_h3";
+            this.Delay_tmfr_h3.Size = new System.Drawing.Size(20, 53);
+            this.Delay_tmfr_h3.TabIndex = 265;
+            this.Delay_tmfr_h3.Text = "Зд на h3";
+            // 
+            // Delay_tmfr_h4
+            // 
+            this.Delay_tmfr_h4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h4.AutoSize = true;
+            this.Delay_tmfr_h4.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h4.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Delay_tmfr_h4.Location = new System.Drawing.Point(1051, 0);
+            this.Delay_tmfr_h4.Name = "Delay_tmfr_h4";
+            this.Delay_tmfr_h4.Size = new System.Drawing.Size(20, 53);
+            this.Delay_tmfr_h4.TabIndex = 266;
+            this.Delay_tmfr_h4.Text = "Зд на h4";
+            // 
+            // Delay_tmfr_m1_row_0_strat
+            // 
+            this.Delay_tmfr_m1_row_0_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m1_row_0_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m1_row_0_strat.Location = new System.Drawing.Point(687, 56);
+            this.Delay_tmfr_m1_row_0_strat.Name = "Delay_tmfr_m1_row_0_strat";
+            this.Delay_tmfr_m1_row_0_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m1_row_0_strat.TabIndex = 267;
+            this.Delay_tmfr_m1_row_0_strat.Text = "2";
+            // 
+            // Delay_tmfr_m1_row_1_strat
+            // 
+            this.Delay_tmfr_m1_row_1_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m1_row_1_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m1_row_1_strat.Location = new System.Drawing.Point(687, 80);
+            this.Delay_tmfr_m1_row_1_strat.Name = "Delay_tmfr_m1_row_1_strat";
+            this.Delay_tmfr_m1_row_1_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m1_row_1_strat.TabIndex = 268;
+            this.Delay_tmfr_m1_row_1_strat.Text = "2";
+            // 
+            // Delay_tmfr_m1_row_2_strat
+            // 
+            this.Delay_tmfr_m1_row_2_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m1_row_2_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m1_row_2_strat.Location = new System.Drawing.Point(687, 104);
+            this.Delay_tmfr_m1_row_2_strat.Name = "Delay_tmfr_m1_row_2_strat";
+            this.Delay_tmfr_m1_row_2_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m1_row_2_strat.TabIndex = 269;
+            this.Delay_tmfr_m1_row_2_strat.Text = "2";
+            // 
+            // Delay_tmfr_m1_row_3_strat
+            // 
+            this.Delay_tmfr_m1_row_3_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m1_row_3_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m1_row_3_strat.Location = new System.Drawing.Point(687, 128);
+            this.Delay_tmfr_m1_row_3_strat.Name = "Delay_tmfr_m1_row_3_strat";
+            this.Delay_tmfr_m1_row_3_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m1_row_3_strat.TabIndex = 270;
+            this.Delay_tmfr_m1_row_3_strat.Text = "2";
+            // 
+            // Delay_tmfr_m1_row_4_strat
+            // 
+            this.Delay_tmfr_m1_row_4_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m1_row_4_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m1_row_4_strat.Location = new System.Drawing.Point(687, 152);
+            this.Delay_tmfr_m1_row_4_strat.Name = "Delay_tmfr_m1_row_4_strat";
+            this.Delay_tmfr_m1_row_4_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m1_row_4_strat.TabIndex = 271;
+            this.Delay_tmfr_m1_row_4_strat.Text = "2";
+            // 
+            // Delay_tmfr_m1_row_5_strat
+            // 
+            this.Delay_tmfr_m1_row_5_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m1_row_5_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m1_row_5_strat.Location = new System.Drawing.Point(687, 176);
+            this.Delay_tmfr_m1_row_5_strat.Name = "Delay_tmfr_m1_row_5_strat";
+            this.Delay_tmfr_m1_row_5_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m1_row_5_strat.TabIndex = 272;
+            this.Delay_tmfr_m1_row_5_strat.Text = "2";
+            // 
+            // Delay_tmfr_m1_row_6_strat
+            // 
+            this.Delay_tmfr_m1_row_6_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m1_row_6_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m1_row_6_strat.Location = new System.Drawing.Point(687, 200);
+            this.Delay_tmfr_m1_row_6_strat.Name = "Delay_tmfr_m1_row_6_strat";
+            this.Delay_tmfr_m1_row_6_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m1_row_6_strat.TabIndex = 273;
+            this.Delay_tmfr_m1_row_6_strat.Text = "2";
+            // 
+            // Delay_tmfr_m1_row_7_strat
+            // 
+            this.Delay_tmfr_m1_row_7_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m1_row_7_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m1_row_7_strat.Location = new System.Drawing.Point(687, 224);
+            this.Delay_tmfr_m1_row_7_strat.Name = "Delay_tmfr_m1_row_7_strat";
+            this.Delay_tmfr_m1_row_7_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m1_row_7_strat.TabIndex = 274;
+            this.Delay_tmfr_m1_row_7_strat.Text = "2";
+            // 
+            // Delay_tmfr_m1_row_8_strat
+            // 
+            this.Delay_tmfr_m1_row_8_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m1_row_8_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m1_row_8_strat.Location = new System.Drawing.Point(687, 248);
+            this.Delay_tmfr_m1_row_8_strat.Name = "Delay_tmfr_m1_row_8_strat";
+            this.Delay_tmfr_m1_row_8_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m1_row_8_strat.TabIndex = 275;
+            this.Delay_tmfr_m1_row_8_strat.Text = "2";
+            // 
+            // Delay_tmfr_m1_row_9_strat
+            // 
+            this.Delay_tmfr_m1_row_9_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m1_row_9_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m1_row_9_strat.Location = new System.Drawing.Point(687, 272);
+            this.Delay_tmfr_m1_row_9_strat.Name = "Delay_tmfr_m1_row_9_strat";
+            this.Delay_tmfr_m1_row_9_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m1_row_9_strat.TabIndex = 276;
+            this.Delay_tmfr_m1_row_9_strat.Text = "2";
+            // 
+            // Delay_tmfr_m1_row_10_strat
+            // 
+            this.Delay_tmfr_m1_row_10_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m1_row_10_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m1_row_10_strat.Location = new System.Drawing.Point(687, 296);
+            this.Delay_tmfr_m1_row_10_strat.Name = "Delay_tmfr_m1_row_10_strat";
+            this.Delay_tmfr_m1_row_10_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m1_row_10_strat.TabIndex = 277;
+            this.Delay_tmfr_m1_row_10_strat.Text = "2";
+            // 
+            // Delay_tmfr_m1_row_11_strat
+            // 
+            this.Delay_tmfr_m1_row_11_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m1_row_11_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m1_row_11_strat.Location = new System.Drawing.Point(687, 320);
+            this.Delay_tmfr_m1_row_11_strat.Name = "Delay_tmfr_m1_row_11_strat";
+            this.Delay_tmfr_m1_row_11_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m1_row_11_strat.TabIndex = 278;
+            this.Delay_tmfr_m1_row_11_strat.Text = "2";
+            // 
+            // Delay_tmfr_m1_row_12_strat
+            // 
+            this.Delay_tmfr_m1_row_12_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m1_row_12_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m1_row_12_strat.Location = new System.Drawing.Point(687, 344);
+            this.Delay_tmfr_m1_row_12_strat.Name = "Delay_tmfr_m1_row_12_strat";
+            this.Delay_tmfr_m1_row_12_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m1_row_12_strat.TabIndex = 279;
+            this.Delay_tmfr_m1_row_12_strat.Text = "2";
+            // 
+            // Delay_tmfr_m2_row_0_strat
+            // 
+            this.Delay_tmfr_m2_row_0_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m2_row_0_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m2_row_0_strat.Location = new System.Drawing.Point(713, 56);
+            this.Delay_tmfr_m2_row_0_strat.Name = "Delay_tmfr_m2_row_0_strat";
+            this.Delay_tmfr_m2_row_0_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m2_row_0_strat.TabIndex = 280;
+            this.Delay_tmfr_m2_row_0_strat.Text = "2";
+            // 
+            // Delay_tmfr_m2_row_1_strat
+            // 
+            this.Delay_tmfr_m2_row_1_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m2_row_1_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m2_row_1_strat.Location = new System.Drawing.Point(713, 80);
+            this.Delay_tmfr_m2_row_1_strat.Name = "Delay_tmfr_m2_row_1_strat";
+            this.Delay_tmfr_m2_row_1_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m2_row_1_strat.TabIndex = 281;
+            this.Delay_tmfr_m2_row_1_strat.Text = "2";
+            // 
+            // Delay_tmfr_m2_row_2_strat
+            // 
+            this.Delay_tmfr_m2_row_2_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m2_row_2_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m2_row_2_strat.Location = new System.Drawing.Point(713, 104);
+            this.Delay_tmfr_m2_row_2_strat.Name = "Delay_tmfr_m2_row_2_strat";
+            this.Delay_tmfr_m2_row_2_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m2_row_2_strat.TabIndex = 282;
+            this.Delay_tmfr_m2_row_2_strat.Text = "2";
+            // 
+            // Delay_tmfr_m2_row_3_strat
+            // 
+            this.Delay_tmfr_m2_row_3_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m2_row_3_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m2_row_3_strat.Location = new System.Drawing.Point(713, 128);
+            this.Delay_tmfr_m2_row_3_strat.Name = "Delay_tmfr_m2_row_3_strat";
+            this.Delay_tmfr_m2_row_3_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m2_row_3_strat.TabIndex = 283;
+            this.Delay_tmfr_m2_row_3_strat.Text = "2";
+            // 
+            // Delay_tmfr_m2_row_4_strat
+            // 
+            this.Delay_tmfr_m2_row_4_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m2_row_4_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m2_row_4_strat.Location = new System.Drawing.Point(713, 152);
+            this.Delay_tmfr_m2_row_4_strat.Name = "Delay_tmfr_m2_row_4_strat";
+            this.Delay_tmfr_m2_row_4_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m2_row_4_strat.TabIndex = 284;
+            this.Delay_tmfr_m2_row_4_strat.Text = "2";
+            // 
+            // Delay_tmfr_m2_row_5_strat
+            // 
+            this.Delay_tmfr_m2_row_5_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m2_row_5_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m2_row_5_strat.Location = new System.Drawing.Point(713, 176);
+            this.Delay_tmfr_m2_row_5_strat.Name = "Delay_tmfr_m2_row_5_strat";
+            this.Delay_tmfr_m2_row_5_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m2_row_5_strat.TabIndex = 285;
+            this.Delay_tmfr_m2_row_5_strat.Text = "2";
+            // 
+            // Delay_tmfr_m2_row_6_strat
+            // 
+            this.Delay_tmfr_m2_row_6_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m2_row_6_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m2_row_6_strat.Location = new System.Drawing.Point(713, 200);
+            this.Delay_tmfr_m2_row_6_strat.Name = "Delay_tmfr_m2_row_6_strat";
+            this.Delay_tmfr_m2_row_6_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m2_row_6_strat.TabIndex = 286;
+            this.Delay_tmfr_m2_row_6_strat.Text = "2";
+            // 
+            // Delay_tmfr_m2_row_7_strat
+            // 
+            this.Delay_tmfr_m2_row_7_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m2_row_7_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m2_row_7_strat.Location = new System.Drawing.Point(713, 224);
+            this.Delay_tmfr_m2_row_7_strat.Name = "Delay_tmfr_m2_row_7_strat";
+            this.Delay_tmfr_m2_row_7_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m2_row_7_strat.TabIndex = 287;
+            this.Delay_tmfr_m2_row_7_strat.Text = "2";
+            // 
+            // Delay_tmfr_m2_row_8_strat
+            // 
+            this.Delay_tmfr_m2_row_8_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m2_row_8_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m2_row_8_strat.Location = new System.Drawing.Point(713, 248);
+            this.Delay_tmfr_m2_row_8_strat.Name = "Delay_tmfr_m2_row_8_strat";
+            this.Delay_tmfr_m2_row_8_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m2_row_8_strat.TabIndex = 288;
+            this.Delay_tmfr_m2_row_8_strat.Text = "2";
+            // 
+            // Delay_tmfr_m2_row_9_strat
+            // 
+            this.Delay_tmfr_m2_row_9_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m2_row_9_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m2_row_9_strat.Location = new System.Drawing.Point(713, 272);
+            this.Delay_tmfr_m2_row_9_strat.Name = "Delay_tmfr_m2_row_9_strat";
+            this.Delay_tmfr_m2_row_9_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m2_row_9_strat.TabIndex = 289;
+            this.Delay_tmfr_m2_row_9_strat.Text = "2";
+            // 
+            // Delay_tmfr_m2_row_10_strat
+            // 
+            this.Delay_tmfr_m2_row_10_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m2_row_10_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m2_row_10_strat.Location = new System.Drawing.Point(713, 296);
+            this.Delay_tmfr_m2_row_10_strat.Name = "Delay_tmfr_m2_row_10_strat";
+            this.Delay_tmfr_m2_row_10_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m2_row_10_strat.TabIndex = 290;
+            this.Delay_tmfr_m2_row_10_strat.Text = "2";
+            // 
+            // Delay_tmfr_m2_row_11_strat
+            // 
+            this.Delay_tmfr_m2_row_11_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m2_row_11_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m2_row_11_strat.Location = new System.Drawing.Point(713, 320);
+            this.Delay_tmfr_m2_row_11_strat.Name = "Delay_tmfr_m2_row_11_strat";
+            this.Delay_tmfr_m2_row_11_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m2_row_11_strat.TabIndex = 291;
+            this.Delay_tmfr_m2_row_11_strat.Text = "2";
+            // 
+            // Delay_tmfr_m2_row_12_strat
+            // 
+            this.Delay_tmfr_m2_row_12_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m2_row_12_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m2_row_12_strat.Location = new System.Drawing.Point(713, 344);
+            this.Delay_tmfr_m2_row_12_strat.Name = "Delay_tmfr_m2_row_12_strat";
+            this.Delay_tmfr_m2_row_12_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m2_row_12_strat.TabIndex = 292;
+            this.Delay_tmfr_m2_row_12_strat.Text = "2";
+            // 
+            // Delay_tmfr_m3_row_0_strat
+            // 
+            this.Delay_tmfr_m3_row_0_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m3_row_0_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m3_row_0_strat.Location = new System.Drawing.Point(739, 56);
+            this.Delay_tmfr_m3_row_0_strat.Name = "Delay_tmfr_m3_row_0_strat";
+            this.Delay_tmfr_m3_row_0_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m3_row_0_strat.TabIndex = 293;
+            this.Delay_tmfr_m3_row_0_strat.Text = "2";
+            // 
+            // Delay_tmfr_m3_row_1_strat
+            // 
+            this.Delay_tmfr_m3_row_1_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m3_row_1_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m3_row_1_strat.Location = new System.Drawing.Point(739, 80);
+            this.Delay_tmfr_m3_row_1_strat.Name = "Delay_tmfr_m3_row_1_strat";
+            this.Delay_tmfr_m3_row_1_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m3_row_1_strat.TabIndex = 294;
+            this.Delay_tmfr_m3_row_1_strat.Text = "2";
+            // 
+            // Delay_tmfr_m3_row_2_strat
+            // 
+            this.Delay_tmfr_m3_row_2_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m3_row_2_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m3_row_2_strat.Location = new System.Drawing.Point(739, 104);
+            this.Delay_tmfr_m3_row_2_strat.Name = "Delay_tmfr_m3_row_2_strat";
+            this.Delay_tmfr_m3_row_2_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m3_row_2_strat.TabIndex = 295;
+            this.Delay_tmfr_m3_row_2_strat.Text = "2";
+            // 
+            // Delay_tmfr_m3_row_3_strat
+            // 
+            this.Delay_tmfr_m3_row_3_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m3_row_3_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m3_row_3_strat.Location = new System.Drawing.Point(739, 128);
+            this.Delay_tmfr_m3_row_3_strat.Name = "Delay_tmfr_m3_row_3_strat";
+            this.Delay_tmfr_m3_row_3_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m3_row_3_strat.TabIndex = 296;
+            this.Delay_tmfr_m3_row_3_strat.Text = "2";
+            // 
+            // Delay_tmfr_m3_row_4_strat
+            // 
+            this.Delay_tmfr_m3_row_4_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m3_row_4_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m3_row_4_strat.Location = new System.Drawing.Point(739, 152);
+            this.Delay_tmfr_m3_row_4_strat.Name = "Delay_tmfr_m3_row_4_strat";
+            this.Delay_tmfr_m3_row_4_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m3_row_4_strat.TabIndex = 297;
+            this.Delay_tmfr_m3_row_4_strat.Text = "2";
+            // 
+            // Delay_tmfr_m3_row_5_strat
+            // 
+            this.Delay_tmfr_m3_row_5_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m3_row_5_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m3_row_5_strat.Location = new System.Drawing.Point(739, 176);
+            this.Delay_tmfr_m3_row_5_strat.Name = "Delay_tmfr_m3_row_5_strat";
+            this.Delay_tmfr_m3_row_5_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m3_row_5_strat.TabIndex = 298;
+            this.Delay_tmfr_m3_row_5_strat.Text = "2";
+            // 
+            // Delay_tmfr_m3_row_6_strat
+            // 
+            this.Delay_tmfr_m3_row_6_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m3_row_6_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m3_row_6_strat.Location = new System.Drawing.Point(739, 200);
+            this.Delay_tmfr_m3_row_6_strat.Name = "Delay_tmfr_m3_row_6_strat";
+            this.Delay_tmfr_m3_row_6_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m3_row_6_strat.TabIndex = 299;
+            this.Delay_tmfr_m3_row_6_strat.Text = "2";
+            // 
+            // Delay_tmfr_m3_row_7_strat
+            // 
+            this.Delay_tmfr_m3_row_7_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m3_row_7_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m3_row_7_strat.Location = new System.Drawing.Point(739, 224);
+            this.Delay_tmfr_m3_row_7_strat.Name = "Delay_tmfr_m3_row_7_strat";
+            this.Delay_tmfr_m3_row_7_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m3_row_7_strat.TabIndex = 300;
+            this.Delay_tmfr_m3_row_7_strat.Text = "2";
+            // 
+            // Delay_tmfr_m3_row_8_strat
+            // 
+            this.Delay_tmfr_m3_row_8_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m3_row_8_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m3_row_8_strat.Location = new System.Drawing.Point(739, 248);
+            this.Delay_tmfr_m3_row_8_strat.Name = "Delay_tmfr_m3_row_8_strat";
+            this.Delay_tmfr_m3_row_8_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m3_row_8_strat.TabIndex = 301;
+            this.Delay_tmfr_m3_row_8_strat.Text = "2";
+            // 
+            // Delay_tmfr_m3_row_9_strat
+            // 
+            this.Delay_tmfr_m3_row_9_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m3_row_9_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m3_row_9_strat.Location = new System.Drawing.Point(739, 272);
+            this.Delay_tmfr_m3_row_9_strat.Name = "Delay_tmfr_m3_row_9_strat";
+            this.Delay_tmfr_m3_row_9_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m3_row_9_strat.TabIndex = 302;
+            this.Delay_tmfr_m3_row_9_strat.Text = "2";
+            // 
+            // Delay_tmfr_m3_row_10_strat
+            // 
+            this.Delay_tmfr_m3_row_10_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m3_row_10_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m3_row_10_strat.Location = new System.Drawing.Point(739, 296);
+            this.Delay_tmfr_m3_row_10_strat.Name = "Delay_tmfr_m3_row_10_strat";
+            this.Delay_tmfr_m3_row_10_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m3_row_10_strat.TabIndex = 303;
+            this.Delay_tmfr_m3_row_10_strat.Text = "2";
+            // 
+            // Delay_tmfr_m3_row_11_strat
+            // 
+            this.Delay_tmfr_m3_row_11_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m3_row_11_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m3_row_11_strat.Location = new System.Drawing.Point(739, 320);
+            this.Delay_tmfr_m3_row_11_strat.Name = "Delay_tmfr_m3_row_11_strat";
+            this.Delay_tmfr_m3_row_11_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m3_row_11_strat.TabIndex = 304;
+            this.Delay_tmfr_m3_row_11_strat.Text = "2";
+            // 
+            // Delay_tmfr_m3_row_12_strat
+            // 
+            this.Delay_tmfr_m3_row_12_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m3_row_12_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m3_row_12_strat.Location = new System.Drawing.Point(739, 344);
+            this.Delay_tmfr_m3_row_12_strat.Name = "Delay_tmfr_m3_row_12_strat";
+            this.Delay_tmfr_m3_row_12_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m3_row_12_strat.TabIndex = 305;
+            this.Delay_tmfr_m3_row_12_strat.Text = "2";
+            // 
+            // Delay_tmfr_m4_row_0_strat
+            // 
+            this.Delay_tmfr_m4_row_0_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m4_row_0_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m4_row_0_strat.Location = new System.Drawing.Point(765, 56);
+            this.Delay_tmfr_m4_row_0_strat.Name = "Delay_tmfr_m4_row_0_strat";
+            this.Delay_tmfr_m4_row_0_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m4_row_0_strat.TabIndex = 306;
+            this.Delay_tmfr_m4_row_0_strat.Text = "2";
+            // 
+            // Delay_tmfr_m4_row_1_strat
+            // 
+            this.Delay_tmfr_m4_row_1_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m4_row_1_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m4_row_1_strat.Location = new System.Drawing.Point(765, 80);
+            this.Delay_tmfr_m4_row_1_strat.Name = "Delay_tmfr_m4_row_1_strat";
+            this.Delay_tmfr_m4_row_1_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m4_row_1_strat.TabIndex = 307;
+            this.Delay_tmfr_m4_row_1_strat.Text = "2";
+            // 
+            // Delay_tmfr_m4_row_2_strat
+            // 
+            this.Delay_tmfr_m4_row_2_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m4_row_2_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m4_row_2_strat.Location = new System.Drawing.Point(765, 104);
+            this.Delay_tmfr_m4_row_2_strat.Name = "Delay_tmfr_m4_row_2_strat";
+            this.Delay_tmfr_m4_row_2_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m4_row_2_strat.TabIndex = 308;
+            this.Delay_tmfr_m4_row_2_strat.Text = "2";
+            // 
+            // Delay_tmfr_m4_row_3_strat
+            // 
+            this.Delay_tmfr_m4_row_3_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m4_row_3_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m4_row_3_strat.Location = new System.Drawing.Point(765, 128);
+            this.Delay_tmfr_m4_row_3_strat.Name = "Delay_tmfr_m4_row_3_strat";
+            this.Delay_tmfr_m4_row_3_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m4_row_3_strat.TabIndex = 309;
+            this.Delay_tmfr_m4_row_3_strat.Text = "2";
+            // 
+            // Delay_tmfr_m4_row_4_strat
+            // 
+            this.Delay_tmfr_m4_row_4_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m4_row_4_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m4_row_4_strat.Location = new System.Drawing.Point(765, 152);
+            this.Delay_tmfr_m4_row_4_strat.Name = "Delay_tmfr_m4_row_4_strat";
+            this.Delay_tmfr_m4_row_4_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m4_row_4_strat.TabIndex = 310;
+            this.Delay_tmfr_m4_row_4_strat.Text = "2";
+            // 
+            // Delay_tmfr_m4_row_5_strat
+            // 
+            this.Delay_tmfr_m4_row_5_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m4_row_5_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m4_row_5_strat.Location = new System.Drawing.Point(765, 176);
+            this.Delay_tmfr_m4_row_5_strat.Name = "Delay_tmfr_m4_row_5_strat";
+            this.Delay_tmfr_m4_row_5_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m4_row_5_strat.TabIndex = 311;
+            this.Delay_tmfr_m4_row_5_strat.Text = "2";
+            // 
+            // Delay_tmfr_m4_row_6_strat
+            // 
+            this.Delay_tmfr_m4_row_6_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m4_row_6_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m4_row_6_strat.Location = new System.Drawing.Point(765, 200);
+            this.Delay_tmfr_m4_row_6_strat.Name = "Delay_tmfr_m4_row_6_strat";
+            this.Delay_tmfr_m4_row_6_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m4_row_6_strat.TabIndex = 312;
+            this.Delay_tmfr_m4_row_6_strat.Text = "2";
+            // 
+            // Delay_tmfr_m4_row_7_strat
+            // 
+            this.Delay_tmfr_m4_row_7_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m4_row_7_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m4_row_7_strat.Location = new System.Drawing.Point(765, 224);
+            this.Delay_tmfr_m4_row_7_strat.Name = "Delay_tmfr_m4_row_7_strat";
+            this.Delay_tmfr_m4_row_7_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m4_row_7_strat.TabIndex = 313;
+            this.Delay_tmfr_m4_row_7_strat.Text = "2";
+            // 
+            // Delay_tmfr_m4_row_8_strat
+            // 
+            this.Delay_tmfr_m4_row_8_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m4_row_8_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m4_row_8_strat.Location = new System.Drawing.Point(765, 248);
+            this.Delay_tmfr_m4_row_8_strat.Name = "Delay_tmfr_m4_row_8_strat";
+            this.Delay_tmfr_m4_row_8_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m4_row_8_strat.TabIndex = 314;
+            this.Delay_tmfr_m4_row_8_strat.Text = "2";
+            // 
+            // Delay_tmfr_m4_row_9_strat
+            // 
+            this.Delay_tmfr_m4_row_9_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m4_row_9_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m4_row_9_strat.Location = new System.Drawing.Point(765, 272);
+            this.Delay_tmfr_m4_row_9_strat.Name = "Delay_tmfr_m4_row_9_strat";
+            this.Delay_tmfr_m4_row_9_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m4_row_9_strat.TabIndex = 315;
+            this.Delay_tmfr_m4_row_9_strat.Text = "2";
+            // 
+            // Delay_tmfr_m4_row_10_strat
+            // 
+            this.Delay_tmfr_m4_row_10_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m4_row_10_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m4_row_10_strat.Location = new System.Drawing.Point(765, 296);
+            this.Delay_tmfr_m4_row_10_strat.Name = "Delay_tmfr_m4_row_10_strat";
+            this.Delay_tmfr_m4_row_10_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m4_row_10_strat.TabIndex = 316;
+            this.Delay_tmfr_m4_row_10_strat.Text = "2";
+            // 
+            // Delay_tmfr_m4_row_11_strat
+            // 
+            this.Delay_tmfr_m4_row_11_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m4_row_11_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m4_row_11_strat.Location = new System.Drawing.Point(765, 320);
+            this.Delay_tmfr_m4_row_11_strat.Name = "Delay_tmfr_m4_row_11_strat";
+            this.Delay_tmfr_m4_row_11_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m4_row_11_strat.TabIndex = 317;
+            this.Delay_tmfr_m4_row_11_strat.Text = "2";
+            // 
+            // Delay_tmfr_m4_row_12_strat
+            // 
+            this.Delay_tmfr_m4_row_12_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m4_row_12_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m4_row_12_strat.Location = new System.Drawing.Point(765, 344);
+            this.Delay_tmfr_m4_row_12_strat.Name = "Delay_tmfr_m4_row_12_strat";
+            this.Delay_tmfr_m4_row_12_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m4_row_12_strat.TabIndex = 318;
+            this.Delay_tmfr_m4_row_12_strat.Text = "2";
+            // 
+            // Delay_tmfr_m5_row_0_strat
+            // 
+            this.Delay_tmfr_m5_row_0_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m5_row_0_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m5_row_0_strat.Location = new System.Drawing.Point(791, 56);
+            this.Delay_tmfr_m5_row_0_strat.Name = "Delay_tmfr_m5_row_0_strat";
+            this.Delay_tmfr_m5_row_0_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m5_row_0_strat.TabIndex = 319;
+            this.Delay_tmfr_m5_row_0_strat.Text = "2";
+            // 
+            // Delay_tmfr_m5_row_1_strat
+            // 
+            this.Delay_tmfr_m5_row_1_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m5_row_1_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m5_row_1_strat.Location = new System.Drawing.Point(791, 80);
+            this.Delay_tmfr_m5_row_1_strat.Name = "Delay_tmfr_m5_row_1_strat";
+            this.Delay_tmfr_m5_row_1_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m5_row_1_strat.TabIndex = 320;
+            this.Delay_tmfr_m5_row_1_strat.Text = "2";
+            // 
+            // Delay_tmfr_m5_row_2_strat
+            // 
+            this.Delay_tmfr_m5_row_2_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m5_row_2_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m5_row_2_strat.Location = new System.Drawing.Point(791, 104);
+            this.Delay_tmfr_m5_row_2_strat.Name = "Delay_tmfr_m5_row_2_strat";
+            this.Delay_tmfr_m5_row_2_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m5_row_2_strat.TabIndex = 321;
+            this.Delay_tmfr_m5_row_2_strat.Text = "2";
+            // 
+            // Delay_tmfr_m5_row_3_strat
+            // 
+            this.Delay_tmfr_m5_row_3_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m5_row_3_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m5_row_3_strat.Location = new System.Drawing.Point(791, 128);
+            this.Delay_tmfr_m5_row_3_strat.Name = "Delay_tmfr_m5_row_3_strat";
+            this.Delay_tmfr_m5_row_3_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m5_row_3_strat.TabIndex = 322;
+            this.Delay_tmfr_m5_row_3_strat.Text = "2";
+            // 
+            // Delay_tmfr_m5_row_4_strat
+            // 
+            this.Delay_tmfr_m5_row_4_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m5_row_4_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m5_row_4_strat.Location = new System.Drawing.Point(791, 152);
+            this.Delay_tmfr_m5_row_4_strat.Name = "Delay_tmfr_m5_row_4_strat";
+            this.Delay_tmfr_m5_row_4_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m5_row_4_strat.TabIndex = 323;
+            this.Delay_tmfr_m5_row_4_strat.Text = "2";
+            // 
+            // Delay_tmfr_m5_row_5_strat
+            // 
+            this.Delay_tmfr_m5_row_5_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m5_row_5_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m5_row_5_strat.Location = new System.Drawing.Point(791, 176);
+            this.Delay_tmfr_m5_row_5_strat.Name = "Delay_tmfr_m5_row_5_strat";
+            this.Delay_tmfr_m5_row_5_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m5_row_5_strat.TabIndex = 324;
+            this.Delay_tmfr_m5_row_5_strat.Text = "2";
+            // 
+            // Delay_tmfr_m5_row_6_strat
+            // 
+            this.Delay_tmfr_m5_row_6_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m5_row_6_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m5_row_6_strat.Location = new System.Drawing.Point(791, 200);
+            this.Delay_tmfr_m5_row_6_strat.Name = "Delay_tmfr_m5_row_6_strat";
+            this.Delay_tmfr_m5_row_6_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m5_row_6_strat.TabIndex = 325;
+            this.Delay_tmfr_m5_row_6_strat.Text = "2";
+            // 
+            // Delay_tmfr_m5_row_7_strat
+            // 
+            this.Delay_tmfr_m5_row_7_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m5_row_7_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m5_row_7_strat.Location = new System.Drawing.Point(791, 224);
+            this.Delay_tmfr_m5_row_7_strat.Name = "Delay_tmfr_m5_row_7_strat";
+            this.Delay_tmfr_m5_row_7_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m5_row_7_strat.TabIndex = 326;
+            this.Delay_tmfr_m5_row_7_strat.Text = "2";
+            // 
+            // Delay_tmfr_m5_row_8_strat
+            // 
+            this.Delay_tmfr_m5_row_8_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m5_row_8_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m5_row_8_strat.Location = new System.Drawing.Point(791, 248);
+            this.Delay_tmfr_m5_row_8_strat.Name = "Delay_tmfr_m5_row_8_strat";
+            this.Delay_tmfr_m5_row_8_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m5_row_8_strat.TabIndex = 327;
+            this.Delay_tmfr_m5_row_8_strat.Text = "2";
+            // 
+            // Delay_tmfr_m5_row_9_strat
+            // 
+            this.Delay_tmfr_m5_row_9_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m5_row_9_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m5_row_9_strat.Location = new System.Drawing.Point(791, 272);
+            this.Delay_tmfr_m5_row_9_strat.Name = "Delay_tmfr_m5_row_9_strat";
+            this.Delay_tmfr_m5_row_9_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m5_row_9_strat.TabIndex = 328;
+            this.Delay_tmfr_m5_row_9_strat.Text = "2";
+            // 
+            // Delay_tmfr_m5_row_10_strat
+            // 
+            this.Delay_tmfr_m5_row_10_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m5_row_10_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m5_row_10_strat.Location = new System.Drawing.Point(791, 296);
+            this.Delay_tmfr_m5_row_10_strat.Name = "Delay_tmfr_m5_row_10_strat";
+            this.Delay_tmfr_m5_row_10_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m5_row_10_strat.TabIndex = 329;
+            this.Delay_tmfr_m5_row_10_strat.Text = "2";
+            // 
+            // Delay_tmfr_m5_row_11_strat
+            // 
+            this.Delay_tmfr_m5_row_11_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m5_row_11_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m5_row_11_strat.Location = new System.Drawing.Point(791, 320);
+            this.Delay_tmfr_m5_row_11_strat.Name = "Delay_tmfr_m5_row_11_strat";
+            this.Delay_tmfr_m5_row_11_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m5_row_11_strat.TabIndex = 330;
+            this.Delay_tmfr_m5_row_11_strat.Text = "2";
+            // 
+            // Delay_tmfr_m5_row_12_strat
+            // 
+            this.Delay_tmfr_m5_row_12_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m5_row_12_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m5_row_12_strat.Location = new System.Drawing.Point(791, 344);
+            this.Delay_tmfr_m5_row_12_strat.Name = "Delay_tmfr_m5_row_12_strat";
+            this.Delay_tmfr_m5_row_12_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m5_row_12_strat.TabIndex = 331;
+            this.Delay_tmfr_m5_row_12_strat.Text = "2";
+            // 
+            // Delay_tmfr_m6_row_0_strat
+            // 
+            this.Delay_tmfr_m6_row_0_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m6_row_0_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m6_row_0_strat.Location = new System.Drawing.Point(817, 56);
+            this.Delay_tmfr_m6_row_0_strat.Name = "Delay_tmfr_m6_row_0_strat";
+            this.Delay_tmfr_m6_row_0_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m6_row_0_strat.TabIndex = 332;
+            this.Delay_tmfr_m6_row_0_strat.Text = "2";
+            // 
+            // Delay_tmfr_m6_row_1_strat
+            // 
+            this.Delay_tmfr_m6_row_1_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m6_row_1_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m6_row_1_strat.Location = new System.Drawing.Point(817, 80);
+            this.Delay_tmfr_m6_row_1_strat.Name = "Delay_tmfr_m6_row_1_strat";
+            this.Delay_tmfr_m6_row_1_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m6_row_1_strat.TabIndex = 333;
+            this.Delay_tmfr_m6_row_1_strat.Text = "2";
+            // 
+            // Delay_tmfr_m6_row_2_strat
+            // 
+            this.Delay_tmfr_m6_row_2_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m6_row_2_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m6_row_2_strat.Location = new System.Drawing.Point(817, 104);
+            this.Delay_tmfr_m6_row_2_strat.Name = "Delay_tmfr_m6_row_2_strat";
+            this.Delay_tmfr_m6_row_2_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m6_row_2_strat.TabIndex = 334;
+            this.Delay_tmfr_m6_row_2_strat.Text = "2";
+            // 
+            // Delay_tmfr_m6_row_3_strat
+            // 
+            this.Delay_tmfr_m6_row_3_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m6_row_3_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m6_row_3_strat.Location = new System.Drawing.Point(817, 128);
+            this.Delay_tmfr_m6_row_3_strat.Name = "Delay_tmfr_m6_row_3_strat";
+            this.Delay_tmfr_m6_row_3_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m6_row_3_strat.TabIndex = 335;
+            this.Delay_tmfr_m6_row_3_strat.Text = "2";
+            // 
+            // Delay_tmfr_m6_row_4_strat
+            // 
+            this.Delay_tmfr_m6_row_4_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m6_row_4_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m6_row_4_strat.Location = new System.Drawing.Point(817, 152);
+            this.Delay_tmfr_m6_row_4_strat.Name = "Delay_tmfr_m6_row_4_strat";
+            this.Delay_tmfr_m6_row_4_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m6_row_4_strat.TabIndex = 336;
+            this.Delay_tmfr_m6_row_4_strat.Text = "2";
+            // 
+            // Delay_tmfr_m6_row_5_strat
+            // 
+            this.Delay_tmfr_m6_row_5_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m6_row_5_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m6_row_5_strat.Location = new System.Drawing.Point(817, 176);
+            this.Delay_tmfr_m6_row_5_strat.Name = "Delay_tmfr_m6_row_5_strat";
+            this.Delay_tmfr_m6_row_5_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m6_row_5_strat.TabIndex = 337;
+            this.Delay_tmfr_m6_row_5_strat.Text = "2";
+            // 
+            // Delay_tmfr_m6_row_6_strat
+            // 
+            this.Delay_tmfr_m6_row_6_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m6_row_6_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m6_row_6_strat.Location = new System.Drawing.Point(817, 200);
+            this.Delay_tmfr_m6_row_6_strat.Name = "Delay_tmfr_m6_row_6_strat";
+            this.Delay_tmfr_m6_row_6_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m6_row_6_strat.TabIndex = 338;
+            this.Delay_tmfr_m6_row_6_strat.Text = "2";
+            // 
+            // Delay_tmfr_m6_row_7_strat
+            // 
+            this.Delay_tmfr_m6_row_7_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m6_row_7_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m6_row_7_strat.Location = new System.Drawing.Point(817, 224);
+            this.Delay_tmfr_m6_row_7_strat.Name = "Delay_tmfr_m6_row_7_strat";
+            this.Delay_tmfr_m6_row_7_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m6_row_7_strat.TabIndex = 339;
+            this.Delay_tmfr_m6_row_7_strat.Text = "2";
+            // 
+            // Delay_tmfr_m6_row_8_strat
+            // 
+            this.Delay_tmfr_m6_row_8_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m6_row_8_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m6_row_8_strat.Location = new System.Drawing.Point(817, 248);
+            this.Delay_tmfr_m6_row_8_strat.Name = "Delay_tmfr_m6_row_8_strat";
+            this.Delay_tmfr_m6_row_8_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m6_row_8_strat.TabIndex = 340;
+            this.Delay_tmfr_m6_row_8_strat.Text = "2";
+            // 
+            // Delay_tmfr_m6_row_9_strat
+            // 
+            this.Delay_tmfr_m6_row_9_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m6_row_9_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m6_row_9_strat.Location = new System.Drawing.Point(817, 272);
+            this.Delay_tmfr_m6_row_9_strat.Name = "Delay_tmfr_m6_row_9_strat";
+            this.Delay_tmfr_m6_row_9_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m6_row_9_strat.TabIndex = 341;
+            this.Delay_tmfr_m6_row_9_strat.Text = "2";
+            // 
+            // Delay_tmfr_m6_row_10_strat
+            // 
+            this.Delay_tmfr_m6_row_10_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m6_row_10_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m6_row_10_strat.Location = new System.Drawing.Point(817, 296);
+            this.Delay_tmfr_m6_row_10_strat.Name = "Delay_tmfr_m6_row_10_strat";
+            this.Delay_tmfr_m6_row_10_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m6_row_10_strat.TabIndex = 342;
+            this.Delay_tmfr_m6_row_10_strat.Text = "2";
+            // 
+            // Delay_tmfr_m6_row_11_strat
+            // 
+            this.Delay_tmfr_m6_row_11_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m6_row_11_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m6_row_11_strat.Location = new System.Drawing.Point(817, 320);
+            this.Delay_tmfr_m6_row_11_strat.Name = "Delay_tmfr_m6_row_11_strat";
+            this.Delay_tmfr_m6_row_11_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m6_row_11_strat.TabIndex = 343;
+            this.Delay_tmfr_m6_row_11_strat.Text = "2";
+            // 
+            // Delay_tmfr_m6_row_12_strat
+            // 
+            this.Delay_tmfr_m6_row_12_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m6_row_12_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m6_row_12_strat.Location = new System.Drawing.Point(817, 344);
+            this.Delay_tmfr_m6_row_12_strat.Name = "Delay_tmfr_m6_row_12_strat";
+            this.Delay_tmfr_m6_row_12_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m6_row_12_strat.TabIndex = 344;
+            this.Delay_tmfr_m6_row_12_strat.Text = "2";
+            // 
+            // Delay_tmfr_m10_row_0_strat
+            // 
+            this.Delay_tmfr_m10_row_0_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m10_row_0_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m10_row_0_strat.Location = new System.Drawing.Point(843, 56);
+            this.Delay_tmfr_m10_row_0_strat.Name = "Delay_tmfr_m10_row_0_strat";
+            this.Delay_tmfr_m10_row_0_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m10_row_0_strat.TabIndex = 345;
+            this.Delay_tmfr_m10_row_0_strat.Text = "2";
+            // 
+            // Delay_tmfr_m10_row_1_strat
+            // 
+            this.Delay_tmfr_m10_row_1_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m10_row_1_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m10_row_1_strat.Location = new System.Drawing.Point(843, 80);
+            this.Delay_tmfr_m10_row_1_strat.Name = "Delay_tmfr_m10_row_1_strat";
+            this.Delay_tmfr_m10_row_1_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m10_row_1_strat.TabIndex = 346;
+            this.Delay_tmfr_m10_row_1_strat.Text = "2";
+            // 
+            // Delay_tmfr_m10_row_2_strat
+            // 
+            this.Delay_tmfr_m10_row_2_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m10_row_2_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m10_row_2_strat.Location = new System.Drawing.Point(843, 104);
+            this.Delay_tmfr_m10_row_2_strat.Name = "Delay_tmfr_m10_row_2_strat";
+            this.Delay_tmfr_m10_row_2_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m10_row_2_strat.TabIndex = 347;
+            this.Delay_tmfr_m10_row_2_strat.Text = "2";
+            // 
+            // Delay_tmfr_m10_row_3_strat
+            // 
+            this.Delay_tmfr_m10_row_3_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m10_row_3_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m10_row_3_strat.Location = new System.Drawing.Point(843, 128);
+            this.Delay_tmfr_m10_row_3_strat.Name = "Delay_tmfr_m10_row_3_strat";
+            this.Delay_tmfr_m10_row_3_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m10_row_3_strat.TabIndex = 348;
+            this.Delay_tmfr_m10_row_3_strat.Text = "2";
+            // 
+            // Delay_tmfr_m10_row_4_strat
+            // 
+            this.Delay_tmfr_m10_row_4_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m10_row_4_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m10_row_4_strat.Location = new System.Drawing.Point(843, 152);
+            this.Delay_tmfr_m10_row_4_strat.Name = "Delay_tmfr_m10_row_4_strat";
+            this.Delay_tmfr_m10_row_4_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m10_row_4_strat.TabIndex = 349;
+            this.Delay_tmfr_m10_row_4_strat.Text = "2";
+            // 
+            // Delay_tmfr_m10_row_5_strat
+            // 
+            this.Delay_tmfr_m10_row_5_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m10_row_5_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m10_row_5_strat.Location = new System.Drawing.Point(843, 176);
+            this.Delay_tmfr_m10_row_5_strat.Name = "Delay_tmfr_m10_row_5_strat";
+            this.Delay_tmfr_m10_row_5_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m10_row_5_strat.TabIndex = 350;
+            this.Delay_tmfr_m10_row_5_strat.Text = "2";
+            // 
+            // Delay_tmfr_m10_row_6_strat
+            // 
+            this.Delay_tmfr_m10_row_6_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m10_row_6_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m10_row_6_strat.Location = new System.Drawing.Point(843, 200);
+            this.Delay_tmfr_m10_row_6_strat.Name = "Delay_tmfr_m10_row_6_strat";
+            this.Delay_tmfr_m10_row_6_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m10_row_6_strat.TabIndex = 351;
+            this.Delay_tmfr_m10_row_6_strat.Text = "2";
+            // 
+            // Delay_tmfr_m10_row_7_strat
+            // 
+            this.Delay_tmfr_m10_row_7_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m10_row_7_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m10_row_7_strat.Location = new System.Drawing.Point(843, 224);
+            this.Delay_tmfr_m10_row_7_strat.Name = "Delay_tmfr_m10_row_7_strat";
+            this.Delay_tmfr_m10_row_7_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m10_row_7_strat.TabIndex = 352;
+            this.Delay_tmfr_m10_row_7_strat.Text = "2";
+            // 
+            // Delay_tmfr_m10_row_8_strat
+            // 
+            this.Delay_tmfr_m10_row_8_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m10_row_8_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m10_row_8_strat.Location = new System.Drawing.Point(843, 248);
+            this.Delay_tmfr_m10_row_8_strat.Name = "Delay_tmfr_m10_row_8_strat";
+            this.Delay_tmfr_m10_row_8_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m10_row_8_strat.TabIndex = 353;
+            this.Delay_tmfr_m10_row_8_strat.Text = "2";
+            // 
+            // Delay_tmfr_m10_row_9_strat
+            // 
+            this.Delay_tmfr_m10_row_9_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m10_row_9_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m10_row_9_strat.Location = new System.Drawing.Point(843, 272);
+            this.Delay_tmfr_m10_row_9_strat.Name = "Delay_tmfr_m10_row_9_strat";
+            this.Delay_tmfr_m10_row_9_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m10_row_9_strat.TabIndex = 354;
+            this.Delay_tmfr_m10_row_9_strat.Text = "2";
+            // 
+            // Delay_tmfr_m10_row_10_strat
+            // 
+            this.Delay_tmfr_m10_row_10_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m10_row_10_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m10_row_10_strat.Location = new System.Drawing.Point(843, 296);
+            this.Delay_tmfr_m10_row_10_strat.Name = "Delay_tmfr_m10_row_10_strat";
+            this.Delay_tmfr_m10_row_10_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m10_row_10_strat.TabIndex = 355;
+            this.Delay_tmfr_m10_row_10_strat.Text = "2";
+            // 
+            // Delay_tmfr_m10_row_11_strat
+            // 
+            this.Delay_tmfr_m10_row_11_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m10_row_11_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m10_row_11_strat.Location = new System.Drawing.Point(843, 320);
+            this.Delay_tmfr_m10_row_11_strat.Name = "Delay_tmfr_m10_row_11_strat";
+            this.Delay_tmfr_m10_row_11_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m10_row_11_strat.TabIndex = 356;
+            this.Delay_tmfr_m10_row_11_strat.Text = "2";
+            // 
+            // Delay_tmfr_m10_row_12_strat
+            // 
+            this.Delay_tmfr_m10_row_12_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m10_row_12_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m10_row_12_strat.Location = new System.Drawing.Point(843, 344);
+            this.Delay_tmfr_m10_row_12_strat.Name = "Delay_tmfr_m10_row_12_strat";
+            this.Delay_tmfr_m10_row_12_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m10_row_12_strat.TabIndex = 357;
+            this.Delay_tmfr_m10_row_12_strat.Text = "2";
+            // 
+            // Delay_tmfr_m12_row_0_strat
+            // 
+            this.Delay_tmfr_m12_row_0_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m12_row_0_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m12_row_0_strat.Location = new System.Drawing.Point(869, 56);
+            this.Delay_tmfr_m12_row_0_strat.Name = "Delay_tmfr_m12_row_0_strat";
+            this.Delay_tmfr_m12_row_0_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m12_row_0_strat.TabIndex = 358;
+            this.Delay_tmfr_m12_row_0_strat.Text = "2";
+            // 
+            // Delay_tmfr_m12_row_1_strat
+            // 
+            this.Delay_tmfr_m12_row_1_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m12_row_1_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m12_row_1_strat.Location = new System.Drawing.Point(869, 80);
+            this.Delay_tmfr_m12_row_1_strat.Name = "Delay_tmfr_m12_row_1_strat";
+            this.Delay_tmfr_m12_row_1_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m12_row_1_strat.TabIndex = 359;
+            this.Delay_tmfr_m12_row_1_strat.Text = "2";
+            // 
+            // Delay_tmfr_m12_row_2_strat
+            // 
+            this.Delay_tmfr_m12_row_2_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m12_row_2_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m12_row_2_strat.Location = new System.Drawing.Point(869, 104);
+            this.Delay_tmfr_m12_row_2_strat.Name = "Delay_tmfr_m12_row_2_strat";
+            this.Delay_tmfr_m12_row_2_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m12_row_2_strat.TabIndex = 360;
+            this.Delay_tmfr_m12_row_2_strat.Text = "2";
+            // 
+            // Delay_tmfr_m12_row_3_strat
+            // 
+            this.Delay_tmfr_m12_row_3_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m12_row_3_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m12_row_3_strat.Location = new System.Drawing.Point(869, 128);
+            this.Delay_tmfr_m12_row_3_strat.Name = "Delay_tmfr_m12_row_3_strat";
+            this.Delay_tmfr_m12_row_3_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m12_row_3_strat.TabIndex = 361;
+            this.Delay_tmfr_m12_row_3_strat.Text = "2";
+            // 
+            // Delay_tmfr_m12_row_4_strat
+            // 
+            this.Delay_tmfr_m12_row_4_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m12_row_4_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m12_row_4_strat.Location = new System.Drawing.Point(869, 152);
+            this.Delay_tmfr_m12_row_4_strat.Name = "Delay_tmfr_m12_row_4_strat";
+            this.Delay_tmfr_m12_row_4_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m12_row_4_strat.TabIndex = 362;
+            this.Delay_tmfr_m12_row_4_strat.Text = "2";
+            // 
+            // Delay_tmfr_m12_row_5_strat
+            // 
+            this.Delay_tmfr_m12_row_5_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m12_row_5_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m12_row_5_strat.Location = new System.Drawing.Point(869, 176);
+            this.Delay_tmfr_m12_row_5_strat.Name = "Delay_tmfr_m12_row_5_strat";
+            this.Delay_tmfr_m12_row_5_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m12_row_5_strat.TabIndex = 363;
+            this.Delay_tmfr_m12_row_5_strat.Text = "2";
+            // 
+            // Delay_tmfr_m12_row_6_strat
+            // 
+            this.Delay_tmfr_m12_row_6_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m12_row_6_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m12_row_6_strat.Location = new System.Drawing.Point(869, 200);
+            this.Delay_tmfr_m12_row_6_strat.Name = "Delay_tmfr_m12_row_6_strat";
+            this.Delay_tmfr_m12_row_6_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m12_row_6_strat.TabIndex = 364;
+            this.Delay_tmfr_m12_row_6_strat.Text = "2";
+            // 
+            // Delay_tmfr_m12_row_7_strat
+            // 
+            this.Delay_tmfr_m12_row_7_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m12_row_7_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m12_row_7_strat.Location = new System.Drawing.Point(869, 224);
+            this.Delay_tmfr_m12_row_7_strat.Name = "Delay_tmfr_m12_row_7_strat";
+            this.Delay_tmfr_m12_row_7_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m12_row_7_strat.TabIndex = 365;
+            this.Delay_tmfr_m12_row_7_strat.Text = "2";
+            // 
+            // Delay_tmfr_m12_row_8_strat
+            // 
+            this.Delay_tmfr_m12_row_8_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m12_row_8_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m12_row_8_strat.Location = new System.Drawing.Point(869, 248);
+            this.Delay_tmfr_m12_row_8_strat.Name = "Delay_tmfr_m12_row_8_strat";
+            this.Delay_tmfr_m12_row_8_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m12_row_8_strat.TabIndex = 366;
+            this.Delay_tmfr_m12_row_8_strat.Text = "2";
+            // 
+            // Delay_tmfr_m12_row_9_strat
+            // 
+            this.Delay_tmfr_m12_row_9_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m12_row_9_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m12_row_9_strat.Location = new System.Drawing.Point(869, 272);
+            this.Delay_tmfr_m12_row_9_strat.Name = "Delay_tmfr_m12_row_9_strat";
+            this.Delay_tmfr_m12_row_9_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m12_row_9_strat.TabIndex = 367;
+            this.Delay_tmfr_m12_row_9_strat.Text = "2";
+            // 
+            // Delay_tmfr_m12_row_10_strat
+            // 
+            this.Delay_tmfr_m12_row_10_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m12_row_10_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m12_row_10_strat.Location = new System.Drawing.Point(869, 296);
+            this.Delay_tmfr_m12_row_10_strat.Name = "Delay_tmfr_m12_row_10_strat";
+            this.Delay_tmfr_m12_row_10_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m12_row_10_strat.TabIndex = 368;
+            this.Delay_tmfr_m12_row_10_strat.Text = "2";
+            // 
+            // Delay_tmfr_m12_row_11_strat
+            // 
+            this.Delay_tmfr_m12_row_11_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m12_row_11_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m12_row_11_strat.Location = new System.Drawing.Point(869, 320);
+            this.Delay_tmfr_m12_row_11_strat.Name = "Delay_tmfr_m12_row_11_strat";
+            this.Delay_tmfr_m12_row_11_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m12_row_11_strat.TabIndex = 369;
+            this.Delay_tmfr_m12_row_11_strat.Text = "2";
+            // 
+            // Delay_tmfr_m12_row_12_strat
+            // 
+            this.Delay_tmfr_m12_row_12_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m12_row_12_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m12_row_12_strat.Location = new System.Drawing.Point(869, 344);
+            this.Delay_tmfr_m12_row_12_strat.Name = "Delay_tmfr_m12_row_12_strat";
+            this.Delay_tmfr_m12_row_12_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m12_row_12_strat.TabIndex = 370;
+            this.Delay_tmfr_m12_row_12_strat.Text = "2";
+            // 
+            // Delay_tmfr_m15_row_0_strat
+            // 
+            this.Delay_tmfr_m15_row_0_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m15_row_0_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m15_row_0_strat.Location = new System.Drawing.Point(895, 56);
+            this.Delay_tmfr_m15_row_0_strat.Name = "Delay_tmfr_m15_row_0_strat";
+            this.Delay_tmfr_m15_row_0_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m15_row_0_strat.TabIndex = 371;
+            this.Delay_tmfr_m15_row_0_strat.Text = "2";
+            // 
+            // Delay_tmfr_m15_row_1_strat
+            // 
+            this.Delay_tmfr_m15_row_1_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m15_row_1_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m15_row_1_strat.Location = new System.Drawing.Point(895, 80);
+            this.Delay_tmfr_m15_row_1_strat.Name = "Delay_tmfr_m15_row_1_strat";
+            this.Delay_tmfr_m15_row_1_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m15_row_1_strat.TabIndex = 372;
+            this.Delay_tmfr_m15_row_1_strat.Text = "2";
+            // 
+            // Delay_tmfr_m15_row_2_strat
+            // 
+            this.Delay_tmfr_m15_row_2_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m15_row_2_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m15_row_2_strat.Location = new System.Drawing.Point(895, 104);
+            this.Delay_tmfr_m15_row_2_strat.Name = "Delay_tmfr_m15_row_2_strat";
+            this.Delay_tmfr_m15_row_2_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m15_row_2_strat.TabIndex = 373;
+            this.Delay_tmfr_m15_row_2_strat.Text = "2";
+            // 
+            // Delay_tmfr_m15_row_3_strat
+            // 
+            this.Delay_tmfr_m15_row_3_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m15_row_3_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m15_row_3_strat.Location = new System.Drawing.Point(895, 128);
+            this.Delay_tmfr_m15_row_3_strat.Name = "Delay_tmfr_m15_row_3_strat";
+            this.Delay_tmfr_m15_row_3_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m15_row_3_strat.TabIndex = 374;
+            this.Delay_tmfr_m15_row_3_strat.Text = "2";
+            // 
+            // Delay_tmfr_m15_row_4_strat
+            // 
+            this.Delay_tmfr_m15_row_4_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m15_row_4_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m15_row_4_strat.Location = new System.Drawing.Point(895, 152);
+            this.Delay_tmfr_m15_row_4_strat.Name = "Delay_tmfr_m15_row_4_strat";
+            this.Delay_tmfr_m15_row_4_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m15_row_4_strat.TabIndex = 375;
+            this.Delay_tmfr_m15_row_4_strat.Text = "2";
+            // 
+            // Delay_tmfr_m15_row_5_strat
+            // 
+            this.Delay_tmfr_m15_row_5_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m15_row_5_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m15_row_5_strat.Location = new System.Drawing.Point(895, 176);
+            this.Delay_tmfr_m15_row_5_strat.Name = "Delay_tmfr_m15_row_5_strat";
+            this.Delay_tmfr_m15_row_5_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m15_row_5_strat.TabIndex = 376;
+            this.Delay_tmfr_m15_row_5_strat.Text = "2";
+            // 
+            // Delay_tmfr_m15_row_6_strat
+            // 
+            this.Delay_tmfr_m15_row_6_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m15_row_6_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m15_row_6_strat.Location = new System.Drawing.Point(895, 200);
+            this.Delay_tmfr_m15_row_6_strat.Name = "Delay_tmfr_m15_row_6_strat";
+            this.Delay_tmfr_m15_row_6_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m15_row_6_strat.TabIndex = 377;
+            this.Delay_tmfr_m15_row_6_strat.Text = "2";
+            // 
+            // Delay_tmfr_m15_row_7_strat
+            // 
+            this.Delay_tmfr_m15_row_7_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m15_row_7_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m15_row_7_strat.Location = new System.Drawing.Point(895, 224);
+            this.Delay_tmfr_m15_row_7_strat.Name = "Delay_tmfr_m15_row_7_strat";
+            this.Delay_tmfr_m15_row_7_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m15_row_7_strat.TabIndex = 378;
+            this.Delay_tmfr_m15_row_7_strat.Text = "2";
+            // 
+            // Delay_tmfr_m15_row_8_strat
+            // 
+            this.Delay_tmfr_m15_row_8_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m15_row_8_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m15_row_8_strat.Location = new System.Drawing.Point(895, 248);
+            this.Delay_tmfr_m15_row_8_strat.Name = "Delay_tmfr_m15_row_8_strat";
+            this.Delay_tmfr_m15_row_8_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m15_row_8_strat.TabIndex = 379;
+            this.Delay_tmfr_m15_row_8_strat.Text = "2";
+            // 
+            // Delay_tmfr_m15_row_9_strat
+            // 
+            this.Delay_tmfr_m15_row_9_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m15_row_9_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m15_row_9_strat.Location = new System.Drawing.Point(895, 272);
+            this.Delay_tmfr_m15_row_9_strat.Name = "Delay_tmfr_m15_row_9_strat";
+            this.Delay_tmfr_m15_row_9_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m15_row_9_strat.TabIndex = 380;
+            this.Delay_tmfr_m15_row_9_strat.Text = "2";
+            // 
+            // Delay_tmfr_m15_row_10_strat
+            // 
+            this.Delay_tmfr_m15_row_10_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m15_row_10_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m15_row_10_strat.Location = new System.Drawing.Point(895, 296);
+            this.Delay_tmfr_m15_row_10_strat.Name = "Delay_tmfr_m15_row_10_strat";
+            this.Delay_tmfr_m15_row_10_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m15_row_10_strat.TabIndex = 381;
+            this.Delay_tmfr_m15_row_10_strat.Text = "2";
+            // 
+            // Delay_tmfr_m15_row_11_strat
+            // 
+            this.Delay_tmfr_m15_row_11_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m15_row_11_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m15_row_11_strat.Location = new System.Drawing.Point(895, 320);
+            this.Delay_tmfr_m15_row_11_strat.Name = "Delay_tmfr_m15_row_11_strat";
+            this.Delay_tmfr_m15_row_11_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m15_row_11_strat.TabIndex = 382;
+            this.Delay_tmfr_m15_row_11_strat.Text = "2";
+            // 
+            // Delay_tmfr_m15_row_12_strat
+            // 
+            this.Delay_tmfr_m15_row_12_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m15_row_12_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m15_row_12_strat.Location = new System.Drawing.Point(895, 344);
+            this.Delay_tmfr_m15_row_12_strat.Name = "Delay_tmfr_m15_row_12_strat";
+            this.Delay_tmfr_m15_row_12_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m15_row_12_strat.TabIndex = 383;
+            this.Delay_tmfr_m15_row_12_strat.Text = "2";
+            // 
+            // Delay_tmfr_m20_row_0_strat
+            // 
+            this.Delay_tmfr_m20_row_0_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m20_row_0_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m20_row_0_strat.Location = new System.Drawing.Point(921, 56);
+            this.Delay_tmfr_m20_row_0_strat.Name = "Delay_tmfr_m20_row_0_strat";
+            this.Delay_tmfr_m20_row_0_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m20_row_0_strat.TabIndex = 384;
+            this.Delay_tmfr_m20_row_0_strat.Text = "2";
+            // 
+            // Delay_tmfr_m20_row_1_strat
+            // 
+            this.Delay_tmfr_m20_row_1_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m20_row_1_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m20_row_1_strat.Location = new System.Drawing.Point(921, 80);
+            this.Delay_tmfr_m20_row_1_strat.Name = "Delay_tmfr_m20_row_1_strat";
+            this.Delay_tmfr_m20_row_1_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m20_row_1_strat.TabIndex = 385;
+            this.Delay_tmfr_m20_row_1_strat.Text = "2";
+            // 
+            // Delay_tmfr_m20_row_2_strat
+            // 
+            this.Delay_tmfr_m20_row_2_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m20_row_2_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m20_row_2_strat.Location = new System.Drawing.Point(921, 104);
+            this.Delay_tmfr_m20_row_2_strat.Name = "Delay_tmfr_m20_row_2_strat";
+            this.Delay_tmfr_m20_row_2_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m20_row_2_strat.TabIndex = 386;
+            this.Delay_tmfr_m20_row_2_strat.Text = "2";
+            // 
+            // Delay_tmfr_m20_row_3_strat
+            // 
+            this.Delay_tmfr_m20_row_3_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m20_row_3_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m20_row_3_strat.Location = new System.Drawing.Point(921, 128);
+            this.Delay_tmfr_m20_row_3_strat.Name = "Delay_tmfr_m20_row_3_strat";
+            this.Delay_tmfr_m20_row_3_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m20_row_3_strat.TabIndex = 387;
+            this.Delay_tmfr_m20_row_3_strat.Text = "2";
+            // 
+            // Delay_tmfr_m20_row_4_strat
+            // 
+            this.Delay_tmfr_m20_row_4_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m20_row_4_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m20_row_4_strat.Location = new System.Drawing.Point(921, 152);
+            this.Delay_tmfr_m20_row_4_strat.Name = "Delay_tmfr_m20_row_4_strat";
+            this.Delay_tmfr_m20_row_4_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m20_row_4_strat.TabIndex = 388;
+            this.Delay_tmfr_m20_row_4_strat.Text = "2";
+            // 
+            // Delay_tmfr_m20_row_5_strat
+            // 
+            this.Delay_tmfr_m20_row_5_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m20_row_5_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m20_row_5_strat.Location = new System.Drawing.Point(921, 176);
+            this.Delay_tmfr_m20_row_5_strat.Name = "Delay_tmfr_m20_row_5_strat";
+            this.Delay_tmfr_m20_row_5_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m20_row_5_strat.TabIndex = 389;
+            this.Delay_tmfr_m20_row_5_strat.Text = "2";
+            // 
+            // Delay_tmfr_m20_row_6_strat
+            // 
+            this.Delay_tmfr_m20_row_6_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m20_row_6_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m20_row_6_strat.Location = new System.Drawing.Point(921, 200);
+            this.Delay_tmfr_m20_row_6_strat.Name = "Delay_tmfr_m20_row_6_strat";
+            this.Delay_tmfr_m20_row_6_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m20_row_6_strat.TabIndex = 390;
+            this.Delay_tmfr_m20_row_6_strat.Text = "2";
+            // 
+            // Delay_tmfr_m20_row_7_strat
+            // 
+            this.Delay_tmfr_m20_row_7_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m20_row_7_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m20_row_7_strat.Location = new System.Drawing.Point(921, 224);
+            this.Delay_tmfr_m20_row_7_strat.Name = "Delay_tmfr_m20_row_7_strat";
+            this.Delay_tmfr_m20_row_7_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m20_row_7_strat.TabIndex = 391;
+            this.Delay_tmfr_m20_row_7_strat.Text = "2";
+            // 
+            // Delay_tmfr_m20_row_8_strat
+            // 
+            this.Delay_tmfr_m20_row_8_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m20_row_8_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m20_row_8_strat.Location = new System.Drawing.Point(921, 248);
+            this.Delay_tmfr_m20_row_8_strat.Name = "Delay_tmfr_m20_row_8_strat";
+            this.Delay_tmfr_m20_row_8_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m20_row_8_strat.TabIndex = 392;
+            this.Delay_tmfr_m20_row_8_strat.Text = "2";
+            // 
+            // Delay_tmfr_m20_row_9_strat
+            // 
+            this.Delay_tmfr_m20_row_9_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m20_row_9_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m20_row_9_strat.Location = new System.Drawing.Point(921, 272);
+            this.Delay_tmfr_m20_row_9_strat.Name = "Delay_tmfr_m20_row_9_strat";
+            this.Delay_tmfr_m20_row_9_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m20_row_9_strat.TabIndex = 393;
+            this.Delay_tmfr_m20_row_9_strat.Text = "2";
+            // 
+            // Delay_tmfr_m20_row_10_strat
+            // 
+            this.Delay_tmfr_m20_row_10_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m20_row_10_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m20_row_10_strat.Location = new System.Drawing.Point(921, 296);
+            this.Delay_tmfr_m20_row_10_strat.Name = "Delay_tmfr_m20_row_10_strat";
+            this.Delay_tmfr_m20_row_10_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m20_row_10_strat.TabIndex = 394;
+            this.Delay_tmfr_m20_row_10_strat.Text = "2";
+            // 
+            // Delay_tmfr_m20_row_11_strat
+            // 
+            this.Delay_tmfr_m20_row_11_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m20_row_11_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m20_row_11_strat.Location = new System.Drawing.Point(921, 320);
+            this.Delay_tmfr_m20_row_11_strat.Name = "Delay_tmfr_m20_row_11_strat";
+            this.Delay_tmfr_m20_row_11_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m20_row_11_strat.TabIndex = 395;
+            this.Delay_tmfr_m20_row_11_strat.Text = "2";
+            // 
+            // Delay_tmfr_m20_row_12_strat
+            // 
+            this.Delay_tmfr_m20_row_12_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m20_row_12_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m20_row_12_strat.Location = new System.Drawing.Point(921, 344);
+            this.Delay_tmfr_m20_row_12_strat.Name = "Delay_tmfr_m20_row_12_strat";
+            this.Delay_tmfr_m20_row_12_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m20_row_12_strat.TabIndex = 396;
+            this.Delay_tmfr_m20_row_12_strat.Text = "2";
+            // 
+            // Delay_tmfr_m30_row_0_strat
+            // 
+            this.Delay_tmfr_m30_row_0_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m30_row_0_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m30_row_0_strat.Location = new System.Drawing.Point(947, 56);
+            this.Delay_tmfr_m30_row_0_strat.Name = "Delay_tmfr_m30_row_0_strat";
+            this.Delay_tmfr_m30_row_0_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m30_row_0_strat.TabIndex = 397;
+            this.Delay_tmfr_m30_row_0_strat.Text = "2";
+            // 
+            // Delay_tmfr_m30_row_1_strat
+            // 
+            this.Delay_tmfr_m30_row_1_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m30_row_1_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m30_row_1_strat.Location = new System.Drawing.Point(947, 80);
+            this.Delay_tmfr_m30_row_1_strat.Name = "Delay_tmfr_m30_row_1_strat";
+            this.Delay_tmfr_m30_row_1_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m30_row_1_strat.TabIndex = 398;
+            this.Delay_tmfr_m30_row_1_strat.Text = "2";
+            // 
+            // Delay_tmfr_m30_row_2_strat
+            // 
+            this.Delay_tmfr_m30_row_2_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m30_row_2_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m30_row_2_strat.Location = new System.Drawing.Point(947, 104);
+            this.Delay_tmfr_m30_row_2_strat.Name = "Delay_tmfr_m30_row_2_strat";
+            this.Delay_tmfr_m30_row_2_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m30_row_2_strat.TabIndex = 399;
+            this.Delay_tmfr_m30_row_2_strat.Text = "2";
+            // 
+            // Delay_tmfr_m30_row_3_strat
+            // 
+            this.Delay_tmfr_m30_row_3_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m30_row_3_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m30_row_3_strat.Location = new System.Drawing.Point(947, 128);
+            this.Delay_tmfr_m30_row_3_strat.Name = "Delay_tmfr_m30_row_3_strat";
+            this.Delay_tmfr_m30_row_3_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m30_row_3_strat.TabIndex = 400;
+            this.Delay_tmfr_m30_row_3_strat.Text = "2";
+            // 
+            // Delay_tmfr_m30_row_4_strat
+            // 
+            this.Delay_tmfr_m30_row_4_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m30_row_4_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m30_row_4_strat.Location = new System.Drawing.Point(947, 152);
+            this.Delay_tmfr_m30_row_4_strat.Name = "Delay_tmfr_m30_row_4_strat";
+            this.Delay_tmfr_m30_row_4_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m30_row_4_strat.TabIndex = 401;
+            this.Delay_tmfr_m30_row_4_strat.Text = "2";
+            // 
+            // Delay_tmfr_m30_row_5_strat
+            // 
+            this.Delay_tmfr_m30_row_5_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m30_row_5_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m30_row_5_strat.Location = new System.Drawing.Point(947, 176);
+            this.Delay_tmfr_m30_row_5_strat.Name = "Delay_tmfr_m30_row_5_strat";
+            this.Delay_tmfr_m30_row_5_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m30_row_5_strat.TabIndex = 402;
+            this.Delay_tmfr_m30_row_5_strat.Text = "2";
+            // 
+            // Delay_tmfr_m30_row_6_strat
+            // 
+            this.Delay_tmfr_m30_row_6_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m30_row_6_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m30_row_6_strat.Location = new System.Drawing.Point(947, 200);
+            this.Delay_tmfr_m30_row_6_strat.Name = "Delay_tmfr_m30_row_6_strat";
+            this.Delay_tmfr_m30_row_6_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m30_row_6_strat.TabIndex = 403;
+            this.Delay_tmfr_m30_row_6_strat.Text = "2";
+            // 
+            // Delay_tmfr_m30_row_7_strat
+            // 
+            this.Delay_tmfr_m30_row_7_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m30_row_7_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m30_row_7_strat.Location = new System.Drawing.Point(947, 224);
+            this.Delay_tmfr_m30_row_7_strat.Name = "Delay_tmfr_m30_row_7_strat";
+            this.Delay_tmfr_m30_row_7_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m30_row_7_strat.TabIndex = 404;
+            this.Delay_tmfr_m30_row_7_strat.Text = "2";
+            // 
+            // Delay_tmfr_m30_row_8_strat
+            // 
+            this.Delay_tmfr_m30_row_8_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m30_row_8_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m30_row_8_strat.Location = new System.Drawing.Point(947, 248);
+            this.Delay_tmfr_m30_row_8_strat.Name = "Delay_tmfr_m30_row_8_strat";
+            this.Delay_tmfr_m30_row_8_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m30_row_8_strat.TabIndex = 405;
+            this.Delay_tmfr_m30_row_8_strat.Text = "2";
+            // 
+            // Delay_tmfr_m30_row_9_strat
+            // 
+            this.Delay_tmfr_m30_row_9_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m30_row_9_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m30_row_9_strat.Location = new System.Drawing.Point(947, 272);
+            this.Delay_tmfr_m30_row_9_strat.Name = "Delay_tmfr_m30_row_9_strat";
+            this.Delay_tmfr_m30_row_9_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m30_row_9_strat.TabIndex = 406;
+            this.Delay_tmfr_m30_row_9_strat.Text = "2";
+            // 
+            // Delay_tmfr_m30_row_10_strat
+            // 
+            this.Delay_tmfr_m30_row_10_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m30_row_10_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m30_row_10_strat.Location = new System.Drawing.Point(947, 296);
+            this.Delay_tmfr_m30_row_10_strat.Name = "Delay_tmfr_m30_row_10_strat";
+            this.Delay_tmfr_m30_row_10_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m30_row_10_strat.TabIndex = 407;
+            this.Delay_tmfr_m30_row_10_strat.Text = "2";
+            // 
+            // Delay_tmfr_m30_row_11_strat
+            // 
+            this.Delay_tmfr_m30_row_11_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m30_row_11_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m30_row_11_strat.Location = new System.Drawing.Point(947, 320);
+            this.Delay_tmfr_m30_row_11_strat.Name = "Delay_tmfr_m30_row_11_strat";
+            this.Delay_tmfr_m30_row_11_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m30_row_11_strat.TabIndex = 408;
+            this.Delay_tmfr_m30_row_11_strat.Text = "2";
+            // 
+            // Delay_tmfr_m30_row_12_strat
+            // 
+            this.Delay_tmfr_m30_row_12_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_m30_row_12_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_m30_row_12_strat.Location = new System.Drawing.Point(947, 344);
+            this.Delay_tmfr_m30_row_12_strat.Name = "Delay_tmfr_m30_row_12_strat";
+            this.Delay_tmfr_m30_row_12_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_m30_row_12_strat.TabIndex = 409;
+            this.Delay_tmfr_m30_row_12_strat.Text = "2";
+            // 
+            // Delay_tmfr_h1_row_0_strat
+            // 
+            this.Delay_tmfr_h1_row_0_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h1_row_0_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h1_row_0_strat.Location = new System.Drawing.Point(973, 56);
+            this.Delay_tmfr_h1_row_0_strat.Name = "Delay_tmfr_h1_row_0_strat";
+            this.Delay_tmfr_h1_row_0_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h1_row_0_strat.TabIndex = 410;
+            this.Delay_tmfr_h1_row_0_strat.Text = "2";
+            // 
+            // Delay_tmfr_h1_row_1_strat
+            // 
+            this.Delay_tmfr_h1_row_1_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h1_row_1_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h1_row_1_strat.Location = new System.Drawing.Point(973, 80);
+            this.Delay_tmfr_h1_row_1_strat.Name = "Delay_tmfr_h1_row_1_strat";
+            this.Delay_tmfr_h1_row_1_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h1_row_1_strat.TabIndex = 411;
+            this.Delay_tmfr_h1_row_1_strat.Text = "2";
+            // 
+            // Delay_tmfr_h1_row_2_strat
+            // 
+            this.Delay_tmfr_h1_row_2_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h1_row_2_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h1_row_2_strat.Location = new System.Drawing.Point(973, 104);
+            this.Delay_tmfr_h1_row_2_strat.Name = "Delay_tmfr_h1_row_2_strat";
+            this.Delay_tmfr_h1_row_2_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h1_row_2_strat.TabIndex = 412;
+            this.Delay_tmfr_h1_row_2_strat.Text = "2";
+            // 
+            // Delay_tmfr_h1_row_3_strat
+            // 
+            this.Delay_tmfr_h1_row_3_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h1_row_3_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h1_row_3_strat.Location = new System.Drawing.Point(973, 128);
+            this.Delay_tmfr_h1_row_3_strat.Name = "Delay_tmfr_h1_row_3_strat";
+            this.Delay_tmfr_h1_row_3_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h1_row_3_strat.TabIndex = 413;
+            this.Delay_tmfr_h1_row_3_strat.Text = "2";
+            // 
+            // Delay_tmfr_h1_row_4_strat
+            // 
+            this.Delay_tmfr_h1_row_4_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h1_row_4_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h1_row_4_strat.Location = new System.Drawing.Point(973, 152);
+            this.Delay_tmfr_h1_row_4_strat.Name = "Delay_tmfr_h1_row_4_strat";
+            this.Delay_tmfr_h1_row_4_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h1_row_4_strat.TabIndex = 414;
+            this.Delay_tmfr_h1_row_4_strat.Text = "2";
+            // 
+            // Delay_tmfr_h1_row_5_strat
+            // 
+            this.Delay_tmfr_h1_row_5_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h1_row_5_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h1_row_5_strat.Location = new System.Drawing.Point(973, 176);
+            this.Delay_tmfr_h1_row_5_strat.Name = "Delay_tmfr_h1_row_5_strat";
+            this.Delay_tmfr_h1_row_5_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h1_row_5_strat.TabIndex = 415;
+            this.Delay_tmfr_h1_row_5_strat.Text = "2";
+            // 
+            // Delay_tmfr_h1_row_6_strat
+            // 
+            this.Delay_tmfr_h1_row_6_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h1_row_6_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h1_row_6_strat.Location = new System.Drawing.Point(973, 200);
+            this.Delay_tmfr_h1_row_6_strat.Name = "Delay_tmfr_h1_row_6_strat";
+            this.Delay_tmfr_h1_row_6_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h1_row_6_strat.TabIndex = 416;
+            this.Delay_tmfr_h1_row_6_strat.Text = "2";
+            // 
+            // Delay_tmfr_h1_row_7_strat
+            // 
+            this.Delay_tmfr_h1_row_7_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h1_row_7_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h1_row_7_strat.Location = new System.Drawing.Point(973, 224);
+            this.Delay_tmfr_h1_row_7_strat.Name = "Delay_tmfr_h1_row_7_strat";
+            this.Delay_tmfr_h1_row_7_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h1_row_7_strat.TabIndex = 417;
+            this.Delay_tmfr_h1_row_7_strat.Text = "2";
+            // 
+            // Delay_tmfr_h1_row_8_strat
+            // 
+            this.Delay_tmfr_h1_row_8_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h1_row_8_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h1_row_8_strat.Location = new System.Drawing.Point(973, 248);
+            this.Delay_tmfr_h1_row_8_strat.Name = "Delay_tmfr_h1_row_8_strat";
+            this.Delay_tmfr_h1_row_8_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h1_row_8_strat.TabIndex = 418;
+            this.Delay_tmfr_h1_row_8_strat.Text = "2";
+            // 
+            // Delay_tmfr_h1_row_9_strat
+            // 
+            this.Delay_tmfr_h1_row_9_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h1_row_9_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h1_row_9_strat.Location = new System.Drawing.Point(973, 272);
+            this.Delay_tmfr_h1_row_9_strat.Name = "Delay_tmfr_h1_row_9_strat";
+            this.Delay_tmfr_h1_row_9_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h1_row_9_strat.TabIndex = 419;
+            this.Delay_tmfr_h1_row_9_strat.Text = "2";
+            // 
+            // Delay_tmfr_h1_row_10_strat
+            // 
+            this.Delay_tmfr_h1_row_10_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h1_row_10_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h1_row_10_strat.Location = new System.Drawing.Point(973, 296);
+            this.Delay_tmfr_h1_row_10_strat.Name = "Delay_tmfr_h1_row_10_strat";
+            this.Delay_tmfr_h1_row_10_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h1_row_10_strat.TabIndex = 420;
+            this.Delay_tmfr_h1_row_10_strat.Text = "2";
+            // 
+            // Delay_tmfr_h1_row_11_strat
+            // 
+            this.Delay_tmfr_h1_row_11_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h1_row_11_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h1_row_11_strat.Location = new System.Drawing.Point(973, 320);
+            this.Delay_tmfr_h1_row_11_strat.Name = "Delay_tmfr_h1_row_11_strat";
+            this.Delay_tmfr_h1_row_11_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h1_row_11_strat.TabIndex = 421;
+            this.Delay_tmfr_h1_row_11_strat.Text = "2";
+            // 
+            // Delay_tmfr_h1_row_12_strat
+            // 
+            this.Delay_tmfr_h1_row_12_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h1_row_12_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h1_row_12_strat.Location = new System.Drawing.Point(973, 344);
+            this.Delay_tmfr_h1_row_12_strat.Name = "Delay_tmfr_h1_row_12_strat";
+            this.Delay_tmfr_h1_row_12_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h1_row_12_strat.TabIndex = 422;
+            this.Delay_tmfr_h1_row_12_strat.Text = "2";
+            // 
+            // Delay_tmfr_h2_row_0_strat
+            // 
+            this.Delay_tmfr_h2_row_0_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h2_row_0_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h2_row_0_strat.Location = new System.Drawing.Point(999, 56);
+            this.Delay_tmfr_h2_row_0_strat.Name = "Delay_tmfr_h2_row_0_strat";
+            this.Delay_tmfr_h2_row_0_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h2_row_0_strat.TabIndex = 423;
+            this.Delay_tmfr_h2_row_0_strat.Text = "2";
+            // 
+            // Delay_tmfr_h2_row_1_strat
+            // 
+            this.Delay_tmfr_h2_row_1_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h2_row_1_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h2_row_1_strat.Location = new System.Drawing.Point(999, 80);
+            this.Delay_tmfr_h2_row_1_strat.Name = "Delay_tmfr_h2_row_1_strat";
+            this.Delay_tmfr_h2_row_1_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h2_row_1_strat.TabIndex = 424;
+            this.Delay_tmfr_h2_row_1_strat.Text = "2";
+            // 
+            // Delay_tmfr_h2_row_2_strat
+            // 
+            this.Delay_tmfr_h2_row_2_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h2_row_2_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h2_row_2_strat.Location = new System.Drawing.Point(999, 104);
+            this.Delay_tmfr_h2_row_2_strat.Name = "Delay_tmfr_h2_row_2_strat";
+            this.Delay_tmfr_h2_row_2_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h2_row_2_strat.TabIndex = 425;
+            this.Delay_tmfr_h2_row_2_strat.Text = "2";
+            // 
+            // Delay_tmfr_h2_row_3_strat
+            // 
+            this.Delay_tmfr_h2_row_3_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h2_row_3_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h2_row_3_strat.Location = new System.Drawing.Point(999, 128);
+            this.Delay_tmfr_h2_row_3_strat.Name = "Delay_tmfr_h2_row_3_strat";
+            this.Delay_tmfr_h2_row_3_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h2_row_3_strat.TabIndex = 426;
+            this.Delay_tmfr_h2_row_3_strat.Text = "2";
+            // 
+            // Delay_tmfr_h2_row_4_strat
+            // 
+            this.Delay_tmfr_h2_row_4_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h2_row_4_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h2_row_4_strat.Location = new System.Drawing.Point(999, 152);
+            this.Delay_tmfr_h2_row_4_strat.Name = "Delay_tmfr_h2_row_4_strat";
+            this.Delay_tmfr_h2_row_4_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h2_row_4_strat.TabIndex = 427;
+            this.Delay_tmfr_h2_row_4_strat.Text = "2";
+            // 
+            // Delay_tmfr_h2_row_5_strat
+            // 
+            this.Delay_tmfr_h2_row_5_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h2_row_5_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h2_row_5_strat.Location = new System.Drawing.Point(999, 176);
+            this.Delay_tmfr_h2_row_5_strat.Name = "Delay_tmfr_h2_row_5_strat";
+            this.Delay_tmfr_h2_row_5_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h2_row_5_strat.TabIndex = 428;
+            this.Delay_tmfr_h2_row_5_strat.Text = "2";
+            // 
+            // Delay_tmfr_h2_row_6_strat
+            // 
+            this.Delay_tmfr_h2_row_6_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h2_row_6_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h2_row_6_strat.Location = new System.Drawing.Point(999, 200);
+            this.Delay_tmfr_h2_row_6_strat.Name = "Delay_tmfr_h2_row_6_strat";
+            this.Delay_tmfr_h2_row_6_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h2_row_6_strat.TabIndex = 429;
+            this.Delay_tmfr_h2_row_6_strat.Text = "2";
+            // 
+            // Delay_tmfr_h2_row_7_strat
+            // 
+            this.Delay_tmfr_h2_row_7_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h2_row_7_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h2_row_7_strat.Location = new System.Drawing.Point(999, 224);
+            this.Delay_tmfr_h2_row_7_strat.Name = "Delay_tmfr_h2_row_7_strat";
+            this.Delay_tmfr_h2_row_7_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h2_row_7_strat.TabIndex = 430;
+            this.Delay_tmfr_h2_row_7_strat.Text = "2";
+            // 
+            // Delay_tmfr_h2_row_8_strat
+            // 
+            this.Delay_tmfr_h2_row_8_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h2_row_8_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h2_row_8_strat.Location = new System.Drawing.Point(999, 248);
+            this.Delay_tmfr_h2_row_8_strat.Name = "Delay_tmfr_h2_row_8_strat";
+            this.Delay_tmfr_h2_row_8_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h2_row_8_strat.TabIndex = 431;
+            this.Delay_tmfr_h2_row_8_strat.Text = "2";
+            // 
+            // Delay_tmfr_h2_row_9_strat
+            // 
+            this.Delay_tmfr_h2_row_9_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h2_row_9_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h2_row_9_strat.Location = new System.Drawing.Point(999, 272);
+            this.Delay_tmfr_h2_row_9_strat.Name = "Delay_tmfr_h2_row_9_strat";
+            this.Delay_tmfr_h2_row_9_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h2_row_9_strat.TabIndex = 432;
+            this.Delay_tmfr_h2_row_9_strat.Text = "2";
+            // 
+            // Delay_tmfr_h2_row_10_strat
+            // 
+            this.Delay_tmfr_h2_row_10_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h2_row_10_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h2_row_10_strat.Location = new System.Drawing.Point(999, 296);
+            this.Delay_tmfr_h2_row_10_strat.Name = "Delay_tmfr_h2_row_10_strat";
+            this.Delay_tmfr_h2_row_10_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h2_row_10_strat.TabIndex = 433;
+            this.Delay_tmfr_h2_row_10_strat.Text = "2";
+            // 
+            // Delay_tmfr_h2_row_11_strat
+            // 
+            this.Delay_tmfr_h2_row_11_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h2_row_11_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h2_row_11_strat.Location = new System.Drawing.Point(999, 320);
+            this.Delay_tmfr_h2_row_11_strat.Name = "Delay_tmfr_h2_row_11_strat";
+            this.Delay_tmfr_h2_row_11_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h2_row_11_strat.TabIndex = 434;
+            this.Delay_tmfr_h2_row_11_strat.Text = "2";
+            // 
+            // Delay_tmfr_h2_row_12_strat
+            // 
+            this.Delay_tmfr_h2_row_12_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h2_row_12_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h2_row_12_strat.Location = new System.Drawing.Point(999, 344);
+            this.Delay_tmfr_h2_row_12_strat.Name = "Delay_tmfr_h2_row_12_strat";
+            this.Delay_tmfr_h2_row_12_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h2_row_12_strat.TabIndex = 435;
+            this.Delay_tmfr_h2_row_12_strat.Text = "2";
+            // 
+            // Delay_tmfr_h3_row_0_strat
+            // 
+            this.Delay_tmfr_h3_row_0_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h3_row_0_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h3_row_0_strat.Location = new System.Drawing.Point(1025, 56);
+            this.Delay_tmfr_h3_row_0_strat.Name = "Delay_tmfr_h3_row_0_strat";
+            this.Delay_tmfr_h3_row_0_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h3_row_0_strat.TabIndex = 436;
+            this.Delay_tmfr_h3_row_0_strat.Text = "2";
+            // 
+            // Delay_tmfr_h3_row_1_strat
+            // 
+            this.Delay_tmfr_h3_row_1_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h3_row_1_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h3_row_1_strat.Location = new System.Drawing.Point(1025, 80);
+            this.Delay_tmfr_h3_row_1_strat.Name = "Delay_tmfr_h3_row_1_strat";
+            this.Delay_tmfr_h3_row_1_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h3_row_1_strat.TabIndex = 437;
+            this.Delay_tmfr_h3_row_1_strat.Text = "2";
+            // 
+            // Delay_tmfr_h3_row_2_strat
+            // 
+            this.Delay_tmfr_h3_row_2_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h3_row_2_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h3_row_2_strat.Location = new System.Drawing.Point(1025, 104);
+            this.Delay_tmfr_h3_row_2_strat.Name = "Delay_tmfr_h3_row_2_strat";
+            this.Delay_tmfr_h3_row_2_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h3_row_2_strat.TabIndex = 438;
+            this.Delay_tmfr_h3_row_2_strat.Text = "2";
+            // 
+            // Delay_tmfr_h3_row_3_strat
+            // 
+            this.Delay_tmfr_h3_row_3_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h3_row_3_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h3_row_3_strat.Location = new System.Drawing.Point(1025, 128);
+            this.Delay_tmfr_h3_row_3_strat.Name = "Delay_tmfr_h3_row_3_strat";
+            this.Delay_tmfr_h3_row_3_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h3_row_3_strat.TabIndex = 439;
+            this.Delay_tmfr_h3_row_3_strat.Text = "2";
+            // 
+            // Delay_tmfr_h3_row_4_strat
+            // 
+            this.Delay_tmfr_h3_row_4_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h3_row_4_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h3_row_4_strat.Location = new System.Drawing.Point(1025, 152);
+            this.Delay_tmfr_h3_row_4_strat.Name = "Delay_tmfr_h3_row_4_strat";
+            this.Delay_tmfr_h3_row_4_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h3_row_4_strat.TabIndex = 440;
+            this.Delay_tmfr_h3_row_4_strat.Text = "2";
+            // 
+            // Delay_tmfr_h3_row_5_strat
+            // 
+            this.Delay_tmfr_h3_row_5_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h3_row_5_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h3_row_5_strat.Location = new System.Drawing.Point(1025, 176);
+            this.Delay_tmfr_h3_row_5_strat.Name = "Delay_tmfr_h3_row_5_strat";
+            this.Delay_tmfr_h3_row_5_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h3_row_5_strat.TabIndex = 441;
+            this.Delay_tmfr_h3_row_5_strat.Text = "2";
+            // 
+            // Delay_tmfr_h3_row_6_strat
+            // 
+            this.Delay_tmfr_h3_row_6_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h3_row_6_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h3_row_6_strat.Location = new System.Drawing.Point(1025, 200);
+            this.Delay_tmfr_h3_row_6_strat.Name = "Delay_tmfr_h3_row_6_strat";
+            this.Delay_tmfr_h3_row_6_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h3_row_6_strat.TabIndex = 442;
+            this.Delay_tmfr_h3_row_6_strat.Text = "2";
+            // 
+            // Delay_tmfr_h3_row_7_strat
+            // 
+            this.Delay_tmfr_h3_row_7_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h3_row_7_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h3_row_7_strat.Location = new System.Drawing.Point(1025, 224);
+            this.Delay_tmfr_h3_row_7_strat.Name = "Delay_tmfr_h3_row_7_strat";
+            this.Delay_tmfr_h3_row_7_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h3_row_7_strat.TabIndex = 443;
+            this.Delay_tmfr_h3_row_7_strat.Text = "2";
+            // 
+            // Delay_tmfr_h3_row_8_strat
+            // 
+            this.Delay_tmfr_h3_row_8_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h3_row_8_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h3_row_8_strat.Location = new System.Drawing.Point(1025, 248);
+            this.Delay_tmfr_h3_row_8_strat.Name = "Delay_tmfr_h3_row_8_strat";
+            this.Delay_tmfr_h3_row_8_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h3_row_8_strat.TabIndex = 444;
+            this.Delay_tmfr_h3_row_8_strat.Text = "2";
+            // 
+            // Delay_tmfr_h3_row_9_strat
+            // 
+            this.Delay_tmfr_h3_row_9_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h3_row_9_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h3_row_9_strat.Location = new System.Drawing.Point(1025, 272);
+            this.Delay_tmfr_h3_row_9_strat.Name = "Delay_tmfr_h3_row_9_strat";
+            this.Delay_tmfr_h3_row_9_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h3_row_9_strat.TabIndex = 445;
+            this.Delay_tmfr_h3_row_9_strat.Text = "2";
+            // 
+            // Delay_tmfr_h3_row_10_strat
+            // 
+            this.Delay_tmfr_h3_row_10_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h3_row_10_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h3_row_10_strat.Location = new System.Drawing.Point(1025, 296);
+            this.Delay_tmfr_h3_row_10_strat.Name = "Delay_tmfr_h3_row_10_strat";
+            this.Delay_tmfr_h3_row_10_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h3_row_10_strat.TabIndex = 446;
+            this.Delay_tmfr_h3_row_10_strat.Text = "2";
+            // 
+            // Delay_tmfr_h3_row_11_strat
+            // 
+            this.Delay_tmfr_h3_row_11_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h3_row_11_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h3_row_11_strat.Location = new System.Drawing.Point(1025, 320);
+            this.Delay_tmfr_h3_row_11_strat.Name = "Delay_tmfr_h3_row_11_strat";
+            this.Delay_tmfr_h3_row_11_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h3_row_11_strat.TabIndex = 447;
+            this.Delay_tmfr_h3_row_11_strat.Text = "2";
+            // 
+            // Delay_tmfr_h3_row_12_strat
+            // 
+            this.Delay_tmfr_h3_row_12_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h3_row_12_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h3_row_12_strat.Location = new System.Drawing.Point(1025, 344);
+            this.Delay_tmfr_h3_row_12_strat.Name = "Delay_tmfr_h3_row_12_strat";
+            this.Delay_tmfr_h3_row_12_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h3_row_12_strat.TabIndex = 448;
+            this.Delay_tmfr_h3_row_12_strat.Text = "2";
+            // 
+            // Delay_tmfr_h4_row_0_strat
+            // 
+            this.Delay_tmfr_h4_row_0_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h4_row_0_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h4_row_0_strat.Location = new System.Drawing.Point(1051, 56);
+            this.Delay_tmfr_h4_row_0_strat.Name = "Delay_tmfr_h4_row_0_strat";
+            this.Delay_tmfr_h4_row_0_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h4_row_0_strat.TabIndex = 449;
+            this.Delay_tmfr_h4_row_0_strat.Text = "2";
+            // 
+            // Delay_tmfr_h4_row_1_strat
+            // 
+            this.Delay_tmfr_h4_row_1_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h4_row_1_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h4_row_1_strat.Location = new System.Drawing.Point(1051, 80);
+            this.Delay_tmfr_h4_row_1_strat.Name = "Delay_tmfr_h4_row_1_strat";
+            this.Delay_tmfr_h4_row_1_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h4_row_1_strat.TabIndex = 450;
+            this.Delay_tmfr_h4_row_1_strat.Text = "2";
+            // 
+            // Delay_tmfr_h4_row_2_strat
+            // 
+            this.Delay_tmfr_h4_row_2_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h4_row_2_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h4_row_2_strat.Location = new System.Drawing.Point(1051, 104);
+            this.Delay_tmfr_h4_row_2_strat.Name = "Delay_tmfr_h4_row_2_strat";
+            this.Delay_tmfr_h4_row_2_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h4_row_2_strat.TabIndex = 451;
+            this.Delay_tmfr_h4_row_2_strat.Text = "2";
+            // 
+            // Delay_tmfr_h4_row_3_strat
+            // 
+            this.Delay_tmfr_h4_row_3_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h4_row_3_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h4_row_3_strat.Location = new System.Drawing.Point(1051, 128);
+            this.Delay_tmfr_h4_row_3_strat.Name = "Delay_tmfr_h4_row_3_strat";
+            this.Delay_tmfr_h4_row_3_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h4_row_3_strat.TabIndex = 452;
+            this.Delay_tmfr_h4_row_3_strat.Text = "2";
+            // 
+            // Delay_tmfr_h4_row_4_strat
+            // 
+            this.Delay_tmfr_h4_row_4_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h4_row_4_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h4_row_4_strat.Location = new System.Drawing.Point(1051, 152);
+            this.Delay_tmfr_h4_row_4_strat.Name = "Delay_tmfr_h4_row_4_strat";
+            this.Delay_tmfr_h4_row_4_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h4_row_4_strat.TabIndex = 453;
+            this.Delay_tmfr_h4_row_4_strat.Text = "2";
+            // 
+            // Delay_tmfr_h4_row_5_strat
+            // 
+            this.Delay_tmfr_h4_row_5_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h4_row_5_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h4_row_5_strat.Location = new System.Drawing.Point(1051, 176);
+            this.Delay_tmfr_h4_row_5_strat.Name = "Delay_tmfr_h4_row_5_strat";
+            this.Delay_tmfr_h4_row_5_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h4_row_5_strat.TabIndex = 454;
+            this.Delay_tmfr_h4_row_5_strat.Text = "2";
+            // 
+            // Delay_tmfr_h4_row_6_strat
+            // 
+            this.Delay_tmfr_h4_row_6_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h4_row_6_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h4_row_6_strat.Location = new System.Drawing.Point(1051, 200);
+            this.Delay_tmfr_h4_row_6_strat.Name = "Delay_tmfr_h4_row_6_strat";
+            this.Delay_tmfr_h4_row_6_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h4_row_6_strat.TabIndex = 455;
+            this.Delay_tmfr_h4_row_6_strat.Text = "2";
+            // 
+            // Delay_tmfr_h4_row_7_strat
+            // 
+            this.Delay_tmfr_h4_row_7_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h4_row_7_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h4_row_7_strat.Location = new System.Drawing.Point(1051, 224);
+            this.Delay_tmfr_h4_row_7_strat.Name = "Delay_tmfr_h4_row_7_strat";
+            this.Delay_tmfr_h4_row_7_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h4_row_7_strat.TabIndex = 456;
+            this.Delay_tmfr_h4_row_7_strat.Text = "2";
+            // 
+            // Delay_tmfr_h4_row_8_strat
+            // 
+            this.Delay_tmfr_h4_row_8_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h4_row_8_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h4_row_8_strat.Location = new System.Drawing.Point(1051, 248);
+            this.Delay_tmfr_h4_row_8_strat.Name = "Delay_tmfr_h4_row_8_strat";
+            this.Delay_tmfr_h4_row_8_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h4_row_8_strat.TabIndex = 457;
+            this.Delay_tmfr_h4_row_8_strat.Text = "2";
+            // 
+            // Delay_tmfr_h4_row_9_strat
+            // 
+            this.Delay_tmfr_h4_row_9_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h4_row_9_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h4_row_9_strat.Location = new System.Drawing.Point(1051, 272);
+            this.Delay_tmfr_h4_row_9_strat.Name = "Delay_tmfr_h4_row_9_strat";
+            this.Delay_tmfr_h4_row_9_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h4_row_9_strat.TabIndex = 458;
+            this.Delay_tmfr_h4_row_9_strat.Text = "2";
+            // 
+            // Delay_tmfr_h4_row_10_strat
+            // 
+            this.Delay_tmfr_h4_row_10_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h4_row_10_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h4_row_10_strat.Location = new System.Drawing.Point(1051, 296);
+            this.Delay_tmfr_h4_row_10_strat.Name = "Delay_tmfr_h4_row_10_strat";
+            this.Delay_tmfr_h4_row_10_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h4_row_10_strat.TabIndex = 459;
+            this.Delay_tmfr_h4_row_10_strat.Text = "2";
+            // 
+            // Delay_tmfr_h4_row_11_strat
+            // 
+            this.Delay_tmfr_h4_row_11_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h4_row_11_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h4_row_11_strat.Location = new System.Drawing.Point(1051, 320);
+            this.Delay_tmfr_h4_row_11_strat.Name = "Delay_tmfr_h4_row_11_strat";
+            this.Delay_tmfr_h4_row_11_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h4_row_11_strat.TabIndex = 460;
+            this.Delay_tmfr_h4_row_11_strat.Text = "2";
+            // 
+            // Delay_tmfr_h4_row_12_strat
+            // 
+            this.Delay_tmfr_h4_row_12_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Delay_tmfr_h4_row_12_strat.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Delay_tmfr_h4_row_12_strat.Location = new System.Drawing.Point(1051, 344);
+            this.Delay_tmfr_h4_row_12_strat.Name = "Delay_tmfr_h4_row_12_strat";
+            this.Delay_tmfr_h4_row_12_strat.Size = new System.Drawing.Size(20, 22);
+            this.Delay_tmfr_h4_row_12_strat.TabIndex = 461;
+            this.Delay_tmfr_h4_row_12_strat.Text = "2";
+            // 
+            // Fix_part_profit
+            // 
+            this.Fix_part_profit.AutoSize = true;
+            this.Fix_part_profit.Location = new System.Drawing.Point(1077, 0);
+            this.Fix_part_profit.Name = "Fix_part_profit";
+            this.Fix_part_profit.Size = new System.Drawing.Size(73, 39);
+            this.Fix_part_profit.TabIndex = 462;
+            this.Fix_part_profit.Text = "Фикс часть позиции на полосе";
+            // 
+            // Fix_part_profit_row_0_strat
+            // 
+            this.Fix_part_profit_row_0_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Fix_part_profit_row_0_strat.AutoSize = true;
+            this.Fix_part_profit_row_0_strat.Location = new System.Drawing.Point(1077, 56);
+            this.Fix_part_profit_row_0_strat.Name = "Fix_part_profit_row_0_strat";
+            this.Fix_part_profit_row_0_strat.Size = new System.Drawing.Size(74, 18);
+            this.Fix_part_profit_row_0_strat.TabIndex = 463;
+            this.Fix_part_profit_row_0_strat.Text = " ";
+            this.Fix_part_profit_row_0_strat.UseVisualStyleBackColor = true;
+            // 
+            // Fix_part_profit_row_1_strat
+            // 
+            this.Fix_part_profit_row_1_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Fix_part_profit_row_1_strat.AutoSize = true;
+            this.Fix_part_profit_row_1_strat.Location = new System.Drawing.Point(1077, 80);
+            this.Fix_part_profit_row_1_strat.Name = "Fix_part_profit_row_1_strat";
+            this.Fix_part_profit_row_1_strat.Size = new System.Drawing.Size(74, 18);
+            this.Fix_part_profit_row_1_strat.TabIndex = 464;
+            this.Fix_part_profit_row_1_strat.Text = " ";
+            this.Fix_part_profit_row_1_strat.UseVisualStyleBackColor = true;
+            // 
+            // Fix_part_profit_row_2_strat
+            // 
+            this.Fix_part_profit_row_2_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Fix_part_profit_row_2_strat.AutoSize = true;
+            this.Fix_part_profit_row_2_strat.Location = new System.Drawing.Point(1077, 104);
+            this.Fix_part_profit_row_2_strat.Name = "Fix_part_profit_row_2_strat";
+            this.Fix_part_profit_row_2_strat.Size = new System.Drawing.Size(74, 18);
+            this.Fix_part_profit_row_2_strat.TabIndex = 465;
+            this.Fix_part_profit_row_2_strat.Text = " ";
+            this.Fix_part_profit_row_2_strat.UseVisualStyleBackColor = true;
+            // 
+            // Fix_part_profit_row_3_strat
+            // 
+            this.Fix_part_profit_row_3_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Fix_part_profit_row_3_strat.AutoSize = true;
+            this.Fix_part_profit_row_3_strat.Location = new System.Drawing.Point(1077, 128);
+            this.Fix_part_profit_row_3_strat.Name = "Fix_part_profit_row_3_strat";
+            this.Fix_part_profit_row_3_strat.Size = new System.Drawing.Size(74, 18);
+            this.Fix_part_profit_row_3_strat.TabIndex = 466;
+            this.Fix_part_profit_row_3_strat.Text = " ";
+            this.Fix_part_profit_row_3_strat.UseVisualStyleBackColor = true;
+            // 
+            // Fix_part_profit_row_4_strat
+            // 
+            this.Fix_part_profit_row_4_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Fix_part_profit_row_4_strat.AutoSize = true;
+            this.Fix_part_profit_row_4_strat.Location = new System.Drawing.Point(1077, 152);
+            this.Fix_part_profit_row_4_strat.Name = "Fix_part_profit_row_4_strat";
+            this.Fix_part_profit_row_4_strat.Size = new System.Drawing.Size(74, 18);
+            this.Fix_part_profit_row_4_strat.TabIndex = 467;
+            this.Fix_part_profit_row_4_strat.Text = " ";
+            this.Fix_part_profit_row_4_strat.UseVisualStyleBackColor = true;
+            // 
+            // Fix_part_profit_row_5_strat
+            // 
+            this.Fix_part_profit_row_5_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Fix_part_profit_row_5_strat.AutoSize = true;
+            this.Fix_part_profit_row_5_strat.Location = new System.Drawing.Point(1077, 176);
+            this.Fix_part_profit_row_5_strat.Name = "Fix_part_profit_row_5_strat";
+            this.Fix_part_profit_row_5_strat.Size = new System.Drawing.Size(74, 18);
+            this.Fix_part_profit_row_5_strat.TabIndex = 468;
+            this.Fix_part_profit_row_5_strat.Text = " ";
+            this.Fix_part_profit_row_5_strat.UseVisualStyleBackColor = true;
+            // 
+            // Fix_part_profit_row_6_strat
+            // 
+            this.Fix_part_profit_row_6_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Fix_part_profit_row_6_strat.AutoSize = true;
+            this.Fix_part_profit_row_6_strat.Location = new System.Drawing.Point(1077, 200);
+            this.Fix_part_profit_row_6_strat.Name = "Fix_part_profit_row_6_strat";
+            this.Fix_part_profit_row_6_strat.Size = new System.Drawing.Size(74, 18);
+            this.Fix_part_profit_row_6_strat.TabIndex = 469;
+            this.Fix_part_profit_row_6_strat.Text = " ";
+            this.Fix_part_profit_row_6_strat.UseVisualStyleBackColor = true;
+            // 
+            // Fix_part_profit_row_7_strat
+            // 
+            this.Fix_part_profit_row_7_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Fix_part_profit_row_7_strat.AutoSize = true;
+            this.Fix_part_profit_row_7_strat.Location = new System.Drawing.Point(1077, 224);
+            this.Fix_part_profit_row_7_strat.Name = "Fix_part_profit_row_7_strat";
+            this.Fix_part_profit_row_7_strat.Size = new System.Drawing.Size(74, 18);
+            this.Fix_part_profit_row_7_strat.TabIndex = 470;
+            this.Fix_part_profit_row_7_strat.Text = " ";
+            this.Fix_part_profit_row_7_strat.UseVisualStyleBackColor = true;
+            // 
+            // Fix_part_profit_row_8_strat
+            // 
+            this.Fix_part_profit_row_8_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Fix_part_profit_row_8_strat.AutoSize = true;
+            this.Fix_part_profit_row_8_strat.Location = new System.Drawing.Point(1077, 248);
+            this.Fix_part_profit_row_8_strat.Name = "Fix_part_profit_row_8_strat";
+            this.Fix_part_profit_row_8_strat.Size = new System.Drawing.Size(74, 18);
+            this.Fix_part_profit_row_8_strat.TabIndex = 471;
+            this.Fix_part_profit_row_8_strat.Text = " ";
+            this.Fix_part_profit_row_8_strat.UseVisualStyleBackColor = true;
+            // 
+            // Fix_part_profit_row_9_strat
+            // 
+            this.Fix_part_profit_row_9_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Fix_part_profit_row_9_strat.AutoSize = true;
+            this.Fix_part_profit_row_9_strat.Location = new System.Drawing.Point(1077, 272);
+            this.Fix_part_profit_row_9_strat.Name = "Fix_part_profit_row_9_strat";
+            this.Fix_part_profit_row_9_strat.Size = new System.Drawing.Size(74, 18);
+            this.Fix_part_profit_row_9_strat.TabIndex = 472;
+            this.Fix_part_profit_row_9_strat.Text = " ";
+            this.Fix_part_profit_row_9_strat.UseVisualStyleBackColor = true;
+            // 
+            // Fix_part_profit_row_10_strat
+            // 
+            this.Fix_part_profit_row_10_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Fix_part_profit_row_10_strat.AutoSize = true;
+            this.Fix_part_profit_row_10_strat.Location = new System.Drawing.Point(1077, 296);
+            this.Fix_part_profit_row_10_strat.Name = "Fix_part_profit_row_10_strat";
+            this.Fix_part_profit_row_10_strat.Size = new System.Drawing.Size(74, 18);
+            this.Fix_part_profit_row_10_strat.TabIndex = 473;
+            this.Fix_part_profit_row_10_strat.Text = " ";
+            this.Fix_part_profit_row_10_strat.UseVisualStyleBackColor = true;
+            // 
+            // Fix_part_profit_row_11_strat
+            // 
+            this.Fix_part_profit_row_11_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Fix_part_profit_row_11_strat.AutoSize = true;
+            this.Fix_part_profit_row_11_strat.Location = new System.Drawing.Point(1077, 320);
+            this.Fix_part_profit_row_11_strat.Name = "Fix_part_profit_row_11_strat";
+            this.Fix_part_profit_row_11_strat.Size = new System.Drawing.Size(74, 18);
+            this.Fix_part_profit_row_11_strat.TabIndex = 474;
+            this.Fix_part_profit_row_11_strat.Text = " ";
+            this.Fix_part_profit_row_11_strat.UseVisualStyleBackColor = true;
+            // 
+            // Fix_part_profit_row_12_strat
+            // 
+            this.Fix_part_profit_row_12_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Fix_part_profit_row_12_strat.AutoSize = true;
+            this.Fix_part_profit_row_12_strat.Location = new System.Drawing.Point(1077, 344);
+            this.Fix_part_profit_row_12_strat.Name = "Fix_part_profit_row_12_strat";
+            this.Fix_part_profit_row_12_strat.Size = new System.Drawing.Size(74, 25);
+            this.Fix_part_profit_row_12_strat.TabIndex = 475;
+            this.Fix_part_profit_row_12_strat.Text = " ";
+            this.Fix_part_profit_row_12_strat.UseVisualStyleBackColor = true;
+            // 
+            // Vol_fix_profit
+            // 
+            this.Vol_fix_profit.AutoSize = true;
+            this.Vol_fix_profit.Location = new System.Drawing.Point(1157, 0);
+            this.Vol_fix_profit.Name = "Vol_fix_profit";
+            this.Vol_fix_profit.Size = new System.Drawing.Size(57, 39);
+            this.Vol_fix_profit.TabIndex = 476;
+            this.Vol_fix_profit.Text = "Часть позиции для фикс";
+            // 
+            // Vol_fix_profit_row_0_strat
+            // 
+            this.Vol_fix_profit_row_0_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Vol_fix_profit_row_0_strat.Location = new System.Drawing.Point(1157, 56);
+            this.Vol_fix_profit_row_0_strat.Name = "Vol_fix_profit_row_0_strat";
+            this.Vol_fix_profit_row_0_strat.Size = new System.Drawing.Size(74, 22);
+            this.Vol_fix_profit_row_0_strat.TabIndex = 477;
+            this.Vol_fix_profit_row_0_strat.Text = "70.0";
+            // 
+            // Vol_fix_profit_row_1_strat
+            // 
+            this.Vol_fix_profit_row_1_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Vol_fix_profit_row_1_strat.Location = new System.Drawing.Point(1157, 80);
+            this.Vol_fix_profit_row_1_strat.Name = "Vol_fix_profit_row_1_strat";
+            this.Vol_fix_profit_row_1_strat.Size = new System.Drawing.Size(74, 22);
+            this.Vol_fix_profit_row_1_strat.TabIndex = 478;
+            this.Vol_fix_profit_row_1_strat.Text = "70.0";
+            // 
+            // Vol_fix_profit_row_2_strat
+            // 
+            this.Vol_fix_profit_row_2_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Vol_fix_profit_row_2_strat.Location = new System.Drawing.Point(1157, 104);
+            this.Vol_fix_profit_row_2_strat.Name = "Vol_fix_profit_row_2_strat";
+            this.Vol_fix_profit_row_2_strat.Size = new System.Drawing.Size(74, 22);
+            this.Vol_fix_profit_row_2_strat.TabIndex = 479;
+            this.Vol_fix_profit_row_2_strat.Text = "70.0";
+            // 
+            // Vol_fix_profit_row_3_strat
+            // 
+            this.Vol_fix_profit_row_3_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Vol_fix_profit_row_3_strat.Location = new System.Drawing.Point(1157, 128);
+            this.Vol_fix_profit_row_3_strat.Name = "Vol_fix_profit_row_3_strat";
+            this.Vol_fix_profit_row_3_strat.Size = new System.Drawing.Size(74, 22);
+            this.Vol_fix_profit_row_3_strat.TabIndex = 480;
+            this.Vol_fix_profit_row_3_strat.Text = "70.0";
+            // 
+            // Vol_fix_profit_row_4_strat
+            // 
+            this.Vol_fix_profit_row_4_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Vol_fix_profit_row_4_strat.Location = new System.Drawing.Point(1157, 152);
+            this.Vol_fix_profit_row_4_strat.Name = "Vol_fix_profit_row_4_strat";
+            this.Vol_fix_profit_row_4_strat.Size = new System.Drawing.Size(74, 22);
+            this.Vol_fix_profit_row_4_strat.TabIndex = 481;
+            this.Vol_fix_profit_row_4_strat.Text = "70.0";
+            // 
+            // Vol_fix_profit_row_5_strat
+            // 
+            this.Vol_fix_profit_row_5_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Vol_fix_profit_row_5_strat.Location = new System.Drawing.Point(1157, 176);
+            this.Vol_fix_profit_row_5_strat.Name = "Vol_fix_profit_row_5_strat";
+            this.Vol_fix_profit_row_5_strat.Size = new System.Drawing.Size(74, 22);
+            this.Vol_fix_profit_row_5_strat.TabIndex = 482;
+            this.Vol_fix_profit_row_5_strat.Text = "70.0";
+            // 
+            // Vol_fix_profit_row_6_strat
+            // 
+            this.Vol_fix_profit_row_6_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Vol_fix_profit_row_6_strat.Location = new System.Drawing.Point(1157, 200);
+            this.Vol_fix_profit_row_6_strat.Name = "Vol_fix_profit_row_6_strat";
+            this.Vol_fix_profit_row_6_strat.Size = new System.Drawing.Size(74, 22);
+            this.Vol_fix_profit_row_6_strat.TabIndex = 483;
+            this.Vol_fix_profit_row_6_strat.Text = "70.0";
+            // 
+            // Vol_fix_profit_row_7_strat
+            // 
+            this.Vol_fix_profit_row_7_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Vol_fix_profit_row_7_strat.Location = new System.Drawing.Point(1157, 224);
+            this.Vol_fix_profit_row_7_strat.Name = "Vol_fix_profit_row_7_strat";
+            this.Vol_fix_profit_row_7_strat.Size = new System.Drawing.Size(74, 22);
+            this.Vol_fix_profit_row_7_strat.TabIndex = 484;
+            this.Vol_fix_profit_row_7_strat.Text = "70.0";
+            // 
+            // Vol_fix_profit_row_8_strat
+            // 
+            this.Vol_fix_profit_row_8_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Vol_fix_profit_row_8_strat.Location = new System.Drawing.Point(1157, 248);
+            this.Vol_fix_profit_row_8_strat.Name = "Vol_fix_profit_row_8_strat";
+            this.Vol_fix_profit_row_8_strat.Size = new System.Drawing.Size(74, 22);
+            this.Vol_fix_profit_row_8_strat.TabIndex = 485;
+            this.Vol_fix_profit_row_8_strat.Text = "70.0";
+            // 
+            // Vol_fix_profit_row_9_strat
+            // 
+            this.Vol_fix_profit_row_9_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Vol_fix_profit_row_9_strat.Location = new System.Drawing.Point(1157, 272);
+            this.Vol_fix_profit_row_9_strat.Name = "Vol_fix_profit_row_9_strat";
+            this.Vol_fix_profit_row_9_strat.Size = new System.Drawing.Size(74, 22);
+            this.Vol_fix_profit_row_9_strat.TabIndex = 486;
+            this.Vol_fix_profit_row_9_strat.Text = "70.0";
+            // 
+            // Vol_fix_profit_row_10_strat
+            // 
+            this.Vol_fix_profit_row_10_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Vol_fix_profit_row_10_strat.Location = new System.Drawing.Point(1157, 296);
+            this.Vol_fix_profit_row_10_strat.Name = "Vol_fix_profit_row_10_strat";
+            this.Vol_fix_profit_row_10_strat.Size = new System.Drawing.Size(74, 22);
+            this.Vol_fix_profit_row_10_strat.TabIndex = 487;
+            this.Vol_fix_profit_row_10_strat.Text = "70.0";
+            // 
+            // Vol_fix_profit_row_11_strat
+            // 
+            this.Vol_fix_profit_row_11_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Vol_fix_profit_row_11_strat.Location = new System.Drawing.Point(1157, 320);
+            this.Vol_fix_profit_row_11_strat.Name = "Vol_fix_profit_row_11_strat";
+            this.Vol_fix_profit_row_11_strat.Size = new System.Drawing.Size(74, 22);
+            this.Vol_fix_profit_row_11_strat.TabIndex = 488;
+            this.Vol_fix_profit_row_11_strat.Text = "70.0";
+            // 
+            // Vol_fix_profit_row_12_strat
+            // 
+            this.Vol_fix_profit_row_12_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Vol_fix_profit_row_12_strat.Location = new System.Drawing.Point(1157, 344);
+            this.Vol_fix_profit_row_12_strat.Name = "Vol_fix_profit_row_12_strat";
+            this.Vol_fix_profit_row_12_strat.Size = new System.Drawing.Size(74, 22);
+            this.Vol_fix_profit_row_12_strat.TabIndex = 489;
+            this.Vol_fix_profit_row_12_strat.Text = "70.0";
+            // 
+            // Close_pos_on_aver
+            // 
+            this.Close_pos_on_aver.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Close_pos_on_aver.AutoSize = true;
+            this.Close_pos_on_aver.Location = new System.Drawing.Point(1237, 0);
+            this.Close_pos_on_aver.Name = "Close_pos_on_aver";
+            this.Close_pos_on_aver.Size = new System.Drawing.Size(100, 53);
+            this.Close_pos_on_aver.TabIndex = 490;
+            this.Close_pos_on_aver.Text = "Закр позицию на средней";
+            // 
+            // Close_pos_on_aver_row_0_strat
+            // 
+            this.Close_pos_on_aver_row_0_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Close_pos_on_aver_row_0_strat.AutoSize = true;
+            this.Close_pos_on_aver_row_0_strat.Location = new System.Drawing.Point(1237, 56);
+            this.Close_pos_on_aver_row_0_strat.Name = "Close_pos_on_aver_row_0_strat";
+            this.Close_pos_on_aver_row_0_strat.Size = new System.Drawing.Size(100, 18);
+            this.Close_pos_on_aver_row_0_strat.TabIndex = 491;
+            this.Close_pos_on_aver_row_0_strat.Text = " ";
+            this.Close_pos_on_aver_row_0_strat.UseVisualStyleBackColor = true;
+            // 
+            // Close_pos_on_aver_row_1_strat
+            // 
+            this.Close_pos_on_aver_row_1_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Close_pos_on_aver_row_1_strat.AutoSize = true;
+            this.Close_pos_on_aver_row_1_strat.Location = new System.Drawing.Point(1237, 80);
+            this.Close_pos_on_aver_row_1_strat.Name = "Close_pos_on_aver_row_1_strat";
+            this.Close_pos_on_aver_row_1_strat.Size = new System.Drawing.Size(100, 18);
+            this.Close_pos_on_aver_row_1_strat.TabIndex = 492;
+            this.Close_pos_on_aver_row_1_strat.Text = " ";
+            this.Close_pos_on_aver_row_1_strat.UseVisualStyleBackColor = true;
+            // 
+            // Close_pos_on_aver_row_2_strat
+            // 
+            this.Close_pos_on_aver_row_2_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Close_pos_on_aver_row_2_strat.AutoSize = true;
+            this.Close_pos_on_aver_row_2_strat.Location = new System.Drawing.Point(1237, 104);
+            this.Close_pos_on_aver_row_2_strat.Name = "Close_pos_on_aver_row_2_strat";
+            this.Close_pos_on_aver_row_2_strat.Size = new System.Drawing.Size(100, 18);
+            this.Close_pos_on_aver_row_2_strat.TabIndex = 493;
+            this.Close_pos_on_aver_row_2_strat.Text = " ";
+            this.Close_pos_on_aver_row_2_strat.UseVisualStyleBackColor = true;
+            // 
+            // Close_pos_on_aver_row_3_strat
+            // 
+            this.Close_pos_on_aver_row_3_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Close_pos_on_aver_row_3_strat.AutoSize = true;
+            this.Close_pos_on_aver_row_3_strat.Location = new System.Drawing.Point(1237, 128);
+            this.Close_pos_on_aver_row_3_strat.Name = "Close_pos_on_aver_row_3_strat";
+            this.Close_pos_on_aver_row_3_strat.Size = new System.Drawing.Size(100, 18);
+            this.Close_pos_on_aver_row_3_strat.TabIndex = 494;
+            this.Close_pos_on_aver_row_3_strat.Text = " ";
+            this.Close_pos_on_aver_row_3_strat.UseVisualStyleBackColor = true;
+            // 
+            // Close_pos_on_aver_row_4_strat
+            // 
+            this.Close_pos_on_aver_row_4_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Close_pos_on_aver_row_4_strat.AutoSize = true;
+            this.Close_pos_on_aver_row_4_strat.Location = new System.Drawing.Point(1237, 152);
+            this.Close_pos_on_aver_row_4_strat.Name = "Close_pos_on_aver_row_4_strat";
+            this.Close_pos_on_aver_row_4_strat.Size = new System.Drawing.Size(100, 18);
+            this.Close_pos_on_aver_row_4_strat.TabIndex = 495;
+            this.Close_pos_on_aver_row_4_strat.Text = " ";
+            this.Close_pos_on_aver_row_4_strat.UseVisualStyleBackColor = true;
+            // 
+            // Close_pos_on_aver_row_5_strat
+            // 
+            this.Close_pos_on_aver_row_5_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Close_pos_on_aver_row_5_strat.AutoSize = true;
+            this.Close_pos_on_aver_row_5_strat.Location = new System.Drawing.Point(1237, 176);
+            this.Close_pos_on_aver_row_5_strat.Name = "Close_pos_on_aver_row_5_strat";
+            this.Close_pos_on_aver_row_5_strat.Size = new System.Drawing.Size(100, 18);
+            this.Close_pos_on_aver_row_5_strat.TabIndex = 496;
+            this.Close_pos_on_aver_row_5_strat.Text = " ";
+            this.Close_pos_on_aver_row_5_strat.UseVisualStyleBackColor = true;
+            // 
+            // Close_pos_on_aver_row_6_strat
+            // 
+            this.Close_pos_on_aver_row_6_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Close_pos_on_aver_row_6_strat.AutoSize = true;
+            this.Close_pos_on_aver_row_6_strat.Location = new System.Drawing.Point(1237, 200);
+            this.Close_pos_on_aver_row_6_strat.Name = "Close_pos_on_aver_row_6_strat";
+            this.Close_pos_on_aver_row_6_strat.Size = new System.Drawing.Size(100, 18);
+            this.Close_pos_on_aver_row_6_strat.TabIndex = 497;
+            this.Close_pos_on_aver_row_6_strat.Text = " ";
+            this.Close_pos_on_aver_row_6_strat.UseVisualStyleBackColor = true;
+            // 
+            // Close_pos_on_aver_row_7_strat
+            // 
+            this.Close_pos_on_aver_row_7_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Close_pos_on_aver_row_7_strat.AutoSize = true;
+            this.Close_pos_on_aver_row_7_strat.Location = new System.Drawing.Point(1237, 224);
+            this.Close_pos_on_aver_row_7_strat.Name = "Close_pos_on_aver_row_7_strat";
+            this.Close_pos_on_aver_row_7_strat.Size = new System.Drawing.Size(100, 18);
+            this.Close_pos_on_aver_row_7_strat.TabIndex = 498;
+            this.Close_pos_on_aver_row_7_strat.Text = " ";
+            this.Close_pos_on_aver_row_7_strat.UseVisualStyleBackColor = true;
+            // 
+            // Close_pos_on_aver_row_8_strat
+            // 
+            this.Close_pos_on_aver_row_8_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Close_pos_on_aver_row_8_strat.AutoSize = true;
+            this.Close_pos_on_aver_row_8_strat.Location = new System.Drawing.Point(1237, 248);
+            this.Close_pos_on_aver_row_8_strat.Name = "Close_pos_on_aver_row_8_strat";
+            this.Close_pos_on_aver_row_8_strat.Size = new System.Drawing.Size(100, 18);
+            this.Close_pos_on_aver_row_8_strat.TabIndex = 499;
+            this.Close_pos_on_aver_row_8_strat.Text = " ";
+            this.Close_pos_on_aver_row_8_strat.UseVisualStyleBackColor = true;
+            // 
+            // Close_pos_on_aver_row_9_strat
+            // 
+            this.Close_pos_on_aver_row_9_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Close_pos_on_aver_row_9_strat.AutoSize = true;
+            this.Close_pos_on_aver_row_9_strat.Location = new System.Drawing.Point(1237, 272);
+            this.Close_pos_on_aver_row_9_strat.Name = "Close_pos_on_aver_row_9_strat";
+            this.Close_pos_on_aver_row_9_strat.Size = new System.Drawing.Size(100, 18);
+            this.Close_pos_on_aver_row_9_strat.TabIndex = 500;
+            this.Close_pos_on_aver_row_9_strat.Text = " ";
+            this.Close_pos_on_aver_row_9_strat.UseVisualStyleBackColor = true;
+            // 
+            // Close_pos_on_aver_row_10_strat
+            // 
+            this.Close_pos_on_aver_row_10_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Close_pos_on_aver_row_10_strat.AutoSize = true;
+            this.Close_pos_on_aver_row_10_strat.Location = new System.Drawing.Point(1237, 296);
+            this.Close_pos_on_aver_row_10_strat.Name = "Close_pos_on_aver_row_10_strat";
+            this.Close_pos_on_aver_row_10_strat.Size = new System.Drawing.Size(100, 18);
+            this.Close_pos_on_aver_row_10_strat.TabIndex = 501;
+            this.Close_pos_on_aver_row_10_strat.Text = " ";
+            this.Close_pos_on_aver_row_10_strat.UseVisualStyleBackColor = true;
+            // 
+            // Close_pos_on_aver_row_11_strat
+            // 
+            this.Close_pos_on_aver_row_11_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Close_pos_on_aver_row_11_strat.AutoSize = true;
+            this.Close_pos_on_aver_row_11_strat.Location = new System.Drawing.Point(1237, 320);
+            this.Close_pos_on_aver_row_11_strat.Name = "Close_pos_on_aver_row_11_strat";
+            this.Close_pos_on_aver_row_11_strat.Size = new System.Drawing.Size(100, 18);
+            this.Close_pos_on_aver_row_11_strat.TabIndex = 502;
+            this.Close_pos_on_aver_row_11_strat.Text = " ";
+            this.Close_pos_on_aver_row_11_strat.UseVisualStyleBackColor = true;
+            // 
+            // Close_pos_on_aver_row_12_strat
+            // 
+            this.Close_pos_on_aver_row_12_strat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Close_pos_on_aver_row_12_strat.AutoSize = true;
+            this.Close_pos_on_aver_row_12_strat.Location = new System.Drawing.Point(1237, 344);
+            this.Close_pos_on_aver_row_12_strat.Name = "Close_pos_on_aver_row_12_strat";
+            this.Close_pos_on_aver_row_12_strat.Size = new System.Drawing.Size(100, 25);
+            this.Close_pos_on_aver_row_12_strat.TabIndex = 503;
+            this.Close_pos_on_aver_row_12_strat.Text = " ";
+            this.Close_pos_on_aver_row_12_strat.UseVisualStyleBackColor = true;
+            // 
+            // Settings_main
+            // 
+            this.Settings_main.Image = ((System.Drawing.Image)(resources.GetObject("Settings_main.Image")));
+            this.Settings_main.Location = new System.Drawing.Point(914, 494);
+            this.Settings_main.Name = "Settings_main";
+            this.Settings_main.Size = new System.Drawing.Size(154, 40);
+            this.Settings_main.TabIndex = 1;
+            this.Settings_main.Text = "Редактировать";
+            this.Settings_main.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.Settings_main.UseVisualStyleBackColor = true;
+            this.Settings_main.Click += new System.EventHandler(this.AllowEdit);
+            // 
+            // Save_main
+            // 
+            this.Save_main.Image = ((System.Drawing.Image)(resources.GetObject("Save_main.Image")));
+            this.Save_main.Location = new System.Drawing.Point(1131, 494);
+            this.Save_main.Name = "Save_main";
+            this.Save_main.Size = new System.Drawing.Size(240, 40);
+            this.Save_main.TabIndex = 2;
+            this.Save_main.Text = "Сохранить изменения";
+            this.Save_main.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.Save_main.UseVisualStyleBackColor = true;
+            this.Save_main.Click += new System.EventHandler(this.SaveChange);
+            // 
+            // Cancel_main
+            // 
+            this.Cancel_main.Image = ((System.Drawing.Image)(resources.GetObject("Cancel_main.Image")));
+            this.Cancel_main.Location = new System.Drawing.Point(1312, 11);
+            this.Cancel_main.Name = "Cancel_main";
+            this.Cancel_main.Size = new System.Drawing.Size(40, 40);
+            this.Cancel_main.TabIndex = 3;
+            this.Cancel_main.UseVisualStyleBackColor = true;
+            this.Cancel_main.Click += new System.EventHandler(this.Close_form);
+            // 
+            // Start_main
+            // 
+            this.Start_main.BackColor = System.Drawing.Color.PaleGreen;
+            this.Start_main.Image = ((System.Drawing.Image)(resources.GetObject("Start_main.Image")));
+            this.Start_main.Location = new System.Drawing.Point(372, 11);
+            this.Start_main.Name = "Start_main";
+            this.Start_main.Size = new System.Drawing.Size(154, 40);
+            this.Start_main.TabIndex = 5;
+            this.Start_main.Text = "Торговать";
+            this.Start_main.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.Start_main.UseVisualStyleBackColor = false;
+            // 
+            // Stop_main
+            // 
+            this.Stop_main.BackColor = System.Drawing.Color.Yellow;
+            this.Stop_main.Image = ((System.Drawing.Image)(resources.GetObject("Stop_main.Image")));
+            this.Stop_main.Location = new System.Drawing.Point(12, 11);
+            this.Stop_main.Name = "Stop_main";
+            this.Stop_main.Size = new System.Drawing.Size(154, 40);
+            this.Stop_main.TabIndex = 6;
+            this.Stop_main.Text = "Только выход";
+            this.Stop_main.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.Stop_main.UseVisualStyleBackColor = false;
+            // 
+            // Delete_main
+            // 
+            this.Delete_main.BackColor = System.Drawing.Color.Coral;
+            this.Delete_main.Image = ((System.Drawing.Image)(resources.GetObject("Delete_main.Image")));
+            this.Delete_main.Location = new System.Drawing.Point(914, 11);
+            this.Delete_main.Name = "Delete_main";
+            this.Delete_main.Size = new System.Drawing.Size(249, 40);
+            this.Delete_main.TabIndex = 7;
+            this.Delete_main.Text = "Удалить все актив ордера";
+            this.Delete_main.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.Delete_main.UseVisualStyleBackColor = false;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
@@ -17841,7 +21413,7 @@
             this.gen_param_page.ResumeLayout(false);
             this.Tabel_common_params.ResumeLayout(false);
             this.Tabel_common_params.PerformLayout();
-            this.Strat_cross_av_bb.ResumeLayout(false);
+            this.strat_cross_av_bb_page.ResumeLayout(false);
             this.Table_strat_av_bb.ResumeLayout(false);
             this.Table_strat_av_bb.PerformLayout();
             this.ResumeLayout(false);
@@ -23461,50 +27033,252 @@
             set { Size_deposit_row_11.Text = value; }
         }
         private System.Windows.Forms.TextBox Size_deposit_row_12;
-        private System.Windows.Forms.TabPage Strat_cross_av_bb;
+        public string SizeDepositRow12Text
+        {
+            get { return Size_deposit_row_12.Text; }
+            set { Size_deposit_row_12.Text = value; }
+        }
+
+        //вкладка Стратегия 
+        private System.Windows.Forms.TabPage strat_cross_av_bb_page;
         private System.Windows.Forms.TableLayoutPanel Table_strat_av_bb;
         private System.Windows.Forms.Label Synbol_name;
         private System.Windows.Forms.TextBox Symb_row_0_strat;
+        public string SymbRow0StratText
+        {
+            get { return Symb_row_0_strat.Text; }
+            set { Symb_row_0_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Symb_row_1_strat;
+        public string SymbRow1StratText
+        {
+            get { return Symb_row_1_strat.Text; }
+            set { Symb_row_1_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Symb_row_2_strat;
+        public string SymbRow2StratText
+        {
+            get { return Symb_row_2_strat.Text; }
+            set { Symb_row_2_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Symb_row_3_strat;
+        public string SymbRow3StratText
+        {
+            get { return Symb_row_3_strat.Text; }
+            set { Symb_row_3_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Symb_row_4_strat;
+        public string SymbRow4StratText
+        {
+            get { return Symb_row_4_strat.Text; }
+            set { Symb_row_4_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Symb_row_5_strat;
+        public string SymbRow5StratText
+        {
+            get { return Symb_row_5_strat.Text; }
+            set { Symb_row_5_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Symb_row_6_strat;
+        public string SymbRow6StratText
+        {
+            get { return Symb_row_6_strat.Text; }
+            set { Symb_row_6_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Symb_row_7_strat;
+        public string SymbRow7StratText
+        {
+            get { return Symb_row_7_strat.Text; }
+            set { Symb_row_7_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Symb_row_8_strat;
+        public string SymbRow8StratText
+        {
+            get { return Symb_row_8_strat.Text; }
+            set { Symb_row_8_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Symb_row_9_strat;
+        public string SymbRow9StratText
+        {
+            get { return Symb_row_9_strat.Text; }
+            set { Symb_row_9_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Symb_row_10_strat;
+        public string SymbRow10StratText
+        {
+            get { return Symb_row_10_strat.Text; }
+            set { Symb_row_10_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Symb_row_11_strat;
+        public string SymbRow11StratText
+        {
+            get { return Symb_row_11_strat.Text; }
+            set { Symb_row_11_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Symb_row_12_strat;
+        public string SymbRow12StratText
+        {
+            get { return Symb_row_12_strat.Text; }
+            set { Symb_row_12_strat.Text = value; }
+        }
         private System.Windows.Forms.Label Sensetibe;
         private System.Windows.Forms.TextBox Sensetive_row_0_strat;
+        public string SensetiveRow0StratText
+        {
+            get { return Sensetive_row_0_strat.Text; }
+            set { Sensetive_row_0_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Sensetive_row_1_strat;
+        public string SensetiveRow1StratText
+        {
+            get { return Sensetive_row_1_strat.Text; }
+            set { Sensetive_row_1_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Sensetive_row_2_strat;
+        public string SensetiveRow2StratText
+        {
+            get { return Sensetive_row_2_strat.Text; }
+            set { Sensetive_row_2_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Sensetive_row_3_strat;
+        public string SensetiveRow3StratText
+        {
+            get { return Sensetive_row_3_strat.Text; }
+            set { Sensetive_row_3_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Sensetive_row_4_strat;
+        public string SensetiveRow4StratText
+        {
+            get { return Sensetive_row_4_strat.Text; }
+            set { Sensetive_row_4_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Sensetive_row_5_strat;
+        public string SensetiveRow5StratText
+        {
+            get { return Sensetive_row_5_strat.Text; }
+            set { Sensetive_row_5_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Sensetive_row_6_strat;
+        public string SensetiveRow6StratText
+        {
+            get { return Sensetive_row_6_strat.Text; }
+            set { Sensetive_row_6_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Sensetive_row_7_strat;
+        public string SensetiveRow7StratText
+        {
+            get { return Sensetive_row_7_strat.Text; }
+            set { Sensetive_row_7_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Sensetive_row_8_strat;
+        public string SensetiveRow8StratText
+        {
+            get { return Sensetive_row_8_strat.Text; }
+            set { Sensetive_row_8_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Sensetive_row_9_strat;
+        public string SensetiveRow9StratText
+        {
+            get { return Sensetive_row_9_strat.Text; }
+            set { Sensetive_row_9_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Sensetive_row_10_strat;
+        public string SensetiveRow10StratText
+        {
+            get { return Sensetive_row_10_strat.Text; }
+            set { Sensetive_row_10_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Sensetive_row_11_strat;
+        public string SensetiveRow11StratText
+        {
+            get { return Sensetive_row_11_strat.Text; }
+            set { Sensetive_row_11_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Sensetive_row_12_strat;
+        public string SensetiveRow12StratText
+        {
+            get { return Sensetive_row_12_strat.Text; }
+            set { Sensetive_row_12_strat.Text = value; }
+        }
         private System.Windows.Forms.Label Long_candle;
         private System.Windows.Forms.CheckBox Long_candle_row_0_strat;
+        public string LongCandleRow0StratChecked
+        {
+            get { return (Long_candle_row_0_strat.Checked == false) ? "0" : "1"; }
+            set { Long_candle_row_0_strat.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Long_candle_row_1_strat;
+        public string LongCandleRow1StratChecked
+        {
+            get { return (Long_candle_row_1_strat.Checked == false) ? "0" : "1"; }
+            set { Long_candle_row_1_strat.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Long_candle_row_2_strat;
+        public string LongCandleRow2StratChecked
+        {
+            get { return (Long_candle_row_2_strat.Checked == false) ? "0" : "1"; }
+            set { Long_candle_row_2_strat.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Long_candle_row_3_strat;
+        public string LongCandleRow3StratChecked
+        {
+            get { return (Long_candle_row_3_strat.Checked == false) ? "0" : "1"; }
+            set { Long_candle_row_3_strat.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Long_candle_row_4_strat;
+        public string LongCandleRow4StratChecked
+        {
+            get { return (Long_candle_row_4_strat.Checked == false) ? "0" : "1"; }
+            set { Long_candle_row_4_strat.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Long_candle_row_5_strat;
+        public string LongCandleRow5StratChecked
+        {
+            get { return (Long_candle_row_5_strat.Checked == false) ? "0" : "1"; }
+            set { Long_candle_row_5_strat.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Long_candle_row_6_strat;
+        public string LongCandleRow6StratChecked
+        {
+            get { return (Long_candle_row_6_strat.Checked == false) ? "0" : "1"; }
+            set { Long_candle_row_6_strat.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Long_candle_row_7_strat;
+        public string LongCandleRow7StratChecked
+        {
+            get { return (Long_candle_row_7_strat.Checked == false) ? "0" : "1"; }
+            set { Long_candle_row_7_strat.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Long_candle_row_8_strat;
+        public string LongCandleRow8StratChecked
+        {
+            get { return (Long_candle_row_8_strat.Checked == false) ? "0" : "1"; }
+            set { Long_candle_row_8_strat.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Long_candle_row_9_strat;
+        public string LongCandleRow9StratChecked
+        {
+            get { return (Long_candle_row_9_strat.Checked == false) ? "0" : "1"; }
+            set { Long_candle_row_9_strat.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Long_candle_row_10_strat;
+        public string LongCandleRow10StratChecked
+        {
+            get { return (Long_candle_row_10_strat.Checked == false) ? "0" : "1"; }
+            set { Long_candle_row_10_strat.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Long_candle_row_11_strat;
+        public string LongCandleRow11StratChecked
+        {
+            get { return (Long_candle_row_11_strat.Checked == false) ? "0" : "1"; }
+            set { Long_candle_row_11_strat.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.CheckBox Long_candle_row_12_strat;
+        public string LongCandleRow12StratChecked
+        {
+            get { return (Long_candle_row_12_strat.Checked == false) ? "0" : "1"; }
+            set { Long_candle_row_12_strat.Checked = (value == "0") ? false : true; }
+        }
         private System.Windows.Forms.Label Num_loss_tmfr_m1;
         private System.Windows.Forms.Label Num_loss_tmfr_m2;
         private System.Windows.Forms.Label Num_loss_tmfr_m3;
@@ -23521,31 +27295,161 @@
         private System.Windows.Forms.Label Num_loss_tmfr_h3;
         private System.Windows.Forms.Label Num_loss_tmfr_h4;
         private System.Windows.Forms.TextBox Num_loss_tmfr_m1_row_0_strat;
+        public string NumLossTmfrM1Row_0StratText
+        {
+            get { return Num_loss_tmfr_m1_row_0_strat.Text; }
+            set { Num_loss_tmfr_m1_row_0_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_m1_row_1_strat;
+        public string NumLossTmfrM1Row_1StratText
+        {
+            get { return Num_loss_tmfr_m1_row_1_strat.Text; }
+            set { Num_loss_tmfr_m1_row_1_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_m1_row_2_strat;
+        public string NumLossTmfrM1Row_2StratText
+        {
+            get { return Num_loss_tmfr_m1_row_2_strat.Text; }
+            set { Num_loss_tmfr_m1_row_2_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_m1_row_3_strat;
+        public string NumLossTmfrM1Row_3StratText
+        {
+            get { return Num_loss_tmfr_m1_row_3_strat.Text; }
+            set { Num_loss_tmfr_m1_row_3_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_m1_row_4_strat;
+        public string NumLossTmfrM1Row_4StratText
+        {
+            get { return Num_loss_tmfr_m1_row_4_strat.Text; }
+            set { Num_loss_tmfr_m1_row_4_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_m1_row_5_strat;
+        public string NumLossTmfrM1Row_5StratText
+        {
+            get { return Num_loss_tmfr_m1_row_5_strat.Text; }
+            set { Num_loss_tmfr_m1_row_5_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_m1_row_6_strat;
+        public string NumLossTmfrM1Row_6StratText
+        {
+            get { return Num_loss_tmfr_m1_row_6_strat.Text; }
+            set { Num_loss_tmfr_m1_row_6_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_m1_row_7_strat;
+        public string NumLossTmfrM1Row_7StratText
+        {
+            get { return Num_loss_tmfr_m1_row_7_strat.Text; }
+            set { Num_loss_tmfr_m1_row_7_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_m1_row_8_strat;
+        public string NumLossTmfrM1Row_8StratText
+        {
+            get { return Num_loss_tmfr_m1_row_8_strat.Text; }
+            set { Num_loss_tmfr_m1_row_8_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_m1_row_9_strat;
+        public string NumLossTmfrM1Row_9StratText
+        {
+            get { return Num_loss_tmfr_m1_row_9_strat.Text; }
+            set { Num_loss_tmfr_m1_row_9_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_m1_row_10_strat;
+        public string NumLossTmfrM1Row_10StratText
+        {
+            get { return Num_loss_tmfr_m1_row_10_strat.Text; }
+            set { Num_loss_tmfr_m1_row_10_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_m1_row_11_strat;
+        public string NumLossTmfrM1Row_11StratText
+        {
+            get { return Num_loss_tmfr_m1_row_11_strat.Text; }
+            set { Num_loss_tmfr_m1_row_11_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_m1_row_12_strat;
+        public string NumLossTmfrM1Row_12StratText
+        {
+            get { return Num_loss_tmfr_m1_row_12_strat.Text; }
+            set { Num_loss_tmfr_m1_row_12_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_m2_row_0_strat;
+        public string NumLossTmfrM2Row_0StratText
+        {
+            get { return Num_loss_tmfr_m2_row_0_strat.Text; }
+            set { Num_loss_tmfr_m2_row_0_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_m2_row_1_strat;
+        public string NumLossTmfrM2Row_1StratText
+        {
+            get { return Num_loss_tmfr_m2_row_1_strat.Text; }
+            set { Num_loss_tmfr_m2_row_1_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_m2_row_2_strat;
+        public string NumLossTmfrM2Row_2StratText
+        {
+            get { return Num_loss_tmfr_m2_row_2_strat.Text; }
+            set { Num_loss_tmfr_m2_row_2_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_m2_row_3_strat;
+        public string NumLossTmfrM2Row_3StratText
+        {
+            get { return Num_loss_tmfr_m2_row_3_strat.Text; }
+            set { Num_loss_tmfr_m2_row_3_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_m2_row_4_strat;
+        public string NumLossTmfrM2Row_4StratText
+        {
+            get { return Num_loss_tmfr_m2_row_4_strat.Text; }
+            set { Num_loss_tmfr_m2_row_4_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_m2_row_5_strat;
+        public string NumLossTmfrM2Row_5StratText
+        {
+            get { return Num_loss_tmfr_m2_row_5_strat.Text; }
+            set { Num_loss_tmfr_m2_row_5_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_m2_row_6_strat;
+        public string NumLossTmfrM2Row_6StratText
+        {
+            get { return Num_loss_tmfr_m2_row_6_strat.Text; }
+            set { Num_loss_tmfr_m2_row_6_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_m2_row_7_strat;
+        public string NumLossTmfrM2Row_7StratText
+        {
+            get { return Num_loss_tmfr_m2_row_7_strat.Text; }
+            set { Num_loss_tmfr_m2_row_7_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_m2_row_8_strat;
+        public string NumLossTmfrM2Row_8StratText
+        {
+            get { return Num_loss_tmfr_m2_row_8_strat.Text; }
+            set { Num_loss_tmfr_m2_row_8_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_m2_row_9_strat;
+        public string NumLossTmfrM2Row_9StratText
+        {
+            get { return Num_loss_tmfr_m2_row_9_strat.Text; }
+            set { Num_loss_tmfr_m2_row_9_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_m2_row_10_strat;
+        public string NumLossTmfrM2Row_10StratText
+        {
+            get { return Num_loss_tmfr_m2_row_10_strat.Text; }
+            set { Num_loss_tmfr_m2_row_10_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_m2_row_11_strat;
+        public string NumLossTmfrM2Row_11StratText
+        {
+            get { return Num_loss_tmfr_m2_row_11_strat.Text; }
+            set { Num_loss_tmfr_m2_row_11_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_m2_row_12_strat;
+        public string NumLossTmfrM2Row_12StratText
+        {
+            get { return Num_loss_tmfr_m2_row_12_strat.Text; }
+            set { Num_loss_tmfr_m2_row_12_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_m3_row_0_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_m3_row_1_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_m3_row_2_strat;
@@ -23559,6 +27463,71 @@
         private System.Windows.Forms.TextBox Num_loss_tmfr_m3_row_10_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_m3_row_11_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_m3_row_12_strat;
+        public string NumLossTmfrM3Row_0StratText
+        {
+            get { return Num_loss_tmfr_m3_row_0_strat.Text; }
+            set { Num_loss_tmfr_m3_row_0_strat.Text = value; }
+        }
+        public string NumLossTmfrM3Row_1StratText
+        {
+            get { return Num_loss_tmfr_m3_row_1_strat.Text; }
+            set { Num_loss_tmfr_m3_row_1_strat.Text = value; }
+        }
+        public string NumLossTmfrM3Row_2StratText
+        {
+            get { return Num_loss_tmfr_m3_row_2_strat.Text; }
+            set { Num_loss_tmfr_m3_row_2_strat.Text = value; }
+        }
+        public string NumLossTmfrM3Row_3StratText
+        {
+            get { return Num_loss_tmfr_m3_row_3_strat.Text; }
+            set { Num_loss_tmfr_m3_row_3_strat.Text = value; }
+        }
+        public string NumLossTmfrM3Row_4StratText
+        {
+            get { return Num_loss_tmfr_m3_row_4_strat.Text; }
+            set { Num_loss_tmfr_m3_row_4_strat.Text = value; }
+        }
+        public string NumLossTmfrM3Row_5StratText
+        {
+            get { return Num_loss_tmfr_m3_row_5_strat.Text; }
+            set { Num_loss_tmfr_m3_row_5_strat.Text = value; }
+        }
+        public string NumLossTmfrM3Row_6StratText
+        {
+            get { return Num_loss_tmfr_m3_row_6_strat.Text; }
+            set { Num_loss_tmfr_m3_row_6_strat.Text = value; }
+        }
+        public string NumLossTmfrM3Row_7StratText
+        {
+            get { return Num_loss_tmfr_m3_row_7_strat.Text; }
+            set { Num_loss_tmfr_m3_row_7_strat.Text = value; }
+        }
+        public string NumLossTmfrM3Row_8StratText
+        {
+            get { return Num_loss_tmfr_m3_row_8_strat.Text; }
+            set { Num_loss_tmfr_m3_row_8_strat.Text = value; }
+        }
+        public string NumLossTmfrM3Row_9StratText
+        {
+            get { return Num_loss_tmfr_m3_row_9_strat.Text; }
+            set { Num_loss_tmfr_m3_row_9_strat.Text = value; }
+        }
+        public string NumLossTmfrM3Row_10StratText
+        {
+            get { return Num_loss_tmfr_m3_row_10_strat.Text; }
+            set { Num_loss_tmfr_m3_row_10_strat.Text = value; }
+        }
+        public string NumLossTmfrM3Row_11StratText
+        {
+            get { return Num_loss_tmfr_m3_row_11_strat.Text; }
+            set { Num_loss_tmfr_m3_row_11_strat.Text = value; }
+        }
+        public string NumLossTmfrM3Row_12StratText
+        {
+            get { return Num_loss_tmfr_m3_row_12_strat.Text; }
+            set { Num_loss_tmfr_m3_row_12_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_m4_row_0_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_m4_row_1_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_m4_row_2_strat;
@@ -23572,6 +27541,71 @@
         private System.Windows.Forms.TextBox Num_loss_tmfr_m4_row_10_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_m4_row_11_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_m4_row_12_strat;
+        public string NumLossTmfrM4Row_0StratText
+        {
+            get { return Num_loss_tmfr_m4_row_0_strat.Text; }
+            set { Num_loss_tmfr_m4_row_0_strat.Text = value; }
+        }
+        public string NumLossTmfrM4Row_1StratText
+        {
+            get { return Num_loss_tmfr_m4_row_1_strat.Text; }
+            set { Num_loss_tmfr_m4_row_1_strat.Text = value; }
+        }
+        public string NumLossTmfrM4Row_2StratText
+        {
+            get { return Num_loss_tmfr_m4_row_2_strat.Text; }
+            set { Num_loss_tmfr_m4_row_2_strat.Text = value; }
+        }
+        public string NumLossTmfrM4Row_3StratText
+        {
+            get { return Num_loss_tmfr_m4_row_3_strat.Text; }
+            set { Num_loss_tmfr_m4_row_3_strat.Text = value; }
+        }
+        public string NumLossTmfrM4Row_4StratText
+        {
+            get { return Num_loss_tmfr_m4_row_4_strat.Text; }
+            set { Num_loss_tmfr_m4_row_4_strat.Text = value; }
+        }
+        public string NumLossTmfrM4Row_5StratText
+        {
+            get { return Num_loss_tmfr_m4_row_5_strat.Text; }
+            set { Num_loss_tmfr_m4_row_5_strat.Text = value; }
+        }
+        public string NumLossTmfrM4Row_6StratText
+        {
+            get { return Num_loss_tmfr_m4_row_6_strat.Text; }
+            set { Num_loss_tmfr_m4_row_6_strat.Text = value; }
+        }
+        public string NumLossTmfrM4Row_7StratText
+        {
+            get { return Num_loss_tmfr_m4_row_7_strat.Text; }
+            set { Num_loss_tmfr_m4_row_7_strat.Text = value; }
+        }
+        public string NumLossTmfrM4Row_8StratText
+        {
+            get { return Num_loss_tmfr_m4_row_8_strat.Text; }
+            set { Num_loss_tmfr_m4_row_8_strat.Text = value; }
+        }
+        public string NumLossTmfrM4Row_9StratText
+        {
+            get { return Num_loss_tmfr_m4_row_9_strat.Text; }
+            set { Num_loss_tmfr_m4_row_9_strat.Text = value; }
+        }
+        public string NumLossTmfrM4Row_10StratText
+        {
+            get { return Num_loss_tmfr_m4_row_10_strat.Text; }
+            set { Num_loss_tmfr_m4_row_10_strat.Text = value; }
+        }
+        public string NumLossTmfrM4Row_11StratText
+        {
+            get { return Num_loss_tmfr_m4_row_11_strat.Text; }
+            set { Num_loss_tmfr_m4_row_11_strat.Text = value; }
+        }
+        public string NumLossTmfrM4Row_12StratText
+        {
+            get { return Num_loss_tmfr_m4_row_12_strat.Text; }
+            set { Num_loss_tmfr_m4_row_12_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_m5_row_0_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_m5_row_1_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_m5_row_2_strat;
@@ -23585,6 +27619,71 @@
         private System.Windows.Forms.TextBox Num_loss_tmfr_m5_row_10_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_m5_row_11_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_m5_row_12_strat;
+        public string NumLossTmfrM5Row_0StratText
+        {
+            get { return Num_loss_tmfr_m5_row_0_strat.Text; }
+            set { Num_loss_tmfr_m5_row_0_strat.Text = value; }
+        }
+        public string NumLossTmfrM5Row_1StratText
+        {
+            get { return Num_loss_tmfr_m5_row_1_strat.Text; }
+            set { Num_loss_tmfr_m5_row_1_strat.Text = value; }
+        }
+        public string NumLossTmfrM5Row_2StratText
+        {
+            get { return Num_loss_tmfr_m5_row_2_strat.Text; }
+            set { Num_loss_tmfr_m5_row_2_strat.Text = value; }
+        }
+        public string NumLossTmfrM5Row_3StratText
+        {
+            get { return Num_loss_tmfr_m5_row_3_strat.Text; }
+            set { Num_loss_tmfr_m5_row_3_strat.Text = value; }
+        }
+        public string NumLossTmfrM5Row_4StratText
+        {
+            get { return Num_loss_tmfr_m5_row_4_strat.Text; }
+            set { Num_loss_tmfr_m5_row_4_strat.Text = value; }
+        }
+        public string NumLossTmfrM5Row_5StratText
+        {
+            get { return Num_loss_tmfr_m5_row_5_strat.Text; }
+            set { Num_loss_tmfr_m5_row_5_strat.Text = value; }
+        }
+        public string NumLossTmfrM5Row_6StratText
+        {
+            get { return Num_loss_tmfr_m5_row_6_strat.Text; }
+            set { Num_loss_tmfr_m5_row_6_strat.Text = value; }
+        }
+        public string NumLossTmfrM5Row_7StratText
+        {
+            get { return Num_loss_tmfr_m5_row_7_strat.Text; }
+            set { Num_loss_tmfr_m5_row_7_strat.Text = value; }
+        }
+        public string NumLossTmfrM5Row_8StratText
+        {
+            get { return Num_loss_tmfr_m5_row_8_strat.Text; }
+            set { Num_loss_tmfr_m5_row_8_strat.Text = value; }
+        }
+        public string NumLossTmfrM5Row_9StratText
+        {
+            get { return Num_loss_tmfr_m5_row_9_strat.Text; }
+            set { Num_loss_tmfr_m5_row_9_strat.Text = value; }
+        }
+        public string NumLossTmfrM5Row_10StratText
+        {
+            get { return Num_loss_tmfr_m5_row_10_strat.Text; }
+            set { Num_loss_tmfr_m5_row_10_strat.Text = value; }
+        }
+        public string NumLossTmfrM5Row_11StratText
+        {
+            get { return Num_loss_tmfr_m5_row_11_strat.Text; }
+            set { Num_loss_tmfr_m5_row_11_strat.Text = value; }
+        }
+        public string NumLossTmfrM5Row_12StratText
+        {
+            get { return Num_loss_tmfr_m5_row_12_strat.Text; }
+            set { Num_loss_tmfr_m5_row_12_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_m6_row_0_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_m6_row_1_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_m6_row_2_strat;
@@ -23598,6 +27697,71 @@
         private System.Windows.Forms.TextBox Num_loss_tmfr_m6_row_10_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_m6_row_11_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_m6_row_12_strat;
+        public string NumLossTmfrM6Row_0StratText
+        {
+            get { return Num_loss_tmfr_m6_row_0_strat.Text; }
+            set { Num_loss_tmfr_m6_row_0_strat.Text = value; }
+        }
+        public string NumLossTmfrM6Row_1StratText
+        {
+            get { return Num_loss_tmfr_m6_row_1_strat.Text; }
+            set { Num_loss_tmfr_m6_row_1_strat.Text = value; }
+        }
+        public string NumLossTmfrM6Row_2StratText
+        {
+            get { return Num_loss_tmfr_m6_row_2_strat.Text; }
+            set { Num_loss_tmfr_m6_row_2_strat.Text = value; }
+        }
+        public string NumLossTmfrM6Row_3StratText
+        {
+            get { return Num_loss_tmfr_m6_row_3_strat.Text; }
+            set { Num_loss_tmfr_m6_row_3_strat.Text = value; }
+        }
+        public string NumLossTmfrM6Row_4StratText
+        {
+            get { return Num_loss_tmfr_m6_row_4_strat.Text; }
+            set { Num_loss_tmfr_m6_row_4_strat.Text = value; }
+        }
+        public string NumLossTmfrM6Row_5StratText
+        {
+            get { return Num_loss_tmfr_m6_row_5_strat.Text; }
+            set { Num_loss_tmfr_m6_row_5_strat.Text = value; }
+        }
+        public string NumLossTmfrM6Row_6StratText
+        {
+            get { return Num_loss_tmfr_m6_row_6_strat.Text; }
+            set { Num_loss_tmfr_m6_row_6_strat.Text = value; }
+        }
+        public string NumLossTmfrM6Row_7StratText
+        {
+            get { return Num_loss_tmfr_m6_row_7_strat.Text; }
+            set { Num_loss_tmfr_m6_row_7_strat.Text = value; }
+        }
+        public string NumLossTmfrM6Row_8StratText
+        {
+            get { return Num_loss_tmfr_m6_row_8_strat.Text; }
+            set { Num_loss_tmfr_m6_row_8_strat.Text = value; }
+        }
+        public string NumLossTmfrM6Row_9StratText
+        {
+            get { return Num_loss_tmfr_m6_row_9_strat.Text; }
+            set { Num_loss_tmfr_m6_row_9_strat.Text = value; }
+        }
+        public string NumLossTmfrM6Row_10StratText
+        {
+            get { return Num_loss_tmfr_m6_row_10_strat.Text; }
+            set { Num_loss_tmfr_m6_row_10_strat.Text = value; }
+        }
+        public string NumLossTmfrM6Row_11StratText
+        {
+            get { return Num_loss_tmfr_m6_row_11_strat.Text; }
+            set { Num_loss_tmfr_m6_row_11_strat.Text = value; }
+        }
+        public string NumLossTmfrM6Row_12StratText
+        {
+            get { return Num_loss_tmfr_m6_row_12_strat.Text; }
+            set { Num_loss_tmfr_m6_row_12_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_m10_row_0_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_m10_row_1_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_m10_row_2_strat;
@@ -23611,6 +27775,71 @@
         private System.Windows.Forms.TextBox Num_loss_tmfr_m10_row_10_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_m10_row_11_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_m10_row_12_strat;
+        public string NumLossTmfrM10Row_0StratText
+        {
+            get { return Num_loss_tmfr_m10_row_0_strat.Text; }
+            set { Num_loss_tmfr_m10_row_0_strat.Text = value; }
+        }
+        public string NumLossTmfrM10Row_1StratText
+        {
+            get { return Num_loss_tmfr_m10_row_1_strat.Text; }
+            set { Num_loss_tmfr_m10_row_1_strat.Text = value; }
+        }
+        public string NumLossTmfrM10Row_2StratText
+        {
+            get { return Num_loss_tmfr_m10_row_2_strat.Text; }
+            set { Num_loss_tmfr_m10_row_2_strat.Text = value; }
+        }
+        public string NumLossTmfrM10Row_3StratText
+        {
+            get { return Num_loss_tmfr_m10_row_3_strat.Text; }
+            set { Num_loss_tmfr_m10_row_3_strat.Text = value; }
+        }
+        public string NumLossTmfrM10Row_4StratText
+        {
+            get { return Num_loss_tmfr_m10_row_4_strat.Text; }
+            set { Num_loss_tmfr_m10_row_4_strat.Text = value; }
+        }
+        public string NumLossTmfrM10Row_5StratText
+        {
+            get { return Num_loss_tmfr_m10_row_5_strat.Text; }
+            set { Num_loss_tmfr_m10_row_5_strat.Text = value; }
+        }
+        public string NumLossTmfrM10Row_6StratText
+        {
+            get { return Num_loss_tmfr_m10_row_6_strat.Text; }
+            set { Num_loss_tmfr_m10_row_6_strat.Text = value; }
+        }
+        public string NumLossTmfrM10Row_7StratText
+        {
+            get { return Num_loss_tmfr_m10_row_7_strat.Text; }
+            set { Num_loss_tmfr_m10_row_7_strat.Text = value; }
+        }
+        public string NumLossTmfrM10Row_8StratText
+        {
+            get { return Num_loss_tmfr_m10_row_8_strat.Text; }
+            set { Num_loss_tmfr_m10_row_8_strat.Text = value; }
+        }
+        public string NumLossTmfrM10Row_9StratText
+        {
+            get { return Num_loss_tmfr_m10_row_9_strat.Text; }
+            set { Num_loss_tmfr_m10_row_9_strat.Text = value; }
+        }
+        public string NumLossTmfrM10Row_10StratText
+        {
+            get { return Num_loss_tmfr_m10_row_10_strat.Text; }
+            set { Num_loss_tmfr_m10_row_10_strat.Text = value; }
+        }
+        public string NumLossTmfrM10Row_11StratText
+        {
+            get { return Num_loss_tmfr_m10_row_11_strat.Text; }
+            set { Num_loss_tmfr_m10_row_11_strat.Text = value; }
+        }
+        public string NumLossTmfrM10Row_12StratText
+        {
+            get { return Num_loss_tmfr_m10_row_12_strat.Text; }
+            set { Num_loss_tmfr_m10_row_12_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_m12_row_0_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_m12_row_1_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_m12_row_2_strat;
@@ -23624,6 +27853,71 @@
         private System.Windows.Forms.TextBox Num_loss_tmfr_m12_row_10_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_m12_row_11_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_m12_row_12_strat;
+        public string NumLossTmfrM12Row_0StratText
+        {
+            get { return Num_loss_tmfr_m12_row_0_strat.Text; }
+            set { Num_loss_tmfr_m12_row_0_strat.Text = value; }
+        }
+        public string NumLossTmfrM12Row_1StratText
+        {
+            get { return Num_loss_tmfr_m12_row_1_strat.Text; }
+            set { Num_loss_tmfr_m12_row_1_strat.Text = value; }
+        }
+        public string NumLossTmfrM12Row_2StratText
+        {
+            get { return Num_loss_tmfr_m12_row_2_strat.Text; }
+            set { Num_loss_tmfr_m12_row_2_strat.Text = value; }
+        }
+        public string NumLossTmfrM12Row_3StratText
+        {
+            get { return Num_loss_tmfr_m12_row_3_strat.Text; }
+            set { Num_loss_tmfr_m12_row_3_strat.Text = value; }
+        }
+        public string NumLossTmfrM12Row_4StratText
+        {
+            get { return Num_loss_tmfr_m12_row_4_strat.Text; }
+            set { Num_loss_tmfr_m12_row_4_strat.Text = value; }
+        }
+        public string NumLossTmfrM12Row_5StratText
+        {
+            get { return Num_loss_tmfr_m12_row_5_strat.Text; }
+            set { Num_loss_tmfr_m12_row_5_strat.Text = value; }
+        }
+        public string NumLossTmfrM12Row_6StratText
+        {
+            get { return Num_loss_tmfr_m12_row_6_strat.Text; }
+            set { Num_loss_tmfr_m12_row_6_strat.Text = value; }
+        }
+        public string NumLossTmfrM12Row_7StratText
+        {
+            get { return Num_loss_tmfr_m12_row_7_strat.Text; }
+            set { Num_loss_tmfr_m12_row_7_strat.Text = value; }
+        }
+        public string NumLossTmfrM12Row_8StratText
+        {
+            get { return Num_loss_tmfr_m12_row_8_strat.Text; }
+            set { Num_loss_tmfr_m12_row_8_strat.Text = value; }
+        }
+        public string NumLossTmfrM12Row_9StratText
+        {
+            get { return Num_loss_tmfr_m12_row_9_strat.Text; }
+            set { Num_loss_tmfr_m12_row_9_strat.Text = value; }
+        }
+        public string NumLossTmfrM12Row_10StratText
+        {
+            get { return Num_loss_tmfr_m12_row_10_strat.Text; }
+            set { Num_loss_tmfr_m12_row_10_strat.Text = value; }
+        }
+        public string NumLossTmfrM12Row_11StratText
+        {
+            get { return Num_loss_tmfr_m12_row_11_strat.Text; }
+            set { Num_loss_tmfr_m12_row_11_strat.Text = value; }
+        }
+        public string NumLossTmfrM12Row_12StratText
+        {
+            get { return Num_loss_tmfr_m12_row_12_strat.Text; }
+            set { Num_loss_tmfr_m12_row_12_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_m15_row_0_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_m15_row_1_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_m15_row_2_strat;
@@ -23637,6 +27931,71 @@
         private System.Windows.Forms.TextBox Num_loss_tmfr_m15_row_10_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_m15_row_11_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_m15_row_12_strat;
+        public string NumLossTmfrM15Row_0StratText
+        {
+            get { return Num_loss_tmfr_m15_row_0_strat.Text; }
+            set { Num_loss_tmfr_m15_row_0_strat.Text = value; }
+        }
+        public string NumLossTmfrM15Row_1StratText
+        {
+            get { return Num_loss_tmfr_m15_row_1_strat.Text; }
+            set { Num_loss_tmfr_m15_row_1_strat.Text = value; }
+        }
+        public string NumLossTmfrM15Row_2StratText
+        {
+            get { return Num_loss_tmfr_m15_row_2_strat.Text; }
+            set { Num_loss_tmfr_m15_row_2_strat.Text = value; }
+        }
+        public string NumLossTmfrM15Row_3StratText
+        {
+            get { return Num_loss_tmfr_m15_row_3_strat.Text; }
+            set { Num_loss_tmfr_m15_row_3_strat.Text = value; }
+        }
+        public string NumLossTmfrM15Row_4StratText
+        {
+            get { return Num_loss_tmfr_m15_row_4_strat.Text; }
+            set { Num_loss_tmfr_m15_row_4_strat.Text = value; }
+        }
+        public string NumLossTmfrM15Row_5StratText
+        {
+            get { return Num_loss_tmfr_m15_row_5_strat.Text; }
+            set { Num_loss_tmfr_m15_row_5_strat.Text = value; }
+        }
+        public string NumLossTmfrM15Row_6StratText
+        {
+            get { return Num_loss_tmfr_m15_row_6_strat.Text; }
+            set { Num_loss_tmfr_m15_row_6_strat.Text = value; }
+        }
+        public string NumLossTmfrM15Row_7StratText
+        {
+            get { return Num_loss_tmfr_m15_row_7_strat.Text; }
+            set { Num_loss_tmfr_m15_row_7_strat.Text = value; }
+        }
+        public string NumLossTmfrM15Row_8StratText
+        {
+            get { return Num_loss_tmfr_m15_row_8_strat.Text; }
+            set { Num_loss_tmfr_m15_row_8_strat.Text = value; }
+        }
+        public string NumLossTmfrM15Row_9StratText
+        {
+            get { return Num_loss_tmfr_m15_row_9_strat.Text; }
+            set { Num_loss_tmfr_m15_row_9_strat.Text = value; }
+        }
+        public string NumLossTmfrM15Row_10StratText
+        {
+            get { return Num_loss_tmfr_m15_row_10_strat.Text; }
+            set { Num_loss_tmfr_m15_row_10_strat.Text = value; }
+        }
+        public string NumLossTmfrM15Row_11StratText
+        {
+            get { return Num_loss_tmfr_m15_row_11_strat.Text; }
+            set { Num_loss_tmfr_m15_row_11_strat.Text = value; }
+        }
+        public string NumLossTmfrM15Row_12StratText
+        {
+            get { return Num_loss_tmfr_m15_row_12_strat.Text; }
+            set { Num_loss_tmfr_m15_row_12_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_m20_row_0_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_m20_row_1_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_m20_row_2_strat;
@@ -23650,6 +28009,71 @@
         private System.Windows.Forms.TextBox Num_loss_tmfr_m20_row_10_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_m20_row_11_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_m20_row_12_strat;
+        public string NumLossTmfrM20Row_0StratText
+        {
+            get { return Num_loss_tmfr_m20_row_0_strat.Text; }
+            set { Num_loss_tmfr_m20_row_0_strat.Text = value; }
+        }
+        public string NumLossTmfrM20Row_1StratText
+        {
+            get { return Num_loss_tmfr_m20_row_1_strat.Text; }
+            set { Num_loss_tmfr_m20_row_1_strat.Text = value; }
+        }
+        public string NumLossTmfrM20Row_2StratText
+        {
+            get { return Num_loss_tmfr_m20_row_2_strat.Text; }
+            set { Num_loss_tmfr_m20_row_2_strat.Text = value; }
+        }
+        public string NumLossTmfrM20Row_3StratText
+        {
+            get { return Num_loss_tmfr_m20_row_3_strat.Text; }
+            set { Num_loss_tmfr_m20_row_3_strat.Text = value; }
+        }
+        public string NumLossTmfrM20Row_4StratText
+        {
+            get { return Num_loss_tmfr_m20_row_4_strat.Text; }
+            set { Num_loss_tmfr_m20_row_4_strat.Text = value; }
+        }
+        public string NumLossTmfrM20Row_5StratText
+        {
+            get { return Num_loss_tmfr_m20_row_5_strat.Text; }
+            set { Num_loss_tmfr_m20_row_5_strat.Text = value; }
+        }
+        public string NumLossTmfrM20Row_6StratText
+        {
+            get { return Num_loss_tmfr_m20_row_6_strat.Text; }
+            set { Num_loss_tmfr_m20_row_6_strat.Text = value; }
+        }
+        public string NumLossTmfrM20Row_7StratText
+        {
+            get { return Num_loss_tmfr_m20_row_7_strat.Text; }
+            set { Num_loss_tmfr_m20_row_7_strat.Text = value; }
+        }
+        public string NumLossTmfrM20Row_8StratText
+        {
+            get { return Num_loss_tmfr_m20_row_8_strat.Text; }
+            set { Num_loss_tmfr_m20_row_8_strat.Text = value; }
+        }
+        public string NumLossTmfrM20Row_9StratText
+        {
+            get { return Num_loss_tmfr_m20_row_9_strat.Text; }
+            set { Num_loss_tmfr_m20_row_9_strat.Text = value; }
+        }
+        public string NumLossTmfrM20Row_10StratText
+        {
+            get { return Num_loss_tmfr_m20_row_10_strat.Text; }
+            set { Num_loss_tmfr_m20_row_10_strat.Text = value; }
+        }
+        public string NumLossTmfrM20Row_11StratText
+        {
+            get { return Num_loss_tmfr_m20_row_11_strat.Text; }
+            set { Num_loss_tmfr_m20_row_11_strat.Text = value; }
+        }
+        public string NumLossTmfrM20Row_12StratText
+        {
+            get { return Num_loss_tmfr_m20_row_12_strat.Text; }
+            set { Num_loss_tmfr_m20_row_12_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_m30_row_0_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_m30_row_1_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_m30_row_2_strat;
@@ -23663,6 +28087,71 @@
         private System.Windows.Forms.TextBox Num_loss_tmfr_m30_row_10_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_m30_row_11_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_m30_row_12_strat;
+        public string NumLossTmfrM30Row_0StratText
+        {
+            get { return Num_loss_tmfr_m30_row_0_strat.Text; }
+            set { Num_loss_tmfr_m30_row_0_strat.Text = value; }
+        }
+        public string NumLossTmfrM30Row_1StratText
+        {
+            get { return Num_loss_tmfr_m30_row_1_strat.Text; }
+            set { Num_loss_tmfr_m30_row_1_strat.Text = value; }
+        }
+        public string NumLossTmfrM30Row_2StratText
+        {
+            get { return Num_loss_tmfr_m30_row_2_strat.Text; }
+            set { Num_loss_tmfr_m30_row_2_strat.Text = value; }
+        }
+        public string NumLossTmfrM30Row_3StratText
+        {
+            get { return Num_loss_tmfr_m30_row_3_strat.Text; }
+            set { Num_loss_tmfr_m30_row_3_strat.Text = value; }
+        }
+        public string NumLossTmfrM30Row_4StratText
+        {
+            get { return Num_loss_tmfr_m30_row_4_strat.Text; }
+            set { Num_loss_tmfr_m30_row_4_strat.Text = value; }
+        }
+        public string NumLossTmfrM30Row_5StratText
+        {
+            get { return Num_loss_tmfr_m30_row_5_strat.Text; }
+            set { Num_loss_tmfr_m30_row_5_strat.Text = value; }
+        }
+        public string NumLossTmfrM30Row_6StratText
+        {
+            get { return Num_loss_tmfr_m30_row_6_strat.Text; }
+            set { Num_loss_tmfr_m30_row_6_strat.Text = value; }
+        }
+        public string NumLossTmfrM30Row_7StratText
+        {
+            get { return Num_loss_tmfr_m30_row_7_strat.Text; }
+            set { Num_loss_tmfr_m30_row_7_strat.Text = value; }
+        }
+        public string NumLossTmfrM30Row_8StratText
+        {
+            get { return Num_loss_tmfr_m30_row_8_strat.Text; }
+            set { Num_loss_tmfr_m30_row_8_strat.Text = value; }
+        }
+        public string NumLossTmfrM30Row_9StratText
+        {
+            get { return Num_loss_tmfr_m30_row_9_strat.Text; }
+            set { Num_loss_tmfr_m30_row_9_strat.Text = value; }
+        }
+        public string NumLossTmfrM30Row_10StratText
+        {
+            get { return Num_loss_tmfr_m30_row_10_strat.Text; }
+            set { Num_loss_tmfr_m30_row_10_strat.Text = value; }
+        }
+        public string NumLossTmfrM30Row_11StratText
+        {
+            get { return Num_loss_tmfr_m30_row_11_strat.Text; }
+            set { Num_loss_tmfr_m30_row_11_strat.Text = value; }
+        }
+        public string NumLossTmfrM30Row_12StratText
+        {
+            get { return Num_loss_tmfr_m30_row_12_strat.Text; }
+            set { Num_loss_tmfr_m30_row_12_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_h1_row_0_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_h1_row_1_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_h1_row_2_strat;
@@ -23676,6 +28165,71 @@
         private System.Windows.Forms.TextBox Num_loss_tmfr_h1_row_10_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_h1_row_11_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_h1_row_12_strat;
+        public string NumLossTmfrH1Row_0StratText
+        {
+            get { return Num_loss_tmfr_h1_row_0_strat.Text; }
+            set { Num_loss_tmfr_h1_row_0_strat.Text = value; }
+        }
+        public string NumLossTmfrH1Row_1StratText
+        {
+            get { return Num_loss_tmfr_h1_row_1_strat.Text; }
+            set { Num_loss_tmfr_h1_row_1_strat.Text = value; }
+        }
+        public string NumLossTmfrH1Row_2StratText
+        {
+            get { return Num_loss_tmfr_h1_row_2_strat.Text; }
+            set { Num_loss_tmfr_h1_row_2_strat.Text = value; }
+        }
+        public string NumLossTmfrH1Row_3StratText
+        {
+            get { return Num_loss_tmfr_h1_row_3_strat.Text; }
+            set { Num_loss_tmfr_h1_row_3_strat.Text = value; }
+        }
+        public string NumLossTmfrH1Row_4StratText
+        {
+            get { return Num_loss_tmfr_h1_row_4_strat.Text; }
+            set { Num_loss_tmfr_h1_row_4_strat.Text = value; }
+        }
+        public string NumLossTmfrH1Row_5StratText
+        {
+            get { return Num_loss_tmfr_h1_row_5_strat.Text; }
+            set { Num_loss_tmfr_h1_row_5_strat.Text = value; }
+        }
+        public string NumLossTmfrH1Row_6StratText
+        {
+            get { return Num_loss_tmfr_h1_row_6_strat.Text; }
+            set { Num_loss_tmfr_h1_row_6_strat.Text = value; }
+        }
+        public string NumLossTmfrH1Row_7StratText
+        {
+            get { return Num_loss_tmfr_h1_row_7_strat.Text; }
+            set { Num_loss_tmfr_h1_row_7_strat.Text = value; }
+        }
+        public string NumLossTmfrH1Row_8StratText
+        {
+            get { return Num_loss_tmfr_h1_row_8_strat.Text; }
+            set { Num_loss_tmfr_h1_row_8_strat.Text = value; }
+        }
+        public string NumLossTmfrH1Row_9StratText
+        {
+            get { return Num_loss_tmfr_h1_row_9_strat.Text; }
+            set { Num_loss_tmfr_h1_row_9_strat.Text = value; }
+        }
+        public string NumLossTmfrH1Row_10StratText
+        {
+            get { return Num_loss_tmfr_h1_row_10_strat.Text; }
+            set { Num_loss_tmfr_h1_row_10_strat.Text = value; }
+        }
+        public string NumLossTmfrH1Row_11StratText
+        {
+            get { return Num_loss_tmfr_h1_row_11_strat.Text; }
+            set { Num_loss_tmfr_h1_row_11_strat.Text = value; }
+        }
+        public string NumLossTmfrH1Row_12StratText
+        {
+            get { return Num_loss_tmfr_h1_row_12_strat.Text; }
+            set { Num_loss_tmfr_h1_row_12_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_h2_row_0_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_h2_row_1_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_h2_row_2_strat;
@@ -23689,6 +28243,71 @@
         private System.Windows.Forms.TextBox Num_loss_tmfr_h2_row_10_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_h2_row_11_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_h2_row_12_strat;
+        public string NumLossTmfrH2Row_0StratText
+        {
+            get { return Num_loss_tmfr_h2_row_0_strat.Text; }
+            set { Num_loss_tmfr_h2_row_0_strat.Text = value; }
+        }
+        public string NumLossTmfrH2Row_1StratText
+        {
+            get { return Num_loss_tmfr_h2_row_1_strat.Text; }
+            set { Num_loss_tmfr_h2_row_1_strat.Text = value; }
+        }
+        public string NumLossTmfrH2Row_2StratText
+        {
+            get { return Num_loss_tmfr_h2_row_2_strat.Text; }
+            set { Num_loss_tmfr_h2_row_2_strat.Text = value; }
+        }
+        public string NumLossTmfrH2Row_3StratText
+        {
+            get { return Num_loss_tmfr_h2_row_3_strat.Text; }
+            set { Num_loss_tmfr_h2_row_3_strat.Text = value; }
+        }
+        public string NumLossTmfrH2Row_4StratText
+        {
+            get { return Num_loss_tmfr_h2_row_4_strat.Text; }
+            set { Num_loss_tmfr_h2_row_4_strat.Text = value; }
+        }
+        public string NumLossTmfrH2Row_5StratText
+        {
+            get { return Num_loss_tmfr_h2_row_5_strat.Text; }
+            set { Num_loss_tmfr_h2_row_5_strat.Text = value; }
+        }
+        public string NumLossTmfrH2Row_6StratText
+        {
+            get { return Num_loss_tmfr_h2_row_6_strat.Text; }
+            set { Num_loss_tmfr_h2_row_6_strat.Text = value; }
+        }
+        public string NumLossTmfrH2Row_7StratText
+        {
+            get { return Num_loss_tmfr_h2_row_7_strat.Text; }
+            set { Num_loss_tmfr_h2_row_7_strat.Text = value; }
+        }
+        public string NumLossTmfrH2Row_8StratText
+        {
+            get { return Num_loss_tmfr_h2_row_8_strat.Text; }
+            set { Num_loss_tmfr_h2_row_8_strat.Text = value; }
+        }
+        public string NumLossTmfrH2Row_9StratText
+        {
+            get { return Num_loss_tmfr_h2_row_9_strat.Text; }
+            set { Num_loss_tmfr_h2_row_9_strat.Text = value; }
+        }
+        public string NumLossTmfrH2Row_10StratText
+        {
+            get { return Num_loss_tmfr_h2_row_10_strat.Text; }
+            set { Num_loss_tmfr_h2_row_10_strat.Text = value; }
+        }
+        public string NumLossTmfrH2Row_11StratText
+        {
+            get { return Num_loss_tmfr_h2_row_11_strat.Text; }
+            set { Num_loss_tmfr_h2_row_11_strat.Text = value; }
+        }
+        public string NumLossTmfrH2Row_12StratText
+        {
+            get { return Num_loss_tmfr_h2_row_12_strat.Text; }
+            set { Num_loss_tmfr_h2_row_12_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_h3_row_0_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_h3_row_1_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_h3_row_2_strat;
@@ -23702,6 +28321,71 @@
         private System.Windows.Forms.TextBox Num_loss_tmfr_h3_row_10_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_h3_row_11_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_h3_row_12_strat;
+        public string NumLossTmfrH3Row_0StratText
+        {
+            get { return Num_loss_tmfr_h3_row_0_strat.Text; }
+            set { Num_loss_tmfr_h3_row_0_strat.Text = value; }
+        }
+        public string NumLossTmfrH3Row_1StratText
+        {
+            get { return Num_loss_tmfr_h3_row_1_strat.Text; }
+            set { Num_loss_tmfr_h3_row_1_strat.Text = value; }
+        }
+        public string NumLossTmfrH3Row_2StratText
+        {
+            get { return Num_loss_tmfr_h3_row_2_strat.Text; }
+            set { Num_loss_tmfr_h3_row_2_strat.Text = value; }
+        }
+        public string NumLossTmfrH3Row_3StratText
+        {
+            get { return Num_loss_tmfr_h3_row_3_strat.Text; }
+            set { Num_loss_tmfr_h3_row_3_strat.Text = value; }
+        }
+        public string NumLossTmfrH3Row_4StratText
+        {
+            get { return Num_loss_tmfr_h3_row_4_strat.Text; }
+            set { Num_loss_tmfr_h3_row_4_strat.Text = value; }
+        }
+        public string NumLossTmfrH3Row_5StratText
+        {
+            get { return Num_loss_tmfr_h3_row_5_strat.Text; }
+            set { Num_loss_tmfr_h3_row_5_strat.Text = value; }
+        }
+        public string NumLossTmfrH3Row_6StratText
+        {
+            get { return Num_loss_tmfr_h3_row_6_strat.Text; }
+            set { Num_loss_tmfr_h3_row_6_strat.Text = value; }
+        }
+        public string NumLossTmfrH3Row_7StratText
+        {
+            get { return Num_loss_tmfr_h3_row_7_strat.Text; }
+            set { Num_loss_tmfr_h3_row_7_strat.Text = value; }
+        }
+        public string NumLossTmfrH3Row_8StratText
+        {
+            get { return Num_loss_tmfr_h3_row_8_strat.Text; }
+            set { Num_loss_tmfr_h3_row_8_strat.Text = value; }
+        }
+        public string NumLossTmfrH3Row_9StratText
+        {
+            get { return Num_loss_tmfr_h3_row_9_strat.Text; }
+            set { Num_loss_tmfr_h3_row_9_strat.Text = value; }
+        }
+        public string NumLossTmfrH3Row_10StratText
+        {
+            get { return Num_loss_tmfr_h3_row_10_strat.Text; }
+            set { Num_loss_tmfr_h3_row_10_strat.Text = value; }
+        }
+        public string NumLossTmfrH3Row_11StratText
+        {
+            get { return Num_loss_tmfr_h3_row_11_strat.Text; }
+            set { Num_loss_tmfr_h3_row_11_strat.Text = value; }
+        }
+        public string NumLossTmfrH3Row_12StratText
+        {
+            get { return Num_loss_tmfr_h3_row_12_strat.Text; }
+            set { Num_loss_tmfr_h3_row_12_strat.Text = value; }
+        }
         private System.Windows.Forms.TextBox Num_loss_tmfr_h4_row_0_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_h4_row_1_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_h4_row_2_strat;
@@ -23715,11 +28399,1492 @@
         private System.Windows.Forms.TextBox Num_loss_tmfr_h4_row_10_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_h4_row_11_strat;
         private System.Windows.Forms.TextBox Num_loss_tmfr_h4_row_12_strat;
-
-        public string SizeDepositRow12Text
+        public string NumLossTmfrH4Row_0StratText
         {
-            get { return Size_deposit_row_12.Text; }
-            set { Size_deposit_row_12.Text = value; }
+            get { return Num_loss_tmfr_h4_row_0_strat.Text; }
+            set { Num_loss_tmfr_h4_row_0_strat.Text = value; }
+        }
+        public string NumLossTmfrH4Row_1StratText
+        {
+            get { return Num_loss_tmfr_h4_row_1_strat.Text; }
+            set { Num_loss_tmfr_h4_row_1_strat.Text = value; }
+        }
+        public string NumLossTmfrH4Row_2StratText
+        {
+            get { return Num_loss_tmfr_h4_row_2_strat.Text; }
+            set { Num_loss_tmfr_h4_row_2_strat.Text = value; }
+        }
+        public string NumLossTmfrH4Row_3StratText
+        {
+            get { return Num_loss_tmfr_h4_row_3_strat.Text; }
+            set { Num_loss_tmfr_h4_row_3_strat.Text = value; }
+        }
+        public string NumLossTmfrH4Row_4StratText
+        {
+            get { return Num_loss_tmfr_h4_row_4_strat.Text; }
+            set { Num_loss_tmfr_h4_row_4_strat.Text = value; }
+        }
+        public string NumLossTmfrH4Row_5StratText
+        {
+            get { return Num_loss_tmfr_h4_row_5_strat.Text; }
+            set { Num_loss_tmfr_h4_row_5_strat.Text = value; }
+        }
+        public string NumLossTmfrH4Row_6StratText
+        {
+            get { return Num_loss_tmfr_h4_row_6_strat.Text; }
+            set { Num_loss_tmfr_h4_row_6_strat.Text = value; }
+        }
+        public string NumLossTmfrH4Row_7StratText
+        {
+            get { return Num_loss_tmfr_h4_row_7_strat.Text; }
+            set { Num_loss_tmfr_h4_row_7_strat.Text = value; }
+        }
+        public string NumLossTmfrH4Row_8StratText
+        {
+            get { return Num_loss_tmfr_h4_row_8_strat.Text; }
+            set { Num_loss_tmfr_h4_row_8_strat.Text = value; }
+        }
+        public string NumLossTmfrH4Row_9StratText
+        {
+            get { return Num_loss_tmfr_h4_row_9_strat.Text; }
+            set { Num_loss_tmfr_h4_row_9_strat.Text = value; }
+        }
+        public string NumLossTmfrH4Row_10StratText
+        {
+            get { return Num_loss_tmfr_h4_row_10_strat.Text; }
+            set { Num_loss_tmfr_h4_row_10_strat.Text = value; }
+        }
+        public string NumLossTmfrH4Row_11StratText
+        {
+            get { return Num_loss_tmfr_h4_row_11_strat.Text; }
+            set { Num_loss_tmfr_h4_row_11_strat.Text = value; }
+        }
+        public string NumLossTmfrH4Row_12StratText
+        {
+            get { return Num_loss_tmfr_h4_row_12_strat.Text; }
+            set { Num_loss_tmfr_h4_row_12_strat.Text = value; }
+        }
+        private System.Windows.Forms.Label Delay_tmfr_m1;
+        private System.Windows.Forms.Label Delay_tmfr_m2;
+        private System.Windows.Forms.Label Delay_tmfr_m3;
+        private System.Windows.Forms.Label Delay_tmfr_m4;
+        private System.Windows.Forms.Label Delay_tmfr_m5;
+        private System.Windows.Forms.Label Delay_tmfr_m6;
+        private System.Windows.Forms.Label Delay_tmfr_m10;
+        private System.Windows.Forms.Label Delay_tmfr_m12;
+        private System.Windows.Forms.Label Delay_tmfr_m15;
+        private System.Windows.Forms.Label Delay_tmfr_m20;
+        private System.Windows.Forms.Label Delay_tmfr_m30;
+        private System.Windows.Forms.Label Delay_tmfr_h1;
+        private System.Windows.Forms.Label Delay_tmfr_h2;
+        private System.Windows.Forms.Label Delay_tmfr_h3;
+        private System.Windows.Forms.Label Delay_tmfr_h4;
+        private System.Windows.Forms.TextBox Delay_tmfr_m1_row_0_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m1_row_1_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m1_row_2_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m1_row_3_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m1_row_4_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m1_row_5_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m1_row_6_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m1_row_7_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m1_row_8_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m1_row_9_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m1_row_10_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m1_row_11_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m1_row_12_strat;
+        public string DelayTmfrM1Row_0StratText
+        {
+            get { return Delay_tmfr_m1_row_0_strat.Text; }
+            set { Delay_tmfr_m1_row_0_strat.Text = value; }
+        }
+        public string DelayTmfrM1Row_1StratText
+        {
+            get { return Delay_tmfr_m1_row_1_strat.Text; }
+            set { Delay_tmfr_m1_row_1_strat.Text = value; }
+        }
+        public string DelayTmfrM1Row_2StratText
+        {
+            get { return Delay_tmfr_m1_row_2_strat.Text; }
+            set { Delay_tmfr_m1_row_2_strat.Text = value; }
+        }
+        public string DelayTmfrM1Row_3StratText
+        {
+            get { return Delay_tmfr_m1_row_3_strat.Text; }
+            set { Delay_tmfr_m1_row_3_strat.Text = value; }
+        }
+        public string DelayTmfrM1Row_4StratText
+        {
+            get { return Delay_tmfr_m1_row_4_strat.Text; }
+            set { Delay_tmfr_m1_row_4_strat.Text = value; }
+        }
+        public string DelayTmfrM1Row_5StratText
+        {
+            get { return Delay_tmfr_m1_row_5_strat.Text; }
+            set { Delay_tmfr_m1_row_5_strat.Text = value; }
+        }
+        public string DelayTmfrM1Row_6StratText
+        {
+            get { return Delay_tmfr_m1_row_6_strat.Text; }
+            set { Delay_tmfr_m1_row_6_strat.Text = value; }
+        }
+        public string DelayTmfrM1Row_7StratText
+        {
+            get { return Delay_tmfr_m1_row_7_strat.Text; }
+            set { Delay_tmfr_m1_row_7_strat.Text = value; }
+        }
+        public string DelayTmfrM1Row_8StratText
+        {
+            get { return Delay_tmfr_m1_row_8_strat.Text; }
+            set { Delay_tmfr_m1_row_8_strat.Text = value; }
+        }
+        public string DelayTmfrM1Row_9StratText
+        {
+            get { return Delay_tmfr_m1_row_9_strat.Text; }
+            set { Delay_tmfr_m1_row_9_strat.Text = value; }
+        }
+        public string DelayTmfrM1Row_10StratText
+        {
+            get { return Delay_tmfr_m1_row_10_strat.Text; }
+            set { Delay_tmfr_m1_row_10_strat.Text = value; }
+        }
+        public string DelayTmfrM1Row_11StratText
+        {
+            get { return Delay_tmfr_m1_row_11_strat.Text; }
+            set { Delay_tmfr_m1_row_11_strat.Text = value; }
+        }
+        public string DelayTmfrM1Row_12StratText
+        {
+            get { return Delay_tmfr_m1_row_12_strat.Text; }
+            set { Delay_tmfr_m1_row_12_strat.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Delay_tmfr_m2_row_0_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m2_row_1_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m2_row_2_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m2_row_3_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m2_row_4_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m2_row_5_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m2_row_6_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m2_row_7_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m2_row_8_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m2_row_9_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m2_row_10_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m2_row_11_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m2_row_12_strat;
+        public string DelayTmfrM2Row_0StratText
+        {
+            get { return Delay_tmfr_m2_row_0_strat.Text; }
+            set { Delay_tmfr_m2_row_0_strat.Text = value; }
+        }
+        public string DelayTmfrM2Row_1StratText
+        {
+            get { return Delay_tmfr_m2_row_1_strat.Text; }
+            set { Delay_tmfr_m2_row_1_strat.Text = value; }
+        }
+        public string DelayTmfrM2Row_2StratText
+        {
+            get { return Delay_tmfr_m2_row_2_strat.Text; }
+            set { Delay_tmfr_m2_row_2_strat.Text = value; }
+        }
+        public string DelayTmfrM2Row_3StratText
+        {
+            get { return Delay_tmfr_m2_row_3_strat.Text; }
+            set { Delay_tmfr_m2_row_3_strat.Text = value; }
+        }
+        public string DelayTmfrM2Row_4StratText
+        {
+            get { return Delay_tmfr_m2_row_4_strat.Text; }
+            set { Delay_tmfr_m2_row_4_strat.Text = value; }
+        }
+        public string DelayTmfrM2Row_5StratText
+        {
+            get { return Delay_tmfr_m2_row_5_strat.Text; }
+            set { Delay_tmfr_m2_row_5_strat.Text = value; }
+        }
+        public string DelayTmfrM2Row_6StratText
+        {
+            get { return Delay_tmfr_m2_row_6_strat.Text; }
+            set { Delay_tmfr_m2_row_6_strat.Text = value; }
+        }
+        public string DelayTmfrM2Row_7StratText
+        {
+            get { return Delay_tmfr_m2_row_7_strat.Text; }
+            set { Delay_tmfr_m2_row_7_strat.Text = value; }
+        }
+        public string DelayTmfrM2Row_8StratText
+        {
+            get { return Delay_tmfr_m2_row_8_strat.Text; }
+            set { Delay_tmfr_m2_row_8_strat.Text = value; }
+        }
+        public string DelayTmfrM2Row_9StratText
+        {
+            get { return Delay_tmfr_m2_row_9_strat.Text; }
+            set { Delay_tmfr_m2_row_9_strat.Text = value; }
+        }
+        public string DelayTmfrM2Row_10StratText
+        {
+            get { return Delay_tmfr_m2_row_10_strat.Text; }
+            set { Delay_tmfr_m2_row_10_strat.Text = value; }
+        }
+        public string DelayTmfrM2Row_11StratText
+        {
+            get { return Delay_tmfr_m2_row_11_strat.Text; }
+            set { Delay_tmfr_m2_row_11_strat.Text = value; }
+        }
+        public string DelayTmfrM2Row_12StratText
+        {
+            get { return Delay_tmfr_m2_row_12_strat.Text; }
+            set { Delay_tmfr_m2_row_12_strat.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Delay_tmfr_m3_row_0_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m3_row_1_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m3_row_2_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m3_row_3_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m3_row_4_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m3_row_5_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m3_row_6_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m3_row_7_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m3_row_8_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m3_row_9_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m3_row_10_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m3_row_11_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m3_row_12_strat;
+        public string DelayTmfrM3Row_0StratText
+        {
+            get { return Delay_tmfr_m3_row_0_strat.Text; }
+            set { Delay_tmfr_m3_row_0_strat.Text = value; }
+        }
+        public string DelayTmfrM3Row_1StratText
+        {
+            get { return Delay_tmfr_m3_row_1_strat.Text; }
+            set { Delay_tmfr_m3_row_1_strat.Text = value; }
+        }
+        public string DelayTmfrM3Row_2StratText
+        {
+            get { return Delay_tmfr_m3_row_2_strat.Text; }
+            set { Delay_tmfr_m3_row_2_strat.Text = value; }
+        }
+        public string DelayTmfrM3Row_3StratText
+        {
+            get { return Delay_tmfr_m3_row_3_strat.Text; }
+            set { Delay_tmfr_m3_row_3_strat.Text = value; }
+        }
+        public string DelayTmfrM3Row_4StratText
+        {
+            get { return Delay_tmfr_m3_row_4_strat.Text; }
+            set { Delay_tmfr_m3_row_4_strat.Text = value; }
+        }
+        public string DelayTmfrM3Row_5StratText
+        {
+            get { return Delay_tmfr_m3_row_5_strat.Text; }
+            set { Delay_tmfr_m3_row_5_strat.Text = value; }
+        }
+        public string DelayTmfrM3Row_6StratText
+        {
+            get { return Delay_tmfr_m3_row_6_strat.Text; }
+            set { Delay_tmfr_m3_row_6_strat.Text = value; }
+        }
+        public string DelayTmfrM3Row_7StratText
+        {
+            get { return Delay_tmfr_m3_row_7_strat.Text; }
+            set { Delay_tmfr_m3_row_7_strat.Text = value; }
+        }
+        public string DelayTmfrM3Row_8StratText
+        {
+            get { return Delay_tmfr_m3_row_8_strat.Text; }
+            set { Delay_tmfr_m3_row_8_strat.Text = value; }
+        }
+        public string DelayTmfrM3Row_9StratText
+        {
+            get { return Delay_tmfr_m3_row_9_strat.Text; }
+            set { Delay_tmfr_m3_row_9_strat.Text = value; }
+        }
+        public string DelayTmfrM3Row_10StratText
+        {
+            get { return Delay_tmfr_m3_row_10_strat.Text; }
+            set { Delay_tmfr_m3_row_10_strat.Text = value; }
+        }
+        public string DelayTmfrM3Row_11StratText
+        {
+            get { return Delay_tmfr_m3_row_11_strat.Text; }
+            set { Delay_tmfr_m3_row_11_strat.Text = value; }
+        }
+        public string DelayTmfrM3Row_12StratText
+        {
+            get { return Delay_tmfr_m3_row_12_strat.Text; }
+            set { Delay_tmfr_m3_row_12_strat.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Delay_tmfr_m4_row_0_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m4_row_1_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m4_row_2_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m4_row_3_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m4_row_4_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m4_row_5_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m4_row_6_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m4_row_7_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m4_row_8_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m4_row_9_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m4_row_10_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m4_row_11_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m4_row_12_strat;
+        public string DelayTmfrM4Row_0StratText
+        {
+            get { return Delay_tmfr_m4_row_0_strat.Text; }
+            set { Delay_tmfr_m4_row_0_strat.Text = value; }
+        }
+        public string DelayTmfrM4Row_1StratText
+        {
+            get { return Delay_tmfr_m4_row_1_strat.Text; }
+            set { Delay_tmfr_m4_row_1_strat.Text = value; }
+        }
+        public string DelayTmfrM4Row_2StratText
+        {
+            get { return Delay_tmfr_m4_row_2_strat.Text; }
+            set { Delay_tmfr_m4_row_2_strat.Text = value; }
+        }
+        public string DelayTmfrM4Row_3StratText
+        {
+            get { return Delay_tmfr_m4_row_3_strat.Text; }
+            set { Delay_tmfr_m4_row_3_strat.Text = value; }
+        }
+        public string DelayTmfrM4Row_4StratText
+        {
+            get { return Delay_tmfr_m4_row_4_strat.Text; }
+            set { Delay_tmfr_m4_row_4_strat.Text = value; }
+        }
+        public string DelayTmfrM4Row_5StratText
+        {
+            get { return Delay_tmfr_m4_row_5_strat.Text; }
+            set { Delay_tmfr_m4_row_5_strat.Text = value; }
+        }
+        public string DelayTmfrM4Row_6StratText
+        {
+            get { return Delay_tmfr_m4_row_6_strat.Text; }
+            set { Delay_tmfr_m4_row_6_strat.Text = value; }
+        }
+        public string DelayTmfrM4Row_7StratText
+        {
+            get { return Delay_tmfr_m4_row_7_strat.Text; }
+            set { Delay_tmfr_m4_row_7_strat.Text = value; }
+        }
+        public string DelayTmfrM4Row_8StratText
+        {
+            get { return Delay_tmfr_m4_row_8_strat.Text; }
+            set { Delay_tmfr_m4_row_8_strat.Text = value; }
+        }
+        public string DelayTmfrM4Row_9StratText
+        {
+            get { return Delay_tmfr_m4_row_9_strat.Text; }
+            set { Delay_tmfr_m4_row_9_strat.Text = value; }
+        }
+        public string DelayTmfrM4Row_10StratText
+        {
+            get { return Delay_tmfr_m4_row_10_strat.Text; }
+            set { Delay_tmfr_m4_row_10_strat.Text = value; }
+        }
+        public string DelayTmfrM4Row_11StratText
+        {
+            get { return Delay_tmfr_m4_row_11_strat.Text; }
+            set { Delay_tmfr_m4_row_11_strat.Text = value; }
+        }
+        public string DelayTmfrM4Row_12StratText
+        {
+            get { return Delay_tmfr_m4_row_12_strat.Text; }
+            set { Delay_tmfr_m4_row_12_strat.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Delay_tmfr_m5_row_0_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m5_row_1_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m5_row_2_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m5_row_3_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m5_row_4_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m5_row_5_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m5_row_6_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m5_row_7_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m5_row_8_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m5_row_9_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m5_row_10_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m5_row_11_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m5_row_12_strat;
+        public string DelayTmfrM5Row_0StratText
+        {
+            get { return Delay_tmfr_m5_row_0_strat.Text; }
+            set { Delay_tmfr_m5_row_0_strat.Text = value; }
+        }
+        public string DelayTmfrM5Row_1StratText
+        {
+            get { return Delay_tmfr_m5_row_1_strat.Text; }
+            set { Delay_tmfr_m5_row_1_strat.Text = value; }
+        }
+        public string DelayTmfrM5Row_2StratText
+        {
+            get { return Delay_tmfr_m5_row_2_strat.Text; }
+            set { Delay_tmfr_m5_row_2_strat.Text = value; }
+        }
+        public string DelayTmfrM5Row_3StratText
+        {
+            get { return Delay_tmfr_m5_row_3_strat.Text; }
+            set { Delay_tmfr_m5_row_3_strat.Text = value; }
+        }
+        public string DelayTmfrM5Row_4StratText
+        {
+            get { return Delay_tmfr_m5_row_4_strat.Text; }
+            set { Delay_tmfr_m5_row_4_strat.Text = value; }
+        }
+        public string DelayTmfrM5Row_5StratText
+        {
+            get { return Delay_tmfr_m5_row_5_strat.Text; }
+            set { Delay_tmfr_m5_row_5_strat.Text = value; }
+        }
+        public string DelayTmfrM5Row_6StratText
+        {
+            get { return Delay_tmfr_m5_row_6_strat.Text; }
+            set { Delay_tmfr_m5_row_6_strat.Text = value; }
+        }
+        public string DelayTmfrM5Row_7StratText
+        {
+            get { return Delay_tmfr_m5_row_7_strat.Text; }
+            set { Delay_tmfr_m5_row_7_strat.Text = value; }
+        }
+        public string DelayTmfrM5Row_8StratText
+        {
+            get { return Delay_tmfr_m5_row_8_strat.Text; }
+            set { Delay_tmfr_m5_row_8_strat.Text = value; }
+        }
+        public string DelayTmfrM5Row_9StratText
+        {
+            get { return Delay_tmfr_m5_row_9_strat.Text; }
+            set { Delay_tmfr_m5_row_9_strat.Text = value; }
+        }
+        public string DelayTmfrM5Row_10StratText
+        {
+            get { return Delay_tmfr_m5_row_10_strat.Text; }
+            set { Delay_tmfr_m5_row_10_strat.Text = value; }
+        }
+        public string DelayTmfrM5Row_11StratText
+        {
+            get { return Delay_tmfr_m5_row_11_strat.Text; }
+            set { Delay_tmfr_m5_row_11_strat.Text = value; }
+        }
+        public string DelayTmfrM5Row_12StratText
+        {
+            get { return Delay_tmfr_m5_row_12_strat.Text; }
+            set { Delay_tmfr_m5_row_12_strat.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Delay_tmfr_m6_row_0_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m6_row_1_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m6_row_2_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m6_row_3_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m6_row_4_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m6_row_5_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m6_row_6_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m6_row_7_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m6_row_8_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m6_row_9_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m6_row_10_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m6_row_11_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m6_row_12_strat;
+        public string DelayTmfrM6Row_0StratText
+        {
+            get { return Delay_tmfr_m6_row_0_strat.Text; }
+            set { Delay_tmfr_m6_row_0_strat.Text = value; }
+        }
+        public string DelayTmfrM6Row_1StratText
+        {
+            get { return Delay_tmfr_m6_row_1_strat.Text; }
+            set { Delay_tmfr_m6_row_1_strat.Text = value; }
+        }
+        public string DelayTmfrM6Row_2StratText
+        {
+            get { return Delay_tmfr_m6_row_2_strat.Text; }
+            set { Delay_tmfr_m6_row_2_strat.Text = value; }
+        }
+        public string DelayTmfrM6Row_3StratText
+        {
+            get { return Delay_tmfr_m6_row_3_strat.Text; }
+            set { Delay_tmfr_m6_row_3_strat.Text = value; }
+        }
+        public string DelayTmfrM6Row_4StratText
+        {
+            get { return Delay_tmfr_m6_row_4_strat.Text; }
+            set { Delay_tmfr_m6_row_4_strat.Text = value; }
+        }
+        public string DelayTmfrM6Row_5StratText
+        {
+            get { return Delay_tmfr_m6_row_5_strat.Text; }
+            set { Delay_tmfr_m6_row_5_strat.Text = value; }
+        }
+        public string DelayTmfrM6Row_6StratText
+        {
+            get { return Delay_tmfr_m6_row_6_strat.Text; }
+            set { Delay_tmfr_m6_row_6_strat.Text = value; }
+        }
+        public string DelayTmfrM6Row_7StratText
+        {
+            get { return Delay_tmfr_m6_row_7_strat.Text; }
+            set { Delay_tmfr_m6_row_7_strat.Text = value; }
+        }
+        public string DelayTmfrM6Row_8StratText
+        {
+            get { return Delay_tmfr_m6_row_8_strat.Text; }
+            set { Delay_tmfr_m6_row_8_strat.Text = value; }
+        }
+        public string DelayTmfrM6Row_9StratText
+        {
+            get { return Delay_tmfr_m6_row_9_strat.Text; }
+            set { Delay_tmfr_m6_row_9_strat.Text = value; }
+        }
+        public string DelayTmfrM6Row_10StratText
+        {
+            get { return Delay_tmfr_m6_row_10_strat.Text; }
+            set { Delay_tmfr_m6_row_10_strat.Text = value; }
+        }
+        public string DelayTmfrM6Row_11StratText
+        {
+            get { return Delay_tmfr_m6_row_11_strat.Text; }
+            set { Delay_tmfr_m6_row_11_strat.Text = value; }
+        }
+        public string DelayTmfrM6Row_12StratText
+        {
+            get { return Delay_tmfr_m6_row_12_strat.Text; }
+            set { Delay_tmfr_m6_row_12_strat.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Delay_tmfr_m10_row_0_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m10_row_1_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m10_row_2_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m10_row_3_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m10_row_4_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m10_row_5_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m10_row_6_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m10_row_7_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m10_row_8_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m10_row_9_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m10_row_10_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m10_row_11_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m10_row_12_strat;
+        public string DelayTmfrM10Row_0StratText
+        {
+            get { return Delay_tmfr_m10_row_0_strat.Text; }
+            set { Delay_tmfr_m10_row_0_strat.Text = value; }
+        }
+        public string DelayTmfrM10Row_1StratText
+        {
+            get { return Delay_tmfr_m10_row_1_strat.Text; }
+            set { Delay_tmfr_m10_row_1_strat.Text = value; }
+        }
+        public string DelayTmfrM10Row_2StratText
+        {
+            get { return Delay_tmfr_m10_row_2_strat.Text; }
+            set { Delay_tmfr_m10_row_2_strat.Text = value; }
+        }
+        public string DelayTmfrM10Row_3StratText
+        {
+            get { return Delay_tmfr_m10_row_3_strat.Text; }
+            set { Delay_tmfr_m10_row_3_strat.Text = value; }
+        }
+        public string DelayTmfrM10Row_4StratText
+        {
+            get { return Delay_tmfr_m10_row_4_strat.Text; }
+            set { Delay_tmfr_m10_row_4_strat.Text = value; }
+        }
+        public string DelayTmfrM10Row_5StratText
+        {
+            get { return Delay_tmfr_m10_row_5_strat.Text; }
+            set { Delay_tmfr_m10_row_5_strat.Text = value; }
+        }
+        public string DelayTmfrM10Row_6StratText
+        {
+            get { return Delay_tmfr_m10_row_6_strat.Text; }
+            set { Delay_tmfr_m10_row_6_strat.Text = value; }
+        }
+        public string DelayTmfrM10Row_7StratText
+        {
+            get { return Delay_tmfr_m10_row_7_strat.Text; }
+            set { Delay_tmfr_m10_row_7_strat.Text = value; }
+        }
+        public string DelayTmfrM10Row_8StratText
+        {
+            get { return Delay_tmfr_m10_row_8_strat.Text; }
+            set { Delay_tmfr_m10_row_8_strat.Text = value; }
+        }
+        public string DelayTmfrM10Row_9StratText
+        {
+            get { return Delay_tmfr_m10_row_9_strat.Text; }
+            set { Delay_tmfr_m10_row_9_strat.Text = value; }
+        }
+        public string DelayTmfrM10Row_10StratText
+        {
+            get { return Delay_tmfr_m10_row_10_strat.Text; }
+            set { Delay_tmfr_m10_row_10_strat.Text = value; }
+        }
+        public string DelayTmfrM10Row_11StratText
+        {
+            get { return Delay_tmfr_m10_row_11_strat.Text; }
+            set { Delay_tmfr_m10_row_11_strat.Text = value; }
+        }
+        public string DelayTmfrM10Row_12StratText
+        {
+            get { return Delay_tmfr_m10_row_12_strat.Text; }
+            set { Delay_tmfr_m10_row_12_strat.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Delay_tmfr_m12_row_0_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m12_row_1_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m12_row_2_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m12_row_3_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m12_row_4_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m12_row_5_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m12_row_6_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m12_row_7_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m12_row_8_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m12_row_9_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m12_row_10_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m12_row_11_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m12_row_12_strat;
+        public string DelayTmfrM12Row_0StratText
+        {
+            get { return Delay_tmfr_m12_row_0_strat.Text; }
+            set { Delay_tmfr_m12_row_0_strat.Text = value; }
+        }
+        public string DelayTmfrM12Row_1StratText
+        {
+            get { return Delay_tmfr_m12_row_1_strat.Text; }
+            set { Delay_tmfr_m12_row_1_strat.Text = value; }
+        }
+        public string DelayTmfrM12Row_2StratText
+        {
+            get { return Delay_tmfr_m12_row_2_strat.Text; }
+            set { Delay_tmfr_m12_row_2_strat.Text = value; }
+        }
+        public string DelayTmfrM12Row_3StratText
+        {
+            get { return Delay_tmfr_m12_row_3_strat.Text; }
+            set { Delay_tmfr_m12_row_3_strat.Text = value; }
+        }
+        public string DelayTmfrM12Row_4StratText
+        {
+            get { return Delay_tmfr_m12_row_4_strat.Text; }
+            set { Delay_tmfr_m12_row_4_strat.Text = value; }
+        }
+        public string DelayTmfrM12Row_5StratText
+        {
+            get { return Delay_tmfr_m12_row_5_strat.Text; }
+            set { Delay_tmfr_m12_row_5_strat.Text = value; }
+        }
+        public string DelayTmfrM12Row_6StratText
+        {
+            get { return Delay_tmfr_m12_row_6_strat.Text; }
+            set { Delay_tmfr_m12_row_6_strat.Text = value; }
+        }
+        public string DelayTmfrM12Row_7StratText
+        {
+            get { return Delay_tmfr_m12_row_7_strat.Text; }
+            set { Delay_tmfr_m12_row_7_strat.Text = value; }
+        }
+        public string DelayTmfrM12Row_8StratText
+        {
+            get { return Delay_tmfr_m12_row_8_strat.Text; }
+            set { Delay_tmfr_m12_row_8_strat.Text = value; }
+        }
+        public string DelayTmfrM12Row_9StratText
+        {
+            get { return Delay_tmfr_m12_row_9_strat.Text; }
+            set { Delay_tmfr_m12_row_9_strat.Text = value; }
+        }
+        public string DelayTmfrM12Row_10StratText
+        {
+            get { return Delay_tmfr_m12_row_10_strat.Text; }
+            set { Delay_tmfr_m12_row_10_strat.Text = value; }
+        }
+        public string DelayTmfrM12Row_11StratText
+        {
+            get { return Delay_tmfr_m12_row_11_strat.Text; }
+            set { Delay_tmfr_m12_row_11_strat.Text = value; }
+        }
+        public string DelayTmfrM12Row_12StratText
+        {
+            get { return Delay_tmfr_m12_row_12_strat.Text; }
+            set { Delay_tmfr_m12_row_12_strat.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Delay_tmfr_m15_row_0_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m15_row_1_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m15_row_2_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m15_row_3_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m15_row_4_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m15_row_5_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m15_row_6_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m15_row_7_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m15_row_8_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m15_row_9_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m15_row_10_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m15_row_11_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m15_row_12_strat;
+        public string DelayTmfrM15Row_0StratText
+        {
+            get { return Delay_tmfr_m15_row_0_strat.Text; }
+            set { Delay_tmfr_m15_row_0_strat.Text = value; }
+        }
+        public string DelayTmfrM15Row_1StratText
+        {
+            get { return Delay_tmfr_m15_row_1_strat.Text; }
+            set { Delay_tmfr_m15_row_1_strat.Text = value; }
+        }
+        public string DelayTmfrM15Row_2StratText
+        {
+            get { return Delay_tmfr_m15_row_2_strat.Text; }
+            set { Delay_tmfr_m15_row_2_strat.Text = value; }
+        }
+        public string DelayTmfrM15Row_3StratText
+        {
+            get { return Delay_tmfr_m15_row_3_strat.Text; }
+            set { Delay_tmfr_m15_row_3_strat.Text = value; }
+        }
+        public string DelayTmfrM15Row_4StratText
+        {
+            get { return Delay_tmfr_m15_row_4_strat.Text; }
+            set { Delay_tmfr_m15_row_4_strat.Text = value; }
+        }
+        public string DelayTmfrM15Row_5StratText
+        {
+            get { return Delay_tmfr_m15_row_5_strat.Text; }
+            set { Delay_tmfr_m15_row_5_strat.Text = value; }
+        }
+        public string DelayTmfrM15Row_6StratText
+        {
+            get { return Delay_tmfr_m15_row_6_strat.Text; }
+            set { Delay_tmfr_m15_row_6_strat.Text = value; }
+        }
+        public string DelayTmfrM15Row_7StratText
+        {
+            get { return Delay_tmfr_m15_row_7_strat.Text; }
+            set { Delay_tmfr_m15_row_7_strat.Text = value; }
+        }
+        public string DelayTmfrM15Row_8StratText
+        {
+            get { return Delay_tmfr_m15_row_8_strat.Text; }
+            set { Delay_tmfr_m15_row_8_strat.Text = value; }
+        }
+        public string DelayTmfrM15Row_9StratText
+        {
+            get { return Delay_tmfr_m15_row_9_strat.Text; }
+            set { Delay_tmfr_m15_row_9_strat.Text = value; }
+        }
+        public string DelayTmfrM15Row_10StratText
+        {
+            get { return Delay_tmfr_m15_row_10_strat.Text; }
+            set { Delay_tmfr_m15_row_10_strat.Text = value; }
+        }
+        public string DelayTmfrM15Row_11StratText
+        {
+            get { return Delay_tmfr_m15_row_11_strat.Text; }
+            set { Delay_tmfr_m15_row_11_strat.Text = value; }
+        }
+        public string DelayTmfrM15Row_12StratText
+        {
+            get { return Delay_tmfr_m15_row_12_strat.Text; }
+            set { Delay_tmfr_m15_row_12_strat.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Delay_tmfr_m20_row_0_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m20_row_1_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m20_row_2_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m20_row_3_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m20_row_4_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m20_row_5_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m20_row_6_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m20_row_7_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m20_row_8_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m20_row_9_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m20_row_10_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m20_row_11_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m20_row_12_strat;
+        public string DelayTmfrM20Row_0StratText
+        {
+            get { return Delay_tmfr_m20_row_0_strat.Text; }
+            set { Delay_tmfr_m20_row_0_strat.Text = value; }
+        }
+        public string DelayTmfrM20Row_1StratText
+        {
+            get { return Delay_tmfr_m20_row_1_strat.Text; }
+            set { Delay_tmfr_m20_row_1_strat.Text = value; }
+        }
+        public string DelayTmfrM20Row_2StratText
+        {
+            get { return Delay_tmfr_m20_row_2_strat.Text; }
+            set { Delay_tmfr_m20_row_2_strat.Text = value; }
+        }
+        public string DelayTmfrM20Row_3StratText
+        {
+            get { return Delay_tmfr_m20_row_3_strat.Text; }
+            set { Delay_tmfr_m20_row_3_strat.Text = value; }
+        }
+        public string DelayTmfrM20Row_4StratText
+        {
+            get { return Delay_tmfr_m20_row_4_strat.Text; }
+            set { Delay_tmfr_m20_row_4_strat.Text = value; }
+        }
+        public string DelayTmfrM20Row_5StratText
+        {
+            get { return Delay_tmfr_m20_row_5_strat.Text; }
+            set { Delay_tmfr_m20_row_5_strat.Text = value; }
+        }
+        public string DelayTmfrM20Row_6StratText
+        {
+            get { return Delay_tmfr_m20_row_6_strat.Text; }
+            set { Delay_tmfr_m20_row_6_strat.Text = value; }
+        }
+        public string DelayTmfrM20Row_7StratText
+        {
+            get { return Delay_tmfr_m20_row_7_strat.Text; }
+            set { Delay_tmfr_m20_row_7_strat.Text = value; }
+        }
+        public string DelayTmfrM20Row_8StratText
+        {
+            get { return Delay_tmfr_m20_row_8_strat.Text; }
+            set { Delay_tmfr_m20_row_8_strat.Text = value; }
+        }
+        public string DelayTmfrM20Row_9StratText
+        {
+            get { return Delay_tmfr_m20_row_9_strat.Text; }
+            set { Delay_tmfr_m20_row_9_strat.Text = value; }
+        }
+        public string DelayTmfrM20Row_10StratText
+        {
+            get { return Delay_tmfr_m20_row_10_strat.Text; }
+            set { Delay_tmfr_m20_row_10_strat.Text = value; }
+        }
+        public string DelayTmfrM20Row_11StratText
+        {
+            get { return Delay_tmfr_m20_row_11_strat.Text; }
+            set { Delay_tmfr_m20_row_11_strat.Text = value; }
+        }
+        public string DelayTmfrM20Row_12StratText
+        {
+            get { return Delay_tmfr_m20_row_12_strat.Text; }
+            set { Delay_tmfr_m20_row_12_strat.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Delay_tmfr_m30_row_0_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m30_row_1_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m30_row_2_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m30_row_3_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m30_row_4_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m30_row_5_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m30_row_6_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m30_row_7_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m30_row_8_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m30_row_9_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m30_row_10_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m30_row_11_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_m30_row_12_strat;
+        public string DelayTmfrM30Row_0StratText
+        {
+            get { return Delay_tmfr_m30_row_0_strat.Text; }
+            set { Delay_tmfr_m30_row_0_strat.Text = value; }
+        }
+        public string DelayTmfrM30Row_1StratText
+        {
+            get { return Delay_tmfr_m30_row_1_strat.Text; }
+            set { Delay_tmfr_m30_row_1_strat.Text = value; }
+        }
+        public string DelayTmfrM30Row_2StratText
+        {
+            get { return Delay_tmfr_m30_row_2_strat.Text; }
+            set { Delay_tmfr_m30_row_2_strat.Text = value; }
+        }
+        public string DelayTmfrM30Row_3StratText
+        {
+            get { return Delay_tmfr_m30_row_3_strat.Text; }
+            set { Delay_tmfr_m30_row_3_strat.Text = value; }
+        }
+        public string DelayTmfrM30Row_4StratText
+        {
+            get { return Delay_tmfr_m30_row_4_strat.Text; }
+            set { Delay_tmfr_m30_row_4_strat.Text = value; }
+        }
+        public string DelayTmfrM30Row_5StratText
+        {
+            get { return Delay_tmfr_m30_row_5_strat.Text; }
+            set { Delay_tmfr_m30_row_5_strat.Text = value; }
+        }
+        public string DelayTmfrM30Row_6StratText
+        {
+            get { return Delay_tmfr_m30_row_6_strat.Text; }
+            set { Delay_tmfr_m30_row_6_strat.Text = value; }
+        }
+        public string DelayTmfrM30Row_7StratText
+        {
+            get { return Delay_tmfr_m30_row_7_strat.Text; }
+            set { Delay_tmfr_m30_row_7_strat.Text = value; }
+        }
+        public string DelayTmfrM30Row_8StratText
+        {
+            get { return Delay_tmfr_m30_row_8_strat.Text; }
+            set { Delay_tmfr_m30_row_8_strat.Text = value; }
+        }
+        public string DelayTmfrM30Row_9StratText
+        {
+            get { return Delay_tmfr_m30_row_9_strat.Text; }
+            set { Delay_tmfr_m30_row_9_strat.Text = value; }
+        }
+        public string DelayTmfrM30Row_10StratText
+        {
+            get { return Delay_tmfr_m30_row_10_strat.Text; }
+            set { Delay_tmfr_m30_row_10_strat.Text = value; }
+        }
+        public string DelayTmfrM30Row_11StratText
+        {
+            get { return Delay_tmfr_m30_row_11_strat.Text; }
+            set { Delay_tmfr_m30_row_11_strat.Text = value; }
+        }
+        public string DelayTmfrM30Row_12StratText
+        {
+            get { return Delay_tmfr_m30_row_12_strat.Text; }
+            set { Delay_tmfr_m30_row_12_strat.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Delay_tmfr_h1_row_0_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h1_row_1_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h1_row_2_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h1_row_3_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h1_row_4_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h1_row_5_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h1_row_6_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h1_row_7_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h1_row_8_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h1_row_9_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h1_row_10_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h1_row_11_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h1_row_12_strat;
+        public string DelayTmfrH1Row_0StratText
+        {
+            get { return Delay_tmfr_h1_row_0_strat.Text; }
+            set { Delay_tmfr_h1_row_0_strat.Text = value; }
+        }
+        public string DelayTmfrH1Row_1StratText
+        {
+            get { return Delay_tmfr_h1_row_1_strat.Text; }
+            set { Delay_tmfr_h1_row_1_strat.Text = value; }
+        }
+        public string DelayTmfrH1Row_2StratText
+        {
+            get { return Delay_tmfr_h1_row_2_strat.Text; }
+            set { Delay_tmfr_h1_row_2_strat.Text = value; }
+        }
+        public string DelayTmfrH1Row_3StratText
+        {
+            get { return Delay_tmfr_h1_row_3_strat.Text; }
+            set { Delay_tmfr_h1_row_3_strat.Text = value; }
+        }
+        public string DelayTmfrH1Row_4StratText
+        {
+            get { return Delay_tmfr_h1_row_4_strat.Text; }
+            set { Delay_tmfr_h1_row_4_strat.Text = value; }
+        }
+        public string DelayTmfrH1Row_5StratText
+        {
+            get { return Delay_tmfr_h1_row_5_strat.Text; }
+            set { Delay_tmfr_h1_row_5_strat.Text = value; }
+        }
+        public string DelayTmfrH1Row_6StratText
+        {
+            get { return Delay_tmfr_h1_row_6_strat.Text; }
+            set { Delay_tmfr_h1_row_6_strat.Text = value; }
+        }
+        public string DelayTmfrH1Row_7StratText
+        {
+            get { return Delay_tmfr_h1_row_7_strat.Text; }
+            set { Delay_tmfr_h1_row_7_strat.Text = value; }
+        }
+        public string DelayTmfrH1Row_8StratText
+        {
+            get { return Delay_tmfr_h1_row_8_strat.Text; }
+            set { Delay_tmfr_h1_row_8_strat.Text = value; }
+        }
+        public string DelayTmfrH1Row_9StratText
+        {
+            get { return Delay_tmfr_h1_row_9_strat.Text; }
+            set { Delay_tmfr_h1_row_9_strat.Text = value; }
+        }
+        public string DelayTmfrH1Row_10StratText
+        {
+            get { return Delay_tmfr_h1_row_10_strat.Text; }
+            set { Delay_tmfr_h1_row_10_strat.Text = value; }
+        }
+        public string DelayTmfrH1Row_11StratText
+        {
+            get { return Delay_tmfr_h1_row_11_strat.Text; }
+            set { Delay_tmfr_h1_row_11_strat.Text = value; }
+        }
+        public string DelayTmfrH1Row_12StratText
+        {
+            get { return Delay_tmfr_h1_row_12_strat.Text; }
+            set { Delay_tmfr_h1_row_12_strat.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Delay_tmfr_h2_row_0_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h2_row_1_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h2_row_2_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h2_row_3_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h2_row_4_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h2_row_5_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h2_row_6_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h2_row_7_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h2_row_8_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h2_row_9_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h2_row_10_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h2_row_11_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h2_row_12_strat;
+        public string DelayTmfrH2Row_0StratText
+        {
+            get { return Delay_tmfr_h2_row_0_strat.Text; }
+            set { Delay_tmfr_h2_row_0_strat.Text = value; }
+        }
+        public string DelayTmfrH2Row_1StratText
+        {
+            get { return Delay_tmfr_h2_row_1_strat.Text; }
+            set { Delay_tmfr_h2_row_1_strat.Text = value; }
+        }
+        public string DelayTmfrH2Row_2StratText
+        {
+            get { return Delay_tmfr_h2_row_2_strat.Text; }
+            set { Delay_tmfr_h2_row_2_strat.Text = value; }
+        }
+        public string DelayTmfrH2Row_3StratText
+        {
+            get { return Delay_tmfr_h2_row_3_strat.Text; }
+            set { Delay_tmfr_h2_row_3_strat.Text = value; }
+        }
+        public string DelayTmfrH2Row_4StratText
+        {
+            get { return Delay_tmfr_h2_row_4_strat.Text; }
+            set { Delay_tmfr_h2_row_4_strat.Text = value; }
+        }
+        public string DelayTmfrH2Row_5StratText
+        {
+            get { return Delay_tmfr_h2_row_5_strat.Text; }
+            set { Delay_tmfr_h2_row_5_strat.Text = value; }
+        }
+        public string DelayTmfrH2Row_6StratText
+        {
+            get { return Delay_tmfr_h2_row_6_strat.Text; }
+            set { Delay_tmfr_h2_row_6_strat.Text = value; }
+        }
+        public string DelayTmfrH2Row_7StratText
+        {
+            get { return Delay_tmfr_h2_row_7_strat.Text; }
+            set { Delay_tmfr_h2_row_7_strat.Text = value; }
+        }
+        public string DelayTmfrH2Row_8StratText
+        {
+            get { return Delay_tmfr_h2_row_8_strat.Text; }
+            set { Delay_tmfr_h2_row_8_strat.Text = value; }
+        }
+        public string DelayTmfrH2Row_9StratText
+        {
+            get { return Delay_tmfr_h2_row_9_strat.Text; }
+            set { Delay_tmfr_h2_row_9_strat.Text = value; }
+        }
+        public string DelayTmfrH2Row_10StratText
+        {
+            get { return Delay_tmfr_h2_row_10_strat.Text; }
+            set { Delay_tmfr_h2_row_10_strat.Text = value; }
+        }
+        public string DelayTmfrH2Row_11StratText
+        {
+            get { return Delay_tmfr_h2_row_11_strat.Text; }
+            set { Delay_tmfr_h2_row_11_strat.Text = value; }
+        }
+        public string DelayTmfrH2Row_12StratText
+        {
+            get { return Delay_tmfr_h2_row_12_strat.Text; }
+            set { Delay_tmfr_h2_row_12_strat.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Delay_tmfr_h3_row_0_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h3_row_1_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h3_row_2_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h3_row_3_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h3_row_4_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h3_row_5_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h3_row_6_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h3_row_7_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h3_row_8_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h3_row_9_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h3_row_10_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h3_row_11_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h3_row_12_strat;
+        public string DelayTmfrH3Row_0StratText
+        {
+            get { return Delay_tmfr_h3_row_0_strat.Text; }
+            set { Delay_tmfr_h3_row_0_strat.Text = value; }
+        }
+        public string DelayTmfrH3Row_1StratText
+        {
+            get { return Delay_tmfr_h3_row_1_strat.Text; }
+            set { Delay_tmfr_h3_row_1_strat.Text = value; }
+        }
+        public string DelayTmfrH3Row_2StratText
+        {
+            get { return Delay_tmfr_h3_row_2_strat.Text; }
+            set { Delay_tmfr_h3_row_2_strat.Text = value; }
+        }
+        public string DelayTmfrH3Row_3StratText
+        {
+            get { return Delay_tmfr_h3_row_3_strat.Text; }
+            set { Delay_tmfr_h3_row_3_strat.Text = value; }
+        }
+        public string DelayTmfrH3Row_4StratText
+        {
+            get { return Delay_tmfr_h3_row_4_strat.Text; }
+            set { Delay_tmfr_h3_row_4_strat.Text = value; }
+        }
+        public string DelayTmfrH3Row_5StratText
+        {
+            get { return Delay_tmfr_h3_row_5_strat.Text; }
+            set { Delay_tmfr_h3_row_5_strat.Text = value; }
+        }
+        public string DelayTmfrH3Row_6StratText
+        {
+            get { return Delay_tmfr_h3_row_6_strat.Text; }
+            set { Delay_tmfr_h3_row_6_strat.Text = value; }
+        }
+        public string DelayTmfrH3Row_7StratText
+        {
+            get { return Delay_tmfr_h3_row_7_strat.Text; }
+            set { Delay_tmfr_h3_row_7_strat.Text = value; }
+        }
+        public string DelayTmfrH3Row_8StratText
+        {
+            get { return Delay_tmfr_h3_row_8_strat.Text; }
+            set { Delay_tmfr_h3_row_8_strat.Text = value; }
+        }
+        public string DelayTmfrH3Row_9StratText
+        {
+            get { return Delay_tmfr_h3_row_9_strat.Text; }
+            set { Delay_tmfr_h3_row_9_strat.Text = value; }
+        }
+        public string DelayTmfrH3Row_10StratText
+        {
+            get { return Delay_tmfr_h3_row_10_strat.Text; }
+            set { Delay_tmfr_h3_row_10_strat.Text = value; }
+        }
+        public string DelayTmfrH3Row_11StratText
+        {
+            get { return Delay_tmfr_h3_row_11_strat.Text; }
+            set { Delay_tmfr_h3_row_11_strat.Text = value; }
+        }
+        public string DelayTmfrH3Row_12StratText
+        {
+            get { return Delay_tmfr_h3_row_12_strat.Text; }
+            set { Delay_tmfr_h3_row_12_strat.Text = value; }
+        }
+        private System.Windows.Forms.TextBox Delay_tmfr_h4_row_0_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h4_row_1_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h4_row_2_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h4_row_3_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h4_row_4_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h4_row_5_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h4_row_6_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h4_row_7_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h4_row_8_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h4_row_9_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h4_row_10_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h4_row_11_strat;
+        private System.Windows.Forms.TextBox Delay_tmfr_h4_row_12_strat;
+        public string DelayTmfrH4Row_0StratText
+        {
+            get { return Delay_tmfr_h4_row_0_strat.Text; }
+            set { Delay_tmfr_h4_row_0_strat.Text = value; }
+        }
+        public string DelayTmfrH4Row_1StratText
+        {
+            get { return Delay_tmfr_h4_row_1_strat.Text; }
+            set { Delay_tmfr_h4_row_1_strat.Text = value; }
+        }
+        public string DelayTmfrH4Row_2StratText
+        {
+            get { return Delay_tmfr_h4_row_2_strat.Text; }
+            set { Delay_tmfr_h4_row_2_strat.Text = value; }
+        }
+        public string DelayTmfrH4Row_3StratText
+        {
+            get { return Delay_tmfr_h4_row_3_strat.Text; }
+            set { Delay_tmfr_h4_row_3_strat.Text = value; }
+        }
+        public string DelayTmfrH4Row_4StratText
+        {
+            get { return Delay_tmfr_h4_row_4_strat.Text; }
+            set { Delay_tmfr_h4_row_4_strat.Text = value; }
+        }
+        public string DelayTmfrH4Row_5StratText
+        {
+            get { return Delay_tmfr_h4_row_5_strat.Text; }
+            set { Delay_tmfr_h4_row_5_strat.Text = value; }
+        }
+        public string DelayTmfrH4Row_6StratText
+        {
+            get { return Delay_tmfr_h4_row_6_strat.Text; }
+            set { Delay_tmfr_h4_row_6_strat.Text = value; }
+        }
+        public string DelayTmfrH4Row_7StratText
+        {
+            get { return Delay_tmfr_h4_row_7_strat.Text; }
+            set { Delay_tmfr_h4_row_7_strat.Text = value; }
+        }
+        public string DelayTmfrH4Row_8StratText
+        {
+            get { return Delay_tmfr_h4_row_8_strat.Text; }
+            set { Delay_tmfr_h4_row_8_strat.Text = value; }
+        }
+        public string DelayTmfrH4Row_9StratText
+        {
+            get { return Delay_tmfr_h4_row_9_strat.Text; }
+            set { Delay_tmfr_h4_row_9_strat.Text = value; }
+        }
+        public string DelayTmfrH4Row_10StratText
+        {
+            get { return Delay_tmfr_h4_row_10_strat.Text; }
+            set { Delay_tmfr_h4_row_10_strat.Text = value; }
+        }
+        public string DelayTmfrH4Row_11StratText
+        {
+            get { return Delay_tmfr_h4_row_11_strat.Text; }
+            set { Delay_tmfr_h4_row_11_strat.Text = value; }
+        }
+        public string DelayTmfrH4Row_12StratText
+        {
+            get { return Delay_tmfr_h4_row_12_strat.Text; }
+            set { Delay_tmfr_h4_row_12_strat.Text = value; }
+        }
+        private System.Windows.Forms.Label Fix_part_profit;
+        private System.Windows.Forms.CheckBox Fix_part_profit_row_0_strat;
+        private System.Windows.Forms.CheckBox Fix_part_profit_row_1_strat;
+        private System.Windows.Forms.CheckBox Fix_part_profit_row_2_strat;
+        private System.Windows.Forms.CheckBox Fix_part_profit_row_3_strat;
+        private System.Windows.Forms.CheckBox Fix_part_profit_row_4_strat;
+        private System.Windows.Forms.CheckBox Fix_part_profit_row_5_strat;
+        private System.Windows.Forms.CheckBox Fix_part_profit_row_6_strat;
+        private System.Windows.Forms.CheckBox Fix_part_profit_row_7_strat;
+        private System.Windows.Forms.CheckBox Fix_part_profit_row_8_strat;
+        private System.Windows.Forms.CheckBox Fix_part_profit_row_9_strat;
+        private System.Windows.Forms.CheckBox Fix_part_profit_row_10_strat;
+        private System.Windows.Forms.CheckBox Fix_part_profit_row_11_strat;
+        private System.Windows.Forms.CheckBox Fix_part_profit_row_12_strat;
+        public string FixPartProfitRow0StratChecked
+        {
+            get { return (Fix_part_profit_row_0_strat.Checked == false) ? "0" : "1"; }
+            set { Fix_part_profit_row_0_strat.Checked = (value == "0") ? false : true; }
+        }
+        public string FixPartProfitRow1StratChecked
+        {
+            get { return (Fix_part_profit_row_1_strat.Checked == false) ? "0" : "1"; }
+            set { Fix_part_profit_row_1_strat.Checked = (value == "0") ? false : true; }
+        }
+        public string FixPartProfitRow2StratChecked
+        {
+            get { return (Fix_part_profit_row_2_strat.Checked == false) ? "0" : "1"; }
+            set { Fix_part_profit_row_2_strat.Checked = (value == "0") ? false : true; }
+        }
+        public string FixPartProfitRow3StratChecked
+        {
+            get { return (Fix_part_profit_row_3_strat.Checked == false) ? "0" : "1"; }
+            set { Fix_part_profit_row_3_strat.Checked = (value == "0") ? false : true; }
+        }
+        public string FixPartProfitRow4StratChecked
+        {
+            get { return (Fix_part_profit_row_4_strat.Checked == false) ? "0" : "1"; }
+            set { Fix_part_profit_row_4_strat.Checked = (value == "0") ? false : true; }
+        }
+        public string FixPartProfitRow5StratChecked
+        {
+            get { return (Fix_part_profit_row_5_strat.Checked == false) ? "0" : "1"; }
+            set { Fix_part_profit_row_5_strat.Checked = (value == "0") ? false : true; }
+        }
+        public string FixPartProfitRow6StratChecked
+        {
+            get { return (Fix_part_profit_row_6_strat.Checked == false) ? "0" : "1"; }
+            set { Fix_part_profit_row_6_strat.Checked = (value == "0") ? false : true; }
+        }
+        public string FixPartProfitRow7StratChecked
+        {
+            get { return (Fix_part_profit_row_7_strat.Checked == false) ? "0" : "1"; }
+            set { Fix_part_profit_row_7_strat.Checked = (value == "0") ? false : true; }
+        }
+        public string FixPartProfitRow8StratChecked
+        {
+            get { return (Fix_part_profit_row_8_strat.Checked == false) ? "0" : "1"; }
+            set { Fix_part_profit_row_8_strat.Checked = (value == "0") ? false : true; }
+        }
+        public string FixPartProfitRow9StratChecked
+        {
+            get { return (Fix_part_profit_row_9_strat.Checked == false) ? "0" : "1"; }
+            set { Fix_part_profit_row_9_strat.Checked = (value == "0") ? false : true; }
+        }
+        public string FixPartProfitRow10StratChecked
+        {
+            get { return (Fix_part_profit_row_10_strat.Checked == false) ? "0" : "1"; }
+            set { Fix_part_profit_row_10_strat.Checked = (value == "0") ? false : true; }
+        }
+        public string FixPartProfitRow11StratChecked
+        {
+            get { return (Fix_part_profit_row_11_strat.Checked == false) ? "0" : "1"; }
+            set { Fix_part_profit_row_11_strat.Checked = (value == "0") ? false : true; }
+        }
+        public string FixPartProfitRow12StratChecked
+        {
+            get { return (Fix_part_profit_row_12_strat.Checked == false) ? "0" : "1"; }
+            set { Fix_part_profit_row_12_strat.Checked = (value == "0") ? false : true; }
+        }
+        private System.Windows.Forms.Label Vol_fix_profit;
+        private System.Windows.Forms.TextBox Vol_fix_profit_row_0_strat;
+        private System.Windows.Forms.TextBox Vol_fix_profit_row_1_strat;
+        private System.Windows.Forms.TextBox Vol_fix_profit_row_2_strat;
+        private System.Windows.Forms.TextBox Vol_fix_profit_row_3_strat;
+        private System.Windows.Forms.TextBox Vol_fix_profit_row_4_strat;
+        private System.Windows.Forms.TextBox Vol_fix_profit_row_5_strat;
+        private System.Windows.Forms.TextBox Vol_fix_profit_row_6_strat;
+        private System.Windows.Forms.TextBox Vol_fix_profit_row_7_strat;
+        private System.Windows.Forms.TextBox Vol_fix_profit_row_8_strat;
+        private System.Windows.Forms.TextBox Vol_fix_profit_row_9_strat;
+        private System.Windows.Forms.TextBox Vol_fix_profit_row_10_strat;
+        private System.Windows.Forms.TextBox Vol_fix_profit_row_11_strat;
+        private System.Windows.Forms.TextBox Vol_fix_profit_row_12_strat;
+        public string VolFixProfitRow0StratText
+        {
+            get { return Vol_fix_profit_row_0_strat.Text; }
+            set { Vol_fix_profit_row_0_strat.Text = value; }
+        }
+        public string VolFixProfitRow1StratText
+        {
+            get { return Vol_fix_profit_row_1_strat.Text; }
+            set { Vol_fix_profit_row_1_strat.Text = value; }
+        }
+        public string VolFixProfitRow2StratText
+        {
+            get { return Vol_fix_profit_row_2_strat.Text; }
+            set { Vol_fix_profit_row_2_strat.Text = value; }
+        }
+        public string VolFixProfitRow3StratText
+        {
+            get { return Vol_fix_profit_row_3_strat.Text; }
+            set { Vol_fix_profit_row_3_strat.Text = value; }
+        }
+        public string VolFixProfitRow4StratText
+        {
+            get { return Vol_fix_profit_row_4_strat.Text; }
+            set { Vol_fix_profit_row_4_strat.Text = value; }
+        }
+        public string VolFixProfitRow5StratText
+        {
+            get { return Vol_fix_profit_row_5_strat.Text; }
+            set { Vol_fix_profit_row_5_strat.Text = value; }
+        }
+        public string VolFixProfitRow6StratText
+        {
+            get { return Vol_fix_profit_row_6_strat.Text; }
+            set { Vol_fix_profit_row_6_strat.Text = value; }
+        }
+        public string VolFixProfitRow7StratText
+        {
+            get { return Vol_fix_profit_row_7_strat.Text; }
+            set { Vol_fix_profit_row_7_strat.Text = value; }
+        }
+        public string VolFixProfitRow8StratText
+        {
+            get { return Vol_fix_profit_row_8_strat.Text; }
+            set { Vol_fix_profit_row_8_strat.Text = value; }
+        }
+        public string VolFixProfitRow9StratText
+        {
+            get { return Vol_fix_profit_row_9_strat.Text; }
+            set { Vol_fix_profit_row_9_strat.Text = value; }
+        }
+        public string VolFixProfitRow10StratText
+        {
+            get { return Vol_fix_profit_row_10_strat.Text; }
+            set { Vol_fix_profit_row_10_strat.Text = value; }
+        }
+        public string VolFixProfitRow11StratText
+        {
+            get { return Vol_fix_profit_row_11_strat.Text; }
+            set { Vol_fix_profit_row_11_strat.Text = value; }
+        }
+        public string VolFixProfitRow12StratText
+        {
+            get { return Vol_fix_profit_row_12_strat.Text; }
+            set { Vol_fix_profit_row_12_strat.Text = value; }
+        }
+        private System.Windows.Forms.Label Close_pos_on_aver;
+        private System.Windows.Forms.CheckBox Close_pos_on_aver_row_0_strat;
+        private System.Windows.Forms.CheckBox Close_pos_on_aver_row_1_strat;
+        private System.Windows.Forms.CheckBox Close_pos_on_aver_row_2_strat;
+        private System.Windows.Forms.CheckBox Close_pos_on_aver_row_3_strat;
+        private System.Windows.Forms.CheckBox Close_pos_on_aver_row_4_strat;
+        private System.Windows.Forms.CheckBox Close_pos_on_aver_row_5_strat;
+        private System.Windows.Forms.CheckBox Close_pos_on_aver_row_6_strat;
+        private System.Windows.Forms.CheckBox Close_pos_on_aver_row_7_strat;
+        private System.Windows.Forms.CheckBox Close_pos_on_aver_row_8_strat;
+        private System.Windows.Forms.CheckBox Close_pos_on_aver_row_9_strat;
+        private System.Windows.Forms.CheckBox Close_pos_on_aver_row_10_strat;
+        private System.Windows.Forms.CheckBox Close_pos_on_aver_row_11_strat;
+        private System.Windows.Forms.CheckBox Close_pos_on_aver_row_12_strat;
+        public string ClosePosOnAverRow0StratChecked
+        {
+            get { return (Close_pos_on_aver_row_0_strat.Checked == false) ? "0" : "1"; }
+            set { Close_pos_on_aver_row_0_strat.Checked = (value == "0") ? false : true; }
+        }
+        public string ClosePosOnAverRow1StratChecked
+        {
+            get { return (Close_pos_on_aver_row_1_strat.Checked == false) ? "0" : "1"; }
+            set { Close_pos_on_aver_row_1_strat.Checked = (value == "0") ? false : true; }
+        }
+        public string ClosePosOnAverRow2StratChecked
+        {
+            get { return (Close_pos_on_aver_row_2_strat.Checked == false) ? "0" : "1"; }
+            set { Close_pos_on_aver_row_2_strat.Checked = (value == "0") ? false : true; }
+        }
+        public string ClosePosOnAverRow3StratChecked
+        {
+            get { return (Close_pos_on_aver_row_3_strat.Checked == false) ? "0" : "1"; }
+            set { Close_pos_on_aver_row_3_strat.Checked = (value == "0") ? false : true; }
+        }
+        public string ClosePosOnAverRow4StratChecked
+        {
+            get { return (Close_pos_on_aver_row_4_strat.Checked == false) ? "0" : "1"; }
+            set { Close_pos_on_aver_row_4_strat.Checked = (value == "0") ? false : true; }
+        }
+        public string ClosePosOnAverRow5StratChecked
+        {
+            get { return (Close_pos_on_aver_row_5_strat.Checked == false) ? "0" : "1"; }
+            set { Close_pos_on_aver_row_5_strat.Checked = (value == "0") ? false : true; }
+        }
+        public string ClosePosOnAverRow6StratChecked
+        {
+            get { return (Close_pos_on_aver_row_6_strat.Checked == false) ? "0" : "1"; }
+            set { Close_pos_on_aver_row_6_strat.Checked = (value == "0") ? false : true; }
+        }
+        public string ClosePosOnAverRow7StratChecked
+        {
+            get { return (Close_pos_on_aver_row_7_strat.Checked == false) ? "0" : "1"; }
+            set { Close_pos_on_aver_row_7_strat.Checked = (value == "0") ? false : true; }
+        }
+        public string ClosePosOnAverRow8StratChecked
+        {
+            get { return (Close_pos_on_aver_row_8_strat.Checked == false) ? "0" : "1"; }
+            set { Close_pos_on_aver_row_8_strat.Checked = (value == "0") ? false : true; }
+        }
+        public string ClosePosOnAverRow9StratChecked
+        {
+            get { return (Close_pos_on_aver_row_9_strat.Checked == false) ? "0" : "1"; }
+            set { Close_pos_on_aver_row_9_strat.Checked = (value == "0") ? false : true; }
+        }
+        public string ClosePosOnAverRow10StratChecked
+        {
+            get { return (Close_pos_on_aver_row_10_strat.Checked == false) ? "0" : "1"; }
+            set { Close_pos_on_aver_row_10_strat.Checked = (value == "0") ? false : true; }
+        }
+        public string ClosePosOnAverRow11StratChecked
+        {
+            get { return (Close_pos_on_aver_row_11_strat.Checked == false) ? "0" : "1"; }
+            set { Close_pos_on_aver_row_11_strat.Checked = (value == "0") ? false : true; }
+        }
+        public string ClosePosOnAverRow12StratChecked
+        {
+            get { return (Close_pos_on_aver_row_12_strat.Checked == false) ? "0" : "1"; }
+            set { Close_pos_on_aver_row_12_strat.Checked = (value == "0") ? false : true; }
         }
     }
 }

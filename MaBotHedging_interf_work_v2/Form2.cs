@@ -24,6 +24,7 @@ namespace MaBotHedging_interf_work
             BlockControls(hedg_order_page);
             BlockControls(gen_param_page);
             BlockControls(main_page);
+            BlockControls(strat_cross_av_bb_page);
         }
 
         private void Refresh_form(object sender, EventArgs e)
@@ -62,6 +63,7 @@ namespace MaBotHedging_interf_work
                 BlockControls(hedg_order_page);
                 BlockControls(gen_param_page);
                 BlockControls(main_page);
+                BlockControls(strat_cross_av_bb_page);
                 ConfigData config = new ConfigData(this);
                 config.SaveParams();
             }
@@ -92,6 +94,7 @@ namespace MaBotHedging_interf_work
             UnblockControls(hedg_order_page);
             UnblockControls(gen_param_page);
             UnblockControls(main_page);
+            UnblockControls(strat_cross_av_bb_page);
         }
 
         /*

@@ -945,6 +945,476 @@ namespace MaBotHedging_interf_work
         public string tester_operating_mode { get; set; } //не используется в интерфейсе
         public string unit { get; set; }
         public string print_debugg_comments { get; set; }
+
+        //вкладка Стратегия
+        public string Symb_row_0_strat_cross_av_bb_page { get; set; }
+        public string Symb_row_1_strat_cross_av_bb_page { get; set; }
+        public string Symb_row_2_strat_cross_av_bb_page { get; set; }
+        public string Symb_row_3_strat_cross_av_bb_page { get; set; }
+        public string Symb_row_4_strat_cross_av_bb_page { get; set; }
+        public string Symb_row_5_strat_cross_av_bb_page { get; set; }
+        public string Symb_row_6_strat_cross_av_bb_page { get; set; }
+        public string Symb_row_7_strat_cross_av_bb_page { get; set; }
+        public string Symb_row_8_strat_cross_av_bb_page { get; set; }
+        public string Symb_row_9_strat_cross_av_bb_page { get; set; }
+        public string Symb_row_10_strat_cross_av_bb_page { get; set; }
+        public string Symb_row_11_strat_cross_av_bb_page { get; set; }
+        public string Symb_row_12_strat_cross_av_bb_page { get; set; }
+        public string sensetive_deviation_0_strat_cross_av_bb_page { get; set; }
+        public string sensetive_deviation_1_strat_cross_av_bb_page { get; set; }
+        public string sensetive_deviation_2_strat_cross_av_bb_page { get; set; }
+        public string sensetive_deviation_3_strat_cross_av_bb_page { get; set; }
+        public string sensetive_deviation_4_strat_cross_av_bb_page { get; set; }
+        public string sensetive_deviation_5_strat_cross_av_bb_page { get; set; }
+        public string sensetive_deviation_6_strat_cross_av_bb_page { get; set; }
+        public string sensetive_deviation_7_strat_cross_av_bb_page { get; set; }
+        public string sensetive_deviation_8_strat_cross_av_bb_page { get; set; }
+        public string sensetive_deviation_9_strat_cross_av_bb_page { get; set; }
+        public string sensetive_deviation_10_strat_cross_av_bb_page { get; set; }
+        public string sensetive_deviation_11_strat_cross_av_bb_page { get; set; }
+        public string sensetive_deviation_12_strat_cross_av_bb_page { get; set; }
+        public string on_open_pos_long_candle_0_strat_cross_av_bb_page { get; set; }
+        public string on_open_pos_long_candle_1_strat_cross_av_bb_page { get; set; }
+        public string on_open_pos_long_candle_2_strat_cross_av_bb_page { get; set; }
+        public string on_open_pos_long_candle_3_strat_cross_av_bb_page { get; set; }
+        public string on_open_pos_long_candle_4_strat_cross_av_bb_page { get; set; }
+        public string on_open_pos_long_candle_5_strat_cross_av_bb_page { get; set; }
+        public string on_open_pos_long_candle_6_strat_cross_av_bb_page { get; set; }
+        public string on_open_pos_long_candle_7_strat_cross_av_bb_page { get; set; }
+        public string on_open_pos_long_candle_8_strat_cross_av_bb_page { get; set; }
+        public string on_open_pos_long_candle_9_strat_cross_av_bb_page { get; set; }
+        public string on_open_pos_long_candle_10_strat_cross_av_bb_page { get; set; }
+        public string on_open_pos_long_candle_11_strat_cross_av_bb_page { get; set; }
+        public string on_open_pos_long_candle_12_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m1_0_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m1_1_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m1_2_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m1_3_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m1_4_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m1_5_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m1_6_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m1_7_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m1_8_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m1_9_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m1_10_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m1_11_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m1_12_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m2_0_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m2_1_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m2_2_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m2_3_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m2_4_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m2_5_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m2_6_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m2_7_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m2_8_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m2_9_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m2_10_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m2_11_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m2_12_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m3_0_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m3_1_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m3_2_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m3_3_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m3_4_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m3_5_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m3_6_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m3_7_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m3_8_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m3_9_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m3_10_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m3_11_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m3_12_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m4_0_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m4_1_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m4_2_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m4_3_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m4_4_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m4_5_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m4_6_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m4_7_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m4_8_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m4_9_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m4_10_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m4_11_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m4_12_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m5_0_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m5_1_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m5_2_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m5_3_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m5_4_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m5_5_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m5_6_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m5_7_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m5_8_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m5_9_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m5_10_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m5_11_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m5_12_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m6_0_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m6_1_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m6_2_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m6_3_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m6_4_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m6_5_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m6_6_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m6_7_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m6_8_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m6_9_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m6_10_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m6_11_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m6_12_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m10_0_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m10_1_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m10_2_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m10_3_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m10_4_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m10_5_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m10_6_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m10_7_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m10_8_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m10_9_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m10_10_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m10_11_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m10_12_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m12_0_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m12_1_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m12_2_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m12_3_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m12_4_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m12_5_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m12_6_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m12_7_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m12_8_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m12_9_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m12_10_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m12_11_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m12_12_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m15_0_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m15_1_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m15_2_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m15_3_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m15_4_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m15_5_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m15_6_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m15_7_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m15_8_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m15_9_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m15_10_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m15_11_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m15_12_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m20_0_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m20_1_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m20_2_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m20_3_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m20_4_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m20_5_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m20_6_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m20_7_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m20_8_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m20_9_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m20_10_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m20_11_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m20_12_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m30_0_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m30_1_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m30_2_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m30_3_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m30_4_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m30_5_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m30_6_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m30_7_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m30_8_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m30_9_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m30_10_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m30_11_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_m30_12_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h1_0_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h1_1_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h1_2_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h1_3_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h1_4_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h1_5_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h1_6_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h1_7_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h1_8_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h1_9_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h1_10_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h1_11_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h1_12_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h2_0_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h2_1_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h2_2_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h2_3_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h2_4_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h2_5_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h2_6_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h2_7_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h2_8_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h2_9_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h2_10_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h2_11_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h2_12_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h3_0_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h3_1_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h3_2_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h3_3_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h3_4_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h3_5_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h3_6_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h3_7_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h3_8_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h3_9_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h3_10_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h3_11_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h3_12_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h4_0_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h4_1_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h4_2_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h4_3_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h4_4_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h4_5_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h4_6_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h4_7_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h4_8_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h4_9_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h4_10_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h4_11_strat_cross_av_bb_page { get; set; }
+        public string num_loss_switch_tmfr_h4_12_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m1_0_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m1_1_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m1_2_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m1_3_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m1_4_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m1_5_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m1_6_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m1_7_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m1_8_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m1_9_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m1_10_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m1_11_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m1_12_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m2_0_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m2_1_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m2_2_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m2_3_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m2_4_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m2_5_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m2_6_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m2_7_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m2_8_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m2_9_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m2_10_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m2_11_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m2_12_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m3_0_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m3_1_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m3_2_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m3_3_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m3_4_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m3_5_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m3_6_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m3_7_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m3_8_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m3_9_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m3_10_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m3_11_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m3_12_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m4_0_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m4_1_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m4_2_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m4_3_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m4_4_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m4_5_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m4_6_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m4_7_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m4_8_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m4_9_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m4_10_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m4_11_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m4_12_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m5_0_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m5_1_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m5_2_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m5_3_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m5_4_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m5_5_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m5_6_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m5_7_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m5_8_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m5_9_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m5_10_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m5_11_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m5_12_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m6_0_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m6_1_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m6_2_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m6_3_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m6_4_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m6_5_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m6_6_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m6_7_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m6_8_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m6_9_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m6_10_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m6_11_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m6_12_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m10_0_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m10_1_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m10_2_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m10_3_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m10_4_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m10_5_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m10_6_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m10_7_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m10_8_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m10_9_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m10_10_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m10_11_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m10_12_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m12_0_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m12_1_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m12_2_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m12_3_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m12_4_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m12_5_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m12_6_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m12_7_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m12_8_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m12_9_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m12_10_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m12_11_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m12_12_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m15_0_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m15_1_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m15_2_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m15_3_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m15_4_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m15_5_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m15_6_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m15_7_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m15_8_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m15_9_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m15_10_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m15_11_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m15_12_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m20_0_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m20_1_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m20_2_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m20_3_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m20_4_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m20_5_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m20_6_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m20_7_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m20_8_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m20_9_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m20_10_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m20_11_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m20_12_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m30_0_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m30_1_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m30_2_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m30_3_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m30_4_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m30_5_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m30_6_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m30_7_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m30_8_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m30_9_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m30_10_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m30_11_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_m30_12_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h1_0_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h1_1_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h1_2_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h1_3_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h1_4_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h1_5_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h1_6_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h1_7_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h1_8_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h1_9_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h1_10_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h1_11_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h1_12_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h2_0_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h2_1_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h2_2_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h2_3_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h2_4_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h2_5_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h2_6_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h2_7_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h2_8_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h2_9_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h2_10_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h2_11_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h2_12_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h3_0_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h3_1_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h3_2_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h3_3_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h3_4_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h3_5_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h3_6_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h3_7_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h3_8_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h3_9_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h3_10_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h3_11_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h3_12_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h4_0_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h4_1_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h4_2_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h4_3_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h4_4_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h4_5_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h4_6_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h4_7_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h4_8_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h4_9_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h4_10_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h4_11_strat_cross_av_bb_page { get; set; }
+        public string q_bar_ignor_tmfr_h4_12_strat_cross_av_bb_page { get; set; }
+        public string fix_part_profit_on_range_0_strat_cross_av_bb_page { get; set; }
+        public string fix_part_profit_on_range_1_strat_cross_av_bb_page { get; set; }
+        public string fix_part_profit_on_range_2_strat_cross_av_bb_page { get; set; }
+        public string fix_part_profit_on_range_3_strat_cross_av_bb_page { get; set; }
+        public string fix_part_profit_on_range_4_strat_cross_av_bb_page { get; set; }
+        public string fix_part_profit_on_range_5_strat_cross_av_bb_page { get; set; }
+        public string fix_part_profit_on_range_6_strat_cross_av_bb_page { get; set; }
+        public string fix_part_profit_on_range_7_strat_cross_av_bb_page { get; set; }
+        public string fix_part_profit_on_range_8_strat_cross_av_bb_page { get; set; }
+        public string fix_part_profit_on_range_9_strat_cross_av_bb_page { get; set; }
+        public string fix_part_profit_on_range_10_strat_cross_av_bb_page { get; set; }
+        public string fix_part_profit_on_range_11_strat_cross_av_bb_page { get; set; }
+        public string fix_part_profit_on_range_12_strat_cross_av_bb_page { get; set; }
+        public string vol_fix_take_on_range_0_strat_cross_av_bb_page { get; set; }
+        public string vol_fix_take_on_range_1_strat_cross_av_bb_page { get; set; }
+        public string vol_fix_take_on_range_2_strat_cross_av_bb_page { get; set; }
+        public string vol_fix_take_on_range_3_strat_cross_av_bb_page { get; set; }
+        public string vol_fix_take_on_range_4_strat_cross_av_bb_page { get; set; }
+        public string vol_fix_take_on_range_5_strat_cross_av_bb_page { get; set; }
+        public string vol_fix_take_on_range_6_strat_cross_av_bb_page { get; set; }
+        public string vol_fix_take_on_range_7_strat_cross_av_bb_page { get; set; }
+        public string vol_fix_take_on_range_8_strat_cross_av_bb_page { get; set; }
+        public string vol_fix_take_on_range_9_strat_cross_av_bb_page { get; set; }
+        public string vol_fix_take_on_range_10_strat_cross_av_bb_page { get; set; }
+        public string vol_fix_take_on_range_11_strat_cross_av_bb_page { get; set; }
+        public string vol_fix_take_on_range_12_strat_cross_av_bb_page { get; set; }
+        public string close_pos_return_aver_line_0_strat_cross_av_bb_page { get; set; }
+        public string close_pos_return_aver_line_1_strat_cross_av_bb_page { get; set; }
+        public string close_pos_return_aver_line_2_strat_cross_av_bb_page { get; set; }
+        public string close_pos_return_aver_line_3_strat_cross_av_bb_page { get; set; }
+        public string close_pos_return_aver_line_4_strat_cross_av_bb_page { get; set; }
+        public string close_pos_return_aver_line_5_strat_cross_av_bb_page { get; set; }
+        public string close_pos_return_aver_line_6_strat_cross_av_bb_page { get; set; }
+        public string close_pos_return_aver_line_7_strat_cross_av_bb_page { get; set; }
+        public string close_pos_return_aver_line_8_strat_cross_av_bb_page { get; set; }
+        public string close_pos_return_aver_line_9_strat_cross_av_bb_page { get; set; }
+        public string close_pos_return_aver_line_10_strat_cross_av_bb_page { get; set; }
+        public string close_pos_return_aver_line_11_strat_cross_av_bb_page { get; set; }
+        public string close_pos_return_aver_line_12_strat_cross_av_bb_page { get; set; }
     }
 
     public class ConfigData
@@ -1901,6 +2371,474 @@ namespace MaBotHedging_interf_work
             data.max_spread = m_form.MaxSpreadControlText;
             data.unit = m_form.UnitStopTakeControlItem;
             data.print_debugg_comments = m_form.PrintCommentsControlChecked;
+            data.Symb_row_0_strat_cross_av_bb_page = m_form.SymbRow0StratText;
+            data.Symb_row_1_strat_cross_av_bb_page = m_form.SymbRow1StratText;
+            data.Symb_row_2_strat_cross_av_bb_page = m_form.SymbRow2StratText;
+            data.Symb_row_3_strat_cross_av_bb_page = m_form.SymbRow3StratText;
+            data.Symb_row_4_strat_cross_av_bb_page = m_form.SymbRow4StratText;
+            data.Symb_row_5_strat_cross_av_bb_page = m_form.SymbRow5StratText;
+            data.Symb_row_6_strat_cross_av_bb_page = m_form.SymbRow6StratText;
+            data.Symb_row_7_strat_cross_av_bb_page = m_form.SymbRow7StratText;
+            data.Symb_row_8_strat_cross_av_bb_page = m_form.SymbRow8StratText;
+            data.Symb_row_9_strat_cross_av_bb_page = m_form.SymbRow9StratText;
+            data.Symb_row_10_strat_cross_av_bb_page = m_form.SymbRow10StratText;
+            data.Symb_row_11_strat_cross_av_bb_page = m_form.SymbRow11StratText;
+            data.Symb_row_12_strat_cross_av_bb_page = m_form.SymbRow12StratText;
+            data.sensetive_deviation_0_strat_cross_av_bb_page = m_form.SensetiveRow0StratText;
+            data.sensetive_deviation_1_strat_cross_av_bb_page = m_form.SensetiveRow1StratText;
+            data.sensetive_deviation_2_strat_cross_av_bb_page = m_form.SensetiveRow2StratText;
+            data.sensetive_deviation_3_strat_cross_av_bb_page = m_form.SensetiveRow3StratText;
+            data.sensetive_deviation_4_strat_cross_av_bb_page = m_form.SensetiveRow4StratText;
+            data.sensetive_deviation_5_strat_cross_av_bb_page = m_form.SensetiveRow5StratText;
+            data.sensetive_deviation_6_strat_cross_av_bb_page = m_form.SensetiveRow6StratText;
+            data.sensetive_deviation_7_strat_cross_av_bb_page = m_form.SensetiveRow7StratText;
+            data.sensetive_deviation_8_strat_cross_av_bb_page = m_form.SensetiveRow8StratText;
+            data.sensetive_deviation_9_strat_cross_av_bb_page = m_form.SensetiveRow9StratText;
+            data.sensetive_deviation_10_strat_cross_av_bb_page = m_form.SensetiveRow10StratText;
+            data.sensetive_deviation_11_strat_cross_av_bb_page = m_form.SensetiveRow11StratText;
+            data.sensetive_deviation_12_strat_cross_av_bb_page = m_form.SensetiveRow12StratText;
+            data.on_open_pos_long_candle_0_strat_cross_av_bb_page = m_form.LongCandleRow0StratChecked;
+            data.on_open_pos_long_candle_1_strat_cross_av_bb_page = m_form.LongCandleRow1StratChecked;
+            data.on_open_pos_long_candle_2_strat_cross_av_bb_page = m_form.LongCandleRow2StratChecked;
+            data.on_open_pos_long_candle_3_strat_cross_av_bb_page = m_form.LongCandleRow3StratChecked;
+            data.on_open_pos_long_candle_4_strat_cross_av_bb_page = m_form.LongCandleRow4StratChecked;
+            data.on_open_pos_long_candle_5_strat_cross_av_bb_page = m_form.LongCandleRow5StratChecked;
+            data.on_open_pos_long_candle_6_strat_cross_av_bb_page = m_form.LongCandleRow6StratChecked;
+            data.on_open_pos_long_candle_7_strat_cross_av_bb_page = m_form.LongCandleRow7StratChecked;
+            data.on_open_pos_long_candle_8_strat_cross_av_bb_page = m_form.LongCandleRow8StratChecked;
+            data.on_open_pos_long_candle_9_strat_cross_av_bb_page = m_form.LongCandleRow9StratChecked;
+            data.on_open_pos_long_candle_10_strat_cross_av_bb_page = m_form.LongCandleRow10StratChecked;
+            data.on_open_pos_long_candle_11_strat_cross_av_bb_page = m_form.LongCandleRow11StratChecked;
+            data.on_open_pos_long_candle_12_strat_cross_av_bb_page = m_form.LongCandleRow12StratChecked;
+            data.num_loss_switch_tmfr_m1_0_strat_cross_av_bb_page = m_form.NumLossTmfrM1Row_0StratText;
+            data.num_loss_switch_tmfr_m1_1_strat_cross_av_bb_page = m_form.NumLossTmfrM1Row_1StratText;
+            data.num_loss_switch_tmfr_m1_2_strat_cross_av_bb_page = m_form.NumLossTmfrM1Row_2StratText;
+            data.num_loss_switch_tmfr_m1_3_strat_cross_av_bb_page = m_form.NumLossTmfrM1Row_3StratText;
+            data.num_loss_switch_tmfr_m1_4_strat_cross_av_bb_page = m_form.NumLossTmfrM1Row_4StratText;
+            data.num_loss_switch_tmfr_m1_5_strat_cross_av_bb_page = m_form.NumLossTmfrM1Row_5StratText;
+            data.num_loss_switch_tmfr_m1_6_strat_cross_av_bb_page = m_form.NumLossTmfrM1Row_6StratText;
+            data.num_loss_switch_tmfr_m1_7_strat_cross_av_bb_page = m_form.NumLossTmfrM1Row_7StratText;
+            data.num_loss_switch_tmfr_m1_8_strat_cross_av_bb_page = m_form.NumLossTmfrM1Row_8StratText;
+            data.num_loss_switch_tmfr_m1_9_strat_cross_av_bb_page = m_form.NumLossTmfrM1Row_9StratText;
+            data.num_loss_switch_tmfr_m1_10_strat_cross_av_bb_page = m_form.NumLossTmfrM1Row_10StratText;
+            data.num_loss_switch_tmfr_m1_11_strat_cross_av_bb_page = m_form.NumLossTmfrM1Row_11StratText;
+            data.num_loss_switch_tmfr_m1_12_strat_cross_av_bb_page = m_form.NumLossTmfrM1Row_12StratText;
+            data.num_loss_switch_tmfr_m2_0_strat_cross_av_bb_page = m_form.NumLossTmfrM2Row_0StratText;
+            data.num_loss_switch_tmfr_m2_1_strat_cross_av_bb_page = m_form.NumLossTmfrM2Row_1StratText;
+            data.num_loss_switch_tmfr_m2_2_strat_cross_av_bb_page = m_form.NumLossTmfrM2Row_2StratText;
+            data.num_loss_switch_tmfr_m2_3_strat_cross_av_bb_page = m_form.NumLossTmfrM2Row_3StratText;
+            data.num_loss_switch_tmfr_m2_4_strat_cross_av_bb_page = m_form.NumLossTmfrM2Row_4StratText;
+            data.num_loss_switch_tmfr_m2_5_strat_cross_av_bb_page = m_form.NumLossTmfrM2Row_5StratText;
+            data.num_loss_switch_tmfr_m2_6_strat_cross_av_bb_page = m_form.NumLossTmfrM2Row_6StratText;
+            data.num_loss_switch_tmfr_m2_7_strat_cross_av_bb_page = m_form.NumLossTmfrM2Row_7StratText;
+            data.num_loss_switch_tmfr_m2_8_strat_cross_av_bb_page = m_form.NumLossTmfrM2Row_8StratText;
+            data.num_loss_switch_tmfr_m2_9_strat_cross_av_bb_page = m_form.NumLossTmfrM2Row_9StratText;
+            data.num_loss_switch_tmfr_m2_10_strat_cross_av_bb_page = m_form.NumLossTmfrM2Row_10StratText;
+            data.num_loss_switch_tmfr_m2_11_strat_cross_av_bb_page = m_form.NumLossTmfrM2Row_11StratText;
+            data.num_loss_switch_tmfr_m2_12_strat_cross_av_bb_page = m_form.NumLossTmfrM2Row_12StratText;
+            data.num_loss_switch_tmfr_m3_0_strat_cross_av_bb_page = m_form.NumLossTmfrM3Row_0StratText;
+            data.num_loss_switch_tmfr_m3_1_strat_cross_av_bb_page = m_form.NumLossTmfrM3Row_1StratText;
+            data.num_loss_switch_tmfr_m3_2_strat_cross_av_bb_page = m_form.NumLossTmfrM3Row_2StratText;
+            data.num_loss_switch_tmfr_m3_3_strat_cross_av_bb_page = m_form.NumLossTmfrM3Row_3StratText;
+            data.num_loss_switch_tmfr_m3_4_strat_cross_av_bb_page = m_form.NumLossTmfrM3Row_4StratText;
+            data.num_loss_switch_tmfr_m3_5_strat_cross_av_bb_page = m_form.NumLossTmfrM3Row_5StratText;
+            data.num_loss_switch_tmfr_m3_6_strat_cross_av_bb_page = m_form.NumLossTmfrM3Row_6StratText;
+            data.num_loss_switch_tmfr_m3_7_strat_cross_av_bb_page = m_form.NumLossTmfrM3Row_7StratText;
+            data.num_loss_switch_tmfr_m3_8_strat_cross_av_bb_page = m_form.NumLossTmfrM3Row_8StratText;
+            data.num_loss_switch_tmfr_m3_9_strat_cross_av_bb_page = m_form.NumLossTmfrM3Row_9StratText;
+            data.num_loss_switch_tmfr_m3_10_strat_cross_av_bb_page = m_form.NumLossTmfrM3Row_10StratText;
+            data.num_loss_switch_tmfr_m3_11_strat_cross_av_bb_page = m_form.NumLossTmfrM3Row_11StratText;
+            data.num_loss_switch_tmfr_m3_12_strat_cross_av_bb_page = m_form.NumLossTmfrM3Row_12StratText;
+            data.num_loss_switch_tmfr_m4_0_strat_cross_av_bb_page = m_form.NumLossTmfrM4Row_0StratText;
+            data.num_loss_switch_tmfr_m4_1_strat_cross_av_bb_page = m_form.NumLossTmfrM4Row_1StratText;
+            data.num_loss_switch_tmfr_m4_2_strat_cross_av_bb_page = m_form.NumLossTmfrM4Row_2StratText;
+            data.num_loss_switch_tmfr_m4_3_strat_cross_av_bb_page = m_form.NumLossTmfrM4Row_3StratText;
+            data.num_loss_switch_tmfr_m4_4_strat_cross_av_bb_page = m_form.NumLossTmfrM4Row_4StratText;
+            data.num_loss_switch_tmfr_m4_5_strat_cross_av_bb_page = m_form.NumLossTmfrM4Row_5StratText;
+            data.num_loss_switch_tmfr_m4_6_strat_cross_av_bb_page = m_form.NumLossTmfrM4Row_6StratText;
+            data.num_loss_switch_tmfr_m4_7_strat_cross_av_bb_page = m_form.NumLossTmfrM4Row_7StratText;
+            data.num_loss_switch_tmfr_m4_8_strat_cross_av_bb_page = m_form.NumLossTmfrM4Row_8StratText;
+            data.num_loss_switch_tmfr_m4_9_strat_cross_av_bb_page = m_form.NumLossTmfrM4Row_9StratText;
+            data.num_loss_switch_tmfr_m4_10_strat_cross_av_bb_page = m_form.NumLossTmfrM4Row_10StratText;
+            data.num_loss_switch_tmfr_m4_11_strat_cross_av_bb_page = m_form.NumLossTmfrM4Row_11StratText;
+            data.num_loss_switch_tmfr_m4_12_strat_cross_av_bb_page = m_form.NumLossTmfrM4Row_12StratText;
+            data.num_loss_switch_tmfr_m5_0_strat_cross_av_bb_page = m_form.NumLossTmfrM5Row_0StratText;
+            data.num_loss_switch_tmfr_m5_1_strat_cross_av_bb_page = m_form.NumLossTmfrM5Row_1StratText;
+            data.num_loss_switch_tmfr_m5_2_strat_cross_av_bb_page = m_form.NumLossTmfrM5Row_2StratText;
+            data.num_loss_switch_tmfr_m5_3_strat_cross_av_bb_page = m_form.NumLossTmfrM5Row_3StratText;
+            data.num_loss_switch_tmfr_m5_4_strat_cross_av_bb_page = m_form.NumLossTmfrM5Row_4StratText;
+            data.num_loss_switch_tmfr_m5_5_strat_cross_av_bb_page = m_form.NumLossTmfrM5Row_5StratText;
+            data.num_loss_switch_tmfr_m5_6_strat_cross_av_bb_page = m_form.NumLossTmfrM5Row_6StratText;
+            data.num_loss_switch_tmfr_m5_7_strat_cross_av_bb_page = m_form.NumLossTmfrM5Row_7StratText;
+            data.num_loss_switch_tmfr_m5_8_strat_cross_av_bb_page = m_form.NumLossTmfrM5Row_8StratText;
+            data.num_loss_switch_tmfr_m5_9_strat_cross_av_bb_page = m_form.NumLossTmfrM5Row_9StratText;
+            data.num_loss_switch_tmfr_m5_10_strat_cross_av_bb_page = m_form.NumLossTmfrM5Row_10StratText;
+            data.num_loss_switch_tmfr_m5_11_strat_cross_av_bb_page = m_form.NumLossTmfrM5Row_11StratText;
+            data.num_loss_switch_tmfr_m5_12_strat_cross_av_bb_page = m_form.NumLossTmfrM5Row_12StratText;
+            data.num_loss_switch_tmfr_m6_0_strat_cross_av_bb_page = m_form.NumLossTmfrM6Row_0StratText;
+            data.num_loss_switch_tmfr_m6_1_strat_cross_av_bb_page = m_form.NumLossTmfrM6Row_1StratText;
+            data.num_loss_switch_tmfr_m6_2_strat_cross_av_bb_page = m_form.NumLossTmfrM6Row_2StratText;
+            data.num_loss_switch_tmfr_m6_3_strat_cross_av_bb_page = m_form.NumLossTmfrM6Row_3StratText;
+            data.num_loss_switch_tmfr_m6_4_strat_cross_av_bb_page = m_form.NumLossTmfrM6Row_4StratText;
+            data.num_loss_switch_tmfr_m6_5_strat_cross_av_bb_page = m_form.NumLossTmfrM6Row_5StratText;
+            data.num_loss_switch_tmfr_m6_6_strat_cross_av_bb_page = m_form.NumLossTmfrM6Row_6StratText;
+            data.num_loss_switch_tmfr_m6_7_strat_cross_av_bb_page = m_form.NumLossTmfrM6Row_7StratText;
+            data.num_loss_switch_tmfr_m6_8_strat_cross_av_bb_page = m_form.NumLossTmfrM6Row_8StratText;
+            data.num_loss_switch_tmfr_m6_9_strat_cross_av_bb_page = m_form.NumLossTmfrM6Row_9StratText;
+            data.num_loss_switch_tmfr_m6_10_strat_cross_av_bb_page = m_form.NumLossTmfrM6Row_10StratText;
+            data.num_loss_switch_tmfr_m6_11_strat_cross_av_bb_page = m_form.NumLossTmfrM6Row_11StratText;
+            data.num_loss_switch_tmfr_m6_12_strat_cross_av_bb_page = m_form.NumLossTmfrM6Row_12StratText;
+            data.num_loss_switch_tmfr_m10_0_strat_cross_av_bb_page = m_form.NumLossTmfrM10Row_0StratText;
+            data.num_loss_switch_tmfr_m10_1_strat_cross_av_bb_page = m_form.NumLossTmfrM10Row_1StratText;
+            data.num_loss_switch_tmfr_m10_2_strat_cross_av_bb_page = m_form.NumLossTmfrM10Row_2StratText;
+            data.num_loss_switch_tmfr_m10_3_strat_cross_av_bb_page = m_form.NumLossTmfrM10Row_3StratText;
+            data.num_loss_switch_tmfr_m10_4_strat_cross_av_bb_page = m_form.NumLossTmfrM10Row_4StratText;
+            data.num_loss_switch_tmfr_m10_5_strat_cross_av_bb_page = m_form.NumLossTmfrM10Row_5StratText;
+            data.num_loss_switch_tmfr_m10_6_strat_cross_av_bb_page = m_form.NumLossTmfrM10Row_6StratText;
+            data.num_loss_switch_tmfr_m10_7_strat_cross_av_bb_page = m_form.NumLossTmfrM10Row_7StratText;
+            data.num_loss_switch_tmfr_m10_8_strat_cross_av_bb_page = m_form.NumLossTmfrM10Row_8StratText;
+            data.num_loss_switch_tmfr_m10_9_strat_cross_av_bb_page = m_form.NumLossTmfrM10Row_9StratText;
+            data.num_loss_switch_tmfr_m10_10_strat_cross_av_bb_page = m_form.NumLossTmfrM10Row_10StratText;
+            data.num_loss_switch_tmfr_m10_11_strat_cross_av_bb_page = m_form.NumLossTmfrM10Row_11StratText;
+            data.num_loss_switch_tmfr_m10_12_strat_cross_av_bb_page = m_form.NumLossTmfrM10Row_12StratText;
+            data.num_loss_switch_tmfr_m12_0_strat_cross_av_bb_page = m_form.NumLossTmfrM12Row_0StratText;
+            data.num_loss_switch_tmfr_m12_1_strat_cross_av_bb_page = m_form.NumLossTmfrM12Row_1StratText;
+            data.num_loss_switch_tmfr_m12_2_strat_cross_av_bb_page = m_form.NumLossTmfrM12Row_2StratText;
+            data.num_loss_switch_tmfr_m12_3_strat_cross_av_bb_page = m_form.NumLossTmfrM12Row_3StratText;
+            data.num_loss_switch_tmfr_m12_4_strat_cross_av_bb_page = m_form.NumLossTmfrM12Row_4StratText;
+            data.num_loss_switch_tmfr_m12_5_strat_cross_av_bb_page = m_form.NumLossTmfrM12Row_5StratText;
+            data.num_loss_switch_tmfr_m12_6_strat_cross_av_bb_page = m_form.NumLossTmfrM12Row_6StratText;
+            data.num_loss_switch_tmfr_m12_7_strat_cross_av_bb_page = m_form.NumLossTmfrM12Row_7StratText;
+            data.num_loss_switch_tmfr_m12_8_strat_cross_av_bb_page = m_form.NumLossTmfrM12Row_8StratText;
+            data.num_loss_switch_tmfr_m12_9_strat_cross_av_bb_page = m_form.NumLossTmfrM12Row_9StratText;
+            data.num_loss_switch_tmfr_m12_10_strat_cross_av_bb_page = m_form.NumLossTmfrM12Row_10StratText;
+            data.num_loss_switch_tmfr_m12_11_strat_cross_av_bb_page = m_form.NumLossTmfrM12Row_11StratText;
+            data.num_loss_switch_tmfr_m12_12_strat_cross_av_bb_page = m_form.NumLossTmfrM12Row_12StratText;
+            data.num_loss_switch_tmfr_m15_0_strat_cross_av_bb_page = m_form.NumLossTmfrM15Row_0StratText;
+            data.num_loss_switch_tmfr_m15_1_strat_cross_av_bb_page = m_form.NumLossTmfrM15Row_1StratText;
+            data.num_loss_switch_tmfr_m15_2_strat_cross_av_bb_page = m_form.NumLossTmfrM15Row_2StratText;
+            data.num_loss_switch_tmfr_m15_3_strat_cross_av_bb_page = m_form.NumLossTmfrM15Row_3StratText;
+            data.num_loss_switch_tmfr_m15_4_strat_cross_av_bb_page = m_form.NumLossTmfrM15Row_4StratText;
+            data.num_loss_switch_tmfr_m15_5_strat_cross_av_bb_page = m_form.NumLossTmfrM15Row_5StratText;
+            data.num_loss_switch_tmfr_m15_6_strat_cross_av_bb_page = m_form.NumLossTmfrM15Row_6StratText;
+            data.num_loss_switch_tmfr_m15_7_strat_cross_av_bb_page = m_form.NumLossTmfrM15Row_7StratText;
+            data.num_loss_switch_tmfr_m15_8_strat_cross_av_bb_page = m_form.NumLossTmfrM15Row_8StratText;
+            data.num_loss_switch_tmfr_m15_9_strat_cross_av_bb_page = m_form.NumLossTmfrM15Row_9StratText;
+            data.num_loss_switch_tmfr_m15_10_strat_cross_av_bb_page = m_form.NumLossTmfrM15Row_10StratText;
+            data.num_loss_switch_tmfr_m15_11_strat_cross_av_bb_page = m_form.NumLossTmfrM15Row_11StratText;
+            data.num_loss_switch_tmfr_m15_12_strat_cross_av_bb_page = m_form.NumLossTmfrM15Row_12StratText;
+            data.num_loss_switch_tmfr_m20_0_strat_cross_av_bb_page = m_form.NumLossTmfrM20Row_0StratText;
+            data.num_loss_switch_tmfr_m20_1_strat_cross_av_bb_page = m_form.NumLossTmfrM20Row_1StratText;
+            data.num_loss_switch_tmfr_m20_2_strat_cross_av_bb_page = m_form.NumLossTmfrM20Row_2StratText;
+            data.num_loss_switch_tmfr_m20_3_strat_cross_av_bb_page = m_form.NumLossTmfrM20Row_3StratText;
+            data.num_loss_switch_tmfr_m20_4_strat_cross_av_bb_page = m_form.NumLossTmfrM20Row_4StratText;
+            data.num_loss_switch_tmfr_m20_5_strat_cross_av_bb_page = m_form.NumLossTmfrM20Row_5StratText;
+            data.num_loss_switch_tmfr_m20_6_strat_cross_av_bb_page = m_form.NumLossTmfrM20Row_6StratText;
+            data.num_loss_switch_tmfr_m20_7_strat_cross_av_bb_page = m_form.NumLossTmfrM20Row_7StratText;
+            data.num_loss_switch_tmfr_m20_8_strat_cross_av_bb_page = m_form.NumLossTmfrM20Row_8StratText;
+            data.num_loss_switch_tmfr_m20_9_strat_cross_av_bb_page = m_form.NumLossTmfrM20Row_9StratText;
+            data.num_loss_switch_tmfr_m20_10_strat_cross_av_bb_page = m_form.NumLossTmfrM20Row_10StratText;
+            data.num_loss_switch_tmfr_m20_11_strat_cross_av_bb_page = m_form.NumLossTmfrM20Row_11StratText;
+            data.num_loss_switch_tmfr_m20_12_strat_cross_av_bb_page = m_form.NumLossTmfrM20Row_12StratText;
+            data.num_loss_switch_tmfr_m30_0_strat_cross_av_bb_page = m_form.NumLossTmfrM30Row_0StratText;
+            data.num_loss_switch_tmfr_m30_1_strat_cross_av_bb_page = m_form.NumLossTmfrM30Row_1StratText;
+            data.num_loss_switch_tmfr_m30_2_strat_cross_av_bb_page = m_form.NumLossTmfrM30Row_2StratText;
+            data.num_loss_switch_tmfr_m30_3_strat_cross_av_bb_page = m_form.NumLossTmfrM30Row_3StratText;
+            data.num_loss_switch_tmfr_m30_4_strat_cross_av_bb_page = m_form.NumLossTmfrM30Row_4StratText;
+            data.num_loss_switch_tmfr_m30_5_strat_cross_av_bb_page = m_form.NumLossTmfrM30Row_5StratText;
+            data.num_loss_switch_tmfr_m30_6_strat_cross_av_bb_page = m_form.NumLossTmfrM30Row_6StratText;
+            data.num_loss_switch_tmfr_m30_7_strat_cross_av_bb_page = m_form.NumLossTmfrM30Row_7StratText;
+            data.num_loss_switch_tmfr_m30_8_strat_cross_av_bb_page = m_form.NumLossTmfrM30Row_8StratText;
+            data.num_loss_switch_tmfr_m30_9_strat_cross_av_bb_page = m_form.NumLossTmfrM30Row_9StratText;
+            data.num_loss_switch_tmfr_m30_10_strat_cross_av_bb_page = m_form.NumLossTmfrM30Row_10StratText;
+            data.num_loss_switch_tmfr_m30_11_strat_cross_av_bb_page = m_form.NumLossTmfrM30Row_11StratText;
+            data.num_loss_switch_tmfr_m30_12_strat_cross_av_bb_page = m_form.NumLossTmfrM30Row_12StratText;
+            data.num_loss_switch_tmfr_h1_0_strat_cross_av_bb_page = m_form.NumLossTmfrH1Row_0StratText;
+            data.num_loss_switch_tmfr_h1_1_strat_cross_av_bb_page = m_form.NumLossTmfrH1Row_1StratText;
+            data.num_loss_switch_tmfr_h1_2_strat_cross_av_bb_page = m_form.NumLossTmfrH1Row_2StratText;
+            data.num_loss_switch_tmfr_h1_3_strat_cross_av_bb_page = m_form.NumLossTmfrH1Row_3StratText;
+            data.num_loss_switch_tmfr_h1_4_strat_cross_av_bb_page = m_form.NumLossTmfrH1Row_4StratText;
+            data.num_loss_switch_tmfr_h1_5_strat_cross_av_bb_page = m_form.NumLossTmfrH1Row_5StratText;
+            data.num_loss_switch_tmfr_h1_6_strat_cross_av_bb_page = m_form.NumLossTmfrH1Row_6StratText;
+            data.num_loss_switch_tmfr_h1_7_strat_cross_av_bb_page = m_form.NumLossTmfrH1Row_7StratText;
+            data.num_loss_switch_tmfr_h1_8_strat_cross_av_bb_page = m_form.NumLossTmfrH1Row_8StratText;
+            data.num_loss_switch_tmfr_h1_9_strat_cross_av_bb_page = m_form.NumLossTmfrH1Row_9StratText;
+            data.num_loss_switch_tmfr_h1_10_strat_cross_av_bb_page = m_form.NumLossTmfrH1Row_10StratText;
+            data.num_loss_switch_tmfr_h1_11_strat_cross_av_bb_page = m_form.NumLossTmfrH1Row_11StratText;
+            data.num_loss_switch_tmfr_h1_12_strat_cross_av_bb_page = m_form.NumLossTmfrH1Row_12StratText;
+            data.num_loss_switch_tmfr_h2_0_strat_cross_av_bb_page = m_form.NumLossTmfrH2Row_0StratText;
+            data.num_loss_switch_tmfr_h2_1_strat_cross_av_bb_page = m_form.NumLossTmfrH2Row_1StratText;
+            data.num_loss_switch_tmfr_h2_2_strat_cross_av_bb_page = m_form.NumLossTmfrH2Row_2StratText;
+            data.num_loss_switch_tmfr_h2_3_strat_cross_av_bb_page = m_form.NumLossTmfrH2Row_3StratText;
+            data.num_loss_switch_tmfr_h2_4_strat_cross_av_bb_page = m_form.NumLossTmfrH2Row_4StratText;
+            data.num_loss_switch_tmfr_h2_5_strat_cross_av_bb_page = m_form.NumLossTmfrH2Row_5StratText;
+            data.num_loss_switch_tmfr_h2_6_strat_cross_av_bb_page = m_form.NumLossTmfrH2Row_6StratText;
+            data.num_loss_switch_tmfr_h2_7_strat_cross_av_bb_page = m_form.NumLossTmfrH2Row_7StratText;
+            data.num_loss_switch_tmfr_h2_8_strat_cross_av_bb_page = m_form.NumLossTmfrH2Row_8StratText;
+            data.num_loss_switch_tmfr_h2_9_strat_cross_av_bb_page = m_form.NumLossTmfrH2Row_9StratText;
+            data.num_loss_switch_tmfr_h2_10_strat_cross_av_bb_page = m_form.NumLossTmfrH2Row_10StratText;
+            data.num_loss_switch_tmfr_h2_11_strat_cross_av_bb_page = m_form.NumLossTmfrH2Row_11StratText;
+            data.num_loss_switch_tmfr_h2_12_strat_cross_av_bb_page = m_form.NumLossTmfrH2Row_12StratText;
+            data.num_loss_switch_tmfr_h3_0_strat_cross_av_bb_page = m_form.NumLossTmfrH3Row_0StratText;
+            data.num_loss_switch_tmfr_h3_1_strat_cross_av_bb_page = m_form.NumLossTmfrH3Row_1StratText;
+            data.num_loss_switch_tmfr_h3_2_strat_cross_av_bb_page = m_form.NumLossTmfrH3Row_2StratText;
+            data.num_loss_switch_tmfr_h3_3_strat_cross_av_bb_page = m_form.NumLossTmfrH3Row_3StratText;
+            data.num_loss_switch_tmfr_h3_4_strat_cross_av_bb_page = m_form.NumLossTmfrH3Row_4StratText;
+            data.num_loss_switch_tmfr_h3_5_strat_cross_av_bb_page = m_form.NumLossTmfrH3Row_5StratText;
+            data.num_loss_switch_tmfr_h3_6_strat_cross_av_bb_page = m_form.NumLossTmfrH3Row_6StratText;
+            data.num_loss_switch_tmfr_h3_7_strat_cross_av_bb_page = m_form.NumLossTmfrH3Row_7StratText;
+            data.num_loss_switch_tmfr_h3_8_strat_cross_av_bb_page = m_form.NumLossTmfrH3Row_8StratText;
+            data.num_loss_switch_tmfr_h3_9_strat_cross_av_bb_page = m_form.NumLossTmfrH3Row_9StratText;
+            data.num_loss_switch_tmfr_h3_10_strat_cross_av_bb_page = m_form.NumLossTmfrH3Row_10StratText;
+            data.num_loss_switch_tmfr_h3_11_strat_cross_av_bb_page = m_form.NumLossTmfrH3Row_11StratText;
+            data.num_loss_switch_tmfr_h3_12_strat_cross_av_bb_page = m_form.NumLossTmfrH3Row_12StratText;
+            data.num_loss_switch_tmfr_h4_0_strat_cross_av_bb_page = m_form.NumLossTmfrH4Row_0StratText;
+            data.num_loss_switch_tmfr_h4_1_strat_cross_av_bb_page = m_form.NumLossTmfrH4Row_1StratText;
+            data.num_loss_switch_tmfr_h4_2_strat_cross_av_bb_page = m_form.NumLossTmfrH4Row_2StratText;
+            data.num_loss_switch_tmfr_h4_3_strat_cross_av_bb_page = m_form.NumLossTmfrH4Row_3StratText;
+            data.num_loss_switch_tmfr_h4_4_strat_cross_av_bb_page = m_form.NumLossTmfrH4Row_4StratText;
+            data.num_loss_switch_tmfr_h4_5_strat_cross_av_bb_page = m_form.NumLossTmfrH4Row_5StratText;
+            data.num_loss_switch_tmfr_h4_6_strat_cross_av_bb_page = m_form.NumLossTmfrH4Row_6StratText;
+            data.num_loss_switch_tmfr_h4_7_strat_cross_av_bb_page = m_form.NumLossTmfrH4Row_7StratText;
+            data.num_loss_switch_tmfr_h4_8_strat_cross_av_bb_page = m_form.NumLossTmfrH4Row_8StratText;
+            data.num_loss_switch_tmfr_h4_9_strat_cross_av_bb_page = m_form.NumLossTmfrH4Row_9StratText;
+            data.num_loss_switch_tmfr_h4_10_strat_cross_av_bb_page = m_form.NumLossTmfrH4Row_10StratText;
+            data.num_loss_switch_tmfr_h4_11_strat_cross_av_bb_page = m_form.NumLossTmfrH4Row_11StratText;
+            data.num_loss_switch_tmfr_h4_12_strat_cross_av_bb_page = m_form.NumLossTmfrH4Row_12StratText;
+            data.q_bar_ignor_tmfr_m1_0_strat_cross_av_bb_page = m_form.DelayTmfrM1Row_0StratText;
+            data.q_bar_ignor_tmfr_m1_1_strat_cross_av_bb_page = m_form.DelayTmfrM1Row_1StratText;
+            data.q_bar_ignor_tmfr_m1_2_strat_cross_av_bb_page = m_form.DelayTmfrM1Row_2StratText;
+            data.q_bar_ignor_tmfr_m1_3_strat_cross_av_bb_page = m_form.DelayTmfrM1Row_3StratText;
+            data.q_bar_ignor_tmfr_m1_4_strat_cross_av_bb_page = m_form.DelayTmfrM1Row_4StratText;
+            data.q_bar_ignor_tmfr_m1_5_strat_cross_av_bb_page = m_form.DelayTmfrM1Row_5StratText;
+            data.q_bar_ignor_tmfr_m1_6_strat_cross_av_bb_page = m_form.DelayTmfrM1Row_6StratText;
+            data.q_bar_ignor_tmfr_m1_7_strat_cross_av_bb_page = m_form.DelayTmfrM1Row_7StratText;
+            data.q_bar_ignor_tmfr_m1_8_strat_cross_av_bb_page = m_form.DelayTmfrM1Row_8StratText;
+            data.q_bar_ignor_tmfr_m1_9_strat_cross_av_bb_page = m_form.DelayTmfrM1Row_9StratText;
+            data.q_bar_ignor_tmfr_m1_10_strat_cross_av_bb_page = m_form.DelayTmfrM1Row_10StratText;
+            data.q_bar_ignor_tmfr_m1_11_strat_cross_av_bb_page = m_form.DelayTmfrM1Row_11StratText;
+            data.q_bar_ignor_tmfr_m1_12_strat_cross_av_bb_page = m_form.DelayTmfrM1Row_12StratText;
+            data.q_bar_ignor_tmfr_m2_0_strat_cross_av_bb_page = m_form.DelayTmfrM2Row_0StratText;
+            data.q_bar_ignor_tmfr_m2_1_strat_cross_av_bb_page = m_form.DelayTmfrM2Row_1StratText;
+            data.q_bar_ignor_tmfr_m2_2_strat_cross_av_bb_page = m_form.DelayTmfrM2Row_2StratText;
+            data.q_bar_ignor_tmfr_m2_3_strat_cross_av_bb_page = m_form.DelayTmfrM2Row_3StratText;
+            data.q_bar_ignor_tmfr_m2_4_strat_cross_av_bb_page = m_form.DelayTmfrM2Row_4StratText;
+            data.q_bar_ignor_tmfr_m2_5_strat_cross_av_bb_page = m_form.DelayTmfrM2Row_5StratText;
+            data.q_bar_ignor_tmfr_m2_6_strat_cross_av_bb_page = m_form.DelayTmfrM2Row_6StratText;
+            data.q_bar_ignor_tmfr_m2_7_strat_cross_av_bb_page = m_form.DelayTmfrM2Row_7StratText;
+            data.q_bar_ignor_tmfr_m2_8_strat_cross_av_bb_page = m_form.DelayTmfrM2Row_8StratText;
+            data.q_bar_ignor_tmfr_m2_9_strat_cross_av_bb_page = m_form.DelayTmfrM2Row_9StratText;
+            data.q_bar_ignor_tmfr_m2_10_strat_cross_av_bb_page = m_form.DelayTmfrM2Row_10StratText;
+            data.q_bar_ignor_tmfr_m2_11_strat_cross_av_bb_page = m_form.DelayTmfrM2Row_11StratText;
+            data.q_bar_ignor_tmfr_m2_12_strat_cross_av_bb_page = m_form.DelayTmfrM2Row_12StratText;
+            data.q_bar_ignor_tmfr_m3_0_strat_cross_av_bb_page = m_form.DelayTmfrM3Row_0StratText;
+            data.q_bar_ignor_tmfr_m3_1_strat_cross_av_bb_page = m_form.DelayTmfrM3Row_1StratText;
+            data.q_bar_ignor_tmfr_m3_2_strat_cross_av_bb_page = m_form.DelayTmfrM3Row_2StratText;
+            data.q_bar_ignor_tmfr_m3_3_strat_cross_av_bb_page = m_form.DelayTmfrM3Row_3StratText;
+            data.q_bar_ignor_tmfr_m3_4_strat_cross_av_bb_page = m_form.DelayTmfrM3Row_4StratText;
+            data.q_bar_ignor_tmfr_m3_5_strat_cross_av_bb_page = m_form.DelayTmfrM3Row_5StratText;
+            data.q_bar_ignor_tmfr_m3_6_strat_cross_av_bb_page = m_form.DelayTmfrM3Row_6StratText;
+            data.q_bar_ignor_tmfr_m3_7_strat_cross_av_bb_page = m_form.DelayTmfrM3Row_7StratText;
+            data.q_bar_ignor_tmfr_m3_8_strat_cross_av_bb_page = m_form.DelayTmfrM3Row_8StratText;
+            data.q_bar_ignor_tmfr_m3_9_strat_cross_av_bb_page = m_form.DelayTmfrM3Row_9StratText;
+            data.q_bar_ignor_tmfr_m3_10_strat_cross_av_bb_page = m_form.DelayTmfrM3Row_10StratText;
+            data.q_bar_ignor_tmfr_m3_11_strat_cross_av_bb_page = m_form.DelayTmfrM3Row_11StratText;
+            data.q_bar_ignor_tmfr_m3_12_strat_cross_av_bb_page = m_form.DelayTmfrM3Row_12StratText;
+            data.q_bar_ignor_tmfr_m4_0_strat_cross_av_bb_page = m_form.DelayTmfrM4Row_0StratText;
+            data.q_bar_ignor_tmfr_m4_1_strat_cross_av_bb_page = m_form.DelayTmfrM4Row_1StratText;
+            data.q_bar_ignor_tmfr_m4_2_strat_cross_av_bb_page = m_form.DelayTmfrM4Row_2StratText;
+            data.q_bar_ignor_tmfr_m4_3_strat_cross_av_bb_page = m_form.DelayTmfrM4Row_3StratText;
+            data.q_bar_ignor_tmfr_m4_4_strat_cross_av_bb_page = m_form.DelayTmfrM4Row_4StratText;
+            data.q_bar_ignor_tmfr_m4_5_strat_cross_av_bb_page = m_form.DelayTmfrM4Row_5StratText;
+            data.q_bar_ignor_tmfr_m4_6_strat_cross_av_bb_page = m_form.DelayTmfrM4Row_6StratText;
+            data.q_bar_ignor_tmfr_m4_7_strat_cross_av_bb_page = m_form.DelayTmfrM4Row_7StratText;
+            data.q_bar_ignor_tmfr_m4_8_strat_cross_av_bb_page = m_form.DelayTmfrM4Row_8StratText;
+            data.q_bar_ignor_tmfr_m4_9_strat_cross_av_bb_page = m_form.DelayTmfrM4Row_9StratText;
+            data.q_bar_ignor_tmfr_m4_10_strat_cross_av_bb_page = m_form.DelayTmfrM4Row_10StratText;
+            data.q_bar_ignor_tmfr_m4_11_strat_cross_av_bb_page = m_form.DelayTmfrM4Row_11StratText;
+            data.q_bar_ignor_tmfr_m4_12_strat_cross_av_bb_page = m_form.DelayTmfrM4Row_12StratText;
+            data.q_bar_ignor_tmfr_m5_0_strat_cross_av_bb_page = m_form.DelayTmfrM5Row_0StratText;
+            data.q_bar_ignor_tmfr_m5_1_strat_cross_av_bb_page = m_form.DelayTmfrM5Row_1StratText;
+            data.q_bar_ignor_tmfr_m5_2_strat_cross_av_bb_page = m_form.DelayTmfrM5Row_2StratText;
+            data.q_bar_ignor_tmfr_m5_3_strat_cross_av_bb_page = m_form.DelayTmfrM5Row_3StratText;
+            data.q_bar_ignor_tmfr_m5_4_strat_cross_av_bb_page = m_form.DelayTmfrM5Row_4StratText;
+            data.q_bar_ignor_tmfr_m5_5_strat_cross_av_bb_page = m_form.DelayTmfrM5Row_5StratText;
+            data.q_bar_ignor_tmfr_m5_6_strat_cross_av_bb_page = m_form.DelayTmfrM5Row_6StratText;
+            data.q_bar_ignor_tmfr_m5_7_strat_cross_av_bb_page = m_form.DelayTmfrM5Row_7StratText;
+            data.q_bar_ignor_tmfr_m5_8_strat_cross_av_bb_page = m_form.DelayTmfrM5Row_8StratText;
+            data.q_bar_ignor_tmfr_m5_9_strat_cross_av_bb_page = m_form.DelayTmfrM5Row_9StratText;
+            data.q_bar_ignor_tmfr_m5_10_strat_cross_av_bb_page = m_form.DelayTmfrM5Row_10StratText;
+            data.q_bar_ignor_tmfr_m5_11_strat_cross_av_bb_page = m_form.DelayTmfrM5Row_11StratText;
+            data.q_bar_ignor_tmfr_m5_12_strat_cross_av_bb_page = m_form.DelayTmfrM5Row_12StratText;
+            data.q_bar_ignor_tmfr_m6_0_strat_cross_av_bb_page = m_form.DelayTmfrM6Row_0StratText;
+            data.q_bar_ignor_tmfr_m6_1_strat_cross_av_bb_page = m_form.DelayTmfrM6Row_1StratText;
+            data.q_bar_ignor_tmfr_m6_2_strat_cross_av_bb_page = m_form.DelayTmfrM6Row_2StratText;
+            data.q_bar_ignor_tmfr_m6_3_strat_cross_av_bb_page = m_form.DelayTmfrM6Row_3StratText;
+            data.q_bar_ignor_tmfr_m6_4_strat_cross_av_bb_page = m_form.DelayTmfrM6Row_4StratText;
+            data.q_bar_ignor_tmfr_m6_5_strat_cross_av_bb_page = m_form.DelayTmfrM6Row_5StratText;
+            data.q_bar_ignor_tmfr_m6_6_strat_cross_av_bb_page = m_form.DelayTmfrM6Row_6StratText;
+            data.q_bar_ignor_tmfr_m6_7_strat_cross_av_bb_page = m_form.DelayTmfrM6Row_7StratText;
+            data.q_bar_ignor_tmfr_m6_8_strat_cross_av_bb_page = m_form.DelayTmfrM6Row_8StratText;
+            data.q_bar_ignor_tmfr_m6_9_strat_cross_av_bb_page = m_form.DelayTmfrM6Row_9StratText;
+            data.q_bar_ignor_tmfr_m6_10_strat_cross_av_bb_page = m_form.DelayTmfrM6Row_10StratText;
+            data.q_bar_ignor_tmfr_m6_11_strat_cross_av_bb_page = m_form.DelayTmfrM6Row_11StratText;
+            data.q_bar_ignor_tmfr_m6_12_strat_cross_av_bb_page = m_form.DelayTmfrM6Row_12StratText;
+            data.q_bar_ignor_tmfr_m10_0_strat_cross_av_bb_page = m_form.DelayTmfrM10Row_0StratText;
+            data.q_bar_ignor_tmfr_m10_1_strat_cross_av_bb_page = m_form.DelayTmfrM10Row_1StratText;
+            data.q_bar_ignor_tmfr_m10_2_strat_cross_av_bb_page = m_form.DelayTmfrM10Row_2StratText;
+            data.q_bar_ignor_tmfr_m10_3_strat_cross_av_bb_page = m_form.DelayTmfrM10Row_3StratText;
+            data.q_bar_ignor_tmfr_m10_4_strat_cross_av_bb_page = m_form.DelayTmfrM10Row_4StratText;
+            data.q_bar_ignor_tmfr_m10_5_strat_cross_av_bb_page = m_form.DelayTmfrM10Row_5StratText;
+            data.q_bar_ignor_tmfr_m10_6_strat_cross_av_bb_page = m_form.DelayTmfrM10Row_6StratText;
+            data.q_bar_ignor_tmfr_m10_7_strat_cross_av_bb_page = m_form.DelayTmfrM10Row_7StratText;
+            data.q_bar_ignor_tmfr_m10_8_strat_cross_av_bb_page = m_form.DelayTmfrM10Row_8StratText;
+            data.q_bar_ignor_tmfr_m10_9_strat_cross_av_bb_page = m_form.DelayTmfrM10Row_9StratText;
+            data.q_bar_ignor_tmfr_m10_10_strat_cross_av_bb_page = m_form.DelayTmfrM10Row_10StratText;
+            data.q_bar_ignor_tmfr_m10_11_strat_cross_av_bb_page = m_form.DelayTmfrM10Row_11StratText;
+            data.q_bar_ignor_tmfr_m10_12_strat_cross_av_bb_page = m_form.DelayTmfrM10Row_12StratText;
+            data.q_bar_ignor_tmfr_m12_0_strat_cross_av_bb_page = m_form.DelayTmfrM12Row_0StratText;
+            data.q_bar_ignor_tmfr_m12_1_strat_cross_av_bb_page = m_form.DelayTmfrM12Row_1StratText;
+            data.q_bar_ignor_tmfr_m12_2_strat_cross_av_bb_page = m_form.DelayTmfrM12Row_2StratText;
+            data.q_bar_ignor_tmfr_m12_3_strat_cross_av_bb_page = m_form.DelayTmfrM12Row_3StratText;
+            data.q_bar_ignor_tmfr_m12_4_strat_cross_av_bb_page = m_form.DelayTmfrM12Row_4StratText;
+            data.q_bar_ignor_tmfr_m12_5_strat_cross_av_bb_page = m_form.DelayTmfrM12Row_5StratText;
+            data.q_bar_ignor_tmfr_m12_6_strat_cross_av_bb_page = m_form.DelayTmfrM12Row_6StratText;
+            data.q_bar_ignor_tmfr_m12_7_strat_cross_av_bb_page = m_form.DelayTmfrM12Row_7StratText;
+            data.q_bar_ignor_tmfr_m12_8_strat_cross_av_bb_page = m_form.DelayTmfrM12Row_8StratText;
+            data.q_bar_ignor_tmfr_m12_9_strat_cross_av_bb_page = m_form.DelayTmfrM12Row_9StratText;
+            data.q_bar_ignor_tmfr_m12_10_strat_cross_av_bb_page = m_form.DelayTmfrM12Row_10StratText;
+            data.q_bar_ignor_tmfr_m12_11_strat_cross_av_bb_page = m_form.DelayTmfrM12Row_11StratText;
+            data.q_bar_ignor_tmfr_m12_12_strat_cross_av_bb_page = m_form.DelayTmfrM12Row_12StratText;
+            data.q_bar_ignor_tmfr_m15_0_strat_cross_av_bb_page = m_form.DelayTmfrM15Row_0StratText;
+            data.q_bar_ignor_tmfr_m15_1_strat_cross_av_bb_page = m_form.DelayTmfrM15Row_1StratText;
+            data.q_bar_ignor_tmfr_m15_2_strat_cross_av_bb_page = m_form.DelayTmfrM15Row_2StratText;
+            data.q_bar_ignor_tmfr_m15_3_strat_cross_av_bb_page = m_form.DelayTmfrM15Row_3StratText;
+            data.q_bar_ignor_tmfr_m15_4_strat_cross_av_bb_page = m_form.DelayTmfrM15Row_4StratText;
+            data.q_bar_ignor_tmfr_m15_5_strat_cross_av_bb_page = m_form.DelayTmfrM15Row_5StratText;
+            data.q_bar_ignor_tmfr_m15_6_strat_cross_av_bb_page = m_form.DelayTmfrM15Row_6StratText;
+            data.q_bar_ignor_tmfr_m15_7_strat_cross_av_bb_page = m_form.DelayTmfrM15Row_7StratText;
+            data.q_bar_ignor_tmfr_m15_8_strat_cross_av_bb_page = m_form.DelayTmfrM15Row_8StratText;
+            data.q_bar_ignor_tmfr_m15_9_strat_cross_av_bb_page = m_form.DelayTmfrM15Row_9StratText;
+            data.q_bar_ignor_tmfr_m15_10_strat_cross_av_bb_page = m_form.DelayTmfrM15Row_10StratText;
+            data.q_bar_ignor_tmfr_m15_11_strat_cross_av_bb_page = m_form.DelayTmfrM15Row_11StratText;
+            data.q_bar_ignor_tmfr_m15_12_strat_cross_av_bb_page = m_form.DelayTmfrM15Row_12StratText;
+            data.q_bar_ignor_tmfr_m20_0_strat_cross_av_bb_page = m_form.DelayTmfrM20Row_0StratText;
+            data.q_bar_ignor_tmfr_m20_1_strat_cross_av_bb_page = m_form.DelayTmfrM20Row_1StratText;
+            data.q_bar_ignor_tmfr_m20_2_strat_cross_av_bb_page = m_form.DelayTmfrM20Row_2StratText;
+            data.q_bar_ignor_tmfr_m20_3_strat_cross_av_bb_page = m_form.DelayTmfrM20Row_3StratText;
+            data.q_bar_ignor_tmfr_m20_4_strat_cross_av_bb_page = m_form.DelayTmfrM20Row_4StratText;
+            data.q_bar_ignor_tmfr_m20_5_strat_cross_av_bb_page = m_form.DelayTmfrM20Row_5StratText;
+            data.q_bar_ignor_tmfr_m20_6_strat_cross_av_bb_page = m_form.DelayTmfrM20Row_6StratText;
+            data.q_bar_ignor_tmfr_m20_7_strat_cross_av_bb_page = m_form.DelayTmfrM20Row_7StratText;
+            data.q_bar_ignor_tmfr_m20_8_strat_cross_av_bb_page = m_form.DelayTmfrM20Row_8StratText;
+            data.q_bar_ignor_tmfr_m20_9_strat_cross_av_bb_page = m_form.DelayTmfrM20Row_9StratText;
+            data.q_bar_ignor_tmfr_m20_10_strat_cross_av_bb_page = m_form.DelayTmfrM20Row_10StratText;
+            data.q_bar_ignor_tmfr_m20_11_strat_cross_av_bb_page = m_form.DelayTmfrM20Row_11StratText;
+            data.q_bar_ignor_tmfr_m20_12_strat_cross_av_bb_page = m_form.DelayTmfrM20Row_12StratText;
+            data.q_bar_ignor_tmfr_m30_0_strat_cross_av_bb_page = m_form.DelayTmfrM30Row_0StratText;
+            data.q_bar_ignor_tmfr_m30_1_strat_cross_av_bb_page = m_form.DelayTmfrM30Row_1StratText;
+            data.q_bar_ignor_tmfr_m30_2_strat_cross_av_bb_page = m_form.DelayTmfrM30Row_2StratText;
+            data.q_bar_ignor_tmfr_m30_3_strat_cross_av_bb_page = m_form.DelayTmfrM30Row_3StratText;
+            data.q_bar_ignor_tmfr_m30_4_strat_cross_av_bb_page = m_form.DelayTmfrM30Row_4StratText;
+            data.q_bar_ignor_tmfr_m30_5_strat_cross_av_bb_page = m_form.DelayTmfrM30Row_5StratText;
+            data.q_bar_ignor_tmfr_m30_6_strat_cross_av_bb_page = m_form.DelayTmfrM30Row_6StratText;
+            data.q_bar_ignor_tmfr_m30_7_strat_cross_av_bb_page = m_form.DelayTmfrM30Row_7StratText;
+            data.q_bar_ignor_tmfr_m30_8_strat_cross_av_bb_page = m_form.DelayTmfrM30Row_8StratText;
+            data.q_bar_ignor_tmfr_m30_9_strat_cross_av_bb_page = m_form.DelayTmfrM30Row_9StratText;
+            data.q_bar_ignor_tmfr_m30_10_strat_cross_av_bb_page = m_form.DelayTmfrM30Row_10StratText;
+            data.q_bar_ignor_tmfr_m30_11_strat_cross_av_bb_page = m_form.DelayTmfrM30Row_11StratText;
+            data.q_bar_ignor_tmfr_m30_12_strat_cross_av_bb_page = m_form.DelayTmfrM30Row_12StratText;
+            data.q_bar_ignor_tmfr_h1_0_strat_cross_av_bb_page = m_form.DelayTmfrH1Row_0StratText;
+            data.q_bar_ignor_tmfr_h1_1_strat_cross_av_bb_page = m_form.DelayTmfrH1Row_1StratText;
+            data.q_bar_ignor_tmfr_h1_2_strat_cross_av_bb_page = m_form.DelayTmfrH1Row_2StratText;
+            data.q_bar_ignor_tmfr_h1_3_strat_cross_av_bb_page = m_form.DelayTmfrH1Row_3StratText;
+            data.q_bar_ignor_tmfr_h1_4_strat_cross_av_bb_page = m_form.DelayTmfrH1Row_4StratText;
+            data.q_bar_ignor_tmfr_h1_5_strat_cross_av_bb_page = m_form.DelayTmfrH1Row_5StratText;
+            data.q_bar_ignor_tmfr_h1_6_strat_cross_av_bb_page = m_form.DelayTmfrH1Row_6StratText;
+            data.q_bar_ignor_tmfr_h1_7_strat_cross_av_bb_page = m_form.DelayTmfrH1Row_7StratText;
+            data.q_bar_ignor_tmfr_h1_8_strat_cross_av_bb_page = m_form.DelayTmfrH1Row_8StratText;
+            data.q_bar_ignor_tmfr_h1_9_strat_cross_av_bb_page = m_form.DelayTmfrH1Row_9StratText;
+            data.q_bar_ignor_tmfr_h1_10_strat_cross_av_bb_page = m_form.DelayTmfrH1Row_10StratText;
+            data.q_bar_ignor_tmfr_h1_11_strat_cross_av_bb_page = m_form.DelayTmfrH1Row_11StratText;
+            data.q_bar_ignor_tmfr_h1_12_strat_cross_av_bb_page = m_form.DelayTmfrH1Row_12StratText;
+            data.q_bar_ignor_tmfr_h2_0_strat_cross_av_bb_page = m_form.DelayTmfrH2Row_0StratText;
+            data.q_bar_ignor_tmfr_h2_1_strat_cross_av_bb_page = m_form.DelayTmfrH2Row_1StratText;
+            data.q_bar_ignor_tmfr_h2_2_strat_cross_av_bb_page = m_form.DelayTmfrH2Row_2StratText;
+            data.q_bar_ignor_tmfr_h2_3_strat_cross_av_bb_page = m_form.DelayTmfrH2Row_3StratText;
+            data.q_bar_ignor_tmfr_h2_4_strat_cross_av_bb_page = m_form.DelayTmfrH2Row_4StratText;
+            data.q_bar_ignor_tmfr_h2_5_strat_cross_av_bb_page = m_form.DelayTmfrH2Row_5StratText;
+            data.q_bar_ignor_tmfr_h2_6_strat_cross_av_bb_page = m_form.DelayTmfrH2Row_6StratText;
+            data.q_bar_ignor_tmfr_h2_7_strat_cross_av_bb_page = m_form.DelayTmfrH2Row_7StratText;
+            data.q_bar_ignor_tmfr_h2_8_strat_cross_av_bb_page = m_form.DelayTmfrH2Row_8StratText;
+            data.q_bar_ignor_tmfr_h2_9_strat_cross_av_bb_page = m_form.DelayTmfrH2Row_9StratText;
+            data.q_bar_ignor_tmfr_h2_10_strat_cross_av_bb_page = m_form.DelayTmfrH2Row_10StratText;
+            data.q_bar_ignor_tmfr_h2_11_strat_cross_av_bb_page = m_form.DelayTmfrH2Row_11StratText;
+            data.q_bar_ignor_tmfr_h2_12_strat_cross_av_bb_page = m_form.DelayTmfrH2Row_12StratText;
+            data.q_bar_ignor_tmfr_h3_0_strat_cross_av_bb_page = m_form.DelayTmfrH3Row_0StratText;
+            data.q_bar_ignor_tmfr_h3_1_strat_cross_av_bb_page = m_form.DelayTmfrH3Row_1StratText;
+            data.q_bar_ignor_tmfr_h3_2_strat_cross_av_bb_page = m_form.DelayTmfrH3Row_2StratText;
+            data.q_bar_ignor_tmfr_h3_3_strat_cross_av_bb_page = m_form.DelayTmfrH3Row_3StratText;
+            data.q_bar_ignor_tmfr_h3_4_strat_cross_av_bb_page = m_form.DelayTmfrH3Row_4StratText;
+            data.q_bar_ignor_tmfr_h3_5_strat_cross_av_bb_page = m_form.DelayTmfrH3Row_5StratText;
+            data.q_bar_ignor_tmfr_h3_6_strat_cross_av_bb_page = m_form.DelayTmfrH3Row_6StratText;
+            data.q_bar_ignor_tmfr_h3_7_strat_cross_av_bb_page = m_form.DelayTmfrH3Row_7StratText;
+            data.q_bar_ignor_tmfr_h3_8_strat_cross_av_bb_page = m_form.DelayTmfrH3Row_8StratText;
+            data.q_bar_ignor_tmfr_h3_9_strat_cross_av_bb_page = m_form.DelayTmfrH3Row_9StratText;
+            data.q_bar_ignor_tmfr_h3_10_strat_cross_av_bb_page = m_form.DelayTmfrH3Row_10StratText;
+            data.q_bar_ignor_tmfr_h3_11_strat_cross_av_bb_page = m_form.DelayTmfrH3Row_11StratText;
+            data.q_bar_ignor_tmfr_h3_12_strat_cross_av_bb_page = m_form.DelayTmfrH3Row_12StratText;
+            data.q_bar_ignor_tmfr_h4_0_strat_cross_av_bb_page = m_form.DelayTmfrH4Row_0StratText;
+            data.q_bar_ignor_tmfr_h4_1_strat_cross_av_bb_page = m_form.DelayTmfrH4Row_1StratText;
+            data.q_bar_ignor_tmfr_h4_2_strat_cross_av_bb_page = m_form.DelayTmfrH4Row_2StratText;
+            data.q_bar_ignor_tmfr_h4_3_strat_cross_av_bb_page = m_form.DelayTmfrH4Row_3StratText;
+            data.q_bar_ignor_tmfr_h4_4_strat_cross_av_bb_page = m_form.DelayTmfrH4Row_4StratText;
+            data.q_bar_ignor_tmfr_h4_5_strat_cross_av_bb_page = m_form.DelayTmfrH4Row_5StratText;
+            data.q_bar_ignor_tmfr_h4_6_strat_cross_av_bb_page = m_form.DelayTmfrH4Row_6StratText;
+            data.q_bar_ignor_tmfr_h4_7_strat_cross_av_bb_page = m_form.DelayTmfrH4Row_7StratText;
+            data.q_bar_ignor_tmfr_h4_8_strat_cross_av_bb_page = m_form.DelayTmfrH4Row_8StratText;
+            data.q_bar_ignor_tmfr_h4_9_strat_cross_av_bb_page = m_form.DelayTmfrH4Row_9StratText;
+            data.q_bar_ignor_tmfr_h4_10_strat_cross_av_bb_page = m_form.DelayTmfrH4Row_10StratText;
+            data.q_bar_ignor_tmfr_h4_11_strat_cross_av_bb_page = m_form.DelayTmfrH4Row_11StratText;
+            data.q_bar_ignor_tmfr_h4_12_strat_cross_av_bb_page = m_form.DelayTmfrH4Row_12StratText;
+            data.fix_part_profit_on_range_0_strat_cross_av_bb_page = m_form.FixPartProfitRow0StratChecked;
+            data.fix_part_profit_on_range_1_strat_cross_av_bb_page = m_form.FixPartProfitRow1StratChecked;
+            data.fix_part_profit_on_range_2_strat_cross_av_bb_page = m_form.FixPartProfitRow2StratChecked;
+            data.fix_part_profit_on_range_3_strat_cross_av_bb_page = m_form.FixPartProfitRow3StratChecked;
+            data.fix_part_profit_on_range_4_strat_cross_av_bb_page = m_form.FixPartProfitRow4StratChecked;
+            data.fix_part_profit_on_range_5_strat_cross_av_bb_page = m_form.FixPartProfitRow5StratChecked;
+            data.fix_part_profit_on_range_6_strat_cross_av_bb_page = m_form.FixPartProfitRow6StratChecked;
+            data.fix_part_profit_on_range_7_strat_cross_av_bb_page = m_form.FixPartProfitRow7StratChecked;
+            data.fix_part_profit_on_range_8_strat_cross_av_bb_page = m_form.FixPartProfitRow8StratChecked;
+            data.fix_part_profit_on_range_9_strat_cross_av_bb_page = m_form.FixPartProfitRow9StratChecked;
+            data.fix_part_profit_on_range_10_strat_cross_av_bb_page = m_form.FixPartProfitRow10StratChecked;
+            data.fix_part_profit_on_range_11_strat_cross_av_bb_page = m_form.FixPartProfitRow11StratChecked;
+            data.fix_part_profit_on_range_12_strat_cross_av_bb_page = m_form.FixPartProfitRow12StratChecked;
+            data.vol_fix_take_on_range_0_strat_cross_av_bb_page = m_form.VolFixProfitRow0StratText;
+            data.vol_fix_take_on_range_1_strat_cross_av_bb_page = m_form.VolFixProfitRow1StratText;
+            data.vol_fix_take_on_range_2_strat_cross_av_bb_page = m_form.VolFixProfitRow2StratText;
+            data.vol_fix_take_on_range_3_strat_cross_av_bb_page = m_form.VolFixProfitRow3StratText;
+            data.vol_fix_take_on_range_4_strat_cross_av_bb_page = m_form.VolFixProfitRow4StratText;
+            data.vol_fix_take_on_range_5_strat_cross_av_bb_page = m_form.VolFixProfitRow5StratText;
+            data.vol_fix_take_on_range_6_strat_cross_av_bb_page = m_form.VolFixProfitRow6StratText;
+            data.vol_fix_take_on_range_7_strat_cross_av_bb_page = m_form.VolFixProfitRow7StratText;
+            data.vol_fix_take_on_range_8_strat_cross_av_bb_page = m_form.VolFixProfitRow8StratText;
+            data.vol_fix_take_on_range_9_strat_cross_av_bb_page = m_form.VolFixProfitRow9StratText;
+            data.vol_fix_take_on_range_10_strat_cross_av_bb_page = m_form.VolFixProfitRow10StratText;
+            data.vol_fix_take_on_range_11_strat_cross_av_bb_page = m_form.VolFixProfitRow11StratText;
+            data.vol_fix_take_on_range_12_strat_cross_av_bb_page = m_form.VolFixProfitRow12StratText;
+            data.close_pos_return_aver_line_0_strat_cross_av_bb_page = m_form.ClosePosOnAverRow0StratChecked;
+            data.close_pos_return_aver_line_1_strat_cross_av_bb_page = m_form.ClosePosOnAverRow1StratChecked;
+            data.close_pos_return_aver_line_2_strat_cross_av_bb_page = m_form.ClosePosOnAverRow2StratChecked;
+            data.close_pos_return_aver_line_3_strat_cross_av_bb_page = m_form.ClosePosOnAverRow3StratChecked;
+            data.close_pos_return_aver_line_4_strat_cross_av_bb_page = m_form.ClosePosOnAverRow4StratChecked;
+            data.close_pos_return_aver_line_5_strat_cross_av_bb_page = m_form.ClosePosOnAverRow5StratChecked;
+            data.close_pos_return_aver_line_6_strat_cross_av_bb_page = m_form.ClosePosOnAverRow6StratChecked;
+            data.close_pos_return_aver_line_7_strat_cross_av_bb_page = m_form.ClosePosOnAverRow7StratChecked;
+            data.close_pos_return_aver_line_8_strat_cross_av_bb_page = m_form.ClosePosOnAverRow8StratChecked;
+            data.close_pos_return_aver_line_9_strat_cross_av_bb_page = m_form.ClosePosOnAverRow9StratChecked;
+            data.close_pos_return_aver_line_10_strat_cross_av_bb_page = m_form.ClosePosOnAverRow10StratChecked;
+            data.close_pos_return_aver_line_11_strat_cross_av_bb_page = m_form.ClosePosOnAverRow11StratChecked;
+            data.close_pos_return_aver_line_12_strat_cross_av_bb_page = m_form.ClosePosOnAverRow12StratChecked;
 
             string json = JsonConvert.SerializeObject(data, Newtonsoft.Json.Formatting.Indented);
             //cохранение строки JSON в файл с кодировкой ANSI
@@ -2845,6 +3783,474 @@ namespace MaBotHedging_interf_work
                     m_form.MaxSpreadControlText = configData.max_spread;
                     m_form.UnitStopTakeControlItem = configData.unit;
                     m_form.PrintCommentsControlChecked = configData.print_debugg_comments;
+                    m_form.SymbRow0StratText = configData.Symb_row_0_strat_cross_av_bb_page;
+                    m_form.SymbRow1StratText = configData.Symb_row_1_strat_cross_av_bb_page;
+                    m_form.SymbRow2StratText = configData.Symb_row_2_strat_cross_av_bb_page;
+                    m_form.SymbRow3StratText = configData.Symb_row_3_strat_cross_av_bb_page;
+                    m_form.SymbRow4StratText = configData.Symb_row_4_strat_cross_av_bb_page;
+                    m_form.SymbRow5StratText = configData.Symb_row_5_strat_cross_av_bb_page;
+                    m_form.SymbRow6StratText = configData.Symb_row_6_strat_cross_av_bb_page;
+                    m_form.SymbRow7StratText = configData.Symb_row_7_strat_cross_av_bb_page;
+                    m_form.SymbRow8StratText = configData.Symb_row_8_strat_cross_av_bb_page;
+                    m_form.SymbRow9StratText = configData.Symb_row_9_strat_cross_av_bb_page;
+                    m_form.SymbRow10StratText = configData.Symb_row_10_strat_cross_av_bb_page;
+                    m_form.SymbRow11StratText = configData.Symb_row_11_strat_cross_av_bb_page;
+                    m_form.SymbRow12StratText = configData.Symb_row_12_strat_cross_av_bb_page;
+                    m_form.SensetiveRow0StratText = configData.sensetive_deviation_0_strat_cross_av_bb_page;
+                    m_form.SensetiveRow1StratText = configData.sensetive_deviation_1_strat_cross_av_bb_page;
+                    m_form.SensetiveRow2StratText = configData.sensetive_deviation_2_strat_cross_av_bb_page;
+                    m_form.SensetiveRow3StratText = configData.sensetive_deviation_3_strat_cross_av_bb_page;
+                    m_form.SensetiveRow4StratText = configData.sensetive_deviation_4_strat_cross_av_bb_page;
+                    m_form.SensetiveRow5StratText = configData.sensetive_deviation_5_strat_cross_av_bb_page;
+                    m_form.SensetiveRow6StratText = configData.sensetive_deviation_6_strat_cross_av_bb_page;
+                    m_form.SensetiveRow7StratText = configData.sensetive_deviation_7_strat_cross_av_bb_page;
+                    m_form.SensetiveRow8StratText = configData.sensetive_deviation_8_strat_cross_av_bb_page;
+                    m_form.SensetiveRow9StratText = configData.sensetive_deviation_9_strat_cross_av_bb_page;
+                    m_form.SensetiveRow10StratText = configData.sensetive_deviation_10_strat_cross_av_bb_page;
+                    m_form.SensetiveRow11StratText = configData.sensetive_deviation_11_strat_cross_av_bb_page;
+                    m_form.SensetiveRow12StratText = configData.sensetive_deviation_12_strat_cross_av_bb_page;
+                    m_form.LongCandleRow0StratChecked = configData.on_open_pos_long_candle_0_strat_cross_av_bb_page;
+                    m_form.LongCandleRow1StratChecked = configData.on_open_pos_long_candle_1_strat_cross_av_bb_page;
+                    m_form.LongCandleRow2StratChecked = configData.on_open_pos_long_candle_2_strat_cross_av_bb_page;
+                    m_form.LongCandleRow3StratChecked = configData.on_open_pos_long_candle_3_strat_cross_av_bb_page;
+                    m_form.LongCandleRow4StratChecked = configData.on_open_pos_long_candle_4_strat_cross_av_bb_page;
+                    m_form.LongCandleRow5StratChecked = configData.on_open_pos_long_candle_5_strat_cross_av_bb_page;
+                    m_form.LongCandleRow6StratChecked = configData.on_open_pos_long_candle_6_strat_cross_av_bb_page;
+                    m_form.LongCandleRow7StratChecked = configData.on_open_pos_long_candle_7_strat_cross_av_bb_page;
+                    m_form.LongCandleRow8StratChecked = configData.on_open_pos_long_candle_8_strat_cross_av_bb_page;
+                    m_form.LongCandleRow9StratChecked = configData.on_open_pos_long_candle_9_strat_cross_av_bb_page;
+                    m_form.LongCandleRow10StratChecked = configData.on_open_pos_long_candle_10_strat_cross_av_bb_page;
+                    m_form.LongCandleRow11StratChecked = configData.on_open_pos_long_candle_11_strat_cross_av_bb_page;
+                    m_form.LongCandleRow12StratChecked = configData.on_open_pos_long_candle_12_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM1Row_0StratText = configData.num_loss_switch_tmfr_m1_0_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM1Row_1StratText = configData.num_loss_switch_tmfr_m1_1_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM1Row_2StratText = configData.num_loss_switch_tmfr_m1_2_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM1Row_3StratText = configData.num_loss_switch_tmfr_m1_3_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM1Row_4StratText = configData.num_loss_switch_tmfr_m1_4_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM1Row_5StratText = configData.num_loss_switch_tmfr_m1_5_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM1Row_6StratText = configData.num_loss_switch_tmfr_m1_6_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM1Row_7StratText = configData.num_loss_switch_tmfr_m1_7_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM1Row_8StratText = configData.num_loss_switch_tmfr_m1_8_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM1Row_9StratText = configData.num_loss_switch_tmfr_m1_9_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM1Row_10StratText = configData.num_loss_switch_tmfr_m1_10_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM1Row_11StratText = configData.num_loss_switch_tmfr_m1_11_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM1Row_12StratText = configData.num_loss_switch_tmfr_m1_12_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM2Row_0StratText = configData.num_loss_switch_tmfr_m2_0_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM2Row_1StratText = configData.num_loss_switch_tmfr_m2_1_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM2Row_2StratText = configData.num_loss_switch_tmfr_m2_2_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM2Row_3StratText = configData.num_loss_switch_tmfr_m2_3_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM2Row_4StratText = configData.num_loss_switch_tmfr_m2_4_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM2Row_5StratText = configData.num_loss_switch_tmfr_m2_5_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM2Row_6StratText = configData.num_loss_switch_tmfr_m2_6_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM2Row_7StratText = configData.num_loss_switch_tmfr_m2_7_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM2Row_8StratText = configData.num_loss_switch_tmfr_m2_8_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM2Row_9StratText = configData.num_loss_switch_tmfr_m2_9_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM2Row_10StratText = configData.num_loss_switch_tmfr_m2_10_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM2Row_11StratText = configData.num_loss_switch_tmfr_m2_11_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM2Row_12StratText = configData.num_loss_switch_tmfr_m2_12_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM3Row_0StratText = configData.num_loss_switch_tmfr_m3_0_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM3Row_1StratText = configData.num_loss_switch_tmfr_m3_1_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM3Row_2StratText = configData.num_loss_switch_tmfr_m3_2_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM3Row_3StratText = configData.num_loss_switch_tmfr_m3_3_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM3Row_4StratText = configData.num_loss_switch_tmfr_m3_4_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM3Row_5StratText = configData.num_loss_switch_tmfr_m3_5_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM3Row_6StratText = configData.num_loss_switch_tmfr_m3_6_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM3Row_7StratText = configData.num_loss_switch_tmfr_m3_7_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM3Row_8StratText = configData.num_loss_switch_tmfr_m3_8_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM3Row_9StratText = configData.num_loss_switch_tmfr_m3_9_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM3Row_10StratText = configData.num_loss_switch_tmfr_m3_10_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM3Row_11StratText = configData.num_loss_switch_tmfr_m3_11_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM3Row_12StratText = configData.num_loss_switch_tmfr_m3_12_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM4Row_0StratText = configData.num_loss_switch_tmfr_m4_0_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM4Row_1StratText = configData.num_loss_switch_tmfr_m4_1_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM4Row_2StratText = configData.num_loss_switch_tmfr_m4_2_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM4Row_3StratText = configData.num_loss_switch_tmfr_m4_3_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM4Row_4StratText = configData.num_loss_switch_tmfr_m4_4_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM4Row_5StratText = configData.num_loss_switch_tmfr_m4_5_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM4Row_6StratText = configData.num_loss_switch_tmfr_m4_6_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM4Row_7StratText = configData.num_loss_switch_tmfr_m4_7_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM4Row_8StratText = configData.num_loss_switch_tmfr_m4_8_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM4Row_9StratText = configData.num_loss_switch_tmfr_m4_9_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM4Row_10StratText = configData.num_loss_switch_tmfr_m4_10_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM4Row_11StratText = configData.num_loss_switch_tmfr_m4_11_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM4Row_12StratText = configData.num_loss_switch_tmfr_m4_12_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM5Row_0StratText = configData.num_loss_switch_tmfr_m5_0_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM5Row_1StratText = configData.num_loss_switch_tmfr_m5_1_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM5Row_2StratText = configData.num_loss_switch_tmfr_m5_2_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM5Row_3StratText = configData.num_loss_switch_tmfr_m5_3_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM5Row_4StratText = configData.num_loss_switch_tmfr_m5_4_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM5Row_5StratText = configData.num_loss_switch_tmfr_m5_5_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM5Row_6StratText = configData.num_loss_switch_tmfr_m5_6_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM5Row_7StratText = configData.num_loss_switch_tmfr_m5_7_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM5Row_8StratText = configData.num_loss_switch_tmfr_m5_8_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM5Row_9StratText = configData.num_loss_switch_tmfr_m5_9_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM5Row_10StratText = configData.num_loss_switch_tmfr_m5_10_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM5Row_11StratText = configData.num_loss_switch_tmfr_m5_11_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM5Row_12StratText = configData.num_loss_switch_tmfr_m5_12_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM6Row_0StratText = configData.num_loss_switch_tmfr_m6_0_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM6Row_1StratText = configData.num_loss_switch_tmfr_m6_1_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM6Row_2StratText = configData.num_loss_switch_tmfr_m6_2_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM6Row_3StratText = configData.num_loss_switch_tmfr_m6_3_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM6Row_4StratText = configData.num_loss_switch_tmfr_m6_4_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM6Row_5StratText = configData.num_loss_switch_tmfr_m6_5_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM6Row_6StratText = configData.num_loss_switch_tmfr_m6_6_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM6Row_7StratText = configData.num_loss_switch_tmfr_m6_7_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM6Row_8StratText = configData.num_loss_switch_tmfr_m6_8_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM6Row_9StratText = configData.num_loss_switch_tmfr_m6_9_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM6Row_10StratText = configData.num_loss_switch_tmfr_m6_10_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM6Row_11StratText = configData.num_loss_switch_tmfr_m6_11_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM6Row_12StratText = configData.num_loss_switch_tmfr_m6_12_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM10Row_0StratText = configData.num_loss_switch_tmfr_m10_0_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM10Row_1StratText = configData.num_loss_switch_tmfr_m10_1_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM10Row_2StratText = configData.num_loss_switch_tmfr_m10_2_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM10Row_3StratText = configData.num_loss_switch_tmfr_m10_3_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM10Row_4StratText = configData.num_loss_switch_tmfr_m10_4_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM10Row_5StratText = configData.num_loss_switch_tmfr_m10_5_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM10Row_6StratText = configData.num_loss_switch_tmfr_m10_6_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM10Row_7StratText = configData.num_loss_switch_tmfr_m10_7_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM10Row_8StratText = configData.num_loss_switch_tmfr_m10_8_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM10Row_9StratText = configData.num_loss_switch_tmfr_m10_9_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM10Row_10StratText = configData.num_loss_switch_tmfr_m10_10_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM10Row_11StratText = configData.num_loss_switch_tmfr_m10_11_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM10Row_12StratText = configData.num_loss_switch_tmfr_m10_12_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM12Row_0StratText = configData.num_loss_switch_tmfr_m12_0_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM12Row_1StratText = configData.num_loss_switch_tmfr_m12_1_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM12Row_2StratText = configData.num_loss_switch_tmfr_m12_2_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM12Row_3StratText = configData.num_loss_switch_tmfr_m12_3_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM12Row_4StratText = configData.num_loss_switch_tmfr_m12_4_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM12Row_5StratText = configData.num_loss_switch_tmfr_m12_5_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM12Row_6StratText = configData.num_loss_switch_tmfr_m12_6_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM12Row_7StratText = configData.num_loss_switch_tmfr_m12_7_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM12Row_8StratText = configData.num_loss_switch_tmfr_m12_8_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM12Row_9StratText = configData.num_loss_switch_tmfr_m12_9_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM12Row_10StratText = configData.num_loss_switch_tmfr_m12_10_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM12Row_11StratText = configData.num_loss_switch_tmfr_m12_11_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM12Row_12StratText = configData.num_loss_switch_tmfr_m12_12_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM15Row_0StratText = configData.num_loss_switch_tmfr_m15_0_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM15Row_1StratText = configData.num_loss_switch_tmfr_m15_1_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM15Row_2StratText = configData.num_loss_switch_tmfr_m15_2_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM15Row_3StratText = configData.num_loss_switch_tmfr_m15_3_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM15Row_4StratText = configData.num_loss_switch_tmfr_m15_4_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM15Row_5StratText = configData.num_loss_switch_tmfr_m15_5_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM15Row_6StratText = configData.num_loss_switch_tmfr_m15_6_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM15Row_7StratText = configData.num_loss_switch_tmfr_m15_7_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM15Row_8StratText = configData.num_loss_switch_tmfr_m15_8_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM15Row_9StratText = configData.num_loss_switch_tmfr_m15_9_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM15Row_10StratText = configData.num_loss_switch_tmfr_m15_10_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM15Row_11StratText = configData.num_loss_switch_tmfr_m15_11_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM15Row_12StratText = configData.num_loss_switch_tmfr_m15_12_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM20Row_0StratText = configData.num_loss_switch_tmfr_m20_0_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM20Row_1StratText = configData.num_loss_switch_tmfr_m20_1_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM20Row_2StratText = configData.num_loss_switch_tmfr_m20_2_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM20Row_3StratText = configData.num_loss_switch_tmfr_m20_3_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM20Row_4StratText = configData.num_loss_switch_tmfr_m20_4_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM20Row_5StratText = configData.num_loss_switch_tmfr_m20_5_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM20Row_6StratText = configData.num_loss_switch_tmfr_m20_6_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM20Row_7StratText = configData.num_loss_switch_tmfr_m20_7_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM20Row_8StratText = configData.num_loss_switch_tmfr_m20_8_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM20Row_9StratText = configData.num_loss_switch_tmfr_m20_9_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM20Row_10StratText = configData.num_loss_switch_tmfr_m20_10_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM20Row_11StratText = configData.num_loss_switch_tmfr_m20_11_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM20Row_12StratText = configData.num_loss_switch_tmfr_m20_12_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM30Row_0StratText = configData.num_loss_switch_tmfr_m30_0_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM30Row_1StratText = configData.num_loss_switch_tmfr_m30_1_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM30Row_2StratText = configData.num_loss_switch_tmfr_m30_2_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM30Row_3StratText = configData.num_loss_switch_tmfr_m30_3_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM30Row_4StratText = configData.num_loss_switch_tmfr_m30_4_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM30Row_5StratText = configData.num_loss_switch_tmfr_m30_5_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM30Row_6StratText = configData.num_loss_switch_tmfr_m30_6_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM30Row_7StratText = configData.num_loss_switch_tmfr_m30_7_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM30Row_8StratText = configData.num_loss_switch_tmfr_m30_8_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM30Row_9StratText = configData.num_loss_switch_tmfr_m30_9_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM30Row_10StratText = configData.num_loss_switch_tmfr_m30_10_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM30Row_11StratText = configData.num_loss_switch_tmfr_m30_11_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrM30Row_12StratText = configData.num_loss_switch_tmfr_m30_12_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH1Row_0StratText = configData.num_loss_switch_tmfr_h1_0_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH1Row_1StratText = configData.num_loss_switch_tmfr_h1_1_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH1Row_2StratText = configData.num_loss_switch_tmfr_h1_2_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH1Row_3StratText = configData.num_loss_switch_tmfr_h1_3_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH1Row_4StratText = configData.num_loss_switch_tmfr_h1_4_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH1Row_5StratText = configData.num_loss_switch_tmfr_h1_5_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH1Row_6StratText = configData.num_loss_switch_tmfr_h1_6_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH1Row_7StratText = configData.num_loss_switch_tmfr_h1_7_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH1Row_8StratText = configData.num_loss_switch_tmfr_h1_8_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH1Row_9StratText = configData.num_loss_switch_tmfr_h1_9_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH1Row_10StratText = configData.num_loss_switch_tmfr_h1_10_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH1Row_11StratText = configData.num_loss_switch_tmfr_h1_11_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH1Row_12StratText = configData.num_loss_switch_tmfr_h1_12_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH2Row_0StratText = configData.num_loss_switch_tmfr_h2_0_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH2Row_1StratText = configData.num_loss_switch_tmfr_h2_1_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH2Row_2StratText = configData.num_loss_switch_tmfr_h2_2_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH2Row_3StratText = configData.num_loss_switch_tmfr_h2_3_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH2Row_4StratText = configData.num_loss_switch_tmfr_h2_4_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH2Row_5StratText = configData.num_loss_switch_tmfr_h2_5_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH2Row_6StratText = configData.num_loss_switch_tmfr_h2_6_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH2Row_7StratText = configData.num_loss_switch_tmfr_h2_7_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH2Row_8StratText = configData.num_loss_switch_tmfr_h2_8_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH2Row_9StratText = configData.num_loss_switch_tmfr_h2_9_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH2Row_10StratText = configData.num_loss_switch_tmfr_h2_10_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH2Row_11StratText = configData.num_loss_switch_tmfr_h2_11_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH2Row_12StratText = configData.num_loss_switch_tmfr_h2_12_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH3Row_0StratText = configData.num_loss_switch_tmfr_h3_0_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH3Row_1StratText = configData.num_loss_switch_tmfr_h3_1_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH3Row_2StratText = configData.num_loss_switch_tmfr_h3_2_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH3Row_3StratText = configData.num_loss_switch_tmfr_h3_3_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH3Row_4StratText = configData.num_loss_switch_tmfr_h3_4_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH3Row_5StratText = configData.num_loss_switch_tmfr_h3_5_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH3Row_6StratText = configData.num_loss_switch_tmfr_h3_6_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH3Row_7StratText = configData.num_loss_switch_tmfr_h3_7_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH3Row_8StratText = configData.num_loss_switch_tmfr_h3_8_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH3Row_9StratText = configData.num_loss_switch_tmfr_h3_9_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH3Row_10StratText = configData.num_loss_switch_tmfr_h3_10_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH3Row_11StratText = configData.num_loss_switch_tmfr_h3_11_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH3Row_12StratText = configData.num_loss_switch_tmfr_h3_12_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH4Row_0StratText = configData.num_loss_switch_tmfr_h4_0_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH4Row_1StratText = configData.num_loss_switch_tmfr_h4_1_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH4Row_2StratText = configData.num_loss_switch_tmfr_h4_2_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH4Row_3StratText = configData.num_loss_switch_tmfr_h4_3_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH4Row_4StratText = configData.num_loss_switch_tmfr_h4_4_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH4Row_5StratText = configData.num_loss_switch_tmfr_h4_5_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH4Row_6StratText = configData.num_loss_switch_tmfr_h4_6_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH4Row_7StratText = configData.num_loss_switch_tmfr_h4_7_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH4Row_8StratText = configData.num_loss_switch_tmfr_h4_8_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH4Row_9StratText = configData.num_loss_switch_tmfr_h4_9_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH4Row_10StratText = configData.num_loss_switch_tmfr_h4_10_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH4Row_11StratText = configData.num_loss_switch_tmfr_h4_11_strat_cross_av_bb_page;
+                    m_form.NumLossTmfrH4Row_12StratText = configData.num_loss_switch_tmfr_h4_12_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM1Row_0StratText = configData.q_bar_ignor_tmfr_m1_0_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM1Row_1StratText = configData.q_bar_ignor_tmfr_m1_1_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM1Row_2StratText = configData.q_bar_ignor_tmfr_m1_2_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM1Row_3StratText = configData.q_bar_ignor_tmfr_m1_3_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM1Row_4StratText = configData.q_bar_ignor_tmfr_m1_4_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM1Row_5StratText = configData.q_bar_ignor_tmfr_m1_5_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM1Row_6StratText = configData.q_bar_ignor_tmfr_m1_6_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM1Row_7StratText = configData.q_bar_ignor_tmfr_m1_7_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM1Row_8StratText = configData.q_bar_ignor_tmfr_m1_8_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM1Row_9StratText = configData.q_bar_ignor_tmfr_m1_9_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM1Row_10StratText = configData.q_bar_ignor_tmfr_m1_10_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM1Row_11StratText = configData.q_bar_ignor_tmfr_m1_11_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM1Row_12StratText = configData.q_bar_ignor_tmfr_m1_12_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM2Row_0StratText = configData.q_bar_ignor_tmfr_m2_0_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM2Row_1StratText = configData.q_bar_ignor_tmfr_m2_1_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM2Row_2StratText = configData.q_bar_ignor_tmfr_m2_2_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM2Row_3StratText = configData.q_bar_ignor_tmfr_m2_3_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM2Row_4StratText = configData.q_bar_ignor_tmfr_m2_4_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM2Row_5StratText = configData.q_bar_ignor_tmfr_m2_5_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM2Row_6StratText = configData.q_bar_ignor_tmfr_m2_6_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM2Row_7StratText = configData.q_bar_ignor_tmfr_m2_7_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM2Row_8StratText = configData.q_bar_ignor_tmfr_m2_8_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM2Row_9StratText = configData.q_bar_ignor_tmfr_m2_9_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM2Row_10StratText = configData.q_bar_ignor_tmfr_m2_10_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM2Row_11StratText = configData.q_bar_ignor_tmfr_m2_11_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM2Row_12StratText = configData.q_bar_ignor_tmfr_m2_12_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM3Row_0StratText = configData.q_bar_ignor_tmfr_m3_0_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM3Row_1StratText = configData.q_bar_ignor_tmfr_m3_1_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM3Row_2StratText = configData.q_bar_ignor_tmfr_m3_2_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM3Row_3StratText = configData.q_bar_ignor_tmfr_m3_3_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM3Row_4StratText = configData.q_bar_ignor_tmfr_m3_4_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM3Row_5StratText = configData.q_bar_ignor_tmfr_m3_5_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM3Row_6StratText = configData.q_bar_ignor_tmfr_m3_6_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM3Row_7StratText = configData.q_bar_ignor_tmfr_m3_7_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM3Row_8StratText = configData.q_bar_ignor_tmfr_m3_8_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM3Row_9StratText = configData.q_bar_ignor_tmfr_m3_9_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM3Row_10StratText = configData.q_bar_ignor_tmfr_m3_10_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM3Row_11StratText = configData.q_bar_ignor_tmfr_m3_11_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM3Row_12StratText = configData.q_bar_ignor_tmfr_m3_12_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM4Row_0StratText = configData.q_bar_ignor_tmfr_m4_0_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM4Row_1StratText = configData.q_bar_ignor_tmfr_m4_1_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM4Row_2StratText = configData.q_bar_ignor_tmfr_m4_2_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM4Row_3StratText = configData.q_bar_ignor_tmfr_m4_3_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM4Row_4StratText = configData.q_bar_ignor_tmfr_m4_4_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM4Row_5StratText = configData.q_bar_ignor_tmfr_m4_5_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM4Row_6StratText = configData.q_bar_ignor_tmfr_m4_6_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM4Row_7StratText = configData.q_bar_ignor_tmfr_m4_7_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM4Row_8StratText = configData.q_bar_ignor_tmfr_m4_8_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM4Row_9StratText = configData.q_bar_ignor_tmfr_m4_9_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM4Row_10StratText = configData.q_bar_ignor_tmfr_m4_10_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM4Row_11StratText = configData.q_bar_ignor_tmfr_m4_11_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM4Row_12StratText = configData.q_bar_ignor_tmfr_m4_12_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM5Row_0StratText = configData.q_bar_ignor_tmfr_m5_0_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM5Row_1StratText = configData.q_bar_ignor_tmfr_m5_1_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM5Row_2StratText = configData.q_bar_ignor_tmfr_m5_2_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM5Row_3StratText = configData.q_bar_ignor_tmfr_m5_3_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM5Row_4StratText = configData.q_bar_ignor_tmfr_m5_4_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM5Row_5StratText = configData.q_bar_ignor_tmfr_m5_5_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM5Row_6StratText = configData.q_bar_ignor_tmfr_m5_6_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM5Row_7StratText = configData.q_bar_ignor_tmfr_m5_7_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM5Row_8StratText = configData.q_bar_ignor_tmfr_m5_8_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM5Row_9StratText = configData.q_bar_ignor_tmfr_m5_9_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM5Row_10StratText = configData.q_bar_ignor_tmfr_m5_10_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM5Row_11StratText = configData.q_bar_ignor_tmfr_m5_11_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM5Row_12StratText = configData.q_bar_ignor_tmfr_m5_12_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM6Row_0StratText = configData.q_bar_ignor_tmfr_m6_0_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM6Row_1StratText = configData.q_bar_ignor_tmfr_m6_1_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM6Row_2StratText = configData.q_bar_ignor_tmfr_m6_2_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM6Row_3StratText = configData.q_bar_ignor_tmfr_m6_3_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM6Row_4StratText = configData.q_bar_ignor_tmfr_m6_4_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM6Row_5StratText = configData.q_bar_ignor_tmfr_m6_5_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM6Row_6StratText = configData.q_bar_ignor_tmfr_m6_6_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM6Row_7StratText = configData.q_bar_ignor_tmfr_m6_7_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM6Row_8StratText = configData.q_bar_ignor_tmfr_m6_8_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM6Row_9StratText = configData.q_bar_ignor_tmfr_m6_9_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM6Row_10StratText = configData.q_bar_ignor_tmfr_m6_10_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM6Row_11StratText = configData.q_bar_ignor_tmfr_m6_11_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM6Row_12StratText = configData.q_bar_ignor_tmfr_m6_12_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM10Row_0StratText = configData.q_bar_ignor_tmfr_m10_0_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM10Row_1StratText = configData.q_bar_ignor_tmfr_m10_1_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM10Row_2StratText = configData.q_bar_ignor_tmfr_m10_2_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM10Row_3StratText = configData.q_bar_ignor_tmfr_m10_3_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM10Row_4StratText = configData.q_bar_ignor_tmfr_m10_4_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM10Row_5StratText = configData.q_bar_ignor_tmfr_m10_5_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM10Row_6StratText = configData.q_bar_ignor_tmfr_m10_6_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM10Row_7StratText = configData.q_bar_ignor_tmfr_m10_7_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM10Row_8StratText = configData.q_bar_ignor_tmfr_m10_8_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM10Row_9StratText = configData.q_bar_ignor_tmfr_m10_9_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM10Row_10StratText = configData.q_bar_ignor_tmfr_m10_10_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM10Row_11StratText = configData.q_bar_ignor_tmfr_m10_11_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM10Row_12StratText = configData.q_bar_ignor_tmfr_m10_12_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM12Row_0StratText = configData.q_bar_ignor_tmfr_m12_0_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM12Row_1StratText = configData.q_bar_ignor_tmfr_m12_1_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM12Row_2StratText = configData.q_bar_ignor_tmfr_m12_2_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM12Row_3StratText = configData.q_bar_ignor_tmfr_m12_3_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM12Row_4StratText = configData.q_bar_ignor_tmfr_m12_4_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM12Row_5StratText = configData.q_bar_ignor_tmfr_m12_5_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM12Row_6StratText = configData.q_bar_ignor_tmfr_m12_6_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM12Row_7StratText = configData.q_bar_ignor_tmfr_m12_7_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM12Row_8StratText = configData.q_bar_ignor_tmfr_m12_8_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM12Row_9StratText = configData.q_bar_ignor_tmfr_m12_9_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM12Row_10StratText = configData.q_bar_ignor_tmfr_m12_10_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM12Row_11StratText = configData.q_bar_ignor_tmfr_m12_11_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM12Row_12StratText = configData.q_bar_ignor_tmfr_m12_12_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM15Row_0StratText = configData.q_bar_ignor_tmfr_m15_0_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM15Row_1StratText = configData.q_bar_ignor_tmfr_m15_1_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM15Row_2StratText = configData.q_bar_ignor_tmfr_m15_2_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM15Row_3StratText = configData.q_bar_ignor_tmfr_m15_3_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM15Row_4StratText = configData.q_bar_ignor_tmfr_m15_4_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM15Row_5StratText = configData.q_bar_ignor_tmfr_m15_5_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM15Row_6StratText = configData.q_bar_ignor_tmfr_m15_6_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM15Row_7StratText = configData.q_bar_ignor_tmfr_m15_7_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM15Row_8StratText = configData.q_bar_ignor_tmfr_m15_8_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM15Row_9StratText = configData.q_bar_ignor_tmfr_m15_9_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM15Row_10StratText = configData.q_bar_ignor_tmfr_m15_10_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM15Row_11StratText = configData.q_bar_ignor_tmfr_m15_11_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM15Row_12StratText = configData.q_bar_ignor_tmfr_m15_12_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM20Row_0StratText = configData.q_bar_ignor_tmfr_m20_0_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM20Row_1StratText = configData.q_bar_ignor_tmfr_m20_1_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM20Row_2StratText = configData.q_bar_ignor_tmfr_m20_2_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM20Row_3StratText = configData.q_bar_ignor_tmfr_m20_3_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM20Row_4StratText = configData.q_bar_ignor_tmfr_m20_4_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM20Row_5StratText = configData.q_bar_ignor_tmfr_m20_5_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM20Row_6StratText = configData.q_bar_ignor_tmfr_m20_6_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM20Row_7StratText = configData.q_bar_ignor_tmfr_m20_7_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM20Row_8StratText = configData.q_bar_ignor_tmfr_m20_8_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM20Row_9StratText = configData.q_bar_ignor_tmfr_m20_9_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM20Row_10StratText = configData.q_bar_ignor_tmfr_m20_10_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM20Row_11StratText = configData.q_bar_ignor_tmfr_m20_11_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM20Row_12StratText = configData.q_bar_ignor_tmfr_m20_12_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM30Row_0StratText = configData.q_bar_ignor_tmfr_m30_0_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM30Row_1StratText = configData.q_bar_ignor_tmfr_m30_1_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM30Row_2StratText = configData.q_bar_ignor_tmfr_m30_2_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM30Row_3StratText = configData.q_bar_ignor_tmfr_m30_3_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM30Row_4StratText = configData.q_bar_ignor_tmfr_m30_4_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM30Row_5StratText = configData.q_bar_ignor_tmfr_m30_5_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM30Row_6StratText = configData.q_bar_ignor_tmfr_m30_6_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM30Row_7StratText = configData.q_bar_ignor_tmfr_m30_7_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM30Row_8StratText = configData.q_bar_ignor_tmfr_m30_8_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM30Row_9StratText = configData.q_bar_ignor_tmfr_m30_9_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM30Row_10StratText = configData.q_bar_ignor_tmfr_m30_10_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM30Row_11StratText = configData.q_bar_ignor_tmfr_m30_11_strat_cross_av_bb_page;
+                    m_form.DelayTmfrM30Row_12StratText = configData.q_bar_ignor_tmfr_m30_12_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH1Row_0StratText = configData.q_bar_ignor_tmfr_h1_0_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH1Row_1StratText = configData.q_bar_ignor_tmfr_h1_1_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH1Row_2StratText = configData.q_bar_ignor_tmfr_h1_2_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH1Row_3StratText = configData.q_bar_ignor_tmfr_h1_3_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH1Row_4StratText = configData.q_bar_ignor_tmfr_h1_4_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH1Row_5StratText = configData.q_bar_ignor_tmfr_h1_5_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH1Row_6StratText = configData.q_bar_ignor_tmfr_h1_6_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH1Row_7StratText = configData.q_bar_ignor_tmfr_h1_7_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH1Row_8StratText = configData.q_bar_ignor_tmfr_h1_8_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH1Row_9StratText = configData.q_bar_ignor_tmfr_h1_9_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH1Row_10StratText = configData.q_bar_ignor_tmfr_h1_10_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH1Row_11StratText = configData.q_bar_ignor_tmfr_h1_11_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH1Row_12StratText = configData.q_bar_ignor_tmfr_h1_12_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH2Row_0StratText = configData.q_bar_ignor_tmfr_h2_0_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH2Row_1StratText = configData.q_bar_ignor_tmfr_h2_1_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH2Row_2StratText = configData.q_bar_ignor_tmfr_h2_2_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH2Row_3StratText = configData.q_bar_ignor_tmfr_h2_3_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH2Row_4StratText = configData.q_bar_ignor_tmfr_h2_4_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH2Row_5StratText = configData.q_bar_ignor_tmfr_h2_5_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH2Row_6StratText = configData.q_bar_ignor_tmfr_h2_6_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH2Row_7StratText = configData.q_bar_ignor_tmfr_h2_7_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH2Row_8StratText = configData.q_bar_ignor_tmfr_h2_8_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH2Row_9StratText = configData.q_bar_ignor_tmfr_h2_9_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH2Row_10StratText = configData.q_bar_ignor_tmfr_h2_10_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH2Row_11StratText = configData.q_bar_ignor_tmfr_h2_11_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH2Row_12StratText = configData.q_bar_ignor_tmfr_h2_12_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH3Row_0StratText = configData.q_bar_ignor_tmfr_h3_0_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH3Row_1StratText = configData.q_bar_ignor_tmfr_h3_1_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH3Row_2StratText = configData.q_bar_ignor_tmfr_h3_2_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH3Row_3StratText = configData.q_bar_ignor_tmfr_h3_3_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH3Row_4StratText = configData.q_bar_ignor_tmfr_h3_4_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH3Row_5StratText = configData.q_bar_ignor_tmfr_h3_5_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH3Row_6StratText = configData.q_bar_ignor_tmfr_h3_6_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH3Row_7StratText = configData.q_bar_ignor_tmfr_h3_7_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH3Row_8StratText = configData.q_bar_ignor_tmfr_h3_8_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH3Row_9StratText = configData.q_bar_ignor_tmfr_h3_9_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH3Row_10StratText = configData.q_bar_ignor_tmfr_h3_10_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH3Row_11StratText = configData.q_bar_ignor_tmfr_h3_11_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH3Row_12StratText = configData.q_bar_ignor_tmfr_h3_12_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH4Row_0StratText = configData.q_bar_ignor_tmfr_h4_0_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH4Row_1StratText = configData.q_bar_ignor_tmfr_h4_1_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH4Row_2StratText = configData.q_bar_ignor_tmfr_h4_2_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH4Row_3StratText = configData.q_bar_ignor_tmfr_h4_3_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH4Row_4StratText = configData.q_bar_ignor_tmfr_h4_4_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH4Row_5StratText = configData.q_bar_ignor_tmfr_h4_5_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH4Row_6StratText = configData.q_bar_ignor_tmfr_h4_6_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH4Row_7StratText = configData.q_bar_ignor_tmfr_h4_7_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH4Row_8StratText = configData.q_bar_ignor_tmfr_h4_8_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH4Row_9StratText = configData.q_bar_ignor_tmfr_h4_9_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH4Row_10StratText = configData.q_bar_ignor_tmfr_h4_10_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH4Row_11StratText = configData.q_bar_ignor_tmfr_h4_11_strat_cross_av_bb_page;
+                    m_form.DelayTmfrH4Row_12StratText = configData.q_bar_ignor_tmfr_h4_12_strat_cross_av_bb_page;
+                    m_form.FixPartProfitRow0StratChecked = configData.fix_part_profit_on_range_0_strat_cross_av_bb_page;
+                    m_form.FixPartProfitRow1StratChecked = configData.fix_part_profit_on_range_1_strat_cross_av_bb_page;
+                    m_form.FixPartProfitRow2StratChecked = configData.fix_part_profit_on_range_2_strat_cross_av_bb_page;
+                    m_form.FixPartProfitRow3StratChecked = configData.fix_part_profit_on_range_3_strat_cross_av_bb_page;
+                    m_form.FixPartProfitRow4StratChecked = configData.fix_part_profit_on_range_4_strat_cross_av_bb_page;
+                    m_form.FixPartProfitRow5StratChecked = configData.fix_part_profit_on_range_5_strat_cross_av_bb_page;
+                    m_form.FixPartProfitRow6StratChecked = configData.fix_part_profit_on_range_6_strat_cross_av_bb_page;
+                    m_form.FixPartProfitRow7StratChecked = configData.fix_part_profit_on_range_7_strat_cross_av_bb_page;
+                    m_form.FixPartProfitRow8StratChecked = configData.fix_part_profit_on_range_8_strat_cross_av_bb_page;
+                    m_form.FixPartProfitRow9StratChecked = configData.fix_part_profit_on_range_9_strat_cross_av_bb_page;
+                    m_form.FixPartProfitRow10StratChecked = configData.fix_part_profit_on_range_10_strat_cross_av_bb_page;
+                    m_form.FixPartProfitRow11StratChecked = configData.fix_part_profit_on_range_11_strat_cross_av_bb_page;
+                    m_form.FixPartProfitRow12StratChecked = configData.fix_part_profit_on_range_12_strat_cross_av_bb_page;
+                    m_form.VolFixProfitRow0StratText = configData.vol_fix_take_on_range_0_strat_cross_av_bb_page;
+                    m_form.VolFixProfitRow1StratText = configData.vol_fix_take_on_range_1_strat_cross_av_bb_page;
+                    m_form.VolFixProfitRow2StratText = configData.vol_fix_take_on_range_2_strat_cross_av_bb_page;
+                    m_form.VolFixProfitRow3StratText = configData.vol_fix_take_on_range_3_strat_cross_av_bb_page;
+                    m_form.VolFixProfitRow4StratText = configData.vol_fix_take_on_range_4_strat_cross_av_bb_page;
+                    m_form.VolFixProfitRow5StratText = configData.vol_fix_take_on_range_5_strat_cross_av_bb_page;
+                    m_form.VolFixProfitRow6StratText = configData.vol_fix_take_on_range_6_strat_cross_av_bb_page;
+                    m_form.VolFixProfitRow7StratText = configData.vol_fix_take_on_range_7_strat_cross_av_bb_page;
+                    m_form.VolFixProfitRow8StratText = configData.vol_fix_take_on_range_8_strat_cross_av_bb_page;
+                    m_form.VolFixProfitRow9StratText = configData.vol_fix_take_on_range_9_strat_cross_av_bb_page;
+                    m_form.VolFixProfitRow10StratText = configData.vol_fix_take_on_range_10_strat_cross_av_bb_page;
+                    m_form.VolFixProfitRow11StratText = configData.vol_fix_take_on_range_11_strat_cross_av_bb_page;
+                    m_form.VolFixProfitRow12StratText = configData.vol_fix_take_on_range_12_strat_cross_av_bb_page;
+                    m_form.ClosePosOnAverRow0StratChecked = configData.close_pos_return_aver_line_0_strat_cross_av_bb_page;
+                    m_form.ClosePosOnAverRow1StratChecked = configData.close_pos_return_aver_line_1_strat_cross_av_bb_page;
+                    m_form.ClosePosOnAverRow2StratChecked = configData.close_pos_return_aver_line_2_strat_cross_av_bb_page;
+                    m_form.ClosePosOnAverRow3StratChecked = configData.close_pos_return_aver_line_3_strat_cross_av_bb_page;
+                    m_form.ClosePosOnAverRow4StratChecked = configData.close_pos_return_aver_line_4_strat_cross_av_bb_page;
+                    m_form.ClosePosOnAverRow5StratChecked = configData.close_pos_return_aver_line_5_strat_cross_av_bb_page;
+                    m_form.ClosePosOnAverRow6StratChecked = configData.close_pos_return_aver_line_6_strat_cross_av_bb_page;
+                    m_form.ClosePosOnAverRow7StratChecked = configData.close_pos_return_aver_line_7_strat_cross_av_bb_page;
+                    m_form.ClosePosOnAverRow8StratChecked = configData.close_pos_return_aver_line_8_strat_cross_av_bb_page;
+                    m_form.ClosePosOnAverRow9StratChecked = configData.close_pos_return_aver_line_9_strat_cross_av_bb_page;
+                    m_form.ClosePosOnAverRow10StratChecked = configData.close_pos_return_aver_line_10_strat_cross_av_bb_page;
+                    m_form.ClosePosOnAverRow11StratChecked = configData.close_pos_return_aver_line_11_strat_cross_av_bb_page;
+                    m_form.ClosePosOnAverRow12StratChecked = configData.close_pos_return_aver_line_12_strat_cross_av_bb_page;
                 }
                 catch (Exception ex)
                 {
